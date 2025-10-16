@@ -18,8 +18,17 @@ class StarredRepoCategorizer:
         self.openai_api_key = os.getenv('OPENAI_API_KEY')
         self.github_username = os.getenv('GITHUB_USERNAME')
         
-        if not all([self.github_token, self.openai_api_key, self.github_username]):
-            raise ValueError("Fehlende Umgebungsvariablen: GITHUB_TOKEN, OPENAI_API_KEY, GITHUB_USERNAME")
+        # Debug: Print verfügbare Umgebungsvariablen
+        print(f"GITHUB_TOKEN: {'✅' if self.github_token else '❌'}")
+        print(f"OPENAI_API_KEY: {'✅' if self.openai_api_key else '❌'}")
+        print(f"GITHUB_USERNAME: {self.github_username}")
+        
+        if not self.github_token:
+            raise ValueError("Fehlende Umgebungsvariable: GITHUB_TOKEN")
+        if not self.openai_api_key:
+            raise ValueError("Fehlende Umgebungsvariable: OPENAI_API_KEY")
+        if not self.github_username:
+            raise ValueError("Fehlende Umgebungsvariable: GITHUB_USERNAME")
         
         self.github = Github(self.github_token)
         self.openai_client = openai.OpenAI(api_key=self.openai_api_key)
