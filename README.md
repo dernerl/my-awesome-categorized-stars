@@ -1,6 +1,6 @@
 # 🌟 Meine kategorisierten GitHub Stars
 
-*Letzte Aktualisierung: 16.10.2025 um 12:28*
+*Letzte Aktualisierung: 16.10.2025 um 12:53*
 
 > 📚 **Setup & Dokumentation:** Siehe [Wiki](docs/Home.md) oder [Setup Guide](docs/SETUP.md)  
 > 🤖 **Automatisch generiert** durch [GitHub Action](.github/workflows/categorize-starred-repos.yml)
@@ -363,7 +363,7 @@
 **Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.**
 
 🔹 **Sprache:** TypeScript  
-⭐ **Stars:** 149,243  
+⭐ **Stars:** 149,250  
 🍴 **Forks:** 47,403  
 🏷️ **Topics:** automation, ipaas, n8n, workflow, typescript, self-hosted, integrations, workflow-automation, cli, development, low-code, data-flow, integration-framework, apis, low-code-platform, no-code, ai, mcp, mcp-client, mcp-server
 
@@ -383,7 +383,7 @@
 **Keine Beschreibung verfügbar**
 
 🔹 **Sprache:** TypeScript  
-⭐ **Stars:** 2,320  
+⭐ **Stars:** 2,321  
 🍴 **Forks:** 187
 
 ---
@@ -422,7 +422,7 @@
 **an awesome list of honeypot resources**
 
 🔹 **Sprache:** Python  
-⭐ **Stars:** 9,737  
+⭐ **Stars:** 9,738  
 🍴 **Forks:** 1,301  
 🏷️ **Topics:** honeypot, awesome-list, awesome, list, honeyd
 
