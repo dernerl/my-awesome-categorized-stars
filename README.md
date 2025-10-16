@@ -1,6 +1,6 @@
 # 🌟 Meine kategorisierten GitHub Stars
 
-*Letzte Aktualisierung: 16.10.2025 um 12:53*
+*Letzte Aktualisierung: 16.10.2025 um 13:30*
 
 > 📚 **Setup & Dokumentation:** Siehe [Wiki](docs/Home.md) oder [Setup Guide](docs/SETUP.md)  
 > 🤖 **Automatisch generiert** durch [GitHub Action](.github/workflows/categorize-starred-repos.yml)
@@ -259,7 +259,7 @@
 ### [awesome-sysadmin](https://github.com/kahun/awesome-sysadmin)
 **A curated list of amazingly awesome open source sysadmin resources inspired by Awesome PHP.**
 
-⭐ **Stars:** 24,157  
+⭐ **Stars:** 24,156  
 🍴 **Forks:** 2,887
 
 ---
@@ -363,8 +363,8 @@
 **Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.**
 
 🔹 **Sprache:** TypeScript  
-⭐ **Stars:** 149,250  
-🍴 **Forks:** 47,403  
+⭐ **Stars:** 149,257  
+🍴 **Forks:** 47,408  
 🏷️ **Topics:** automation, ipaas, n8n, workflow, typescript, self-hosted, integrations, workflow-automation, cli, development, low-code, data-flow, integration-framework, apis, low-code-platform, no-code, ai, mcp, mcp-client, mcp-server
 
 ---
@@ -373,7 +373,7 @@
 **MCP server to provide Figma layout information to AI coding agents like Cursor**
 
 🔹 **Sprache:** TypeScript  
-⭐ **Stars:** 11,242  
+⭐ **Stars:** 11,243  
 🍴 **Forks:** 904  
 🏷️ **Topics:** ai, cursor, figma, mcp, typescript
 
