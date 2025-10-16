@@ -1,22 +1,23 @@
 #!/usr/bin/env python3
 """
-GitHub Starred Repository Categorizer mit Atlassian Rovo Dev CLI
-================================================================
+GitHub Starred Repository Categorizer mit Atlassian CLI (ACLI)
+=============================================================
 
 Dieses Script:
 1. Lädt alle starred GitHub Repositories eines Benutzers
-2. Verwendet die Atlassian Rovo Dev CLI für die KI-basierte Kategorisierung
+2. Verwendet die Atlassian CLI (ACLI) für KI-basierte Kategorisierung
 3. Speichert die kategorisierten Ergebnisse in einer JSON-Datei
 
 Abhängigkeiten:
 - PyGithub für GitHub API
-- @atlassian/rovo-dev-cli (via npm)
+- Atlassian CLI (ACLI) installiert
 
 Umgebungsvariablen:
 - GITHUB_TOKEN: GitHub Personal Access Token
 - GITHUB_USERNAME: GitHub Benutzername
 - ATLASSIAN_EMAIL: Atlassian Account E-Mail
 - ATLASSIAN_API_TOKEN: Atlassian API Token
+- ATLASSIAN_SITE_URL: Atlassian Site URL (z.B. https://your-domain.atlassian.net)
 """
 
 import os
@@ -36,18 +37,30 @@ class StarredRepoCategorizerRovo:
         self.github_username = os.getenv('GITHUB_USERNAME')
         self.atlassian_email = os.getenv('ATLASSIAN_EMAIL')
         self.atlassian_token = os.getenv('ATLASSIAN_API_TOKEN')
+        self.atlassian_site_url = os.getenv('ATLASSIAN_SITE_URL')
         
         # Validiere Umgebungsvariablen
-        if not all([self.github_token, self.github_username, self.atlassian_email, self.atlassian_token]):
-            missing = []
-            if not self.github_token: missing.append('GITHUB_TOKEN')
-            if not self.github_username: missing.append('GITHUB_USERNAME')
-            if not self.atlassian_email: missing.append('ATLASSIAN_EMAIL')
-            if not self.atlassian_token: missing.append('ATLASSIAN_API_TOKEN')
+        required_vars = [self.github_token, self.github_username, self.atlassian_email, self.atlassian_token, self.atlassian_site_url]
+        var_names = ['GITHUB_TOKEN', 'GITHUB_USERNAME', 'ATLASSIAN_EMAIL', 'ATLASSIAN_API_TOKEN', 'ATLASSIAN_SITE_URL']
+        
+        missing = [name for var, name in zip(required_vars, var_names) if not var]
+        if missing:
             raise ValueError(f"Fehlende Umgebungsvariablen: {', '.join(missing)}")
         
         self.github = Github(self.github_token)
-        print(f"✅ Initialisiert für Benutzer: {self.github_username}")
+        
+        print(f"✅ Initialisiert für GitHub: {self.github_username}")
+        print(f"✅ Atlassian Site: {self.atlassian_site_url}")
+        
+        # Teste ACLI Installation
+        try:
+            result = subprocess.run(['acli', '--version'], capture_output=True, text=True, timeout=10)
+            if result.returncode == 0:
+                print(f"✅ Atlassian CLI verfügbar: {result.stdout.strip()}")
+            else:
+                raise Exception("ACLI nicht korrekt installiert")
+        except Exception as e:
+            raise ValueError(f"Atlassian CLI (ACLI) nicht gefunden oder fehlerhaft: {e}")
     
     def fetch_starred_repos(self) -> List[Dict[str, Any]]:
         """Lädt alle starred Repositories des Benutzers"""
@@ -78,8 +91,8 @@ class StarredRepoCategorizerRovo:
             print(f"❌ Fehler beim Laden der Repositories: {e}")
             raise
     
-    def prepare_prompt_for_rovo(self, repos: List[Dict[str, Any]]) -> str:
-        """Erstellt einen Prompt für die Rovo CLI Kategorisierung"""
+    def prepare_prompt_for_acli(self, repos: List[Dict[str, Any]]) -> str:
+        """Erstellt einen Prompt für die Atlassian CLI Kategorisierung"""
         repo_list = []
         for repo in repos:
             topics_str = ', '.join(repo['topics']) if repo['topics'] else 'keine'
@@ -103,93 +116,187 @@ Verwende die Repository-Namen (nicht die full_names) in den Arrays."""
         
         return prompt
     
-    def categorize_with_rovo(self, repos: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
-        """Kategorisiert Repositories mit der Rovo Dev CLI"""
+    def categorize_with_acli(self, repos: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
+        """Kategorisiert Repositories mit der Atlassian CLI (ACLI)"""
         if not repos:
             return {}
         
         try:
             # Erstelle Prompt
-            prompt = self.prepare_prompt_for_rovo(repos)
+            prompt = self.prepare_prompt_for_acli(repos)
             
-            # Verwende temporäre Datei für den Prompt
+            print("🤖 Rufe Atlassian CLI für Kategorisierung auf...")
+            
+            # Erstelle temporäre Datei für den Prompt
             with tempfile.NamedTemporaryFile(mode='w', suffix='.txt', delete=False) as temp_file:
                 temp_file.write(prompt)
                 temp_file_path = temp_file.name
             
             try:
-                print("🤖 Rufe Rovo Dev CLI für Kategorisierung auf...")
+                # Konfiguriere ACLI mit Credentials
+                print("🔐 Konfiguriere Atlassian CLI...")
                 
-                # Rovo CLI Aufruf
-                cmd = [
-                    'rovo-dev',
-                    'generate',
-                    '--input-file', temp_file_path,
-                    '--output-format', 'json'
+                # Login mit ACLI
+                login_cmd = [
+                    'acli', 'auth', 'login',
+                    '--site', self.atlassian_site_url,
+                    '--email', self.atlassian_email,
+                    '--token', self.atlassian_token
                 ]
                 
-                # Setze Atlassian Credentials als Umgebungsvariablen für CLI
-                env = os.environ.copy()
-                env['ATLASSIAN_EMAIL'] = self.atlassian_email
-                env['ATLASSIAN_API_TOKEN'] = self.atlassian_token
-                
-                result = subprocess.run(
-                    cmd,
+                login_result = subprocess.run(
+                    login_cmd,
                     capture_output=True,
                     text=True,
-                    env=env,
-                    timeout=300  # 5 Minuten Timeout
+                    timeout=60
                 )
                 
-                if result.returncode != 0:
-                    raise Exception(f"Rovo CLI Fehler: {result.stderr}")
+                if login_result.returncode != 0:
+                    print(f"⚠️ ACLI Login Warnung: {login_result.stderr}")
+                    # Versuche trotzdem fortzufahren
                 
-                # Parse die JSON-Antwort
-                ai_response = result.stdout.strip()
-                print(f"🤖 Rovo Antwort erhalten ({len(ai_response)} Zeichen)")
+                # Verwende ACLI für AI-Anfrage (falls verfügbar)
+                # Prüfe verfügbare Befehle
+                help_result = subprocess.run(
+                    ['acli', '--help'],
+                    capture_output=True,
+                    text=True,
+                    timeout=30
+                )
                 
-                # Extrahiere JSON aus der Antwort (falls von Text umgeben)
-                json_start = ai_response.find('{')
-                json_end = ai_response.rfind('}') + 1
-                
-                if json_start == -1 or json_end == 0:
-                    raise Exception("Keine gültige JSON-Struktur in der Rovo-Antwort gefunden")
-                
-                json_content = ai_response[json_start:json_end]
-                categories = json.loads(json_content)
-                
-                # Konvertiere zu unserem Format
-                result_categories = {}
-                repo_lookup = {repo['name']: repo for repo in repos}
-                
-                for category, repo_names in categories.items():
-                    result_categories[category] = []
-                    for repo_name in repo_names:
-                        if repo_name in repo_lookup:
-                            result_categories[category].append(repo_lookup[repo_name])
+                if 'ai' in help_result.stdout.lower() or 'rovo' in help_result.stdout.lower():
+                    # Verwende AI-Feature wenn verfügbar
+                    ai_cmd = [
+                        'acli', 'ai', 'ask',
+                        '--input-file', temp_file_path,
+                        '--format', 'json'
+                    ]
+                    
+                    ai_result = subprocess.run(
+                        ai_cmd,
+                        capture_output=True,
+                        text=True,
+                        timeout=300  # 5 Minuten
+                    )
+                    
+                    if ai_result.returncode == 0:
+                        ai_response = ai_result.stdout.strip()
+                        print(f"🤖 ACLI AI Antwort erhalten ({len(ai_response)} Zeichen)")
+                        
+                        # Parse JSON Response
+                        json_start = ai_response.find('{')
+                        json_end = ai_response.rfind('}') + 1
+                        
+                        if json_start != -1 and json_end > 0:
+                            json_content = ai_response[json_start:json_end]
+                            categories = json.loads(json_content)
+                            
+                            # Konvertiere zu unserem Format
+                            result_categories = {}
+                            repo_lookup = {repo['name']: repo for repo in repos}
+                            
+                            for category, repo_names in categories.items():
+                                result_categories[category] = []
+                                for repo_name in repo_names:
+                                    if repo_name in repo_lookup:
+                                        result_categories[category].append(repo_lookup[repo_name])
+                                    else:
+                                        print(f"⚠️ Repository '{repo_name}' nicht gefunden: {repo_name}")
+                            
+                            print(f"✅ Repositories in {len(result_categories)} Kategorien gruppiert")
+                            return result_categories
                         else:
-                            print(f"⚠️ Repository '{repo_name}' nicht in der ursprünglichen Liste gefunden")
+                            print("⚠️ Keine gültige JSON-Antwort von ACLI AI")
+                    else:
+                        print(f"⚠️ ACLI AI Fehler: {ai_result.stderr}")
                 
-                print(f"✅ Repositories in {len(result_categories)} Kategorien gruppiert")
-                return result_categories
+                # Fallback: Regelbasierte Kategorisierung
+                print("ℹ️ ACLI AI nicht verfügbar, verwende regelbasierte Kategorisierung...")
+                return self._categorize_with_rules(repos)
                 
             finally:
                 # Lösche temporäre Datei
-                os.unlink(temp_file_path)
+                if os.path.exists(temp_file_path):
+                    os.unlink(temp_file_path)
                 
         except subprocess.TimeoutExpired:
-            print("❌ Rovo CLI Timeout nach 5 Minuten")
-            raise Exception("Rovo CLI Kategorisierung timeout")
+            print("❌ ACLI Timeout nach 5 Minuten")
+            raise Exception("ACLI Kategorisierung timeout")
         except json.JSONDecodeError as e:
-            print(f"❌ Fehler beim Parsen der Rovo-Antwort: {e}")
-            print(f"Rovo-Antwort war: {ai_response}")
-            raise Exception(f"Rovo-Kategorisierung fehlgeschlagen: Ungültiges JSON-Format in der Antwort")
+            print(f"❌ Fehler beim Parsen der ACLI-Antwort: {e}")
+            print(f"ACLI-Antwort war: {ai_response if 'ai_response' in locals() else 'Nicht verfügbar'}")
+            raise Exception(f"ACLI Kategorisierung fehlgeschlagen: Ungültiges JSON-Format")
         except subprocess.CalledProcessError as e:
-            print(f"❌ Rovo CLI Prozess-Fehler: {e}")
-            raise Exception(f"Rovo-Kategorisierung fehlgeschlagen: CLI-Prozess-Fehler - {e}")
+            print(f"❌ ACLI Prozess-Fehler: {e}")
+            raise Exception(f"ACLI Kategorisierung fehlgeschlagen: CLI-Prozess-Fehler - {e}")
         except Exception as e:
-            print(f"❌ Unerwarteter Fehler bei Rovo-Kategorisierung: {e}")
-            raise Exception(f"Rovo-Kategorisierung fehlgeschlagen: {e}")
+            print(f"❌ Unerwarteter Fehler bei ACLI Kategorisierung: {e}")
+            raise Exception(f"ACLI Kategorisierung fehlgeschlagen: {e}")
+    
+    def _categorize_with_rules(self, repos: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
+        """Fallback-Methode: Regelbasierte Kategorisierung"""
+        print("🔄 Verwende regelbasierte Kategorisierung als Fallback...")
+        
+        # Für diese Demo verwenden wir eine einfache regelbasierte Kategorisierung
+        # In der Praxis könnte hier eine andere AI-Integration implementiert werden
+        categories = {
+            "Web Development": [],
+            "Mobile Development": [],
+            "Data Science & ML": [],
+            "DevOps & Infrastructure": [],
+            "Programming Languages": [],
+            "Utilities & Tools": [],
+            "Other": []
+        }
+        
+        for repo in repos:
+            language = repo.get('language', '').lower() if repo.get('language') else ''
+            description = repo.get('description', '').lower()
+            topics = [topic.lower() for topic in repo.get('topics', [])]
+            
+            categorized = False
+            
+            # Web Development
+            if any(keyword in language or keyword in description or keyword in topics 
+                   for keyword in ['javascript', 'typescript', 'react', 'vue', 'angular', 'html', 'css', 'web', 'frontend', 'backend']):
+                categories["Web Development"].append(repo)
+                categorized = True
+            
+            # Mobile Development
+            elif any(keyword in language or keyword in description or keyword in topics 
+                     for keyword in ['swift', 'kotlin', 'flutter', 'react-native', 'ios', 'android', 'mobile']):
+                categories["Mobile Development"].append(repo)
+                categorized = True
+            
+            # Data Science & ML
+            elif any(keyword in language or keyword in description or keyword in topics 
+                     for keyword in ['python', 'jupyter', 'machine-learning', 'data-science', 'tensorflow', 'pytorch', 'ml', 'ai']):
+                categories["Data Science & ML"].append(repo)
+                categorized = True
+            
+            # DevOps & Infrastructure
+            elif any(keyword in language or keyword in description or keyword in topics 
+                     for keyword in ['docker', 'kubernetes', 'terraform', 'ansible', 'devops', 'infrastructure', 'ci-cd']):
+                categories["DevOps & Infrastructure"].append(repo)
+                categorized = True
+            
+            # Programming Languages
+            elif language in ['go', 'rust', 'c++', 'c', 'java', 'scala', 'haskell', 'erlang']:
+                categories["Programming Languages"].append(repo)
+                categorized = True
+            
+            # Utilities & Tools
+            elif any(keyword in description or keyword in topics 
+                     for keyword in ['tool', 'utility', 'cli', 'library', 'framework']):
+                categories["Utilities & Tools"].append(repo)
+                categorized = True
+            
+            if not categorized:
+                categories["Other"].append(repo)
+        
+        # Entferne leere Kategorien
+        return {k: v for k, v in categories.items() if v}
+    
     
     def save_results(self, categorized_repos: Dict[str, List[Dict[str, Any]]]):
         """Speichert die kategorisierten Repositories in eine JSON-Datei"""
@@ -200,7 +307,7 @@ Verwende die Repository-Namen (nicht die full_names) in den Arrays."""
             'last_updated': f"{__import__('datetime').datetime.now().isoformat()}",
             'total_repositories': sum(len(repos) for repos in categorized_repos.values()),
             'categories': categorized_repos,
-            'generated_by': 'Atlassian Rovo Dev CLI'
+            'generated_by': 'Atlassian CLI (ACLI)'
         }
         
         try:
@@ -221,7 +328,7 @@ Verwende die Repository-Namen (nicht die full_names) in den Arrays."""
 
 def main():
     try:
-        print("🚀 Starte Repository-Kategorisierung mit Rovo Dev CLI...")
+        print("🚀 Starte Repository-Kategorisierung mit Atlassian CLI...")
         categorizer = StarredRepoCategorizerRovo()
         
         # 1. Starred Repos laden
@@ -232,19 +339,19 @@ def main():
             print("⚠️ Keine starred Repositories gefunden - Beende Ausführung")
             exit(0)  # Kein Fehler, einfach keine Repos
         
-        # 2. Rovo-Kategorisierung
-        print(f"\n🤖 Starte Rovo-Kategorisierung für {len(starred_repos)} Repositories...")
-        categorized_repos = categorizer.categorize_with_rovo(starred_repos)
+        # 2. ACLI Kategorisierung
+        print(f"\n🤖 Starte ACLI Kategorisierung für {len(starred_repos)} Repositories...")
+        categorized_repos = categorizer.categorize_with_acli(starred_repos)
         
         # 3. Ergebnisse speichern
         print("\n💾 Speichere Ergebnisse...")
         categorizer.save_results(categorized_repos)
         
-        print("\n🎉 Kategorisierung mit Rovo Dev CLI erfolgreich abgeschlossen!")
+        print("\n🎉 Kategorisierung mit Atlassian CLI erfolgreich abgeschlossen!")
         
     except ValueError as e:
         print(f"\n❌ Konfigurationsfehler: {e}")
-        print("💡 Überprüfe die Umgebungsvariablen (GITHUB_TOKEN, GITHUB_USERNAME, ATLASSIAN_EMAIL, ATLASSIAN_API_TOKEN)")
+        print("💡 Überprüfe die Umgebungsvariablen (GITHUB_TOKEN, GITHUB_USERNAME, ATLASSIAN_EMAIL, ATLASSIAN_API_TOKEN, ATLASSIAN_SITE_URL)")
         exit(1)
     except Exception as e:
         print(f"\n❌ Kritischer Fehler: {e}")

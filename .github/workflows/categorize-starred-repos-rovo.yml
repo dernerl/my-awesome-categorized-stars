@@ -1,4 +1,4 @@
-name: Categorize Starred Repositories (Rovo Dev CLI)
+name: Categorize Starred Repositories (Atlassian AI)
 
 on:
   schedule:
@@ -27,16 +27,24 @@ jobs:
       run: |
         pip install requests PyGithub python-dotenv
     
-    - name: Install Rovo Dev CLI
+    - name: Install Atlassian CLI (ACLI)
       run: |
-        npm install -g @atlassian/rovo-dev-cli
+        sudo apt-get update
+        sudo apt-get install -y wget gnupg2
+        sudo mkdir -p -m 755 /etc/apt/keyrings
+        wget -nv -O- https://acli.atlassian.com/gpg/public-key.asc | sudo gpg --dearmor -o /etc/apt/keyrings/acli-archive-keyring.gpg
+        sudo chmod go+r /etc/apt/keyrings/acli-archive-keyring.gpg
+        echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/acli-archive-keyring.gpg] https://acli.atlassian.com/linux/deb stable main" | sudo tee /etc/apt/sources.list.d/acli.list > /dev/null
+        sudo apt update
+        sudo apt install -y acli
     
-    - name: Fetch and Categorize Starred Repos with Rovo
+    - name: Fetch and Categorize Starred Repos with Atlassian AI
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_USERNAME: ${{ github.repository_owner }}
         ATLASSIAN_EMAIL: ${{ secrets.ATLASSIAN_EMAIL }}
         ATLASSIAN_API_TOKEN: ${{ secrets.ATLASSIAN_API_TOKEN }}
+        ATLASSIAN_SITE_URL: ${{ secrets.ATLASSIAN_SITE_URL }}
       run: python scripts/categorize_starred_repos_rovo.py
     
     - name: Commit and Push Changes
@@ -47,6 +55,6 @@ jobs:
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
-          git commit -m "🤖 Auto-categorize starred repositories with Rovo $(date +%Y-%m-%d)"
+          git commit -m "🤖 Auto-categorize starred repositories with Atlassian AI $(date +%Y-%m-%d)"
           git push
         fi
