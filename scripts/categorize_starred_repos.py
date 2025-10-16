@@ -153,23 +153,17 @@ Erstelle die Kategorien basierend auf den tatsächlichen Repositories, nicht bas
             print(f"✅ Repositories in {len(categorized_repos)} Kategorien eingeteilt")
             return categorized_repos
             
+        except json.JSONDecodeError as e:
+            print(f"❌ Fehler beim Parsen der KI-Antwort: {e}")
+            print(f"KI-Antwort war: {ai_response}")
+            raise Exception(f"KI-Kategorisierung fehlgeschlagen: Ungültiges JSON-Format in der Antwort")
+        except openai.OpenAIError as e:
+            print(f"❌ OpenAI API Fehler: {e}")
+            raise Exception(f"KI-Kategorisierung fehlgeschlagen: OpenAI API-Fehler - {e}")
         except Exception as e:
-            print(f"❌ Fehler bei KI-Kategorisierung: {e}")
-            # Fallback: Kategorisierung nach Sprache
-            return self.fallback_categorization(repos)
+            print(f"❌ Unerwarteter Fehler bei KI-Kategorisierung: {e}")
+            raise Exception(f"KI-Kategorisierung fehlgeschlagen: {e}")
     
-    def fallback_categorization(self, repos: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
-        """Fallback-Kategorisierung nach Programmiersprache"""
-        print("🔄 Verwende Fallback-Kategorisierung nach Sprache...")
-        
-        categories = {}
-        for repo in repos:
-            language = repo['language'] or 'Unbekannt'
-            if language not in categories:
-                categories[language] = []
-            categories[language].append(repo)
-        
-        return categories
     
     def generate_markdown_report(self, categorized_repos: Dict[str, List[Dict[str, Any]]]) -> str:
         """Generiert einen Markdown-Report"""
@@ -232,25 +226,34 @@ Erstelle die Kategorien basierend auf den tatsächlichen Repositories, nicht bas
 
 def main():
     try:
+        print("🚀 Starte Repository-Kategorisierung...")
         categorizer = StarredRepoCategorizer()
         
         # 1. Starred Repos laden
+        print("\n📥 Lade starred Repositories...")
         starred_repos = categorizer.fetch_starred_repos()
         
         if not starred_repos:
-            print("⚠️ Keine starred Repositories gefunden")
-            return
+            print("⚠️ Keine starred Repositories gefunden - Beende Ausführung")
+            exit(0)  # Kein Fehler, einfach keine Repos
         
         # 2. KI-Kategorisierung
+        print(f"\n🤖 Starte KI-Kategorisierung für {len(starred_repos)} Repositories...")
         categorized_repos = categorizer.categorize_with_ai(starred_repos)
         
         # 3. Ergebnisse speichern
+        print("\n💾 Speichere Ergebnisse...")
         categorizer.save_results(categorized_repos)
         
-        print("🎉 Kategorisierung erfolgreich abgeschlossen!")
+        print("\n🎉 Kategorisierung erfolgreich abgeschlossen!")
         
+    except ValueError as e:
+        print(f"\n❌ Konfigurationsfehler: {e}")
+        print("💡 Überprüfe die Umgebungsvariablen (GITHUB_TOKEN, OPENAI_API_KEY, GITHUB_USERNAME)")
+        exit(1)
     except Exception as e:
-        print(f"❌ Fehler: {e}")
+        print(f"\n❌ Kritischer Fehler: {e}")
+        print("💡 Die GitHub Action wird mit Fehlerstatus beendet")
         exit(1)
 
 if __name__ == "__main__":
