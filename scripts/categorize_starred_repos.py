@@ -160,6 +160,9 @@ Verwende deutsche Kategorienamen und stelle sicher, dass jedes Repository genau 
 
 *Letzte Aktualisierung: {datetime.now().strftime('%d.%m.%Y um %H:%M')}*
 
+> 📚 **Setup & Dokumentation:** Siehe [Wiki](docs/Home.md) oder [Setup Guide](docs/SETUP.md)  
+> 🤖 **Automatisch generiert** durch [GitHub Action](.github/workflows/categorize-starred-repos.yml)
+
 """
         
         total_repos = sum(len(repos) for repos in categorized_repos.values())
