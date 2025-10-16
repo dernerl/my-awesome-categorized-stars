@@ -75,45 +75,46 @@ class StarredRepoCategorizer:
         
         # KI-Prompt erstellen
         prompt = f"""
-Analysiere die folgenden {len(repos)} GitHub Repositories und kategorisiere sie nach THEMEN und ANWENDUNGSBEREICHEN, nicht nach Programmiersprachen.
+Analysiere die folgenden {len(repos)} GitHub Repositories und erstelle SELBSTSTÄNDIG sinnvolle Kategorien basierend auf den tatsächlichen Inhalten.
 
 Repositories:
 {''.join(repo_summaries)}
 
-Erstelle Kategorien basierend auf dem ZWECK und THEMENBEREICH:
+AUFGABE:
+1. Analysiere alle Repositories nach Zweck, Funktion und Anwendungsbereich
+2. Erkenne Muster und gemeinsame Themen
+3. Erstelle passende Kategorien die die Repositories am besten beschreiben
+4. Ignoriere Programmiersprachen - fokussiere auf ZWECK und FUNKTION
 
-BEVORZUGTE KATEGORIEN (falls relevant):
-- "Active Directory & Security" - AD-Tools, Sicherheitstools, Authentifizierung
-- "System Administration" - Server-Management, Monitoring, Deployment
-- "DevOps & Infrastructure" - CI/CD, Container, Orchestrierung  
-- "Automation & Scripting" - PowerShell, Bash, Automatisierung
-- "Empirum & Software Deployment" - Software-Verteilung, Paketmanagement
-- "macOS Administration" - macOS-spezifische Tools und Scripts
-- "Windows Administration" - Windows-spezifische Tools
-- "Network & Connectivity" - Netzwerk-Tools, VPN, SSH
-- "Documentation & Knowledge" - Wikis, Dokumentation, Learning
-- "Development Tools" - IDEs, Editoren, Build-Tools
-- "Monitoring & Logging" - Überwachung, Log-Analyse
-- "Backup & Recovery" - Datensicherung, Disaster Recovery
-- "Cloud & Virtualization" - AWS, Azure, Docker, VMs
-- "Database & Storage" - Datenbanken, Speicherlösungen
-- "Web Applications" - Webservices, APIs, Frontend
-- "Mobile & Cross-Platform" - Mobile Apps, plattformübergreifend
+KATEGORISIERUNGS-PRINZIPIEN:
+- Gruppiere nach praktischem Nutzen und Anwendungsbereich
+- Erkenne Workflow-Zusammenhänge (z.B. "CI/CD & Deployment")
+- Berücksichtige Zielgruppen (z.B. "System Admins", "Security Specialists")
+- Erstelle 5-15 Kategorien (nicht zu viele, nicht zu wenige)
+- Verwende präzise, aussagekräftige deutsche Namen
+- Jedes Repository gehört in genau eine Kategorie
 
-Ignoriere die Programmiersprache - fokussiere auf den ZWECK und ANWENDUNGSBEREICH!
+BEISPIELE für mögliche Kategorien (NUR als Inspiration, erstelle eigene):
+- "Sicherheit & Authentifizierung"
+- "Container & Orchestrierung" 
+- "Monitoring & Observability"
+- "Infrastructure as Code"
+- "Backup & Disaster Recovery"
+- "Network & Connectivity"
+- "Documentation & Knowledge Management"
 
 Antworte mit einem JSON-Objekt in folgendem Format:
 {{
   "Kategorie 1": [
     {{
-      "name": "repo-name", 
-      "reason": "Thematische Begründung für die Kategorisierung"
+      "name": "repo-name",
+      "reason": "Warum dieses Repository in diese Kategorie gehört"
     }}
   ],
   "Kategorie 2": [...]
 }}
 
-Verwende deutsche Kategorienamen und stelle sicher, dass jedes Repository genau einer Kategorie zugeordnet wird.
+Erstelle die Kategorien basierend auf den tatsächlichen Repositories, nicht basierend auf den Beispielen!
 """
 
         try:
