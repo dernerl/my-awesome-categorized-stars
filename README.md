@@ -1,6 +1,9 @@
 # 🌟 Meine kategorisierten GitHub Stars
 
-*Letzte Aktualisierung: 16.10.2025 um 11:39*
+*Letzte Aktualisierung: 16.10.2025 um 12:28*
+
+> 📚 **Setup & Dokumentation:** Siehe [Wiki](docs/Home.md) oder [Setup Guide](docs/SETUP.md)  
+> 🤖 **Automatisch generiert** durch [GitHub Action](.github/workflows/categorize-starred-repos.yml)
 
 📊 **Gesamt:** 67 Repositories in 15 Kategorien
 
@@ -291,8 +294,8 @@
 ### [awesome-gpt-store](https://github.com/devisasari/awesome-gpt-store)
 **A curated list of awesome GPTs in the GPT Store**
 
-⭐ **Stars:** 2,069  
-🍴 **Forks:** 207  
+⭐ **Stars:** 2,068  
+🍴 **Forks:** 208  
 🏷️ **Topics:** ai, awesome, awesome-list, chatgpt, gpt, gpt-4, gpts, openai, gpts-list, gptstore, gpt-store
 
 ---
@@ -360,7 +363,7 @@
 **Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.**
 
 🔹 **Sprache:** TypeScript  
-⭐ **Stars:** 149,228  
+⭐ **Stars:** 149,243  
 🍴 **Forks:** 47,403  
 🏷️ **Topics:** automation, ipaas, n8n, workflow, typescript, self-hosted, integrations, workflow-automation, cli, development, low-code, data-flow, integration-framework, apis, low-code-platform, no-code, ai, mcp, mcp-client, mcp-server
 
@@ -370,7 +373,7 @@
 **MCP server to provide Figma layout information to AI coding agents like Cursor**
 
 🔹 **Sprache:** TypeScript  
-⭐ **Stars:** 11,241  
+⭐ **Stars:** 11,242  
 🍴 **Forks:** 904  
 🏷️ **Topics:** ai, cursor, figma, mcp, typescript
 
@@ -389,7 +392,7 @@
 **The MCP server for Azure DevOps, bringing the power of Azure DevOps directly to your agents.**
 
 🔹 **Sprache:** TypeScript  
-⭐ **Stars:** 904  
+⭐ **Stars:** 905  
 🍴 **Forks:** 273
 
 ---
@@ -459,7 +462,7 @@
 **PowerShell for every system!**
 
 🔹 **Sprache:** C#  
-⭐ **Stars:** 50,293  
+⭐ **Stars:** 50,294  
 🍴 **Forks:** 7,978  
 🏷️ **Topics:** powershell, windows, macos, linux, command-line, shell, netcore, hacktoberfest
 
