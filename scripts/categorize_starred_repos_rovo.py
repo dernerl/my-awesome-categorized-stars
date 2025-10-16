@@ -136,82 +136,101 @@ Verwende die Repository-Namen (nicht die full_names) in den Arrays."""
                 # Konfiguriere ACLI mit Credentials
                 print("🔐 Konfiguriere Atlassian CLI...")
                 
-                # Login mit ACLI
+                # Login mit ACLI für Rovo Dev
                 login_cmd = [
-                    'acli', 'auth', 'login',
-                    '--site', self.atlassian_site_url,
+                    'acli', 'rovodev', 'auth', 'login',
+                    '--site', self.atlassian_site_url.replace('https://', '').replace('http://', ''),
                     '--email', self.atlassian_email,
-                    '--token', self.atlassian_token
+                    '--token'
                 ]
                 
+                # Token über stdin übertragen (sicherer)
                 login_result = subprocess.run(
                     login_cmd,
-                    capture_output=True,
+                    input=self.atlassian_token,
                     text=True,
+                    capture_output=True,
                     timeout=60
                 )
                 
                 if login_result.returncode != 0:
-                    print(f"⚠️ ACLI Login Warnung: {login_result.stderr}")
+                    print(f"⚠️ ACLI Rovo Dev Login Warnung: {login_result.stderr}")
                     # Versuche trotzdem fortzufahren
                 
-                # Verwende ACLI für AI-Anfrage (falls verfügbar)
-                # Prüfe verfügbare Befehle
-                help_result = subprocess.run(
-                    ['acli', '--help'],
+                # Prüfe ob Rovo Dev verfügbar ist
+                rovo_help_result = subprocess.run(
+                    ['acli', 'rovodev', '--help'],
                     capture_output=True,
                     text=True,
                     timeout=30
                 )
                 
-                if 'ai' in help_result.stdout.lower() or 'rovo' in help_result.stdout.lower():
-                    # Verwende AI-Feature wenn verfügbar
-                    ai_cmd = [
-                        'acli', 'ai', 'ask',
-                        '--input-file', temp_file_path,
-                        '--format', 'json'
-                    ]
+                if rovo_help_result.returncode == 0:
+                    print("🤖 Verwende ACLI Rovo Dev für KI-Kategorisierung...")
                     
-                    ai_result = subprocess.run(
-                        ai_cmd,
-                        capture_output=True,
-                        text=True,
-                        timeout=300  # 5 Minuten
+                    # Versuche interaktive Rovo Dev Session mit Prompt
+                    # Da rovodev run interaktiv ist, verwenden wir eine alternative Methode
+                    
+                    # Erstelle einen Rovo Dev Befehl mit dem Prompt
+                    rovo_cmd = ['acli', 'rovodev', 'run']
+                    
+                    # Starte Rovo Dev und sende den Prompt
+                    rovo_process = subprocess.Popen(
+                        rovo_cmd,
+                        stdin=subprocess.PIPE,
+                        stdout=subprocess.PIPE,
+                        stderr=subprocess.PIPE,
+                        text=True
                     )
                     
-                    if ai_result.returncode == 0:
-                        ai_response = ai_result.stdout.strip()
-                        print(f"🤖 ACLI AI Antwort erhalten ({len(ai_response)} Zeichen)")
+                    # Sende Prompt an Rovo Dev
+                    try:
+                        stdout, stderr = rovo_process.communicate(
+                            input=prompt + "\n\nBitte antworte nur mit JSON.\n",
+                            timeout=300
+                        )
                         
-                        # Parse JSON Response
-                        json_start = ai_response.find('{')
-                        json_end = ai_response.rfind('}') + 1
+                        if stdout:
+                            print(f"🤖 Rovo Dev Antwort erhalten ({len(stdout)} Zeichen)")
+                            
+                            # Suche nach JSON in der Antwort
+                            json_start = stdout.find('{')
+                            json_end = stdout.rfind('}') + 1
+                            
+                            if json_start != -1 and json_end > 0:
+                                json_content = stdout[json_start:json_end]
+                                try:
+                                    categories = json.loads(json_content)
+                                    
+                                    # Konvertiere zu unserem Format
+                                    result_categories = {}
+                                    repo_lookup = {repo['name']: repo for repo in repos}
+                                    
+                                    for category, repo_names in categories.items():
+                                        result_categories[category] = []
+                                        for repo_name in repo_names:
+                                            if repo_name in repo_lookup:
+                                                result_categories[category].append(repo_lookup[repo_name])
+                                            else:
+                                                print(f"⚠️ Repository '{repo_name}' nicht gefunden: {repo_name}")
+                                    
+                                    print(f"✅ Repositories in {len(result_categories)} Kategorien gruppiert")
+                                    return result_categories
+                                    
+                                except json.JSONDecodeError:
+                                    print("⚠️ Rovo Dev Antwort enthält kein gültiges JSON")
+                            else:
+                                print("⚠️ Keine JSON-Struktur in Rovo Dev Antwort gefunden")
                         
-                        if json_start != -1 and json_end > 0:
-                            json_content = ai_response[json_start:json_end]
-                            categories = json.loads(json_content)
+                        if stderr:
+                            print(f"⚠️ Rovo Dev Stderr: {stderr}")
                             
-                            # Konvertiere zu unserem Format
-                            result_categories = {}
-                            repo_lookup = {repo['name']: repo for repo in repos}
-                            
-                            for category, repo_names in categories.items():
-                                result_categories[category] = []
-                                for repo_name in repo_names:
-                                    if repo_name in repo_lookup:
-                                        result_categories[category].append(repo_lookup[repo_name])
-                                    else:
-                                        print(f"⚠️ Repository '{repo_name}' nicht gefunden: {repo_name}")
-                            
-                            print(f"✅ Repositories in {len(result_categories)} Kategorien gruppiert")
-                            return result_categories
-                        else:
-                            print("⚠️ Keine gültige JSON-Antwort von ACLI AI")
-                    else:
-                        print(f"⚠️ ACLI AI Fehler: {ai_result.stderr}")
+                    except subprocess.TimeoutExpired:
+                        print("⚠️ Rovo Dev Timeout nach 5 Minuten")
+                        rovo_process.kill()
                 
                 # Fallback: Regelbasierte Kategorisierung
-                print("ℹ️ ACLI AI nicht verfügbar, verwende regelbasierte Kategorisierung...")
+                print("ℹ️ Rovo Dev nicht verfügbar oder fehlerhaft, verwende regelbasierte Kategorisierung...")
                 return self._categorize_with_rules(repos)
                 
             finally:

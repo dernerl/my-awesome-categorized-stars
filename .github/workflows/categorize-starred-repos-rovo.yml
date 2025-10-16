@@ -1,4 +1,4 @@
-name: Categorize Starred Repositories (Atlassian AI)
+name: Categorize Starred Repositories (ACLI Rovo Dev)
 
 on:
   schedule:
@@ -38,7 +38,7 @@ jobs:
         sudo apt update
         sudo apt install -y acli
     
-    - name: Fetch and Categorize Starred Repos with Atlassian AI
+    - name: Fetch and Categorize Starred Repos with ACLI Rovo Dev
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_USERNAME: ${{ github.repository_owner }}
@@ -55,6 +55,6 @@ jobs:
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
-          git commit -m "🤖 Auto-categorize starred repositories with Atlassian AI $(date +%Y-%m-%d)"
+          git commit -m "🤖 Auto-categorize starred repositories with ACLI Rovo Dev $(date +%Y-%m-%d)"
           git push
         fi
