@@ -36,10 +36,10 @@
         "typescript"
       ],
       "url": "https://github.com/GLips/Figma-Context-MCP",
-      "stars": 11241,
+      "stars": 11242,
       "forks": 904,
       "created_at": "2025-02-13T02:55:06+00:00",
-      "updated_at": "2025-10-16T10:53:45+00:00"
+      "updated_at": "2025-10-16T12:12:54+00:00"
     },
     {
       "name": "n8n",
@@ -69,10 +69,10 @@
         "mcp-server"
       ],
       "url": "https://github.com/n8n-io/n8n",
-      "stars": 149228,
+      "stars": 149250,
       "forks": 47403,
       "created_at": "2019-06-22T09:24:21+00:00",
-      "updated_at": "2025-10-16T11:38:35+00:00"
+      "updated_at": "2025-10-16T12:52:29+00:00"
     },
     {
       "name": "betterbahn",
@@ -81,10 +81,10 @@
       "language": "TypeScript",
       "topics": [],
       "url": "https://github.com/BetterBahnProject/betterbahn",
-      "stars": 2320,
+      "stars": 2321,
       "forks": 187,
       "created_at": "2025-08-15T07:09:54+00:00",
-      "updated_at": "2025-10-16T08:31:51+00:00"
+      "updated_at": "2025-10-16T12:28:05+00:00"
     },
     {
       "name": "rovoswitch",
@@ -117,10 +117,10 @@
       "language": "TypeScript",
       "topics": [],
       "url": "https://github.com/microsoft/azure-devops-mcp",
-      "stars": 904,
+      "stars": 905,
       "forks": 273,
       "created_at": "2025-05-15T13:12:42+00:00",
-      "updated_at": "2025-10-16T11:37:12+00:00"
+      "updated_at": "2025-10-16T12:18:06+00:00"
     },
     {
       "name": "microsoft-365-certification-quick-evaluation",
@@ -178,10 +178,10 @@
         "honeyd"
       ],
       "url": "https://github.com/paralax/awesome-honeypots",
-      "stars": 9737,
+      "stars": 9738,
       "forks": 1301,
       "created_at": "2015-06-18T12:57:01+00:00",
-      "updated_at": "2025-10-16T11:05:08+00:00"
+      "updated_at": "2025-10-16T12:37:28+00:00"
     },
     {
       "name": "MrAnderson",
@@ -255,10 +255,10 @@
         "gpt-store"
       ],
       "url": "https://github.com/devisasari/awesome-gpt-store",
-      "stars": 2069,
-      "forks": 207,
+      "stars": 2068,
+      "forks": 208,
       "created_at": "2023-11-10T16:40:05+00:00",
-      "updated_at": "2025-10-15T16:29:42+00:00"
+      "updated_at": "2025-10-16T11:59:22+00:00"
     },
     {
       "name": "DCSecurityOperations",
@@ -453,10 +453,10 @@
         "hacktoberfest"
       ],
       "url": "https://github.com/PowerShell/PowerShell",
-      "stars": 50293,
+      "stars": 50294,
       "forks": 7978,
       "created_at": "2016-01-13T23:41:35+00:00",
-      "updated_at": "2025-10-16T11:29:17+00:00"
+      "updated_at": "2025-10-16T12:11:58+00:00"
     }
   ],
   "PowerShell": [
