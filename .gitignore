@@ -56,4 +56,4 @@ tmp_rovodev_*
 
 # API Keys (falls lokal getestet)
 .env.local
-config.json
+config.jsonwiki-temp/

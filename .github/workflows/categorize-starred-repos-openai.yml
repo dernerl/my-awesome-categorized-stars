@@ -1,0 +1,51 @@
+name: Categorize Starred Repositories (OpenAI)
+
+on:
+  schedule:
+    # Läuft jeden Tag um 02:00 UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    # Ermöglicht manuelles Ausführen
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/categorize-starred-repos.yml'
+
+jobs:
+  categorize-repos:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+    
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install Dependencies
+      run: |
+        pip install requests PyGithub openai python-dotenv
+    
+    - name: Fetch and Categorize Starred Repos
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        GITHUB_USERNAME: ${{ github.repository_owner }}
+      run: python scripts/categorize_starred_repos.py
+    
+    - name: Commit and Push Changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "🤖 Auto-categorize starred repositories $(date +%Y-%m-%d)"
+          git push
+        fi
