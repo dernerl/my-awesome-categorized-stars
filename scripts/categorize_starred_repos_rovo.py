@@ -37,11 +37,10 @@ class StarredRepoCategorizerRovo:
         self.github_username = os.getenv('GITHUB_USERNAME')
         self.atlassian_email = os.getenv('ATLASSIAN_EMAIL')
         self.atlassian_token = os.getenv('ATLASSIAN_API_TOKEN')
-        self.atlassian_site_url = os.getenv('ATLASSIAN_SITE_URL')
         
         # Validiere Umgebungsvariablen
-        required_vars = [self.github_token, self.github_username, self.atlassian_email, self.atlassian_token, self.atlassian_site_url]
-        var_names = ['GITHUB_TOKEN', 'GITHUB_USERNAME', 'ATLASSIAN_EMAIL', 'ATLASSIAN_API_TOKEN', 'ATLASSIAN_SITE_URL']
+        required_vars = [self.github_token, self.github_username, self.atlassian_email, self.atlassian_token]
+        var_names = ['GITHUB_TOKEN', 'GITHUB_USERNAME', 'ATLASSIAN_EMAIL', 'ATLASSIAN_API_TOKEN']
         
         missing = [name for var, name in zip(required_vars, var_names) if not var]
         if missing:
@@ -50,7 +49,7 @@ class StarredRepoCategorizerRovo:
         self.github = Github(self.github_token)
         
         print(f"✅ Initialisiert für GitHub: {self.github_username}")
-        print(f"✅ Atlassian Site: {self.atlassian_site_url}")
+        print(f"✅ Atlassian E-Mail: {self.atlassian_email}")
         
         # Teste ACLI Installation
         try:
@@ -139,7 +138,6 @@ Verwende die Repository-Namen (nicht die full_names) in den Arrays."""
                 # Login mit ACLI für Rovo Dev
                 login_cmd = [
                     'acli', 'rovodev', 'auth', 'login',
-                    '--site', self.atlassian_site_url.replace('https://', '').replace('http://', ''),
                     '--email', self.atlassian_email,
                     '--token'
                 ]
@@ -370,7 +368,7 @@ def main():
         
     except ValueError as e:
         print(f"\n❌ Konfigurationsfehler: {e}")
-        print("💡 Überprüfe die Umgebungsvariablen (GITHUB_TOKEN, GITHUB_USERNAME, ATLASSIAN_EMAIL, ATLASSIAN_API_TOKEN, ATLASSIAN_SITE_URL)")
+        print("💡 Überprüfe die Umgebungsvariablen (GITHUB_TOKEN, GITHUB_USERNAME, ATLASSIAN_EMAIL, ATLASSIAN_API_TOKEN)")
         exit(1)
     except Exception as e:
         print(f"\n❌ Kritischer Fehler: {e}")
