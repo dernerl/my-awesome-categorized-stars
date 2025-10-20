@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-19T03:48:01.715449",
+  "last_updated": "2025-10-20T03:50:59.004413",
   "total_repositories": 67,
   "categories": {
     "Web Development": [
@@ -15,10 +15,10 @@
           "mcp",
           "typescript"
         ],
-        "stars": 11273,
+        "stars": 11284,
         "url": "https://github.com/GLips/Figma-Context-MCP",
         "created_at": "2025-02-13T02:55:06+00:00",
-        "updated_at": "2025-10-19T00:02:44+00:00"
+        "updated_at": "2025-10-20T03:35:20+00:00"
       },
       {
         "name": "n8n",
@@ -47,10 +47,10 @@
           "mcp-client",
           "mcp-server"
         ],
-        "stars": 149966,
+        "stars": 150233,
         "url": "https://github.com/n8n-io/n8n",
         "created_at": "2019-06-22T09:24:21+00:00",
-        "updated_at": "2025-10-19T03:31:31+00:00"
+        "updated_at": "2025-10-20T03:38:28+00:00"
       },
       {
         "name": "n8n-crypto-workflows",
@@ -88,10 +88,10 @@
           "open-source",
           "railway"
         ],
-        "stars": 2325,
+        "stars": 2327,
         "url": "https://github.com/BetterBahn/betterbahn",
         "created_at": "2025-08-15T07:09:54+00:00",
-        "updated_at": "2025-10-18T17:40:21+00:00"
+        "updated_at": "2025-10-19T12:25:31+00:00"
       },
       {
         "name": "rovoswitch",
@@ -122,10 +122,10 @@
         "description": "The MCP server for Azure DevOps, bringing the power of Azure DevOps directly to your agents.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 917,
+        "stars": 918,
         "url": "https://github.com/microsoft/azure-devops-mcp",
         "created_at": "2025-05-15T13:12:42+00:00",
-        "updated_at": "2025-10-18T20:16:11+00:00"
+        "updated_at": "2025-10-19T13:27:59+00:00"
       },
       {
         "name": "ChurchTools",
@@ -385,10 +385,10 @@
           "list",
           "honeyd"
         ],
-        "stars": 9750,
+        "stars": 9752,
         "url": "https://github.com/paralax/awesome-honeypots",
         "created_at": "2015-06-18T12:57:01+00:00",
-        "updated_at": "2025-10-18T08:06:35+00:00"
+        "updated_at": "2025-10-19T16:10:00+00:00"
       },
       {
         "name": "awesome-infosec",
@@ -464,7 +464,7 @@
         "stars": 11904,
         "url": "https://github.com/ansible/ansible-examples",
         "created_at": "2013-03-18T14:15:50+00:00",
-        "updated_at": "2025-10-17T23:02:56+00:00"
+        "updated_at": "2025-10-20T01:41:02+00:00"
       },
       {
         "name": "PowerShell-Docker",
@@ -495,10 +495,10 @@
           "status-bar",
           "whkd"
         ],
-        "stars": 13015,
+        "stars": 13026,
         "url": "https://github.com/LGUG2Z/komorebi",
         "created_at": "2021-07-29T23:20:15+00:00",
-        "updated_at": "2025-10-18T22:39:34+00:00"
+        "updated_at": "2025-10-20T03:13:05+00:00"
       },
       {
         "name": "klogg",
@@ -519,10 +519,10 @@
           "tail",
           "hacktoberfest"
         ],
-        "stars": 3042,
+        "stars": 3043,
         "url": "https://github.com/variar/klogg",
         "created_at": "2016-03-09T18:55:34+00:00",
-        "updated_at": "2025-10-18T06:32:04+00:00"
+        "updated_at": "2025-10-19T07:21:13+00:00"
       },
       {
         "name": "LongHive",
@@ -763,10 +763,10 @@
           "c-sharp",
           "windows"
         ],
-        "stars": 10227,
+        "stars": 10231,
         "url": "https://github.com/mRemoteNG/mRemoteNG",
         "created_at": "2010-01-06T15:53:17+00:00",
-        "updated_at": "2025-10-18T23:43:50+00:00"
+        "updated_at": "2025-10-20T03:12:46+00:00"
       },
       {
         "name": "cryptgeon",
@@ -799,10 +799,10 @@
           "awesome",
           "hacktoberfest"
         ],
-        "stars": 3581,
+        "stars": 3582,
         "url": "https://github.com/HQarroum/awesome-iot",
         "created_at": "2015-09-26T00:37:23+00:00",
-        "updated_at": "2025-10-18T21:27:30+00:00"
+        "updated_at": "2025-10-19T15:44:20+00:00"
       },
       {
         "name": "OfficeDev-Samples",
@@ -856,10 +856,10 @@
         "topics": [
           "devxsample"
         ],
-        "stars": 1482,
+        "stars": 1483,
         "url": "https://github.com/microsoftgraph/powershell-intune-samples",
         "created_at": "2017-04-04T16:41:27+00:00",
-        "updated_at": "2025-10-18T10:19:45+00:00"
+        "updated_at": "2025-10-19T13:15:19+00:00"
       },
       {
         "name": "awesome-readme",
@@ -872,10 +872,10 @@
           "list",
           "readme"
         ],
-        "stars": 19883,
+        "stars": 19887,
         "url": "https://github.com/matiassingers/awesome-readme",
         "created_at": "2015-01-19T06:15:03+00:00",
-        "updated_at": "2025-10-19T01:24:44+00:00"
+        "updated_at": "2025-10-19T22:41:41+00:00"
       },
       {
         "name": "Public-AD-Scripts",
@@ -894,10 +894,10 @@
         "description": "A curated list of amazingly awesome open source sysadmin resources inspired by Awesome PHP.",
         "language": null,
         "topics": [],
-        "stars": 24159,
+        "stars": 24160,
         "url": "https://github.com/kahun/awesome-sysadmin",
         "created_at": "2014-02-09T22:39:20+00:00",
-        "updated_at": "2025-10-18T21:27:06+00:00"
+        "updated_at": "2025-10-20T02:22:30+00:00"
       },
       {
         "name": "PSGist",
@@ -951,10 +951,10 @@
           "awesome-list",
           "list"
         ],
-        "stars": 5247,
+        "stars": 5248,
         "url": "https://github.com/janikvonrotz/awesome-powershell",
         "created_at": "2015-05-28T12:10:06+00:00",
-        "updated_at": "2025-10-18T22:38:48+00:00"
+        "updated_at": "2025-10-19T17:47:31+00:00"
       },
       {
         "name": "CoinMarketCap",
@@ -1029,10 +1029,10 @@
           "netcore",
           "hacktoberfest"
         ],
-        "stars": 50308,
+        "stars": 50318,
         "url": "https://github.com/PowerShell/PowerShell",
         "created_at": "2016-01-13T23:41:35+00:00",
-        "updated_at": "2025-10-19T01:10:52+00:00"
+        "updated_at": "2025-10-20T03:35:50+00:00"
       },
       {
         "name": "PowerShellFAQ",
@@ -1051,10 +1051,10 @@
         "description": "a PowerShell module that allows you to impersonate the currently logged on user, while running PowerShell.exe as system.",
         "language": "PowerShell",
         "topics": [],
-        "stars": 401,
+        "stars": 402,
         "url": "https://github.com/KelvinTegelaar/RunAsUser",
         "created_at": "2020-07-13T20:33:56+00:00",
-        "updated_at": "2025-10-15T22:32:54+00:00"
+        "updated_at": "2025-10-20T00:10:06+00:00"
       },
       {
         "name": "ModuleBuilder",
