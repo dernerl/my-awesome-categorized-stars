@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-21T03:40:52.498898",
+  "last_updated": "2025-10-22T03:46:23.208111",
   "total_repositories": 67,
   "categories": {
     "Web Development": [
@@ -15,10 +15,10 @@
           "mcp",
           "typescript"
         ],
-        "stars": 11300,
+        "stars": 11310,
         "url": "https://github.com/GLips/Figma-Context-MCP",
         "created_at": "2025-02-13T02:55:06+00:00",
-        "updated_at": "2025-10-21T03:07:59+00:00"
+        "updated_at": "2025-10-22T03:12:49+00:00"
       },
       {
         "name": "n8n",
@@ -47,10 +47,10 @@
           "mcp-client",
           "mcp-server"
         ],
-        "stars": 150501,
+        "stars": 150791,
         "url": "https://github.com/n8n-io/n8n",
         "created_at": "2019-06-22T09:24:21+00:00",
-        "updated_at": "2025-10-21T03:37:39+00:00"
+        "updated_at": "2025-10-22T03:33:48+00:00"
       },
       {
         "name": "n8n-crypto-workflows",
@@ -91,7 +91,7 @@
         "stars": 2327,
         "url": "https://github.com/BetterBahn/betterbahn",
         "created_at": "2025-08-15T07:09:54+00:00",
-        "updated_at": "2025-10-20T10:36:37+00:00"
+        "updated_at": "2025-10-21T12:24:09+00:00"
       },
       {
         "name": "rovoswitch",
@@ -122,10 +122,10 @@
         "description": "The MCP server for Azure DevOps, bringing the power of Azure DevOps directly to your agents.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 924,
+        "stars": 928,
         "url": "https://github.com/microsoft/azure-devops-mcp",
         "created_at": "2025-05-15T13:12:42+00:00",
-        "updated_at": "2025-10-20T21:05:07+00:00"
+        "updated_at": "2025-10-21T21:04:07+00:00"
       },
       {
         "name": "ChurchTools",
@@ -209,7 +209,7 @@
         "stars": 1281,
         "url": "https://github.com/OfficeDev/Microsoft-Teams-Samples",
         "created_at": "2020-12-16T16:44:29+00:00",
-        "updated_at": "2025-10-20T13:23:19+00:00"
+        "updated_at": "2025-10-21T16:50:13+00:00"
       },
       {
         "name": "githubbuch.github.io",
@@ -258,10 +258,10 @@
         "description": "macOS helper application designed to empower end-users",
         "language": "Swift",
         "topics": [],
-        "stars": 150,
+        "stars": 151,
         "url": "https://github.com/macadmins/SupportCompanion",
         "created_at": "2024-05-06T12:09:04+00:00",
-        "updated_at": "2025-10-10T06:25:25+00:00"
+        "updated_at": "2025-10-21T07:23:54+00:00"
       },
       {
         "name": "Microsoft-Integration-and-Azure-Stencils-Pack-for-Visio",
@@ -307,10 +307,10 @@
           "mdm",
           "mscp"
         ],
-        "stars": 2140,
+        "stars": 2142,
         "url": "https://github.com/usnistgov/macos_security",
         "created_at": "2020-06-05T19:28:12+00:00",
-        "updated_at": "2025-10-20T17:54:47+00:00"
+        "updated_at": "2025-10-22T03:01:53+00:00"
       },
       {
         "name": "secrets_find0r",
@@ -318,10 +318,10 @@
         "description": "Secrets Find0r is a multithreaded SMB share crawler that hunts for exposed credentials and secrets across Windows networks. It enumerates shares, recursively scans files with regex/keyword rules, highlights matched tokens on screen, and exports clean ASCII tables. Supports DOCX/PDF/legacy Office and depth limits.",
         "language": "Python",
         "topics": [],
-        "stars": 63,
+        "stars": 64,
         "url": "https://github.com/BenjaminIheukumere/secrets_find0r",
         "created_at": "2025-09-18T10:34:15+00:00",
-        "updated_at": "2025-10-20T16:16:49+00:00"
+        "updated_at": "2025-10-21T11:03:36+00:00"
       },
       {
         "name": "ROADtools",
@@ -334,10 +334,10 @@
           "microsoft-graph",
           "python"
         ],
-        "stars": 2423,
+        "stars": 2424,
         "url": "https://github.com/dirkjanm/ROADtools",
         "created_at": "2020-03-28T09:56:08+00:00",
-        "updated_at": "2025-10-18T21:13:28+00:00"
+        "updated_at": "2025-10-21T18:01:38+00:00"
       },
       {
         "name": "awesome-gpt-store",
@@ -357,10 +357,10 @@
           "gptstore",
           "gpt-store"
         ],
-        "stars": 2069,
+        "stars": 2070,
         "url": "https://github.com/devisasari/awesome-gpt-store",
         "created_at": "2023-11-10T16:40:05+00:00",
-        "updated_at": "2025-10-20T13:25:04+00:00"
+        "updated_at": "2025-10-21T17:18:19+00:00"
       },
       {
         "name": "IntuneDeviceDetailsGUI",
@@ -368,10 +368,10 @@
         "description": "Intune Device Details GUI",
         "language": "PowerShell",
         "topics": [],
-        "stars": 368,
+        "stars": 369,
         "url": "https://github.com/petripaavola/IntuneDeviceDetailsGUI",
         "created_at": "2022-03-31T17:01:16+00:00",
-        "updated_at": "2025-10-18T20:42:59+00:00"
+        "updated_at": "2025-10-21T21:49:54+00:00"
       },
       {
         "name": "awesome-honeypots",
@@ -385,10 +385,10 @@
           "list",
           "honeyd"
         ],
-        "stars": 9755,
+        "stars": 9756,
         "url": "https://github.com/paralax/awesome-honeypots",
         "created_at": "2015-06-18T12:57:01+00:00",
-        "updated_at": "2025-10-20T11:27:58+00:00"
+        "updated_at": "2025-10-22T01:08:43+00:00"
       },
       {
         "name": "awesome-infosec",
@@ -405,10 +405,10 @@
           "awesome",
           "security"
         ],
-        "stars": 5480,
+        "stars": 5481,
         "url": "https://github.com/onlurking/awesome-infosec",
         "created_at": "2015-05-13T22:20:47+00:00",
-        "updated_at": "2025-10-18T13:43:39+00:00"
+        "updated_at": "2025-10-21T19:22:47+00:00"
       },
       {
         "name": "MrAnderson",
@@ -495,10 +495,10 @@
           "status-bar",
           "whkd"
         ],
-        "stars": 13034,
+        "stars": 13043,
         "url": "https://github.com/LGUG2Z/komorebi",
         "created_at": "2021-07-29T23:20:15+00:00",
-        "updated_at": "2025-10-21T03:13:21+00:00"
+        "updated_at": "2025-10-22T01:27:39+00:00"
       },
       {
         "name": "klogg",
@@ -519,10 +519,10 @@
           "tail",
           "hacktoberfest"
         ],
-        "stars": 3044,
+        "stars": 3045,
         "url": "https://github.com/variar/klogg",
         "created_at": "2016-03-09T18:55:34+00:00",
-        "updated_at": "2025-10-20T06:03:42+00:00"
+        "updated_at": "2025-10-22T03:42:48+00:00"
       },
       {
         "name": "LongHive",
@@ -549,7 +549,7 @@
         "stars": 1923,
         "url": "https://github.com/PowerShell/openssh-portable",
         "created_at": "2016-11-02T04:18:48+00:00",
-        "updated_at": "2025-10-19T03:20:51+00:00"
+        "updated_at": "2025-10-22T02:00:48+00:00"
       }
     ],
     "Utilities & Tools": [
@@ -638,10 +638,10 @@
         "description": "Home of the Driver Automation Tool",
         "language": "PowerShell",
         "topics": [],
-        "stars": 451,
+        "stars": 452,
         "url": "https://github.com/maurice-daly/DriverAutomationTool",
         "created_at": "2020-03-17T23:19:34+00:00",
-        "updated_at": "2025-10-16T08:35:43+00:00"
+        "updated_at": "2025-10-21T07:01:23+00:00"
       }
     ],
     "Other": [
@@ -766,7 +766,7 @@
         "stars": 10232,
         "url": "https://github.com/mRemoteNG/mRemoteNG",
         "created_at": "2010-01-06T15:53:17+00:00",
-        "updated_at": "2025-10-20T21:35:55+00:00"
+        "updated_at": "2025-10-21T23:51:42+00:00"
       },
       {
         "name": "cryptgeon",
@@ -799,10 +799,10 @@
           "awesome",
           "hacktoberfest"
         ],
-        "stars": 3584,
+        "stars": 3585,
         "url": "https://github.com/HQarroum/awesome-iot",
         "created_at": "2015-09-26T00:37:23+00:00",
-        "updated_at": "2025-10-20T14:03:13+00:00"
+        "updated_at": "2025-10-21T04:58:31+00:00"
       },
       {
         "name": "OfficeDev-Samples",
@@ -872,10 +872,10 @@
           "list",
           "readme"
         ],
-        "stars": 19894,
+        "stars": 19899,
         "url": "https://github.com/matiassingers/awesome-readme",
         "created_at": "2015-01-19T06:15:03+00:00",
-        "updated_at": "2025-10-21T00:41:12+00:00"
+        "updated_at": "2025-10-22T01:17:33+00:00"
       },
       {
         "name": "Public-AD-Scripts",
@@ -883,10 +883,10 @@
         "description": "AD Scripts",
         "language": "PowerShell",
         "topics": [],
-        "stars": 357,
+        "stars": 358,
         "url": "https://github.com/zjorz/Public-AD-Scripts",
         "created_at": "2020-04-01T07:56:40+00:00",
-        "updated_at": "2025-10-20T17:59:12+00:00"
+        "updated_at": "2025-10-22T00:33:40+00:00"
       },
       {
         "name": "awesome-sysadmin",
@@ -894,10 +894,10 @@
         "description": "A curated list of amazingly awesome open source sysadmin resources inspired by Awesome PHP.",
         "language": null,
         "topics": [],
-        "stars": 24163,
+        "stars": 24162,
         "url": "https://github.com/kahun/awesome-sysadmin",
         "created_at": "2014-02-09T22:39:20+00:00",
-        "updated_at": "2025-10-20T19:28:07+00:00"
+        "updated_at": "2025-10-21T13:58:45+00:00"
       },
       {
         "name": "PSGist",
@@ -986,10 +986,10 @@
           "script",
           "scripting-language"
         ],
-        "stars": 497,
+        "stars": 498,
         "url": "https://github.com/lazywinadmin/LazyWinAdmin_GUI",
         "created_at": "2016-04-26T02:55:40+00:00",
-        "updated_at": "2025-10-06T09:18:55+00:00"
+        "updated_at": "2025-10-21T13:10:02+00:00"
       },
       {
         "name": "PowerShell",
@@ -1009,10 +1009,10 @@
           "azure",
           "hacktoberfest"
         ],
-        "stars": 2771,
+        "stars": 2772,
         "url": "https://github.com/lazywinadmin/PowerShell",
         "created_at": "2013-12-29T21:22:25+00:00",
-        "updated_at": "2025-10-20T13:19:59+00:00"
+        "updated_at": "2025-10-21T12:34:48+00:00"
       },
       {
         "name": "PowerShell",
@@ -1029,10 +1029,10 @@
           "netcore",
           "hacktoberfest"
         ],
-        "stars": 50328,
+        "stars": 50361,
         "url": "https://github.com/PowerShell/PowerShell",
         "created_at": "2016-01-13T23:41:35+00:00",
-        "updated_at": "2025-10-21T03:18:46+00:00"
+        "updated_at": "2025-10-22T03:12:52+00:00"
       },
       {
         "name": "PowerShellFAQ",
