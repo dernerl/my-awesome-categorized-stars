@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-10-23T03:39:05.395541",
-  "total_repositories": 67,
+  "last_updated": "2025-10-24T03:36:20.977554",
+  "total_repositories": 68,
   "categories": {
     "Web Development": [
       {
@@ -15,10 +15,10 @@
           "mcp",
           "typescript"
         ],
-        "stars": 11335,
+        "stars": 11370,
         "url": "https://github.com/GLips/Figma-Context-MCP",
         "created_at": "2025-02-13T02:55:06+00:00",
-        "updated_at": "2025-10-23T02:51:49+00:00"
+        "updated_at": "2025-10-24T03:34:13+00:00"
       },
       {
         "name": "n8n",
@@ -47,10 +47,10 @@
           "mcp-client",
           "mcp-server"
         ],
-        "stars": 151051,
+        "stars": 151294,
         "url": "https://github.com/n8n-io/n8n",
         "created_at": "2019-06-22T09:24:21+00:00",
-        "updated_at": "2025-10-23T03:31:55+00:00"
+        "updated_at": "2025-10-24T03:34:50+00:00"
       },
       {
         "name": "n8n-crypto-workflows",
@@ -88,10 +88,10 @@
           "open-source",
           "railway"
         ],
-        "stars": 2329,
+        "stars": 2330,
         "url": "https://github.com/BetterBahn/betterbahn",
         "created_at": "2025-08-15T07:09:54+00:00",
-        "updated_at": "2025-10-22T22:55:52+00:00"
+        "updated_at": "2025-10-23T15:37:20+00:00"
       },
       {
         "name": "rovoswitch",
@@ -122,10 +122,10 @@
         "description": "The MCP server for Azure DevOps, bringing the power of Azure DevOps directly to your agents.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 931,
+        "stars": 936,
         "url": "https://github.com/microsoft/azure-devops-mcp",
         "created_at": "2025-05-15T13:12:42+00:00",
-        "updated_at": "2025-10-22T19:27:36+00:00"
+        "updated_at": "2025-10-24T00:01:14+00:00"
       },
       {
         "name": "ChurchTools",
@@ -184,10 +184,10 @@
         "description": "Repository hosting site for cmd.ms",
         "language": "JavaScript",
         "topics": [],
-        "stars": 153,
+        "stars": 154,
         "url": "https://github.com/merill/cmd",
         "created_at": "2022-10-08T21:50:03+00:00",
-        "updated_at": "2025-10-23T00:58:01+00:00"
+        "updated_at": "2025-10-23T14:22:37+00:00"
       },
       {
         "name": "microsoft-365-certification-quick-evaluation",
@@ -206,10 +206,10 @@
         "description": "Welcome to the Microsoft Teams samples repository. Here you will find task-focused samples in C#, JavaScript and TypeScript to help you get started with the Microsoft Teams App!",
         "language": "C#",
         "topics": [],
-        "stars": 1281,
+        "stars": 1283,
         "url": "https://github.com/OfficeDev/Microsoft-Teams-Samples",
         "created_at": "2020-12-16T16:44:29+00:00",
-        "updated_at": "2025-10-21T16:50:13+00:00"
+        "updated_at": "2025-10-23T16:55:46+00:00"
       },
       {
         "name": "githubbuch.github.io",
@@ -385,10 +385,10 @@
           "list",
           "honeyd"
         ],
-        "stars": 9757,
+        "stars": 9762,
         "url": "https://github.com/paralax/awesome-honeypots",
         "created_at": "2015-06-18T12:57:01+00:00",
-        "updated_at": "2025-10-22T23:37:44+00:00"
+        "updated_at": "2025-10-23T14:28:11+00:00"
       },
       {
         "name": "awesome-infosec",
@@ -405,10 +405,10 @@
           "awesome",
           "security"
         ],
-        "stars": 5482,
+        "stars": 5483,
         "url": "https://github.com/onlurking/awesome-infosec",
         "created_at": "2015-05-13T22:20:47+00:00",
-        "updated_at": "2025-10-22T18:11:09+00:00"
+        "updated_at": "2025-10-23T11:38:56+00:00"
       },
       {
         "name": "MrAnderson",
@@ -461,10 +461,10 @@
         "description": "A few starter examples of ansible playbooks, to show features and how they work together.  See http://galaxy.ansible.com for example roles from the Ansible community for deploying many popular applications.",
         "language": "Shell",
         "topics": [],
-        "stars": 11908,
+        "stars": 11907,
         "url": "https://github.com/ansible/ansible-examples",
         "created_at": "2013-03-18T14:15:50+00:00",
-        "updated_at": "2025-10-22T20:26:39+00:00"
+        "updated_at": "2025-10-23T03:48:14+00:00"
       },
       {
         "name": "PowerShell-Docker",
@@ -495,10 +495,10 @@
           "status-bar",
           "whkd"
         ],
-        "stars": 13055,
+        "stars": 13063,
         "url": "https://github.com/LGUG2Z/komorebi",
         "created_at": "2021-07-29T23:20:15+00:00",
-        "updated_at": "2025-10-23T03:12:19+00:00"
+        "updated_at": "2025-10-24T03:29:52+00:00"
       },
       {
         "name": "klogg",
@@ -646,6 +646,17 @@
     ],
     "Other": [
       {
+        "name": "MDE-Monitoring-App",
+        "full_name": "chlaplan/MDE-Monitoring-App",
+        "description": "Troubleshooting MDE Workstations",
+        "language": "C#",
+        "topics": [],
+        "stars": 29,
+        "url": "https://github.com/chlaplan/MDE-Monitoring-App",
+        "created_at": "2025-08-30T05:06:00+00:00",
+        "updated_at": "2025-10-23T08:59:06+00:00"
+      },
+      {
         "name": "Entra-Tiering-Security-Model",
         "full_name": "workoho/Entra-Tiering-Security-Model",
         "description": "Implement a powerful Tiering Security Model in Microsoft Entra for your Cloud Administrator identities using Azure Automation.",
@@ -763,10 +774,10 @@
           "c-sharp",
           "windows"
         ],
-        "stars": 10235,
+        "stars": 10241,
         "url": "https://github.com/mRemoteNG/mRemoteNG",
         "created_at": "2010-01-06T15:53:17+00:00",
-        "updated_at": "2025-10-23T02:04:42+00:00"
+        "updated_at": "2025-10-23T21:41:24+00:00"
       },
       {
         "name": "cryptgeon",
@@ -780,10 +791,10 @@
           "note-sharing",
           "file-sharing"
         ],
-        "stars": 1173,
+        "stars": 1174,
         "url": "https://github.com/cupcakearmy/cryptgeon",
         "created_at": "2021-05-01T10:39:06+00:00",
-        "updated_at": "2025-10-20T19:42:23+00:00"
+        "updated_at": "2025-10-23T07:11:49+00:00"
       },
       {
         "name": "awesome-iot",
@@ -799,10 +810,10 @@
           "awesome",
           "hacktoberfest"
         ],
-        "stars": 3585,
+        "stars": 3586,
         "url": "https://github.com/HQarroum/awesome-iot",
         "created_at": "2015-09-26T00:37:23+00:00",
-        "updated_at": "2025-10-22T16:26:45+00:00"
+        "updated_at": "2025-10-23T04:23:30+00:00"
       },
       {
         "name": "OfficeDev-Samples",
@@ -821,10 +832,10 @@
         "description": "Step by step guidance to deploy Azure Active Directory capabilities such as Conditional Access, Multi Factor Authentication, Self Service Password, and more. ",
         "language": "PowerShell",
         "topics": [],
-        "stars": 178,
+        "stars": 179,
         "url": "https://github.com/AzureAD/Deployment-Plans",
         "created_at": "2018-10-15T16:16:23+00:00",
-        "updated_at": "2025-09-28T21:01:15+00:00"
+        "updated_at": "2025-10-23T15:42:23+00:00"
       },
       {
         "name": "windows-dev-box-setup-scripts",
@@ -832,10 +843,10 @@
         "description": "Scripts to simplify setting up a Windows developer box",
         "language": "PowerShell",
         "topics": [],
-        "stars": 1863,
+        "stars": 1864,
         "url": "https://github.com/microsoft/windows-dev-box-setup-scripts",
         "created_at": "2018-04-03T19:44:23+00:00",
-        "updated_at": "2025-10-17T07:23:45+00:00"
+        "updated_at": "2025-10-23T14:08:52+00:00"
       },
       {
         "name": "azuread",
@@ -875,7 +886,7 @@
         "stars": 19904,
         "url": "https://github.com/matiassingers/awesome-readme",
         "created_at": "2015-01-19T06:15:03+00:00",
-        "updated_at": "2025-10-23T03:32:46+00:00"
+        "updated_at": "2025-10-23T23:28:17+00:00"
       },
       {
         "name": "Public-AD-Scripts",
@@ -897,7 +908,7 @@
         "stars": 24162,
         "url": "https://github.com/kahun/awesome-sysadmin",
         "created_at": "2014-02-09T22:39:20+00:00",
-        "updated_at": "2025-10-22T22:35:13+00:00"
+        "updated_at": "2025-10-23T09:27:24+00:00"
       },
       {
         "name": "PSGist",
@@ -951,10 +962,10 @@
           "awesome-list",
           "list"
         ],
-        "stars": 5250,
+        "stars": 5251,
         "url": "https://github.com/janikvonrotz/awesome-powershell",
         "created_at": "2015-05-28T12:10:06+00:00",
-        "updated_at": "2025-10-22T16:26:36+00:00"
+        "updated_at": "2025-10-23T04:20:33+00:00"
       },
       {
         "name": "CoinMarketCap",
@@ -1029,10 +1040,10 @@
           "netcore",
           "hacktoberfest"
         ],
-        "stars": 50386,
+        "stars": 50417,
         "url": "https://github.com/PowerShell/PowerShell",
         "created_at": "2016-01-13T23:41:35+00:00",
-        "updated_at": "2025-10-23T01:54:17+00:00"
+        "updated_at": "2025-10-24T03:22:18+00:00"
       },
       {
         "name": "PowerShellFAQ",
