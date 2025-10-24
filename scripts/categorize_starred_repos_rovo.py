@@ -188,14 +188,71 @@ Verwende die Repository-Namen (nicht die full_names) in den Arrays."""
                         if stdout:
                             print(f"🤖 Rovo Dev Antwort erhalten ({len(stdout)} Zeichen)")
                             
-                            # Suche nach JSON in der Antwort
-                            json_start = stdout.find('{')
-                            json_end = stdout.rfind('}') + 1
+                            # Verbesserte JSON-Extraktion aus Rovo Dev Antwort
+                            print(f"🔍 Debug: Erste 500 Zeichen der Antwort: {stdout[:500]}")
                             
-                            if json_start != -1 and json_end > 0:
-                                json_content = stdout[json_start:json_end]
+                            # Mehrere Strategien für JSON-Extraktion
+                            json_content = None
+                            categories = None
+                            
+                            # Strategie 1: Suche nach kompletter JSON-Struktur
+                            json_start = stdout.find('{')
+                            if json_start != -1:
+                                # Finde das Ende der JSON-Struktur durch Zählung der geschweiften Klammern
+                                brace_count = 0
+                                json_end = json_start
+                                for i, char in enumerate(stdout[json_start:], json_start):
+                                    if char == '{':
+                                        brace_count += 1
+                                    elif char == '}':
+                                        brace_count -= 1
+                                        if brace_count == 0:
+                                            json_end = i + 1
+                                            break
+                                
+                                if brace_count == 0:
+                                    json_content = stdout[json_start:json_end]
+                                    print(f"🔍 Extrahiertes JSON (Strategie 1): {json_content[:200]}...")
+                                    try:
+                                        categories = json.loads(json_content)
+                                        print("✅ JSON erfolgreich geparst (Strategie 1)")
+                                    except json.JSONDecodeError:
+                                        pass
+                            
+                            # Strategie 2: Suche nach JSON-Code-Blöcken
+                            if not categories:
+                                import re
+                                # Suche nach ```json ... ``` Blöcken
+                                json_blocks = re.findall(r'```(?:json)?\s*(\{[^`]+\})\s*```', stdout, re.DOTALL)
+                                for block in json_blocks:
+                                    try:
+                                        categories = json.loads(block.strip())
+                                        print("✅ JSON erfolgreich geparst (Strategie 2 - Code-Block)")
+                                        json_content = block.strip()
+                                        break
+                                    except json.JSONDecodeError:
+                                        continue
+                            
+                            # Strategie 3: Entferne häufige Nicht-JSON-Präfixe und -Suffixe
+                            if not categories and json_start != -1:
+                                # Entferne häufige Rovo Dev Antwort-Patterns
+                                cleaned = stdout
+                                # Entferne Text vor dem ersten {
+                                cleaned = cleaned[json_start:]
+                                # Entferne Text nach dem letzten }
+                                json_end = cleaned.rfind('}') + 1
+                                if json_end > 0:
+                                    cleaned = cleaned[:json_end]
+                                    print(f"🔍 Bereinigtes JSON (Strategie 3): {cleaned[:200]}...")
+                                    try:
+                                        categories = json.loads(cleaned)
+                                        print("✅ JSON erfolgreich geparst (Strategie 3 - Bereinigt)")
+                                        json_content = cleaned
+                                    except json.JSONDecodeError:
+                                        pass
+                            
+                            if categories:
                                 try:
-                                    categories = json.loads(json_content)
                                     
                                     # Konvertiere zu unserem Format
                                     result_categories = {}
