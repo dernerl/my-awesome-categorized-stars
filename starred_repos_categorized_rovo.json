@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-24T03:36:20.977554",
+  "last_updated": "2025-10-24T14:26:28.637971",
   "total_repositories": 68,
   "categories": {
     "Web Development": [
@@ -15,10 +15,10 @@
           "mcp",
           "typescript"
         ],
-        "stars": 11370,
+        "stars": 11376,
         "url": "https://github.com/GLips/Figma-Context-MCP",
         "created_at": "2025-02-13T02:55:06+00:00",
-        "updated_at": "2025-10-24T03:34:13+00:00"
+        "updated_at": "2025-10-24T14:16:38+00:00"
       },
       {
         "name": "n8n",
@@ -47,10 +47,10 @@
           "mcp-client",
           "mcp-server"
         ],
-        "stars": 151294,
+        "stars": 151413,
         "url": "https://github.com/n8n-io/n8n",
         "created_at": "2019-06-22T09:24:21+00:00",
-        "updated_at": "2025-10-24T03:34:50+00:00"
+        "updated_at": "2025-10-24T14:19:44+00:00"
       },
       {
         "name": "n8n-crypto-workflows",
@@ -88,10 +88,10 @@
           "open-source",
           "railway"
         ],
-        "stars": 2330,
+        "stars": 2332,
         "url": "https://github.com/BetterBahn/betterbahn",
         "created_at": "2025-08-15T07:09:54+00:00",
-        "updated_at": "2025-10-23T15:37:20+00:00"
+        "updated_at": "2025-10-24T13:02:54+00:00"
       },
       {
         "name": "rovoswitch",
@@ -122,10 +122,10 @@
         "description": "The MCP server for Azure DevOps, bringing the power of Azure DevOps directly to your agents.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 936,
+        "stars": 940,
         "url": "https://github.com/microsoft/azure-devops-mcp",
         "created_at": "2025-05-15T13:12:42+00:00",
-        "updated_at": "2025-10-24T00:01:14+00:00"
+        "updated_at": "2025-10-24T13:39:13+00:00"
       },
       {
         "name": "ChurchTools",
@@ -206,10 +206,10 @@
         "description": "Welcome to the Microsoft Teams samples repository. Here you will find task-focused samples in C#, JavaScript and TypeScript to help you get started with the Microsoft Teams App!",
         "language": "C#",
         "topics": [],
-        "stars": 1283,
+        "stars": 1284,
         "url": "https://github.com/OfficeDev/Microsoft-Teams-Samples",
         "created_at": "2020-12-16T16:44:29+00:00",
-        "updated_at": "2025-10-23T16:55:46+00:00"
+        "updated_at": "2025-10-24T12:56:46+00:00"
       },
       {
         "name": "githubbuch.github.io",
@@ -337,7 +337,7 @@
         "stars": 2426,
         "url": "https://github.com/dirkjanm/ROADtools",
         "created_at": "2020-03-28T09:56:08+00:00",
-        "updated_at": "2025-10-23T02:07:44+00:00"
+        "updated_at": "2025-10-24T13:31:58+00:00"
       },
       {
         "name": "awesome-gpt-store",
@@ -385,10 +385,10 @@
           "list",
           "honeyd"
         ],
-        "stars": 9762,
+        "stars": 9765,
         "url": "https://github.com/paralax/awesome-honeypots",
         "created_at": "2015-06-18T12:57:01+00:00",
-        "updated_at": "2025-10-23T14:28:11+00:00"
+        "updated_at": "2025-10-24T11:30:23+00:00"
       },
       {
         "name": "awesome-infosec",
@@ -405,10 +405,10 @@
           "awesome",
           "security"
         ],
-        "stars": 5483,
+        "stars": 5484,
         "url": "https://github.com/onlurking/awesome-infosec",
         "created_at": "2015-05-13T22:20:47+00:00",
-        "updated_at": "2025-10-23T11:38:56+00:00"
+        "updated_at": "2025-10-24T10:43:26+00:00"
       },
       {
         "name": "MrAnderson",
@@ -495,10 +495,10 @@
           "status-bar",
           "whkd"
         ],
-        "stars": 13063,
+        "stars": 13069,
         "url": "https://github.com/LGUG2Z/komorebi",
         "created_at": "2021-07-29T23:20:15+00:00",
-        "updated_at": "2025-10-24T03:29:52+00:00"
+        "updated_at": "2025-10-24T13:01:06+00:00"
       },
       {
         "name": "klogg",
@@ -519,10 +519,10 @@
           "tail",
           "hacktoberfest"
         ],
-        "stars": 3047,
+        "stars": 3048,
         "url": "https://github.com/variar/klogg",
         "created_at": "2016-03-09T18:55:34+00:00",
-        "updated_at": "2025-10-23T02:14:12+00:00"
+        "updated_at": "2025-10-24T08:24:41+00:00"
       },
       {
         "name": "LongHive",
@@ -546,10 +546,10 @@
           "windows",
           "win32"
         ],
-        "stars": 1923,
+        "stars": 1924,
         "url": "https://github.com/PowerShell/openssh-portable",
         "created_at": "2016-11-02T04:18:48+00:00",
-        "updated_at": "2025-10-22T15:12:52+00:00"
+        "updated_at": "2025-10-24T06:45:04+00:00"
       }
     ],
     "Utilities & Tools": [
@@ -651,10 +651,10 @@
         "description": "Troubleshooting MDE Workstations",
         "language": "C#",
         "topics": [],
-        "stars": 29,
+        "stars": 32,
         "url": "https://github.com/chlaplan/MDE-Monitoring-App",
         "created_at": "2025-08-30T05:06:00+00:00",
-        "updated_at": "2025-10-23T08:59:06+00:00"
+        "updated_at": "2025-10-24T09:26:51+00:00"
       },
       {
         "name": "Entra-Tiering-Security-Model",
@@ -774,10 +774,10 @@
           "c-sharp",
           "windows"
         ],
-        "stars": 10241,
+        "stars": 10243,
         "url": "https://github.com/mRemoteNG/mRemoteNG",
         "created_at": "2010-01-06T15:53:17+00:00",
-        "updated_at": "2025-10-23T21:41:24+00:00"
+        "updated_at": "2025-10-24T14:14:56+00:00"
       },
       {
         "name": "cryptgeon",
@@ -791,10 +791,10 @@
           "note-sharing",
           "file-sharing"
         ],
-        "stars": 1174,
+        "stars": 1175,
         "url": "https://github.com/cupcakearmy/cryptgeon",
         "created_at": "2021-05-01T10:39:06+00:00",
-        "updated_at": "2025-10-23T07:11:49+00:00"
+        "updated_at": "2025-10-24T13:30:08+00:00"
       },
       {
         "name": "awesome-iot",
@@ -883,10 +883,10 @@
           "list",
           "readme"
         ],
-        "stars": 19904,
+        "stars": 19905,
         "url": "https://github.com/matiassingers/awesome-readme",
         "created_at": "2015-01-19T06:15:03+00:00",
-        "updated_at": "2025-10-23T23:28:17+00:00"
+        "updated_at": "2025-10-24T08:59:24+00:00"
       },
       {
         "name": "Public-AD-Scripts",
@@ -894,10 +894,10 @@
         "description": "AD Scripts",
         "language": "PowerShell",
         "topics": [],
-        "stars": 359,
+        "stars": 360,
         "url": "https://github.com/zjorz/Public-AD-Scripts",
         "created_at": "2020-04-01T07:56:40+00:00",
-        "updated_at": "2025-10-22T09:33:23+00:00"
+        "updated_at": "2025-10-24T09:40:25+00:00"
       },
       {
         "name": "awesome-sysadmin",
@@ -962,10 +962,10 @@
           "awesome-list",
           "list"
         ],
-        "stars": 5251,
+        "stars": 5252,
         "url": "https://github.com/janikvonrotz/awesome-powershell",
         "created_at": "2015-05-28T12:10:06+00:00",
-        "updated_at": "2025-10-23T04:20:33+00:00"
+        "updated_at": "2025-10-24T09:54:27+00:00"
       },
       {
         "name": "CoinMarketCap",
@@ -1040,10 +1040,10 @@
           "netcore",
           "hacktoberfest"
         ],
-        "stars": 50417,
+        "stars": 50443,
         "url": "https://github.com/PowerShell/PowerShell",
         "created_at": "2016-01-13T23:41:35+00:00",
-        "updated_at": "2025-10-24T03:22:18+00:00"
+        "updated_at": "2025-10-24T14:05:27+00:00"
       },
       {
         "name": "PowerShellFAQ",
