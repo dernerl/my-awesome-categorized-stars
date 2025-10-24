@@ -169,24 +169,21 @@ Verwende die Repository-Namen (nicht die full_names) in den Arrays."""
                     # Versuche interaktive Rovo Dev Session mit Prompt
                     # Da rovodev run interaktiv ist, verwenden wir eine alternative Methode
                     
-                    # Erstelle einen Rovo Dev Befehl mit dem Prompt
-                    rovo_cmd = ['acli', 'rovodev', 'run']
+                    # Verwende non-interaktiven Modus mit dem Prompt direkt
+                    full_prompt = prompt + "\n\nBitte antworte nur mit JSON."
+                    rovo_cmd = ['acli', 'rovodev', 'run', full_prompt]
                     
-                    # Starte Rovo Dev und sende den Prompt
-                    rovo_process = subprocess.Popen(
-                        rovo_cmd,
-                        stdin=subprocess.PIPE,
-                        stdout=subprocess.PIPE,
-                        stderr=subprocess.PIPE,
-                        text=True
-                    )
-                    
-                    # Sende Prompt an Rovo Dev
+                    # Führe Rovo Dev im non-interaktiven Modus aus
                     try:
-                        stdout, stderr = rovo_process.communicate(
-                            input=prompt + "\n\nBitte antworte nur mit JSON.\n",
+                        rovo_result = subprocess.run(
+                            rovo_cmd,
+                            capture_output=True,
+                            text=True,
                             timeout=300
                         )
+                        
+                        stdout = rovo_result.stdout
+                        stderr = rovo_result.stderr
                         
                         if stdout:
                             print(f"🤖 Rovo Dev Antwort erhalten ({len(stdout)} Zeichen)")
@@ -225,7 +222,6 @@ Verwende die Repository-Namen (nicht die full_names) in den Arrays."""
                             
                     except subprocess.TimeoutExpired:
                         print("⚠️ Rovo Dev Timeout nach 5 Minuten")
-                        rovo_process.kill()
                 
                 # Fallback: Regelbasierte Kategorisierung
                 print("ℹ️ Rovo Dev nicht verfügbar oder fehlerhaft, verwende regelbasierte Kategorisierung...")
