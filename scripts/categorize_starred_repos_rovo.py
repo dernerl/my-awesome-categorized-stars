@@ -233,7 +233,48 @@ Verwende die Repository-Namen (nicht die full_names) in den Arrays."""
                                     except json.JSONDecodeError:
                                         continue
                             
-                            # Strategie 3: Entferne häufige Nicht-JSON-Präfixe und -Suffixe
+                            # Strategie 3: ACLI-spezifische Box-Formatierung extrahieren
+                            if not categories:
+                                # Entferne ACLI Box-Formatierung (│ Zeichen und Box-Ränder)
+                                lines = stdout.split('\n')
+                                cleaned_lines = []
+                                for line in lines:
+                                    # Entferne Box-Ränder und │ Präfixe
+                                    line = line.strip()
+                                    if line.startswith('│'):
+                                        line = line[1:].strip()
+                                    if line.startswith('╭') or line.startswith('╰') or line.startswith('─'):
+                                        continue
+                                    if line:
+                                        cleaned_lines.append(line)
+                                
+                                cleaned_text = '\n'.join(cleaned_lines)
+                                print(f"🔍 ACLI-bereinigter Text (Strategie 3): {cleaned_text[:300]}...")
+                                
+                                # Finde JSON in bereinigtem Text
+                                json_start = cleaned_text.find('{')
+                                if json_start != -1:
+                                    brace_count = 0
+                                    json_end = json_start
+                                    for i, char in enumerate(cleaned_text[json_start:], json_start):
+                                        if char == '{':
+                                            brace_count += 1
+                                        elif char == '}':
+                                            brace_count -= 1
+                                            if brace_count == 0:
+                                                json_end = i + 1
+                                                break
+                                    
+                                    if brace_count == 0:
+                                        json_content = cleaned_text[json_start:json_end]
+                                        print(f"🔍 Extrahiertes JSON aus ACLI (Strategie 3): {json_content[:200]}...")
+                                        try:
+                                            categories = json.loads(json_content)
+                                            print("✅ JSON erfolgreich geparst (Strategie 3 - ACLI-bereinigt)")
+                                        except json.JSONDecodeError as e:
+                                            print(f"❌ JSON-Parse-Fehler (Strategie 3): {e}")
+                            
+                            # Strategie 4: Fallback - Entferne häufige Nicht-JSON-Präfixe und -Suffixe
                             if not categories and json_start != -1:
                                 # Entferne häufige Rovo Dev Antwort-Patterns
                                 cleaned = stdout
@@ -243,10 +284,10 @@ Verwende die Repository-Namen (nicht die full_names) in den Arrays."""
                                 json_end = cleaned.rfind('}') + 1
                                 if json_end > 0:
                                     cleaned = cleaned[:json_end]
-                                    print(f"🔍 Bereinigtes JSON (Strategie 3): {cleaned[:200]}...")
+                                    print(f"🔍 Bereinigtes JSON (Strategie 4): {cleaned[:200]}...")
                                     try:
                                         categories = json.loads(cleaned)
-                                        print("✅ JSON erfolgreich geparst (Strategie 3 - Bereinigt)")
+                                        print("✅ JSON erfolgreich geparst (Strategie 4 - Bereinigt)")
                                         json_content = cleaned
                                     except json.JSONDecodeError:
                                         pass
