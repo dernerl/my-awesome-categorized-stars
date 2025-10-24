@@ -235,44 +235,51 @@ Verwende die Repository-Namen (nicht die full_names) in den Arrays."""
                             
                             # Strategie 3: ACLI-spezifische Box-Formatierung extrahieren
                             if not categories:
-                                # Entferne ACLI Box-Formatierung (│ Zeichen und Box-Ränder)
+                                # Entferne ACLI Box-Formatierung und füge JSON-Zeilen zusammen
                                 lines = stdout.split('\n')
-                                cleaned_lines = []
+                                json_lines = []
+                                in_json = False
+                                
                                 for line in lines:
                                     # Entferne Box-Ränder und │ Präfixe
+                                    original_line = line
                                     line = line.strip()
                                     if line.startswith('│'):
                                         line = line[1:].strip()
+                                    
+                                    # Überspringe Box-Rahmen
                                     if line.startswith('╭') or line.startswith('╰') or line.startswith('─'):
                                         continue
-                                    if line:
-                                        cleaned_lines.append(line)
-                                
-                                cleaned_text = '\n'.join(cleaned_lines)
-                                print(f"🔍 ACLI-bereinigter Text (Strategie 3): {cleaned_text[:300]}...")
-                                
-                                # Finde JSON in bereinigtem Text
-                                json_start = cleaned_text.find('{')
-                                if json_start != -1:
-                                    brace_count = 0
-                                    json_end = json_start
-                                    for i, char in enumerate(cleaned_text[json_start:], json_start):
-                                        if char == '{':
-                                            brace_count += 1
-                                        elif char == '}':
-                                            brace_count -= 1
-                                            if brace_count == 0:
-                                                json_end = i + 1
-                                                break
                                     
-                                    if brace_count == 0:
-                                        json_content = cleaned_text[json_start:json_end]
-                                        print(f"🔍 Extrahiertes JSON aus ACLI (Strategie 3): {json_content[:200]}...")
-                                        try:
-                                            categories = json.loads(json_content)
-                                            print("✅ JSON erfolgreich geparst (Strategie 3 - ACLI-bereinigt)")
-                                        except json.JSONDecodeError as e:
-                                            print(f"❌ JSON-Parse-Fehler (Strategie 3): {e}")
+                                    # Erkenne JSON-Start
+                                    if '{' in line and not in_json:
+                                        in_json = True
+                                    
+                                    # Sammle JSON-Zeilen
+                                    if in_json and line:
+                                        # Entferne führende/nachgestellte │ und Leerzeichen
+                                        cleaned_line = line.replace('│', '').strip()
+                                        if cleaned_line:
+                                            json_lines.append(cleaned_line)
+                                    
+                                    # Erkenne JSON-Ende
+                                    if '}' in line and in_json:
+                                        # Prüfe ob es das letzte } ist
+                                        brace_count = sum(1 for c in ' '.join(json_lines) if c == '{') - sum(1 for c in ' '.join(json_lines) if c == '}')
+                                        if brace_count <= 0:
+                                            break
+                                
+                                # Füge JSON-Zeilen zusammen
+                                if json_lines:
+                                    json_content = ' '.join(json_lines)
+                                    print(f"🔍 Zusammengefügtes JSON (Strategie 3): {json_content[:300]}...")
+                                    
+                                    try:
+                                        categories = json.loads(json_content)
+                                        print("✅ JSON erfolgreich geparst (Strategie 3 - ACLI-bereinigt)")
+                                    except json.JSONDecodeError as e:
+                                        print(f"❌ JSON-Parse-Fehler (Strategie 3): {e}")
+                                        print(f"🔍 Problematisches JSON: {json_content}")
                             
                             # Strategie 4: Fallback - Entferne häufige Nicht-JSON-Präfixe und -Suffixe
                             if not categories and json_start != -1:
@@ -431,10 +438,87 @@ Verwende die Repository-Namen (nicht die full_names) in den Arrays."""
             print("\n📊 Kategorisierungs-Zusammenfassung:")
             for category, repos in categorized_repos.items():
                 print(f"  • {category}: {len(repos)} Repositories")
+            
+            # Aktualisiere README
+            self.update_readme(categorized_repos)
                 
         except Exception as e:
             print(f"❌ Fehler beim Speichern: {e}")
             raise
+    
+    def update_readme(self, categorized_repos: Dict[str, List[Dict[str, Any]]]):
+        """Aktualisiert die README.md mit den kategorisierten Repositories"""
+        try:
+            print("\n📝 Aktualisiere README.md...")
+            
+            # Generiere Markdown-Inhalt
+            readme_content = self.generate_readme_content(categorized_repos)
+            
+            # Schreibe README
+            with open('README.md', 'w', encoding='utf-8') as f:
+                f.write(readme_content)
+            
+            print("✅ README.md erfolgreich aktualisiert")
+            
+        except Exception as e:
+            print(f"❌ Fehler beim Aktualisieren der README: {e}")
+    
+    def generate_readme_content(self, categorized_repos: Dict[str, List[Dict[str, Any]]]) -> str:
+        """Generiert den README.md Inhalt"""
+        total_repos = sum(len(repos) for repos in categorized_repos.values())
+        last_updated = __import__('datetime').datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        
+        content = f"""# 🌟 My Awesome Categorized Stars
+
+Automatisch kategorisierte GitHub starred Repositories mit **Atlassian CLI (ACLI) Rovo Dev**.
+
+📊 **{total_repos} Repositories** in **{len(categorized_repos)} Kategorien**  
+🕐 **Letztes Update:** {last_updated}  
+🤖 **Generiert mit:** Atlassian CLI (ACLI) Rovo Dev
+
+---
+
+"""
+        
+        # Füge Kategorien hinzu
+        for category, repos in categorized_repos.items():
+            content += f"## {category} ({len(repos)} Repositories)\n\n"
+            
+            for repo in sorted(repos, key=lambda x: x['stars'], reverse=True):
+                stars = f"⭐ {repo['stars']}" if repo['stars'] > 0 else ""
+                language = f"`{repo['language']}`" if repo['language'] else ""
+                topics = ", ".join([f"`{topic}`" for topic in repo['topics'][:3]]) if repo['topics'] else ""
+                
+                description = repo['description'][:100] + "..." if len(repo['description']) > 100 else repo['description']
+                
+                content += f"### [{repo['name']}]({repo['url']})\n"
+                content += f"{description}\n\n"
+                
+                if stars or language or topics:
+                    content += f"**Details:** {stars} {language} {topics}\n\n"
+                
+                content += "---\n\n"
+        
+        # Footer
+        content += f"""
+## 📈 Statistiken
+
+| Kategorie | Anzahl |
+|-----------|--------|
+"""
+        
+        for category, repos in sorted(categorized_repos.items(), key=lambda x: len(x[1]), reverse=True):
+            content += f"| {category} | {len(repos)} |\n"
+        
+        content += f"""
+**Gesamt:** {total_repos} Repositories
+
+---
+
+*Automatisch generiert mit [Atlassian CLI (ACLI) Rovo Dev](https://developer.atlassian.com/cloud/rovo/) 🤖*
+"""
+        
+        return content
 
 
 def main():
