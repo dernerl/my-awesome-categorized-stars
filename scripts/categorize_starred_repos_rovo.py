@@ -476,12 +476,27 @@ Automatisch kategorisierte GitHub starred Repositories mit **Atlassian CLI (ACLI
 🕐 **Letztes Update:** {last_updated}  
 🤖 **Generiert mit:** Atlassian CLI (ACLI) Rovo Dev
 
+## 📂 Kategorien-Übersicht
+
+"""
+        
+        # Sortiere Kategorien nach Anzahl der Repositories (absteigend)
+        sorted_categories = sorted(categorized_repos.items(), key=lambda x: len(x[1]), reverse=True)
+        
+        # Füge Kategorien-Links hinzu
+        for category, repos in sorted_categories:
+            # Erstelle GitHub-kompatiblen Anker-Link
+            anchor = category.lower().replace(' ', '-').replace('&', '').replace('/', '').replace('(', '').replace(')', '').replace('.', '').replace(',', '')
+            content += f"- [{category}](#{anchor}-{len(repos)}-repositories) ({len(repos)} Repositories)\n"
+        
+        content += f"""
+
 ---
 
 """
         
-        # Füge Kategorien hinzu
-        for category, repos in categorized_repos.items():
+        # Füge Kategorien hinzu (verwende sortierte Reihenfolge)
+        for category, repos in sorted_categories:
             content += f"## {category} ({len(repos)} Repositories)\n\n"
             
             for repo in sorted(repos, key=lambda x: x['stars'], reverse=True):
