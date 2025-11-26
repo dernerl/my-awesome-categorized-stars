@@ -2,42 +2,51 @@
 
 Automatisch kategorisierte GitHub starred Repositories mit **Atlassian CLI (ACLI) Rovo Dev**.
 
-📊 **76 Repositories** in **13 Kategorien**  
-🕐 **Letztes Update:** 2025-11-25 03:51:44  
+📊 **75 Repositories** in **15 Kategorien**  
+🕐 **Letztes Update:** 2025-11-26 03:50:39  
 🤖 **Generiert mit:** Atlassian CLI (ACLI) Rovo Dev
 
 ## 📂 Kategorien-Übersicht
 
-- [PowerShell & Windows Administration](#powershell--windows-administration-26-repositories) (26 Repositories)
-- [Security & Compliance](#security--compliance-9-repositories) (9 Repositories)
-- [AI & Machine Learning](#ai--machine-learning-9-repositories) (9 Repositories)
-- [Microsoft 365 & Azure](#microsoft-365--azure-9-repositories) (9 Repositories)
-- [Documentation & Resources](#documentation--resources-5-repositories) (5 Repositories)
-- [DevOps & Automation](#devops--automation-4-repositories) (4 Repositories)
-- [macOS Applications](#macos-applications-3-repositories) (3 Repositories)
-- [Web Development & UI](#web-development--ui-3-repositories) (3 Repositories)
-- [System Utilities](#system-utilities-3-repositories) (3 Repositories)
+- [PowerShell & Windows Administration](#powershell--windows-administration-27-repositories) (27 Repositories)
+- [Cloud & Enterprise Security](#cloud--enterprise-security-9-repositories) (9 Repositories)
+- [AI & Development Tools](#ai--development-tools-9-repositories) (9 Repositories)
+- [macOS Applications & Tools](#macos-applications--tools-5-repositories) (5 Repositories)
+- [Workflow Automation & Integration](#workflow-automation--integration-5-repositories) (5 Repositories)
+- [Development Resources & Documentation](#development-resources--documentation-5-repositories) (5 Repositories)
+- [Security & Penetration Testing](#security--penetration-testing-2-repositories) (2 Repositories)
+- [Desktop Applications](#desktop-applications-2-repositories) (2 Repositories)
+- [Privacy & Security Tools](#privacy--security-tools-2-repositories) (2 Repositories)
+- [Browser Extensions & Web Tools](#browser-extensions--web-tools-2-repositories) (2 Repositories)
 - [IoT & Hardware](#iot--hardware-2-repositories) (2 Repositories)
-- [Blockchain & Crypto](#blockchain--crypto-1-repositories) (1 Repositories)
-- [Transportation](#transportation-1-repositories) (1 Repositories)
-- [Religious & Community](#religious--community-1-repositories) (1 Repositories)
+- [System Administration](#system-administration-2-repositories) (2 Repositories)
+- [React & Frontend Development](#react--frontend-development-1-repositories) (1 Repositories)
+- [Transportation & Travel](#transportation--travel-1-repositories) (1 Repositories)
+- [Monitoring & Analysis](#monitoring--analysis-1-repositories) (1 Repositories)
 
 
 ---
 
-## PowerShell & Windows Administration (26 Repositories)
+## PowerShell & Windows Administration (27 Repositories)
 
-### [PowerShell](https://github.com/PowerShell/PowerShell)
-PowerShell for every system!
+### [ansible](https://github.com/ansible/ansible)
+Ansible is a radically simple IT automation platform that makes your applications and systems easier...
 
-**Details:** ⭐ 50852 `C#` `powershell`, `windows`, `macos`
+**Details:** ⭐ 67124 `Python` `python`, `ansible`
 
 ---
 
 ### [PowerShell](https://github.com/PowerShell/PowerShell)
 PowerShell for every system!
 
-**Details:** ⭐ 50852 `C#` `powershell`, `windows`, `macos`
+**Details:** ⭐ 50856 `C#` `powershell`, `windows`, `macos`
+
+---
+
+### [ansible-examples](https://github.com/ansible/ansible-examples)
+A few starter examples of ansible playbooks, to show features and how they work together.  See http:...
+
+**Details:** ⭐ 11944 `Shell` 
 
 ---
 
@@ -79,7 +88,7 @@ PowerShell Script that generates a GUI/WinForms loaded with tons of functions
 ### [ModuleBuilder](https://github.com/PoshCode/ModuleBuilder)
 A PowerShell Module to help scripters write, version, sign, package, and publish.
 
-**Details:** ⭐ 486 `PowerShell` 
+**Details:** ⭐ 487 `PowerShell` 
 
 ---
 
@@ -209,40 +218,33 @@ A collection of PowerShell-based documentation tools and templates for IT enviro
 
 ---
 
-## Security & Compliance (9 Repositories)
-
-### [awesome-honeypots](https://github.com/paralax/awesome-honeypots)
-an awesome list of honeypot resources
-
-**Details:** ⭐ 9886 `Python` `honeypot`, `awesome-list`, `awesome`
-
----
+## Cloud & Enterprise Security (9 Repositories)
 
 ### [awesome-infosec](https://github.com/onlurking/awesome-infosec)
  A curated list of awesome infosec courses and training resources.
 
-**Details:** ⭐ 5512  `infosec`, `pentest`, `courses`
+**Details:** ⭐ 5514  `infosec`, `pentest`, `courses`
 
 ---
 
 ### [ROADtools](https://github.com/dirkjanm/ROADtools)
 A collection of Azure AD/Entra tools for offensive and defensive security purposes
 
-**Details:** ⭐ 2456 `Python` `azure-active-directory`, `azuread`, `microsoft-graph`
+**Details:** ⭐ 2457 `Python` `azure-active-directory`, `azuread`, `microsoft-graph`
 
 ---
 
-### [macos_security](https://github.com/usnistgov/macos_security)
-macOS Security Compliance Project
+### [Microsoft-Teams-Samples](https://github.com/OfficeDev/Microsoft-Teams-Samples)
+Welcome to the Microsoft Teams samples repository. Here you will find task-focused samples in C#, Ja...
 
-**Details:** ⭐ 2162 `YAML` `apple`, `macos`, `compliance`
+**Details:** ⭐ 1301 `C#` 
 
 ---
 
-### [cryptgeon](https://github.com/cupcakearmy/cryptgeon)
-cryptgeon is a secure, open source note / file sharing service inspired by PrivNote written in rust ...
+### [azuread](https://github.com/msandbu/azuread)
+Keine Beschreibung verfügbar
 
-**Details:** ⭐ 1237 `Svelte` `private-notes`, `privnote`, `secure-notes`
+**Details:** ⭐ 200  
 
 ---
 
@@ -253,17 +255,17 @@ A collection of Microsoft Sentinel workbooks and analytics rules.
 
 ---
 
-### [secrets_find0r](https://github.com/BenjaminIheukumere/secrets_find0r)
-Secrets Find0r is a multithreaded SMB share crawler that hunts for exposed credentials and secrets a...
-
-**Details:** ⭐ 66 `Python` 
-
----
-
 ### [Entra-Tiering-Security-Model](https://github.com/workoho/Entra-Tiering-Security-Model)
 Implement a powerful Tiering Security Model in Microsoft Entra for your Cloud Administrator identiti...
 
 **Details:** ⭐ 51 `PowerShell` `cloud-administration`, `cybersecurity`, `enterprise-architecture`
+
+---
+
+### [About_my_device](https://github.com/damienvanrobaeys/About_my_device)
+About my device: A systray tool for that displays device information and run action like send logs o...
+
+**Details:** ⭐ 38 `PowerShell` 
 
 ---
 
@@ -274,47 +276,61 @@ Deployment scripts and a simple reports for CIS benchmarks
 
 ---
 
-## AI & Machine Learning (9 Repositories)
+### [MrAnderson](https://github.com/bazn/MrAnderson)
+Rasa Chatbot with Matrix42 integration
+
+**Details:** ⭐ 1 `Python` 
+
+---
+
+## AI & Development Tools (9 Repositories)
+
+### [n8n](https://github.com/n8n-io/n8n)
+Fair-code workflow automation platform with native AI capabilities. Combine visual building with cus...
+
+**Details:** ⭐ 158701 `TypeScript` `automation`, `ipaas`, `n8n`
+
+---
 
 ### [servers](https://github.com/modelcontextprotocol/servers)
 Model Context Protocol Servers
 
-**Details:** ⭐ 73261 `TypeScript` 
+**Details:** ⭐ 73332 `TypeScript` 
 
 ---
 
 ### [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)
 Breakthrough Method for Agile Ai Driven Development
 
-**Details:** ⭐ 23108 `JavaScript` 
+**Details:** ⭐ 23203 `JavaScript` 
 
 ---
 
 ### [toon](https://github.com/toon-format/toon)
 🎒 Token-Oriented Object Notation (TOON) – Compact, human-readable, schema-aware JSON for LLM prompts...
 
-**Details:** ⭐ 19417 `TypeScript` `data-format`, `llm`, `serialization`
+**Details:** ⭐ 19593 `TypeScript` `data-format`, `llm`, `serialization`
 
 ---
 
 ### [Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP)
 MCP server to provide Figma layout information to AI coding agents like Cursor
 
-**Details:** ⭐ 11922 `TypeScript` `ai`, `cursor`, `figma`
+**Details:** ⭐ 11935 `TypeScript` `ai`, `cursor`, `figma`
 
 ---
 
 ### [awesome-gpt-store](https://github.com/devisasari/awesome-gpt-store)
 A curated list of awesome GPTs in the GPT Store
 
-**Details:** ⭐ 2078  `ai`, `awesome`, `awesome-list`
+**Details:** ⭐ 2077  `ai`, `awesome`, `awesome-list`
 
 ---
 
 ### [azure-devops-mcp](https://github.com/microsoft/azure-devops-mcp)
 The MCP server for Azure DevOps, bringing the power of Azure DevOps directly to your agents.
 
-**Details:** ⭐ 1034 `TypeScript` 
+**Details:** ⭐ 1045 `TypeScript` 
 
 ---
 
@@ -332,151 +348,26 @@ A TypeScript CLI application for managing Rovo authentication profiles and execu
 
 ---
 
-### [MrAnderson](https://github.com/bazn/MrAnderson)
-Rasa Chatbot with Matrix42 integration
-
-**Details:** ⭐ 1 `Python` 
-
----
-
-## Microsoft 365 & Azure (9 Repositories)
-
-### [Microsoft-Integration-and-Azure-Stencils-Pack-for-Visio](https://github.com/sandroasp/Microsoft-Integration-and-Azure-Stencils-Pack-for-Visio)
-Microsoft Integration, Azure, Power Platform, Office 365 and much more Stencils Pack it’s a Visio pa...
-
-**Details:** ⭐ 1509 `PowerShell` `stencils`, `stencils-pack`, `mis-azure`
-
----
-
-### [Microsoft-Teams-Samples](https://github.com/OfficeDev/Microsoft-Teams-Samples)
-Welcome to the Microsoft Teams samples repository. Here you will find task-focused samples in C#, Ja...
-
-**Details:** ⭐ 1300 `C#` 
-
----
-
-### [azuread](https://github.com/msandbu/azuread)
-Keine Beschreibung verfügbar
-
-**Details:** ⭐ 200  
-
----
-
-### [cmd](https://github.com/merill/cmd)
-Repository hosting site for cmd.ms
-
-**Details:** ⭐ 157 `JavaScript` 
-
----
-
-### [MDE-Monitoring-App](https://github.com/chlaplan/MDE-Monitoring-App)
-Troubleshooting MDE Workstations
-
-**Details:** ⭐ 40 `C#` 
-
----
-
-### [About_my_device](https://github.com/damienvanrobaeys/About_my_device)
-About my device: A systray tool for that displays device information and run action like send logs o...
-
-**Details:** ⭐ 38 `PowerShell` 
-
----
-
-### [Intuneomator](https://github.com/gilburns/Intuneomator)
-Swift based automated application management for Intune.
-
-**Details:** ⭐ 36 `Swift` 
-
----
-
-### [OfficeDev-Samples](https://github.com/dream-365/OfficeDev-Samples)
-Office addins development
-
-**Details:** ⭐ 14  
-
----
-
-### [microsoft-365-certification-quick-evaluation](https://github.com/Azure/microsoft-365-certification-quick-evaluation)
-Keine Beschreibung verfügbar
-
-**Details:** ⭐ 13 `TypeScript` 
-
----
-
-## Documentation & Resources (5 Repositories)
-
-### [awesome-sysadmin](https://github.com/kahun/awesome-sysadmin)
-A curated list of amazingly awesome open source sysadmin resources inspired by Awesome PHP.
-
-**Details:** ⭐ 24190  
-
----
-
-### [awesome-readme](https://github.com/matiassingers/awesome-readme)
-A curated list of awesome READMEs
-
-**Details:** ⭐ 20069  `awesome-list`, `awesome`, `list`
-
----
-
-### [free-privacy-notice](https://github.com/juro-privacy/free-privacy-notice)
-Open source privacy notice design patterns.
-
-**Details:** ⭐ 179 `HTML` `privacy-notice`, `icons`, `legal-documents`
-
----
-
-### [docfx-companion-tools](https://github.com/Ellerbach/docfx-companion-tools)
-A suite of tools, pipelines templates to take the very best of DocFX
-
-**Details:** ⭐ 80 `C#` 
-
----
-
-### [awesome-selfhosted](https://github.com/binwiederhier/awesome-selfhosted)
-A list of Free Software network services and web applications which can be hosted on your own server...
-
-**Details:** ⭐ 11  
-
----
-
-## DevOps & Automation (4 Repositories)
-
-### [n8n](https://github.com/n8n-io/n8n)
-Fair-code workflow automation platform with native AI capabilities. Combine visual building with cus...
-
-**Details:** ⭐ 158444 `TypeScript` `automation`, `ipaas`, `n8n`
-
----
-
-### [ansible](https://github.com/ansible/ansible)
-Ansible is a radically simple IT automation platform that makes your applications and systems easier...
-
-**Details:** ⭐ 67111 `Python` `python`, `ansible`
-
----
-
-### [ansible-examples](https://github.com/ansible/ansible-examples)
-A few starter examples of ansible playbooks, to show features and how they work together.  See http:...
-
-**Details:** ⭐ 11942 `Shell` 
-
----
-
-### [DevOps_Pipelines](https://github.com/ztrhgf/DevOps_Pipelines)
-Keine Beschreibung verfügbar
-
-**Details:** ⭐ 11  
-
----
-
-## macOS Applications (3 Repositories)
+## macOS Applications & Tools (5 Repositories)
 
 ### [Ice](https://github.com/jordanbaird/Ice)
 Powerful menu bar manager for macOS
 
-**Details:** ⭐ 24218 `Swift` `macos`, `menubar`, `statusbar`
+**Details:** ⭐ 24241 `Swift` `macos`, `menubar`, `statusbar`
+
+---
+
+### [klogg](https://github.com/variar/klogg)
+Really fast log explorer based on glogg project
+
+**Details:** ⭐ 3095 `C++` `logs`, `windows`, `linux`
+
+---
+
+### [macos_security](https://github.com/usnistgov/macos_security)
+macOS Security Compliance Project
+
+**Details:** ⭐ 2164 `YAML` `apple`, `macos`, `compliance`
 
 ---
 
@@ -494,19 +385,56 @@ Create 'icns' and 'iconset' files from standard images
 
 ---
 
-## Web Development & UI (3 Repositories)
+## Workflow Automation & Integration (5 Repositories)
 
-### [tremor-npm](https://github.com/tremorlabs/tremor-npm)
-React components to build charts and dashboards
+### [docfx-companion-tools](https://github.com/Ellerbach/docfx-companion-tools)
+A suite of tools, pipelines templates to take the very best of DocFX
 
-**Details:** ⭐ 16442 `TypeScript` `reactjs`, `tailwindcss`, `ui-system`
+**Details:** ⭐ 80 `C#` 
 
 ---
 
-### [OneClick](https://github.com/arifszn/OneClick)
-Navigate to your favorite actions on the websites you love with just one click.
+### [Intuneomator](https://github.com/gilburns/Intuneomator)
+Swift based automated application management for Intune.
 
-**Details:** ⭐ 93 `JavaScript` `shortcuts`, `new`, `create-new-item`
+**Details:** ⭐ 36 `Swift` 
+
+---
+
+### [n8n-crypto-workflows](https://github.com/bicced/n8n-crypto-workflows)
+n8n crypto/web3 workflow templates: Solana, Ethereum, Binance Smart Chain, Base, EVM, DeFi, bots, al...
+
+**Details:** ⭐ 29  `automation`, `crypto`, `defi`
+
+---
+
+### [DevOps_Pipelines](https://github.com/ztrhgf/DevOps_Pipelines)
+Keine Beschreibung verfügbar
+
+**Details:** ⭐ 11  
+
+---
+
+### [ChurchTools](https://github.com/ftwegner/ChurchTools)
+ChurchTools Python code
+
+**Details:** ⭐ 1 `JavaScript` 
+
+---
+
+## Development Resources & Documentation (5 Repositories)
+
+### [awesome-readme](https://github.com/matiassingers/awesome-readme)
+A curated list of awesome READMEs
+
+**Details:** ⭐ 20074  `awesome-list`, `awesome`, `list`
+
+---
+
+### [Microsoft-Integration-and-Azure-Stencils-Pack-for-Visio](https://github.com/sandroasp/Microsoft-Integration-and-Azure-Stencils-Pack-for-Visio)
+Microsoft Integration, Azure, Power Platform, Office 365 and much more Stencils Pack it’s a Visio pa...
+
+**Details:** ⭐ 1509 `PowerShell` `stencils`, `stencils-pack`, `mis-azure`
 
 ---
 
@@ -517,26 +445,81 @@ Das Repository zum Buch “GitHub - Eine praktische Einführung”
 
 ---
 
-## System Utilities (3 Repositories)
+### [OfficeDev-Samples](https://github.com/dream-365/OfficeDev-Samples)
+Office addins development
+
+**Details:** ⭐ 14  
+
+---
+
+### [microsoft-365-certification-quick-evaluation](https://github.com/Azure/microsoft-365-certification-quick-evaluation)
+Keine Beschreibung verfügbar
+
+**Details:** ⭐ 13 `TypeScript` 
+
+---
+
+## Security & Penetration Testing (2 Repositories)
+
+### [awesome-honeypots](https://github.com/paralax/awesome-honeypots)
+an awesome list of honeypot resources
+
+**Details:** ⭐ 9889 `Python` `honeypot`, `awesome-list`, `awesome`
+
+---
+
+### [secrets_find0r](https://github.com/BenjaminIheukumere/secrets_find0r)
+Secrets Find0r is a multithreaded SMB share crawler that hunts for exposed credentials and secrets a...
+
+**Details:** ⭐ 66 `Python` 
+
+---
+
+## Desktop Applications (2 Repositories)
 
 ### [komorebi](https://github.com/LGUG2Z/komorebi)
 A tiling window manager for Windows 🍉
 
-**Details:** ⭐ 13338 `Rust` `tiling-window-manager`, `windows`, `rust`
+**Details:** ⭐ 13351 `Rust` `tiling-window-manager`, `windows`, `rust`
 
 ---
 
 ### [mRemoteNG](https://github.com/mRemoteNG/mRemoteNG)
 mRemoteNG is the next generation of mRemote, open source, tabbed, multi-protocol, remote connections...
 
-**Details:** ⭐ 10336 `C#` `mremoteng`, `rdp`, `ssh`
+**Details:** ⭐ 10344 `C#` `mremoteng`, `rdp`, `ssh`
 
 ---
 
-### [klogg](https://github.com/variar/klogg)
-Really fast log explorer based on glogg project
+## Privacy & Security Tools (2 Repositories)
 
-**Details:** ⭐ 3094 `C++` `logs`, `windows`, `linux`
+### [cryptgeon](https://github.com/cupcakearmy/cryptgeon)
+cryptgeon is a secure, open source note / file sharing service inspired by PrivNote written in rust ...
+
+**Details:** ⭐ 1240 `Svelte` `private-notes`, `privnote`, `secure-notes`
+
+---
+
+### [free-privacy-notice](https://github.com/juro-privacy/free-privacy-notice)
+Open source privacy notice design patterns.
+
+**Details:** ⭐ 179 `HTML` `privacy-notice`, `icons`, `legal-documents`
+
+---
+
+## Browser Extensions & Web Tools (2 Repositories)
+
+### [cmd](https://github.com/merill/cmd)
+Repository hosting site for cmd.ms
+
+**Details:** ⭐ 157 `JavaScript` 
+
+---
+
+### [OneClick](https://github.com/arifszn/OneClick)
+Navigate to your favorite actions on the websites you love with just one click.
+
+**Details:** ⭐ 93 `JavaScript` `shortcuts`, `new`, `create-new-item`
 
 ---
 
@@ -556,30 +539,46 @@ A smart beehive monitoring system using edge computing and the Helium protocol.
 
 ---
 
-## Blockchain & Crypto (1 Repositories)
+## System Administration (2 Repositories)
 
-### [n8n-crypto-workflows](https://github.com/bicced/n8n-crypto-workflows)
-n8n crypto/web3 workflow templates: Solana, Ethereum, Binance Smart Chain, Base, EVM, DeFi, bots, al...
+### [awesome-sysadmin](https://github.com/kahun/awesome-sysadmin)
+A curated list of amazingly awesome open source sysadmin resources inspired by Awesome PHP.
 
-**Details:** ⭐ 28  `automation`, `crypto`, `defi`
+**Details:** ⭐ 24192  
 
 ---
 
-## Transportation (1 Repositories)
+### [awesome-selfhosted](https://github.com/binwiederhier/awesome-selfhosted)
+A list of Free Software network services and web applications which can be hosted on your own server...
+
+**Details:** ⭐ 11  
+
+---
+
+## React & Frontend Development (1 Repositories)
+
+### [tremor-npm](https://github.com/tremorlabs/tremor-npm)
+React components to build charts and dashboards
+
+**Details:** ⭐ 16442 `TypeScript` `reactjs`, `tailwindcss`, `ui-system`
+
+---
+
+## Transportation & Travel (1 Repositories)
 
 ### [betterbahn](https://github.com/BetterBahn/betterbahn)
 BetterBahn is an open-source project that aims to improve the train travel experience in germany. Th...
 
-**Details:** ⭐ 2382 `TypeScript` `deutsche-bahn`, `open-source`, `railway`
+**Details:** ⭐ 2384 `TypeScript` `deutsche-bahn`, `open-source`, `railway`
 
 ---
 
-## Religious & Community (1 Repositories)
+## Monitoring & Analysis (1 Repositories)
 
-### [ChurchTools](https://github.com/ftwegner/ChurchTools)
-ChurchTools Python code
+### [MDE-Monitoring-App](https://github.com/chlaplan/MDE-Monitoring-App)
+Troubleshooting MDE Workstations
 
-**Details:** ⭐ 1 `JavaScript` 
+**Details:** ⭐ 40 `C#` 
 
 ---
 
@@ -588,21 +587,23 @@ ChurchTools Python code
 
 | Kategorie | Anzahl |
 |-----------|--------|
-| PowerShell & Windows Administration | 26 |
-| Security & Compliance | 9 |
-| AI & Machine Learning | 9 |
-| Microsoft 365 & Azure | 9 |
-| Documentation & Resources | 5 |
-| DevOps & Automation | 4 |
-| macOS Applications | 3 |
-| Web Development & UI | 3 |
-| System Utilities | 3 |
+| PowerShell & Windows Administration | 27 |
+| Cloud & Enterprise Security | 9 |
+| AI & Development Tools | 9 |
+| macOS Applications & Tools | 5 |
+| Workflow Automation & Integration | 5 |
+| Development Resources & Documentation | 5 |
+| Security & Penetration Testing | 2 |
+| Desktop Applications | 2 |
+| Privacy & Security Tools | 2 |
+| Browser Extensions & Web Tools | 2 |
 | IoT & Hardware | 2 |
-| Blockchain & Crypto | 1 |
-| Transportation | 1 |
-| Religious & Community | 1 |
+| System Administration | 2 |
+| React & Frontend Development | 1 |
+| Transportation & Travel | 1 |
+| Monitoring & Analysis | 1 |
 
-**Gesamt:** 76 Repositories
+**Gesamt:** 75 Repositories
 
 ---
 

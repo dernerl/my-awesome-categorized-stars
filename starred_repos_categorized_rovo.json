@@ -1,8 +1,22 @@
 {
-  "last_updated": "2025-11-25T03:51:44.060509",
-  "total_repositories": 76,
+  "last_updated": "2025-11-26T03:50:39.789376",
+  "total_repositories": 75,
   "categories": {
     "PowerShell & Windows Administration": [
+      {
+        "name": "ansible",
+        "full_name": "ansible/ansible",
+        "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
+        "language": "Python",
+        "topics": [
+          "python",
+          "ansible"
+        ],
+        "stars": 67124,
+        "url": "https://github.com/ansible/ansible",
+        "created_at": "2012-03-06T14:58:02+00:00",
+        "updated_at": "2025-11-26T01:55:02+00:00"
+      },
       {
         "name": "Powershell_CICD_repository",
         "full_name": "ztrhgf/Powershell_CICD_repository",
@@ -216,6 +230,17 @@
         "updated_at": "2025-11-04T02:32:41+00:00"
       },
       {
+        "name": "ansible-examples",
+        "full_name": "ansible/ansible-examples",
+        "description": "A few starter examples of ansible playbooks, to show features and how they work together.  See http://galaxy.ansible.com for example roles from the Ansible community for deploying many popular applications.",
+        "language": "Shell",
+        "topics": [],
+        "stars": 11944,
+        "url": "https://github.com/ansible/ansible-examples",
+        "created_at": "2013-03-18T14:15:50+00:00",
+        "updated_at": "2025-11-25T20:10:10+00:00"
+      },
+      {
         "name": "PoShKeePass",
         "full_name": "PSKeePass/PoShKeePass",
         "description": "PowerShell module for KeePass",
@@ -311,10 +336,10 @@
           "netcore",
           "hacktoberfest"
         ],
-        "stars": 50852,
+        "stars": 50856,
         "url": "https://github.com/PowerShell/PowerShell",
         "created_at": "2016-01-13T23:41:35+00:00",
-        "updated_at": "2025-11-25T03:38:17+00:00"
+        "updated_at": "2025-11-26T02:38:08+00:00"
       },
       {
         "name": "PowerShell-Docker",
@@ -346,26 +371,6 @@
         "updated_at": "2025-11-24T22:21:42+00:00"
       },
       {
-        "name": "PowerShell",
-        "full_name": "PowerShell/PowerShell",
-        "description": "PowerShell for every system!",
-        "language": "C#",
-        "topics": [
-          "powershell",
-          "windows",
-          "macos",
-          "linux",
-          "command-line",
-          "shell",
-          "netcore",
-          "hacktoberfest"
-        ],
-        "stars": 50852,
-        "url": "https://github.com/PowerShell/PowerShell",
-        "created_at": "2016-01-13T23:41:35+00:00",
-        "updated_at": "2025-11-25T03:38:17+00:00"
-      },
-      {
         "name": "PowerShellFAQ",
         "full_name": "PoshCode/PowerShellFAQ",
         "description": "A collection of frequently asked questions (and answers)",
@@ -393,13 +398,57 @@
         "description": "A PowerShell Module to help scripters write, version, sign, package, and publish.",
         "language": "PowerShell",
         "topics": [],
-        "stars": 486,
+        "stars": 487,
         "url": "https://github.com/PoshCode/ModuleBuilder",
         "created_at": "2014-04-03T17:37:54+00:00",
-        "updated_at": "2025-11-24T04:50:43+00:00"
+        "updated_at": "2025-11-25T12:14:31+00:00"
       }
     ],
-    "Security & Compliance": [
+    "macOS Applications & Tools": [
+      {
+        "name": "Ice",
+        "full_name": "jordanbaird/Ice",
+        "description": "Powerful menu bar manager for macOS",
+        "language": "Swift",
+        "topics": [
+          "macos",
+          "menubar",
+          "statusbar",
+          "swift",
+          "swiftui",
+          "utility",
+          "macos-app",
+          "menu-bar",
+          "status-bar",
+          "menubar-app"
+        ],
+        "stars": 24241,
+        "url": "https://github.com/jordanbaird/Ice",
+        "created_at": "2023-08-04T22:51:56+00:00",
+        "updated_at": "2025-11-26T03:01:13+00:00"
+      },
+      {
+        "name": "createicns",
+        "full_name": "jordanbaird/createicns",
+        "description": "Create 'icns' and 'iconset' files from standard images",
+        "language": "Swift",
+        "topics": [
+          "icns",
+          "icon",
+          "command-line",
+          "command-line-tool",
+          "swift",
+          "cli",
+          "iconset",
+          "macos",
+          "macos-icons",
+          "icons"
+        ],
+        "stars": 51,
+        "url": "https://github.com/jordanbaird/createicns",
+        "created_at": "2022-03-13T19:48:54+00:00",
+        "updated_at": "2025-11-07T09:45:12+00:00"
+      },
       {
         "name": "macos_security",
         "full_name": "usnistgov/macos_security",
@@ -415,22 +464,48 @@
           "mdm",
           "mscp"
         ],
-        "stars": 2162,
+        "stars": 2164,
         "url": "https://github.com/usnistgov/macos_security",
         "created_at": "2020-06-05T19:28:12+00:00",
-        "updated_at": "2025-11-25T03:24:01+00:00"
+        "updated_at": "2025-11-25T16:55:21+00:00"
       },
       {
-        "name": "secrets_find0r",
-        "full_name": "BenjaminIheukumere/secrets_find0r",
-        "description": "Secrets Find0r is a multithreaded SMB share crawler that hunts for exposed credentials and secrets across Windows networks. It enumerates shares, recursively scans files with regex/keyword rules, highlights matched tokens on screen, and exports clean ASCII tables. Supports DOCX/PDF/legacy Office and depth limits.",
-        "language": "Python",
+        "name": "SupportCompanion",
+        "full_name": "macadmins/SupportCompanion",
+        "description": "macOS helper application designed to empower end-users",
+        "language": "Swift",
         "topics": [],
-        "stars": 66,
-        "url": "https://github.com/BenjaminIheukumere/secrets_find0r",
-        "created_at": "2025-09-18T10:34:15+00:00",
-        "updated_at": "2025-11-02T20:07:33+00:00"
+        "stars": 161,
+        "url": "https://github.com/macadmins/SupportCompanion",
+        "created_at": "2024-05-06T12:09:04+00:00",
+        "updated_at": "2025-11-14T17:24:11+00:00"
       },
+      {
+        "name": "klogg",
+        "full_name": "variar/klogg",
+        "description": "Really fast log explorer based on glogg project",
+        "language": "C++",
+        "topics": [
+          "logs",
+          "windows",
+          "linux",
+          "macos",
+          "cross-platform",
+          "log-viewer",
+          "log-monitor",
+          "log-analyzer",
+          "qt",
+          "cpp",
+          "tail",
+          "hacktoberfest"
+        ],
+        "stars": 3095,
+        "url": "https://github.com/variar/klogg",
+        "created_at": "2016-03-09T18:55:34+00:00",
+        "updated_at": "2025-11-25T08:59:10+00:00"
+      }
+    ],
+    "Cloud & Enterprise Security": [
       {
         "name": "ROADtools",
         "full_name": "dirkjanm/ROADtools",
@@ -442,10 +517,10 @@
           "microsoft-graph",
           "python"
         ],
-        "stars": 2456,
+        "stars": 2457,
         "url": "https://github.com/dirkjanm/ROADtools",
         "created_at": "2020-03-28T09:56:08+00:00",
-        "updated_at": "2025-11-24T02:52:12+00:00"
+        "updated_at": "2025-11-25T10:08:12+00:00"
       },
       {
         "name": "Entra-Tiering-Security-Model",
@@ -474,6 +549,17 @@
         "updated_at": "2025-11-13T20:28:02+00:00"
       },
       {
+        "name": "About_my_device",
+        "full_name": "damienvanrobaeys/About_my_device",
+        "description": "About my device: A systray tool for that displays device information and run action like send logs or sync device",
+        "language": "PowerShell",
+        "topics": [],
+        "stars": 38,
+        "url": "https://github.com/damienvanrobaeys/About_my_device",
+        "created_at": "2021-03-30T11:29:01+00:00",
+        "updated_at": "2025-11-16T01:46:25+00:00"
+      },
+      {
         "name": "HardeningAudit",
         "full_name": "TheTechBeast8/HardeningAudit",
         "description": "Deployment scripts and a simple reports for CIS benchmarks ",
@@ -496,38 +582,15 @@
         "updated_at": "2025-11-03T11:20:00+00:00"
       },
       {
-        "name": "cryptgeon",
-        "full_name": "cupcakearmy/cryptgeon",
-        "description": "cryptgeon is a secure, open source note / file sharing service inspired by PrivNote written in rust & svelte.",
-        "language": "Svelte",
-        "topics": [
-          "private-notes",
-          "privnote",
-          "secure-notes",
-          "note-sharing",
-          "file-sharing"
-        ],
-        "stars": 1237,
-        "url": "https://github.com/cupcakearmy/cryptgeon",
-        "created_at": "2021-05-01T10:39:06+00:00",
-        "updated_at": "2025-11-24T21:09:16+00:00"
-      },
-      {
-        "name": "awesome-honeypots",
-        "full_name": "paralax/awesome-honeypots",
-        "description": "an awesome list of honeypot resources",
-        "language": "Python",
-        "topics": [
-          "honeypot",
-          "awesome-list",
-          "awesome",
-          "list",
-          "honeyd"
-        ],
-        "stars": 9886,
-        "url": "https://github.com/paralax/awesome-honeypots",
-        "created_at": "2015-06-18T12:57:01+00:00",
-        "updated_at": "2025-11-25T03:12:18+00:00"
+        "name": "azuread",
+        "full_name": "msandbu/azuread",
+        "description": "Keine Beschreibung verfügbar",
+        "language": null,
+        "topics": [],
+        "stars": 200,
+        "url": "https://github.com/msandbu/azuread",
+        "created_at": "2021-05-07T10:23:06+00:00",
+        "updated_at": "2025-11-15T07:17:35+00:00"
       },
       {
         "name": "awesome-infosec",
@@ -544,23 +607,45 @@
           "awesome",
           "security"
         ],
-        "stars": 5512,
+        "stars": 5514,
         "url": "https://github.com/onlurking/awesome-infosec",
         "created_at": "2015-05-13T22:20:47+00:00",
-        "updated_at": "2025-11-24T02:20:15+00:00"
+        "updated_at": "2025-11-25T19:59:17+00:00"
+      },
+      {
+        "name": "Microsoft-Teams-Samples",
+        "full_name": "OfficeDev/Microsoft-Teams-Samples",
+        "description": "Welcome to the Microsoft Teams samples repository. Here you will find task-focused samples in C#, JavaScript and TypeScript to help you get started with the Microsoft Teams App!",
+        "language": "C#",
+        "topics": [],
+        "stars": 1301,
+        "url": "https://github.com/OfficeDev/Microsoft-Teams-Samples",
+        "created_at": "2020-12-16T16:44:29+00:00",
+        "updated_at": "2025-11-25T11:48:57+00:00"
+      },
+      {
+        "name": "MrAnderson",
+        "full_name": "bazn/MrAnderson",
+        "description": "Rasa Chatbot with Matrix42 integration",
+        "language": "Python",
+        "topics": [],
+        "stars": 1,
+        "url": "https://github.com/bazn/MrAnderson",
+        "created_at": "2022-11-16T10:03:57+00:00",
+        "updated_at": "2022-12-01T23:03:09+00:00"
       }
     ],
-    "AI & Machine Learning": [
+    "AI & Development Tools": [
       {
         "name": "BMAD-METHOD",
         "full_name": "bmad-code-org/BMAD-METHOD",
         "description": "Breakthrough Method for Agile Ai Driven Development",
         "language": "JavaScript",
         "topics": [],
-        "stars": 23108,
+        "stars": 23203,
         "url": "https://github.com/bmad-code-org/BMAD-METHOD",
         "created_at": "2025-04-13T14:54:25+00:00",
-        "updated_at": "2025-11-25T03:42:59+00:00"
+        "updated_at": "2025-11-26T03:32:12+00:00"
       },
       {
         "name": "servers",
@@ -568,10 +653,10 @@
         "description": "Model Context Protocol Servers",
         "language": "TypeScript",
         "topics": [],
-        "stars": 73261,
+        "stars": 73332,
         "url": "https://github.com/modelcontextprotocol/servers",
         "created_at": "2024-11-19T01:10:17+00:00",
-        "updated_at": "2025-11-25T03:47:04+00:00"
+        "updated_at": "2025-11-26T03:43:01+00:00"
       },
       {
         "name": "mcp-server-solidworks",
@@ -595,10 +680,10 @@
           "serialization",
           "tokenization"
         ],
-        "stars": 19417,
+        "stars": 19593,
         "url": "https://github.com/toon-format/toon",
         "created_at": "2025-10-22T18:17:32+00:00",
-        "updated_at": "2025-11-25T03:46:36+00:00"
+        "updated_at": "2025-11-26T03:49:04+00:00"
       },
       {
         "name": "Figma-Context-MCP",
@@ -612,151 +697,10 @@
           "mcp",
           "typescript"
         ],
-        "stars": 11922,
+        "stars": 11935,
         "url": "https://github.com/GLips/Figma-Context-MCP",
         "created_at": "2025-02-13T02:55:06+00:00",
-        "updated_at": "2025-11-25T03:14:55+00:00"
-      },
-      {
-        "name": "azure-devops-mcp",
-        "full_name": "microsoft/azure-devops-mcp",
-        "description": "The MCP server for Azure DevOps, bringing the power of Azure DevOps directly to your agents.",
-        "language": "TypeScript",
-        "topics": [],
-        "stars": 1034,
-        "url": "https://github.com/microsoft/azure-devops-mcp",
-        "created_at": "2025-05-15T13:12:42+00:00",
-        "updated_at": "2025-11-25T00:02:47+00:00"
-      },
-      {
-        "name": "awesome-gpt-store",
-        "full_name": "devisasari/awesome-gpt-store",
-        "description": "A curated list of awesome GPTs in the GPT Store",
-        "language": null,
-        "topics": [
-          "ai",
-          "awesome",
-          "awesome-list",
-          "chatgpt",
-          "gpt",
-          "gpt-4",
-          "gpts",
-          "openai",
-          "gpts-list",
-          "gptstore",
-          "gpt-store"
-        ],
-        "stars": 2078,
-        "url": "https://github.com/devisasari/awesome-gpt-store",
-        "created_at": "2023-11-10T16:40:05+00:00",
-        "updated_at": "2025-11-20T13:20:26+00:00"
-      },
-      {
-        "name": "rovoswitch",
-        "full_name": "yue99520/rovoswitch",
-        "description": "A TypeScript CLI application for managing Rovo authentication profiles and executing authentication commands with encryption support.",
-        "language": "TypeScript",
-        "topics": [
-          "ai",
-          "attlasian",
-          "auth",
-          "authentication",
-          "cli",
-          "nodejs",
-          "rovo",
-          "rovo-dev",
-          "login",
-          "profile",
-          "token"
-        ],
-        "stars": 2,
-        "url": "https://github.com/yue99520/rovoswitch",
-        "created_at": "2025-08-05T05:03:22+00:00",
-        "updated_at": "2025-09-10T12:55:23+00:00"
-      },
-      {
-        "name": "MrAnderson",
-        "full_name": "bazn/MrAnderson",
-        "description": "Rasa Chatbot with Matrix42 integration",
-        "language": "Python",
-        "topics": [],
-        "stars": 1,
-        "url": "https://github.com/bazn/MrAnderson",
-        "created_at": "2022-11-16T10:03:57+00:00",
-        "updated_at": "2022-12-01T23:03:09+00:00"
-      }
-    ],
-    "macOS Applications": [
-      {
-        "name": "Ice",
-        "full_name": "jordanbaird/Ice",
-        "description": "Powerful menu bar manager for macOS",
-        "language": "Swift",
-        "topics": [
-          "macos",
-          "menubar",
-          "statusbar",
-          "swift",
-          "swiftui",
-          "utility",
-          "macos-app",
-          "menu-bar",
-          "status-bar",
-          "menubar-app"
-        ],
-        "stars": 24218,
-        "url": "https://github.com/jordanbaird/Ice",
-        "created_at": "2023-08-04T22:51:56+00:00",
-        "updated_at": "2025-11-25T03:09:58+00:00"
-      },
-      {
-        "name": "createicns",
-        "full_name": "jordanbaird/createicns",
-        "description": "Create 'icns' and 'iconset' files from standard images",
-        "language": "Swift",
-        "topics": [
-          "icns",
-          "icon",
-          "command-line",
-          "command-line-tool",
-          "swift",
-          "cli",
-          "iconset",
-          "macos",
-          "macos-icons",
-          "icons"
-        ],
-        "stars": 51,
-        "url": "https://github.com/jordanbaird/createicns",
-        "created_at": "2022-03-13T19:48:54+00:00",
-        "updated_at": "2025-11-07T09:45:12+00:00"
-      },
-      {
-        "name": "SupportCompanion",
-        "full_name": "macadmins/SupportCompanion",
-        "description": "macOS helper application designed to empower end-users",
-        "language": "Swift",
-        "topics": [],
-        "stars": 161,
-        "url": "https://github.com/macadmins/SupportCompanion",
-        "created_at": "2024-05-06T12:09:04+00:00",
-        "updated_at": "2025-11-14T17:24:11+00:00"
-      }
-    ],
-    "DevOps & Automation": [
-      {
-        "name": "ansible",
-        "full_name": "ansible/ansible",
-        "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
-        "language": "Python",
-        "topics": [
-          "python",
-          "ansible"
-        ],
-        "stars": 67111,
-        "url": "https://github.com/ansible/ansible",
-        "created_at": "2012-03-06T14:58:02+00:00",
-        "updated_at": "2025-11-25T03:38:19+00:00"
+        "updated_at": "2025-11-26T03:01:37+00:00"
       },
       {
         "name": "n8n",
@@ -785,35 +729,70 @@
           "mcp-client",
           "mcp-server"
         ],
-        "stars": 158444,
+        "stars": 158701,
         "url": "https://github.com/n8n-io/n8n",
         "created_at": "2019-06-22T09:24:21+00:00",
-        "updated_at": "2025-11-25T03:42:55+00:00"
+        "updated_at": "2025-11-26T03:40:29+00:00"
       },
       {
-        "name": "DevOps_Pipelines",
-        "full_name": "ztrhgf/DevOps_Pipelines",
-        "description": "Keine Beschreibung verfügbar",
+        "name": "rovoswitch",
+        "full_name": "yue99520/rovoswitch",
+        "description": "A TypeScript CLI application for managing Rovo authentication profiles and executing authentication commands with encryption support.",
+        "language": "TypeScript",
+        "topics": [
+          "ai",
+          "attlasian",
+          "auth",
+          "authentication",
+          "cli",
+          "nodejs",
+          "rovo",
+          "rovo-dev",
+          "login",
+          "profile",
+          "token"
+        ],
+        "stars": 2,
+        "url": "https://github.com/yue99520/rovoswitch",
+        "created_at": "2025-08-05T05:03:22+00:00",
+        "updated_at": "2025-09-10T12:55:23+00:00"
+      },
+      {
+        "name": "azure-devops-mcp",
+        "full_name": "microsoft/azure-devops-mcp",
+        "description": "The MCP server for Azure DevOps, bringing the power of Azure DevOps directly to your agents.",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 1045,
+        "url": "https://github.com/microsoft/azure-devops-mcp",
+        "created_at": "2025-05-15T13:12:42+00:00",
+        "updated_at": "2025-11-26T00:53:22+00:00"
+      },
+      {
+        "name": "awesome-gpt-store",
+        "full_name": "devisasari/awesome-gpt-store",
+        "description": "A curated list of awesome GPTs in the GPT Store",
         "language": null,
-        "topics": [],
-        "stars": 11,
-        "url": "https://github.com/ztrhgf/DevOps_Pipelines",
-        "created_at": "2023-10-16T07:15:21+00:00",
-        "updated_at": "2025-10-14T11:03:14+00:00"
-      },
-      {
-        "name": "ansible-examples",
-        "full_name": "ansible/ansible-examples",
-        "description": "A few starter examples of ansible playbooks, to show features and how they work together.  See http://galaxy.ansible.com for example roles from the Ansible community for deploying many popular applications.",
-        "language": "Shell",
-        "topics": [],
-        "stars": 11942,
-        "url": "https://github.com/ansible/ansible-examples",
-        "created_at": "2013-03-18T14:15:50+00:00",
-        "updated_at": "2025-11-24T07:37:07+00:00"
+        "topics": [
+          "ai",
+          "awesome",
+          "awesome-list",
+          "chatgpt",
+          "gpt",
+          "gpt-4",
+          "gpts",
+          "openai",
+          "gpts-list",
+          "gptstore",
+          "gpt-store"
+        ],
+        "stars": 2077,
+        "url": "https://github.com/devisasari/awesome-gpt-store",
+        "created_at": "2023-11-10T16:40:05+00:00",
+        "updated_at": "2025-11-25T22:23:18+00:00"
       }
     ],
-    "Web Development & UI": [
+    "React & Frontend Development": [
       {
         "name": "tremor-npm",
         "full_name": "tremorlabs/tremor-npm",
@@ -829,8 +808,187 @@
         "stars": 16442,
         "url": "https://github.com/tremorlabs/tremor-npm",
         "created_at": "2022-04-19T20:54:32+00:00",
-        "updated_at": "2025-11-24T22:55:55+00:00"
+        "updated_at": "2025-11-25T21:16:19+00:00"
+      }
+    ],
+    "Security & Penetration Testing": [
+      {
+        "name": "secrets_find0r",
+        "full_name": "BenjaminIheukumere/secrets_find0r",
+        "description": "Secrets Find0r is a multithreaded SMB share crawler that hunts for exposed credentials and secrets across Windows networks. It enumerates shares, recursively scans files with regex/keyword rules, highlights matched tokens on screen, and exports clean ASCII tables. Supports DOCX/PDF/legacy Office and depth limits.",
+        "language": "Python",
+        "topics": [],
+        "stars": 66,
+        "url": "https://github.com/BenjaminIheukumere/secrets_find0r",
+        "created_at": "2025-09-18T10:34:15+00:00",
+        "updated_at": "2025-11-02T20:07:33+00:00"
       },
+      {
+        "name": "awesome-honeypots",
+        "full_name": "paralax/awesome-honeypots",
+        "description": "an awesome list of honeypot resources",
+        "language": "Python",
+        "topics": [
+          "honeypot",
+          "awesome-list",
+          "awesome",
+          "list",
+          "honeyd"
+        ],
+        "stars": 9889,
+        "url": "https://github.com/paralax/awesome-honeypots",
+        "created_at": "2015-06-18T12:57:01+00:00",
+        "updated_at": "2025-11-25T21:38:21+00:00"
+      }
+    ],
+    "Workflow Automation & Integration": [
+      {
+        "name": "n8n-crypto-workflows",
+        "full_name": "bicced/n8n-crypto-workflows",
+        "description": "n8n crypto/web3 workflow templates: Solana, Ethereum, Binance Smart Chain, Base, EVM, DeFi, bots, alerts",
+        "language": null,
+        "topics": [
+          "automation",
+          "crypto",
+          "defi",
+          "ethereum",
+          "evm",
+          "n8n",
+          "solana",
+          "web3",
+          "workflows",
+          "base",
+          "binance",
+          "blockchain",
+          "cryptocurrency",
+          "templates"
+        ],
+        "stars": 29,
+        "url": "https://github.com/bicced/n8n-crypto-workflows",
+        "created_at": "2025-09-15T08:27:36+00:00",
+        "updated_at": "2025-11-25T21:04:56+00:00"
+      },
+      {
+        "name": "docfx-companion-tools",
+        "full_name": "Ellerbach/docfx-companion-tools",
+        "description": "A suite of tools, pipelines templates to take the very best of DocFX",
+        "language": "C#",
+        "topics": [],
+        "stars": 80,
+        "url": "https://github.com/Ellerbach/docfx-companion-tools",
+        "created_at": "2021-03-08T14:32:57+00:00",
+        "updated_at": "2025-10-22T08:14:31+00:00"
+      },
+      {
+        "name": "ChurchTools",
+        "full_name": "ftwegner/ChurchTools",
+        "description": "ChurchTools Python code",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 1,
+        "url": "https://github.com/ftwegner/ChurchTools",
+        "created_at": "2025-04-20T19:00:00+00:00",
+        "updated_at": "2025-07-07T07:47:10+00:00"
+      },
+      {
+        "name": "Intuneomator",
+        "full_name": "gilburns/Intuneomator",
+        "description": "Swift based automated application management for Intune.",
+        "language": "Swift",
+        "topics": [],
+        "stars": 36,
+        "url": "https://github.com/gilburns/Intuneomator",
+        "created_at": "2025-05-14T18:43:41+00:00",
+        "updated_at": "2025-11-20T13:33:59+00:00"
+      },
+      {
+        "name": "DevOps_Pipelines",
+        "full_name": "ztrhgf/DevOps_Pipelines",
+        "description": "Keine Beschreibung verfügbar",
+        "language": null,
+        "topics": [],
+        "stars": 11,
+        "url": "https://github.com/ztrhgf/DevOps_Pipelines",
+        "created_at": "2023-10-16T07:15:21+00:00",
+        "updated_at": "2025-10-14T11:03:14+00:00"
+      }
+    ],
+    "Desktop Applications": [
+      {
+        "name": "komorebi",
+        "full_name": "LGUG2Z/komorebi",
+        "description": "A tiling window manager for Windows 🍉",
+        "language": "Rust",
+        "topics": [
+          "tiling-window-manager",
+          "windows",
+          "rust",
+          "autohotkey",
+          "palestine",
+          "status-bar",
+          "whkd"
+        ],
+        "stars": 13351,
+        "url": "https://github.com/LGUG2Z/komorebi",
+        "created_at": "2021-07-29T23:20:15+00:00",
+        "updated_at": "2025-11-26T03:30:45+00:00"
+      },
+      {
+        "name": "mRemoteNG",
+        "full_name": "mRemoteNG/mRemoteNG",
+        "description": "mRemoteNG is the next generation of mRemote, open source, tabbed, multi-protocol, remote connections manager.",
+        "language": "C#",
+        "topics": [
+          "mremoteng",
+          "rdp",
+          "ssh",
+          "remote-desktop",
+          "remote-access",
+          "multi-protocol",
+          "c-sharp",
+          "windows"
+        ],
+        "stars": 10344,
+        "url": "https://github.com/mRemoteNG/mRemoteNG",
+        "created_at": "2010-01-06T15:53:17+00:00",
+        "updated_at": "2025-11-25T19:03:31+00:00"
+      }
+    ],
+    "Privacy & Security Tools": [
+      {
+        "name": "cryptgeon",
+        "full_name": "cupcakearmy/cryptgeon",
+        "description": "cryptgeon is a secure, open source note / file sharing service inspired by PrivNote written in rust & svelte.",
+        "language": "Svelte",
+        "topics": [
+          "private-notes",
+          "privnote",
+          "secure-notes",
+          "note-sharing",
+          "file-sharing"
+        ],
+        "stars": 1240,
+        "url": "https://github.com/cupcakearmy/cryptgeon",
+        "created_at": "2021-05-01T10:39:06+00:00",
+        "updated_at": "2025-11-26T03:47:35+00:00"
+      },
+      {
+        "name": "free-privacy-notice",
+        "full_name": "juro-privacy/free-privacy-notice",
+        "description": "Open source privacy notice design patterns.",
+        "language": "HTML",
+        "topics": [
+          "privacy-notice",
+          "icons",
+          "legal-documents"
+        ],
+        "stars": 179,
+        "url": "https://github.com/juro-privacy/free-privacy-notice",
+        "created_at": "2021-02-09T10:59:48+00:00",
+        "updated_at": "2025-10-06T13:15:45+00:00"
+      }
+    ],
+    "Browser Extensions & Web Tools": [
       {
         "name": "OneClick",
         "full_name": "arifszn/OneClick",
@@ -857,57 +1015,50 @@
         "updated_at": "2025-11-24T21:44:25+00:00"
       },
       {
-        "name": "githubbuch.github.io",
-        "full_name": "githubbuch/githubbuch.github.io",
-        "description": "Das Repository zum Buch “GitHub - Eine praktische Einführung”",
-        "language": "HTML",
-        "topics": [
-          "github",
-          "github-pages",
-          "github-actions",
-          "book",
-          "buch"
-        ],
-        "stars": 15,
-        "url": "https://github.com/githubbuch/githubbuch.github.io",
-        "created_at": "2021-01-16T13:30:02+00:00",
-        "updated_at": "2025-10-26T17:58:37+00:00"
+        "name": "cmd",
+        "full_name": "merill/cmd",
+        "description": "Repository hosting site for cmd.ms",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 157,
+        "url": "https://github.com/merill/cmd",
+        "created_at": "2022-10-08T21:50:03+00:00",
+        "updated_at": "2025-11-25T00:35:32+00:00"
       }
     ],
-    "Microsoft 365 & Azure": [
+    "IoT & Hardware": [
       {
-        "name": "MDE-Monitoring-App",
-        "full_name": "chlaplan/MDE-Monitoring-App",
-        "description": "Troubleshooting MDE Workstations",
-        "language": "C#",
-        "topics": [],
-        "stars": 40,
-        "url": "https://github.com/chlaplan/MDE-Monitoring-App",
-        "created_at": "2025-08-30T05:06:00+00:00",
-        "updated_at": "2025-11-18T10:45:59+00:00"
+        "name": "awesome-iot",
+        "full_name": "HQarroum/awesome-iot",
+        "description": "🤖 A curated list of awesome Internet of Things projects and resources.",
+        "language": null,
+        "topics": [
+          "awesome-list",
+          "internet-of-things",
+          "iot",
+          "embedded-systems",
+          "hardware",
+          "awesome",
+          "hacktoberfest"
+        ],
+        "stars": 3614,
+        "url": "https://github.com/HQarroum/awesome-iot",
+        "created_at": "2015-09-26T00:37:23+00:00",
+        "updated_at": "2025-11-24T20:07:46+00:00"
       },
       {
-        "name": "About_my_device",
-        "full_name": "damienvanrobaeys/About_my_device",
-        "description": "About my device: A systray tool for that displays device information and run action like send logs or sync device",
-        "language": "PowerShell",
+        "name": "LongHive",
+        "full_name": "evandiewald/LongHive",
+        "description": "A smart beehive monitoring system using edge computing and the Helium protocol. ",
+        "language": "C++",
         "topics": [],
-        "stars": 38,
-        "url": "https://github.com/damienvanrobaeys/About_my_device",
-        "created_at": "2021-03-30T11:29:01+00:00",
-        "updated_at": "2025-11-16T01:46:25+00:00"
-      },
-      {
-        "name": "Intuneomator",
-        "full_name": "gilburns/Intuneomator",
-        "description": "Swift based automated application management for Intune.",
-        "language": "Swift",
-        "topics": [],
-        "stars": 36,
-        "url": "https://github.com/gilburns/Intuneomator",
-        "created_at": "2025-05-14T18:43:41+00:00",
-        "updated_at": "2025-11-20T13:33:59+00:00"
-      },
+        "stars": 11,
+        "url": "https://github.com/evandiewald/LongHive",
+        "created_at": "2020-05-23T21:15:49+00:00",
+        "updated_at": "2025-09-02T17:45:29+00:00"
+      }
+    ],
+    "Development Resources & Documentation": [
       {
         "name": "Microsoft-Integration-and-Azure-Stencils-Pack-for-Visio",
         "full_name": "sandroasp/Microsoft-Integration-and-Azure-Stencils-Pack-for-Visio",
@@ -947,17 +1098,6 @@
         "updated_at": "2025-07-19T19:07:08+00:00"
       },
       {
-        "name": "cmd",
-        "full_name": "merill/cmd",
-        "description": "Repository hosting site for cmd.ms",
-        "language": "JavaScript",
-        "topics": [],
-        "stars": 157,
-        "url": "https://github.com/merill/cmd",
-        "created_at": "2022-10-08T21:50:03+00:00",
-        "updated_at": "2025-11-25T00:35:32+00:00"
-      },
-      {
         "name": "microsoft-365-certification-quick-evaluation",
         "full_name": "Azure/microsoft-365-certification-quick-evaluation",
         "description": "Keine Beschreibung verfügbar",
@@ -969,147 +1109,21 @@
         "updated_at": "2025-11-24T17:38:53+00:00"
       },
       {
-        "name": "azuread",
-        "full_name": "msandbu/azuread",
-        "description": "Keine Beschreibung verfügbar",
-        "language": null,
-        "topics": [],
-        "stars": 200,
-        "url": "https://github.com/msandbu/azuread",
-        "created_at": "2021-05-07T10:23:06+00:00",
-        "updated_at": "2025-11-15T07:17:35+00:00"
-      },
-      {
-        "name": "Microsoft-Teams-Samples",
-        "full_name": "OfficeDev/Microsoft-Teams-Samples",
-        "description": "Welcome to the Microsoft Teams samples repository. Here you will find task-focused samples in C#, JavaScript and TypeScript to help you get started with the Microsoft Teams App!",
-        "language": "C#",
-        "topics": [],
-        "stars": 1300,
-        "url": "https://github.com/OfficeDev/Microsoft-Teams-Samples",
-        "created_at": "2020-12-16T16:44:29+00:00",
-        "updated_at": "2025-11-24T08:32:22+00:00"
-      }
-    ],
-    "System Utilities": [
-      {
-        "name": "komorebi",
-        "full_name": "LGUG2Z/komorebi",
-        "description": "A tiling window manager for Windows 🍉",
-        "language": "Rust",
-        "topics": [
-          "tiling-window-manager",
-          "windows",
-          "rust",
-          "autohotkey",
-          "palestine",
-          "status-bar",
-          "whkd"
-        ],
-        "stars": 13338,
-        "url": "https://github.com/LGUG2Z/komorebi",
-        "created_at": "2021-07-29T23:20:15+00:00",
-        "updated_at": "2025-11-24T23:01:37+00:00"
-      },
-      {
-        "name": "klogg",
-        "full_name": "variar/klogg",
-        "description": "Really fast log explorer based on glogg project",
-        "language": "C++",
-        "topics": [
-          "logs",
-          "windows",
-          "linux",
-          "macos",
-          "cross-platform",
-          "log-viewer",
-          "log-monitor",
-          "log-analyzer",
-          "qt",
-          "cpp",
-          "tail",
-          "hacktoberfest"
-        ],
-        "stars": 3094,
-        "url": "https://github.com/variar/klogg",
-        "created_at": "2016-03-09T18:55:34+00:00",
-        "updated_at": "2025-11-24T11:09:55+00:00"
-      },
-      {
-        "name": "mRemoteNG",
-        "full_name": "mRemoteNG/mRemoteNG",
-        "description": "mRemoteNG is the next generation of mRemote, open source, tabbed, multi-protocol, remote connections manager.",
-        "language": "C#",
-        "topics": [
-          "mremoteng",
-          "rdp",
-          "ssh",
-          "remote-desktop",
-          "remote-access",
-          "multi-protocol",
-          "c-sharp",
-          "windows"
-        ],
-        "stars": 10336,
-        "url": "https://github.com/mRemoteNG/mRemoteNG",
-        "created_at": "2010-01-06T15:53:17+00:00",
-        "updated_at": "2025-11-24T10:28:31+00:00"
-      }
-    ],
-    "Blockchain & Crypto": [
-      {
-        "name": "n8n-crypto-workflows",
-        "full_name": "bicced/n8n-crypto-workflows",
-        "description": "n8n crypto/web3 workflow templates: Solana, Ethereum, Binance Smart Chain, Base, EVM, DeFi, bots, alerts",
-        "language": null,
-        "topics": [
-          "automation",
-          "crypto",
-          "defi",
-          "ethereum",
-          "evm",
-          "n8n",
-          "solana",
-          "web3",
-          "workflows",
-          "base",
-          "binance",
-          "blockchain",
-          "cryptocurrency",
-          "templates"
-        ],
-        "stars": 28,
-        "url": "https://github.com/bicced/n8n-crypto-workflows",
-        "created_at": "2025-09-15T08:27:36+00:00",
-        "updated_at": "2025-11-13T21:20:24+00:00"
-      }
-    ],
-    "Documentation & Resources": [
-      {
-        "name": "docfx-companion-tools",
-        "full_name": "Ellerbach/docfx-companion-tools",
-        "description": "A suite of tools, pipelines templates to take the very best of DocFX",
-        "language": "C#",
-        "topics": [],
-        "stars": 80,
-        "url": "https://github.com/Ellerbach/docfx-companion-tools",
-        "created_at": "2021-03-08T14:32:57+00:00",
-        "updated_at": "2025-10-22T08:14:31+00:00"
-      },
-      {
-        "name": "free-privacy-notice",
-        "full_name": "juro-privacy/free-privacy-notice",
-        "description": "Open source privacy notice design patterns.",
+        "name": "githubbuch.github.io",
+        "full_name": "githubbuch/githubbuch.github.io",
+        "description": "Das Repository zum Buch “GitHub - Eine praktische Einführung”",
         "language": "HTML",
         "topics": [
-          "privacy-notice",
-          "icons",
-          "legal-documents"
+          "github",
+          "github-pages",
+          "github-actions",
+          "book",
+          "buch"
         ],
-        "stars": 179,
-        "url": "https://github.com/juro-privacy/free-privacy-notice",
-        "created_at": "2021-02-09T10:59:48+00:00",
-        "updated_at": "2025-10-06T13:15:45+00:00"
+        "stars": 15,
+        "url": "https://github.com/githubbuch/githubbuch.github.io",
+        "created_at": "2021-01-16T13:30:02+00:00",
+        "updated_at": "2025-10-26T17:58:37+00:00"
       },
       {
         "name": "awesome-readme",
@@ -1122,21 +1136,23 @@
           "list",
           "readme"
         ],
-        "stars": 20069,
+        "stars": 20074,
         "url": "https://github.com/matiassingers/awesome-readme",
         "created_at": "2015-01-19T06:15:03+00:00",
-        "updated_at": "2025-11-25T02:05:20+00:00"
-      },
+        "updated_at": "2025-11-25T23:41:42+00:00"
+      }
+    ],
+    "System Administration": [
       {
         "name": "awesome-sysadmin",
         "full_name": "kahun/awesome-sysadmin",
         "description": "A curated list of amazingly awesome open source sysadmin resources inspired by Awesome PHP.",
         "language": null,
         "topics": [],
-        "stars": 24190,
+        "stars": 24192,
         "url": "https://github.com/kahun/awesome-sysadmin",
         "created_at": "2014-02-09T22:39:20+00:00",
-        "updated_at": "2025-11-25T03:33:12+00:00"
+        "updated_at": "2025-11-26T00:40:12+00:00"
       },
       {
         "name": "awesome-selfhosted",
@@ -1150,39 +1166,7 @@
         "updated_at": "2025-10-17T14:58:55+00:00"
       }
     ],
-    "IoT & Hardware": [
-      {
-        "name": "awesome-iot",
-        "full_name": "HQarroum/awesome-iot",
-        "description": "🤖 A curated list of awesome Internet of Things projects and resources.",
-        "language": null,
-        "topics": [
-          "awesome-list",
-          "internet-of-things",
-          "iot",
-          "embedded-systems",
-          "hardware",
-          "awesome",
-          "hacktoberfest"
-        ],
-        "stars": 3614,
-        "url": "https://github.com/HQarroum/awesome-iot",
-        "created_at": "2015-09-26T00:37:23+00:00",
-        "updated_at": "2025-11-24T20:07:46+00:00"
-      },
-      {
-        "name": "LongHive",
-        "full_name": "evandiewald/LongHive",
-        "description": "A smart beehive monitoring system using edge computing and the Helium protocol. ",
-        "language": "C++",
-        "topics": [],
-        "stars": 11,
-        "url": "https://github.com/evandiewald/LongHive",
-        "created_at": "2020-05-23T21:15:49+00:00",
-        "updated_at": "2025-09-02T17:45:29+00:00"
-      }
-    ],
-    "Transportation": [
+    "Transportation & Travel": [
       {
         "name": "betterbahn",
         "full_name": "BetterBahn/betterbahn",
@@ -1193,23 +1177,23 @@
           "open-source",
           "railway"
         ],
-        "stars": 2382,
+        "stars": 2384,
         "url": "https://github.com/BetterBahn/betterbahn",
         "created_at": "2025-08-15T07:09:54+00:00",
-        "updated_at": "2025-11-23T14:51:52+00:00"
+        "updated_at": "2025-11-25T14:47:42+00:00"
       }
     ],
-    "Religious & Community": [
+    "Monitoring & Analysis": [
       {
-        "name": "ChurchTools",
-        "full_name": "ftwegner/ChurchTools",
-        "description": "ChurchTools Python code",
-        "language": "JavaScript",
+        "name": "MDE-Monitoring-App",
+        "full_name": "chlaplan/MDE-Monitoring-App",
+        "description": "Troubleshooting MDE Workstations",
+        "language": "C#",
         "topics": [],
-        "stars": 1,
-        "url": "https://github.com/ftwegner/ChurchTools",
-        "created_at": "2025-04-20T19:00:00+00:00",
-        "updated_at": "2025-07-07T07:47:10+00:00"
+        "stars": 40,
+        "url": "https://github.com/chlaplan/MDE-Monitoring-App",
+        "created_at": "2025-08-30T05:06:00+00:00",
+        "updated_at": "2025-11-18T10:45:59+00:00"
       }
     ]
   },
