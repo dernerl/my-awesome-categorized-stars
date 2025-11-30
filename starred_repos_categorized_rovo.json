@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-29T03:48:01.298715",
+  "last_updated": "2025-11-30T03:59:40.799066",
   "total_repositories": 76,
   "categories": {
     "Web Development": [
@@ -9,10 +9,10 @@
         "description": "Breakthrough Method for Agile Ai Driven Development",
         "language": "JavaScript",
         "topics": [],
-        "stars": 23471,
+        "stars": 23531,
         "url": "https://github.com/bmad-code-org/BMAD-METHOD",
         "created_at": "2025-04-13T14:54:25+00:00",
-        "updated_at": "2025-11-29T03:25:52+00:00"
+        "updated_at": "2025-11-30T03:37:04+00:00"
       },
       {
         "name": "tremor-npm",
@@ -26,10 +26,10 @@
           "typescript",
           "react-components"
         ],
-        "stars": 16442,
+        "stars": 16441,
         "url": "https://github.com/tremorlabs/tremor-npm",
         "created_at": "2022-04-19T20:54:32+00:00",
-        "updated_at": "2025-11-28T14:53:07+00:00"
+        "updated_at": "2025-11-29T15:16:31+00:00"
       },
       {
         "name": "servers",
@@ -37,10 +37,10 @@
         "description": "Model Context Protocol Servers",
         "language": "TypeScript",
         "topics": [],
-        "stars": 73503,
+        "stars": 73547,
         "url": "https://github.com/modelcontextprotocol/servers",
         "created_at": "2024-11-19T01:10:17+00:00",
-        "updated_at": "2025-11-29T03:42:44+00:00"
+        "updated_at": "2025-11-30T03:26:57+00:00"
       },
       {
         "name": "toon",
@@ -53,10 +53,10 @@
           "serialization",
           "tokenization"
         ],
-        "stars": 19874,
+        "stars": 19913,
         "url": "https://github.com/toon-format/toon",
         "created_at": "2025-10-22T18:17:32+00:00",
-        "updated_at": "2025-11-29T03:40:22+00:00"
+        "updated_at": "2025-11-30T03:52:34+00:00"
       },
       {
         "name": "Figma-Context-MCP",
@@ -70,10 +70,10 @@
           "mcp",
           "typescript"
         ],
-        "stars": 11971,
+        "stars": 11982,
         "url": "https://github.com/GLips/Figma-Context-MCP",
         "created_at": "2025-02-13T02:55:06+00:00",
-        "updated_at": "2025-11-29T03:12:06+00:00"
+        "updated_at": "2025-11-30T03:44:41+00:00"
       },
       {
         "name": "n8n",
@@ -102,10 +102,10 @@
           "mcp-client",
           "mcp-server"
         ],
-        "stars": 159426,
+        "stars": 159600,
         "url": "https://github.com/n8n-io/n8n",
         "created_at": "2019-06-22T09:24:21+00:00",
-        "updated_at": "2025-11-29T03:38:42+00:00"
+        "updated_at": "2025-11-30T03:39:24+00:00"
       },
       {
         "name": "n8n-crypto-workflows",
@@ -177,10 +177,10 @@
         "description": "The MCP server for Azure DevOps, bringing the power of Azure DevOps directly to your agents.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 1052,
+        "stars": 1053,
         "url": "https://github.com/microsoft/azure-devops-mcp",
         "created_at": "2025-05-15T13:12:42+00:00",
-        "updated_at": "2025-11-28T17:54:56+00:00"
+        "updated_at": "2025-11-30T00:51:14+00:00"
       },
       {
         "name": "ChurchTools",
@@ -261,10 +261,10 @@
         "description": "Welcome to the Microsoft Teams samples repository. Here you will find task-focused samples in C#, JavaScript and TypeScript to help you get started with the Microsoft Teams App!",
         "language": "C#",
         "topics": [],
-        "stars": 1302,
+        "stars": 1301,
         "url": "https://github.com/OfficeDev/Microsoft-Teams-Samples",
         "created_at": "2020-12-16T16:44:29+00:00",
-        "updated_at": "2025-11-27T07:45:45+00:00"
+        "updated_at": "2025-11-29T05:14:32+00:00"
       },
       {
         "name": "githubbuch.github.io",
@@ -313,10 +313,10 @@
           "status-bar",
           "menubar-app"
         ],
-        "stars": 24387,
+        "stars": 24402,
         "url": "https://github.com/jordanbaird/Ice",
         "created_at": "2023-08-04T22:51:56+00:00",
-        "updated_at": "2025-11-29T03:41:40+00:00"
+        "updated_at": "2025-11-30T00:50:14+00:00"
       },
       {
         "name": "createicns",
@@ -400,10 +400,10 @@
           "python",
           "ansible"
         ],
-        "stars": 67164,
+        "stars": 67178,
         "url": "https://github.com/ansible/ansible",
         "created_at": "2012-03-06T14:58:02+00:00",
-        "updated_at": "2025-11-29T02:33:45+00:00"
+        "updated_at": "2025-11-30T02:24:59+00:00"
       },
       {
         "name": "macos_security",
@@ -420,10 +420,10 @@
           "mdm",
           "mscp"
         ],
-        "stars": 2167,
+        "stars": 2169,
         "url": "https://github.com/usnistgov/macos_security",
         "created_at": "2020-06-05T19:28:12+00:00",
-        "updated_at": "2025-11-28T10:07:19+00:00"
+        "updated_at": "2025-11-29T20:25:02+00:00"
       },
       {
         "name": "secrets_find0r",
@@ -447,10 +447,10 @@
           "microsoft-graph",
           "python"
         ],
-        "stars": 2461,
+        "stars": 2462,
         "url": "https://github.com/dirkjanm/ROADtools",
         "created_at": "2020-03-28T09:56:08+00:00",
-        "updated_at": "2025-11-28T08:01:45+00:00"
+        "updated_at": "2025-11-30T01:51:19+00:00"
       },
       {
         "name": "awesome-gpt-store",
@@ -470,10 +470,10 @@
           "gptstore",
           "gpt-store"
         ],
-        "stars": 2080,
+        "stars": 2081,
         "url": "https://github.com/devisasari/awesome-gpt-store",
         "created_at": "2023-11-10T16:40:05+00:00",
-        "updated_at": "2025-11-28T03:02:25+00:00"
+        "updated_at": "2025-11-29T18:22:04+00:00"
       },
       {
         "name": "Citrix",
@@ -509,10 +509,10 @@
           "list",
           "honeyd"
         ],
-        "stars": 9905,
+        "stars": 9911,
         "url": "https://github.com/paralax/awesome-honeypots",
         "created_at": "2015-06-18T12:57:01+00:00",
-        "updated_at": "2025-11-29T03:03:16+00:00"
+        "updated_at": "2025-11-29T17:30:15+00:00"
       },
       {
         "name": "awesome-infosec",
@@ -529,10 +529,10 @@
           "awesome",
           "security"
         ],
-        "stars": 5516,
+        "stars": 5517,
         "url": "https://github.com/onlurking/awesome-infosec",
         "created_at": "2015-05-13T22:20:47+00:00",
-        "updated_at": "2025-11-28T20:25:52+00:00"
+        "updated_at": "2025-11-29T17:23:01+00:00"
       },
       {
         "name": "MrAnderson",
@@ -585,10 +585,10 @@
         "description": "A few starter examples of ansible playbooks, to show features and how they work together.  See http://galaxy.ansible.com for example roles from the Ansible community for deploying many popular applications.",
         "language": "Shell",
         "topics": [],
-        "stars": 11944,
+        "stars": 11945,
         "url": "https://github.com/ansible/ansible-examples",
         "created_at": "2013-03-18T14:15:50+00:00",
-        "updated_at": "2025-11-27T10:42:11+00:00"
+        "updated_at": "2025-11-29T16:55:11+00:00"
       },
       {
         "name": "PowerShell-Docker",
@@ -619,10 +619,10 @@
           "status-bar",
           "whkd"
         ],
-        "stars": 13375,
+        "stars": 13383,
         "url": "https://github.com/LGUG2Z/komorebi",
         "created_at": "2021-07-29T23:20:15+00:00",
-        "updated_at": "2025-11-29T03:38:02+00:00"
+        "updated_at": "2025-11-30T01:25:47+00:00"
       },
       {
         "name": "klogg",
@@ -643,10 +643,10 @@
           "tail",
           "hacktoberfest"
         ],
-        "stars": 3098,
+        "stars": 3099,
         "url": "https://github.com/variar/klogg",
         "created_at": "2016-03-09T18:55:34+00:00",
-        "updated_at": "2025-11-27T12:29:16+00:00"
+        "updated_at": "2025-11-29T20:44:41+00:00"
       },
       {
         "name": "LongHive",
@@ -670,10 +670,10 @@
           "windows",
           "win32"
         ],
-        "stars": 1941,
+        "stars": 1942,
         "url": "https://github.com/PowerShell/openssh-portable",
         "created_at": "2016-11-02T04:18:48+00:00",
-        "updated_at": "2025-11-24T22:21:42+00:00"
+        "updated_at": "2025-11-29T17:57:15+00:00"
       }
     ],
     "Utilities & Tools": [
@@ -786,10 +786,10 @@
         "description": " This MCP server integrates with SolidWorks API and structuring it into Claude-compatible context streams.",
         "language": null,
         "topics": [],
-        "stars": 38,
+        "stars": 39,
         "url": "https://github.com/eyfel/mcp-server-solidworks",
         "created_at": "2025-04-11T10:46:46+00:00",
-        "updated_at": "2025-11-25T01:48:35+00:00"
+        "updated_at": "2025-11-29T22:52:28+00:00"
       },
       {
         "name": "MDE-Monitoring-App",
@@ -898,10 +898,10 @@
           "c-sharp",
           "windows"
         ],
-        "stars": 10358,
+        "stars": 10361,
         "url": "https://github.com/mRemoteNG/mRemoteNG",
         "created_at": "2010-01-06T15:53:17+00:00",
-        "updated_at": "2025-11-29T03:39:31+00:00"
+        "updated_at": "2025-11-30T00:22:59+00:00"
       },
       {
         "name": "cryptgeon",
@@ -915,10 +915,10 @@
           "note-sharing",
           "file-sharing"
         ],
-        "stars": 1255,
+        "stars": 1256,
         "url": "https://github.com/cupcakearmy/cryptgeon",
         "created_at": "2021-05-01T10:39:06+00:00",
-        "updated_at": "2025-11-28T18:31:04+00:00"
+        "updated_at": "2025-11-29T16:05:46+00:00"
       },
       {
         "name": "awesome-iot",
@@ -934,10 +934,10 @@
           "awesome",
           "hacktoberfest"
         ],
-        "stars": 3616,
+        "stars": 3618,
         "url": "https://github.com/HQarroum/awesome-iot",
         "created_at": "2015-09-26T00:37:23+00:00",
-        "updated_at": "2025-11-27T23:54:49+00:00"
+        "updated_at": "2025-11-30T00:15:08+00:00"
       },
       {
         "name": "OfficeDev-Samples",
@@ -1007,10 +1007,10 @@
           "list",
           "readme"
         ],
-        "stars": 20080,
+        "stars": 20087,
         "url": "https://github.com/matiassingers/awesome-readme",
         "created_at": "2015-01-19T06:15:03+00:00",
-        "updated_at": "2025-11-28T19:57:25+00:00"
+        "updated_at": "2025-11-30T02:43:38+00:00"
       },
       {
         "name": "Public-AD-Scripts",
@@ -1029,10 +1029,10 @@
         "description": "A curated list of amazingly awesome open source sysadmin resources inspired by Awesome PHP.",
         "language": null,
         "topics": [],
-        "stars": 24196,
+        "stars": 24200,
         "url": "https://github.com/kahun/awesome-sysadmin",
         "created_at": "2014-02-09T22:39:20+00:00",
-        "updated_at": "2025-11-29T01:43:13+00:00"
+        "updated_at": "2025-11-29T23:17:24+00:00"
       },
       {
         "name": "PSGist",
@@ -1086,10 +1086,10 @@
           "awesome-list",
           "list"
         ],
-        "stars": 5284,
+        "stars": 5289,
         "url": "https://github.com/janikvonrotz/awesome-powershell",
         "created_at": "2015-05-28T12:10:06+00:00",
-        "updated_at": "2025-11-28T09:52:18+00:00"
+        "updated_at": "2025-11-30T03:00:51+00:00"
       },
       {
         "name": "CoinMarketCap",
@@ -1164,10 +1164,10 @@
           "netcore",
           "hacktoberfest"
         ],
-        "stars": 50884,
+        "stars": 50886,
         "url": "https://github.com/PowerShell/PowerShell",
         "created_at": "2016-01-13T23:41:35+00:00",
-        "updated_at": "2025-11-29T02:45:09+00:00"
+        "updated_at": "2025-11-30T02:05:06+00:00"
       },
       {
         "name": "PowerShellFAQ",

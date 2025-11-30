@@ -3,7 +3,7 @@
 Automatisch kategorisierte GitHub starred Repositories mit **Atlassian CLI (ACLI) Rovo Dev**.
 
 📊 **76 Repositories** in **7 Kategorien**  
-🕐 **Letztes Update:** 2025-11-29 03:48:01  
+🕐 **Letztes Update:** 2025-11-30 03:59:40  
 🤖 **Generiert mit:** Atlassian CLI (ACLI) Rovo Dev
 
 ## 📂 Kategorien-Übersicht
@@ -24,42 +24,42 @@ Automatisch kategorisierte GitHub starred Repositories mit **Atlassian CLI (ACLI
 ### [PowerShell](https://github.com/PowerShell/PowerShell)
 PowerShell for every system!
 
-**Details:** ⭐ 50884 `C#` `powershell`, `windows`, `macos`
+**Details:** ⭐ 50886 `C#` `powershell`, `windows`, `macos`
 
 ---
 
 ### [awesome-sysadmin](https://github.com/kahun/awesome-sysadmin)
 A curated list of amazingly awesome open source sysadmin resources inspired by Awesome PHP.
 
-**Details:** ⭐ 24196  
+**Details:** ⭐ 24200  
 
 ---
 
 ### [awesome-readme](https://github.com/matiassingers/awesome-readme)
 A curated list of awesome READMEs
 
-**Details:** ⭐ 20080  `awesome-list`, `awesome`, `list`
+**Details:** ⭐ 20087  `awesome-list`, `awesome`, `list`
 
 ---
 
 ### [mRemoteNG](https://github.com/mRemoteNG/mRemoteNG)
 mRemoteNG is the next generation of mRemote, open source, tabbed, multi-protocol, remote connections...
 
-**Details:** ⭐ 10358 `C#` `mremoteng`, `rdp`, `ssh`
+**Details:** ⭐ 10361 `C#` `mremoteng`, `rdp`, `ssh`
 
 ---
 
 ### [awesome-powershell](https://github.com/janikvonrotz/awesome-powershell)
 This repository has been moved to https://codeberg.org/janikvonrotz/awesome-powershell. Please visit...
 
-**Details:** ⭐ 5284 `PowerShell` `powershell`, `windows-powershell`, `powershell-ise`
+**Details:** ⭐ 5289 `PowerShell` `powershell`, `windows-powershell`, `powershell-ise`
 
 ---
 
 ### [awesome-iot](https://github.com/HQarroum/awesome-iot)
 🤖 A curated list of awesome Internet of Things projects and resources.
 
-**Details:** ⭐ 3616  `awesome-list`, `internet-of-things`, `iot`
+**Details:** ⭐ 3618  `awesome-list`, `internet-of-things`, `iot`
 
 ---
 
@@ -87,7 +87,7 @@ This repository of PowerShell sample scripts show how to access Intune service r
 ### [cryptgeon](https://github.com/cupcakearmy/cryptgeon)
 cryptgeon is a secure, open source note / file sharing service inspired by PrivNote written in rust ...
 
-**Details:** ⭐ 1255 `Svelte` `private-notes`, `privnote`, `secure-notes`
+**Details:** ⭐ 1256 `Svelte` `private-notes`, `privnote`, `secure-notes`
 
 ---
 
@@ -171,7 +171,7 @@ Troubleshooting MDE Workstations
 ### [mcp-server-solidworks](https://github.com/eyfel/mcp-server-solidworks)
  This MCP server integrates with SolidWorks API and structuring it into Claude-compatible context st...
 
-**Details:** ⭐ 38  
+**Details:** ⭐ 39  
 
 ---
 
@@ -229,42 +229,42 @@ Keine Beschreibung verfügbar
 ### [n8n](https://github.com/n8n-io/n8n)
 Fair-code workflow automation platform with native AI capabilities. Combine visual building with cus...
 
-**Details:** ⭐ 159426 `TypeScript` `automation`, `ipaas`, `n8n`
+**Details:** ⭐ 159600 `TypeScript` `automation`, `ipaas`, `n8n`
 
 ---
 
 ### [servers](https://github.com/modelcontextprotocol/servers)
 Model Context Protocol Servers
 
-**Details:** ⭐ 73503 `TypeScript` 
+**Details:** ⭐ 73547 `TypeScript` 
 
 ---
 
 ### [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)
 Breakthrough Method for Agile Ai Driven Development
 
-**Details:** ⭐ 23471 `JavaScript` 
+**Details:** ⭐ 23531 `JavaScript` 
 
 ---
 
 ### [toon](https://github.com/toon-format/toon)
 🎒 Token-Oriented Object Notation (TOON) – Compact, human-readable, schema-aware JSON for LLM prompts...
 
-**Details:** ⭐ 19874 `TypeScript` `data-format`, `llm`, `serialization`
+**Details:** ⭐ 19913 `TypeScript` `data-format`, `llm`, `serialization`
 
 ---
 
 ### [tremor-npm](https://github.com/tremorlabs/tremor-npm)
 React components to build charts and dashboards
 
-**Details:** ⭐ 16442 `TypeScript` `reactjs`, `tailwindcss`, `ui-system`
+**Details:** ⭐ 16441 `TypeScript` `reactjs`, `tailwindcss`, `ui-system`
 
 ---
 
 ### [Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP)
 MCP server to provide Figma layout information to AI coding agents like Cursor
 
-**Details:** ⭐ 11971 `TypeScript` `ai`, `cursor`, `figma`
+**Details:** ⭐ 11982 `TypeScript` `ai`, `cursor`, `figma`
 
 ---
 
@@ -278,14 +278,14 @@ BetterBahn is an open-source project that aims to improve the train travel exper
 ### [Microsoft-Teams-Samples](https://github.com/OfficeDev/Microsoft-Teams-Samples)
 Welcome to the Microsoft Teams samples repository. Here you will find task-focused samples in C#, Ja...
 
-**Details:** ⭐ 1302 `C#` 
+**Details:** ⭐ 1301 `C#` 
 
 ---
 
 ### [azure-devops-mcp](https://github.com/microsoft/azure-devops-mcp)
 The MCP server for Azure DevOps, bringing the power of Azure DevOps directly to your agents.
 
-**Details:** ⭐ 1052 `TypeScript` 
+**Details:** ⭐ 1053 `TypeScript` 
 
 ---
 
@@ -357,42 +357,42 @@ ChurchTools Python code
 ### [ansible](https://github.com/ansible/ansible)
 Ansible is a radically simple IT automation platform that makes your applications and systems easier...
 
-**Details:** ⭐ 67164 `Python` `python`, `ansible`
+**Details:** ⭐ 67178 `Python` `python`, `ansible`
 
 ---
 
 ### [awesome-honeypots](https://github.com/paralax/awesome-honeypots)
 an awesome list of honeypot resources
 
-**Details:** ⭐ 9905 `Python` `honeypot`, `awesome-list`, `awesome`
+**Details:** ⭐ 9911 `Python` `honeypot`, `awesome-list`, `awesome`
 
 ---
 
 ### [awesome-infosec](https://github.com/onlurking/awesome-infosec)
  A curated list of awesome infosec courses and training resources.
 
-**Details:** ⭐ 5516  `infosec`, `pentest`, `courses`
+**Details:** ⭐ 5517  `infosec`, `pentest`, `courses`
 
 ---
 
 ### [ROADtools](https://github.com/dirkjanm/ROADtools)
 A collection of Azure AD/Entra tools for offensive and defensive security purposes
 
-**Details:** ⭐ 2461 `Python` `azure-active-directory`, `azuread`, `microsoft-graph`
+**Details:** ⭐ 2462 `Python` `azure-active-directory`, `azuread`, `microsoft-graph`
 
 ---
 
 ### [macos_security](https://github.com/usnistgov/macos_security)
 macOS Security Compliance Project
 
-**Details:** ⭐ 2167 `YAML` `apple`, `macos`, `compliance`
+**Details:** ⭐ 2169 `YAML` `apple`, `macos`, `compliance`
 
 ---
 
 ### [awesome-gpt-store](https://github.com/devisasari/awesome-gpt-store)
 A curated list of awesome GPTs in the GPT Store
 
-**Details:** ⭐ 2080  `ai`, `awesome`, `awesome-list`
+**Details:** ⭐ 2081  `ai`, `awesome`, `awesome-list`
 
 ---
 
@@ -487,7 +487,7 @@ A collection of PowerShell-based documentation tools and templates for IT enviro
 ### [Ice](https://github.com/jordanbaird/Ice)
 Powerful menu bar manager for macOS
 
-**Details:** ⭐ 24387 `Swift` `macos`, `menubar`, `statusbar`
+**Details:** ⭐ 24402 `Swift` `macos`, `menubar`, `statusbar`
 
 ---
 
@@ -524,21 +524,21 @@ Swift based automated application management for Intune.
 ### [komorebi](https://github.com/LGUG2Z/komorebi)
 A tiling window manager for Windows 🍉
 
-**Details:** ⭐ 13375 `Rust` `tiling-window-manager`, `windows`, `rust`
+**Details:** ⭐ 13383 `Rust` `tiling-window-manager`, `windows`, `rust`
 
 ---
 
 ### [klogg](https://github.com/variar/klogg)
 Really fast log explorer based on glogg project
 
-**Details:** ⭐ 3098 `C++` `logs`, `windows`, `linux`
+**Details:** ⭐ 3099 `C++` `logs`, `windows`, `linux`
 
 ---
 
 ### [openssh-portable](https://github.com/PowerShell/openssh-portable)
 Portable OpenSSH, all Win32-OpenSSH releases and wiki are managed at https://github.com/powershell/W...
 
-**Details:** ⭐ 1941 `C` `openssh`, `openssh-server`, `windows`
+**Details:** ⭐ 1942 `C` `openssh`, `openssh-server`, `windows`
 
 ---
 
@@ -554,7 +554,7 @@ A smart beehive monitoring system using edge computing and the Helium protocol.
 ### [ansible-examples](https://github.com/ansible/ansible-examples)
 A few starter examples of ansible playbooks, to show features and how they work together.  See http:...
 
-**Details:** ⭐ 11944 `Shell` 
+**Details:** ⭐ 11945 `Shell` 
 
 ---
 
