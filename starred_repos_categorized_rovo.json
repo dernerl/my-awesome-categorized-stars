@@ -1,18 +1,64 @@
 {
-  "last_updated": "2026-02-01T05:05:56.073431",
+  "last_updated": "2026-02-02T05:01:51.954706",
   "total_repositories": 107,
   "categories": {
     "AI & Machine Learning Tools": [
+      {
+        "name": "openclaw",
+        "full_name": "openclaw/openclaw",
+        "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+        "language": "TypeScript",
+        "topics": [
+          "ai",
+          "assistant",
+          "own-your-data",
+          "personal",
+          "crustacean",
+          "molty",
+          "openclaw"
+        ],
+        "stars": 144278,
+        "url": "https://github.com/openclaw/openclaw",
+        "created_at": "2025-11-24T10:16:47+00:00",
+        "updated_at": "2026-02-02T05:00:23+00:00"
+      },
+      {
+        "name": "opcode",
+        "full_name": "winfunc/opcode",
+        "description": "A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.",
+        "language": "TypeScript",
+        "topics": [
+          "anthropic",
+          "anthropic-claude",
+          "claude",
+          "claude-4",
+          "claude-4-sonnet",
+          "claude-ai",
+          "claude-code",
+          "claude-code-sdk",
+          "cursor",
+          "ide",
+          "llm",
+          "llm-code",
+          "claude-4-opus",
+          "rust",
+          "tauri"
+        ],
+        "stars": 20308,
+        "url": "https://github.com/winfunc/opcode",
+        "created_at": "2025-06-19T13:53:26+00:00",
+        "updated_at": "2026-02-01T23:17:34+00:00"
+      },
       {
         "name": "flux2",
         "full_name": "black-forest-labs/flux2",
         "description": "Official inference repo for FLUX.2 models",
         "language": "Python",
         "topics": [],
-        "stars": 1702,
+        "stars": 1710,
         "url": "https://github.com/black-forest-labs/flux2",
         "created_at": "2025-11-24T23:28:49+00:00",
-        "updated_at": "2026-01-31T15:49:18+00:00"
+        "updated_at": "2026-02-02T03:04:56+00:00"
       },
       {
         "name": "flux",
@@ -20,10 +66,10 @@
         "description": "Official inference repo for FLUX.1 models",
         "language": "Python",
         "topics": [],
-        "stars": 25172,
+        "stars": 25173,
         "url": "https://github.com/black-forest-labs/flux",
         "created_at": "2024-08-01T09:04:19+00:00",
-        "updated_at": "2026-01-31T23:50:37+00:00"
+        "updated_at": "2026-02-02T01:35:52+00:00"
       },
       {
         "name": "z-Explorer",
@@ -48,66 +94,6 @@
         "url": "https://github.com/pyros-projects/z-Explorer",
         "created_at": "2025-12-01T17:03:22+00:00",
         "updated_at": "2026-01-19T04:36:45+00:00"
-      },
-      {
-        "name": "opcode",
-        "full_name": "winfunc/opcode",
-        "description": "A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.",
-        "language": "TypeScript",
-        "topics": [
-          "anthropic",
-          "anthropic-claude",
-          "claude",
-          "claude-4",
-          "claude-4-sonnet",
-          "claude-ai",
-          "claude-code",
-          "claude-code-sdk",
-          "cursor",
-          "ide",
-          "llm",
-          "llm-code",
-          "claude-4-opus",
-          "rust",
-          "tauri"
-        ],
-        "stars": 20303,
-        "url": "https://github.com/winfunc/opcode",
-        "created_at": "2025-06-19T13:53:26+00:00",
-        "updated_at": "2026-02-01T00:42:39+00:00"
-      },
-      {
-        "name": "claude-code",
-        "full_name": "anthropics/claude-code",
-        "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-        "language": "Shell",
-        "topics": [],
-        "stars": 62819,
-        "url": "https://github.com/anthropics/claude-code",
-        "created_at": "2025-02-22T17:41:21+00:00",
-        "updated_at": "2026-02-01T04:56:46+00:00"
-      },
-      {
-        "name": "Roo-Code",
-        "full_name": "RooCodeInc/Roo-Code",
-        "description": "Roo Code gives you a whole dev team of AI agents in your code editor.",
-        "language": "TypeScript",
-        "topics": [],
-        "stars": 22053,
-        "url": "https://github.com/RooCodeInc/Roo-Code",
-        "created_at": "2024-10-31T17:56:50+00:00",
-        "updated_at": "2026-02-01T02:31:18+00:00"
-      },
-      {
-        "name": "agent-cli",
-        "full_name": "basnijholt/agent-cli",
-        "description": "A suite of local AI-powered command-line tools",
-        "language": "Python",
-        "topics": [],
-        "stars": 99,
-        "url": "https://github.com/basnijholt/agent-cli",
-        "created_at": "2025-06-25T16:35:10+00:00",
-        "updated_at": "2026-01-30T17:02:16+00:00"
       },
       {
         "name": "flock",
@@ -149,10 +135,10 @@
           "claude",
           "command-line"
         ],
-        "stars": 248,
+        "stars": 249,
         "url": "https://github.com/apify/mcp-cli",
         "created_at": "2025-12-09T03:00:11+00:00",
-        "updated_at": "2026-01-31T20:25:46+00:00"
+        "updated_at": "2026-02-01T17:07:23+00:00"
       },
       {
         "name": "mcp-mermaid",
@@ -165,46 +151,149 @@
           "mermaid",
           "mermaidjs"
         ],
-        "stars": 395,
+        "stars": 397,
         "url": "https://github.com/hustcc/mcp-mermaid",
         "created_at": "2025-05-20T11:43:48+00:00",
-        "updated_at": "2026-02-01T01:18:21+00:00"
+        "updated_at": "2026-02-01T22:37:38+00:00"
       },
       {
-        "name": "awesome-gpt-store",
-        "full_name": "devisasari/awesome-gpt-store",
-        "description": "A curated list of awesome GPTs in the GPT Store",
-        "language": null,
+        "name": "n8n",
+        "full_name": "n8n-io/n8n",
+        "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+        "language": "TypeScript",
         "topics": [
+          "automation",
+          "ipaas",
+          "n8n",
+          "workflow",
+          "typescript",
+          "self-hosted",
+          "integrations",
+          "workflow-automation",
+          "cli",
+          "development",
+          "low-code",
+          "data-flow",
+          "integration-framework",
+          "apis",
+          "low-code-platform",
+          "no-code",
           "ai",
-          "awesome",
-          "awesome-list",
-          "chatgpt",
-          "gpt",
-          "gpt-4",
-          "gpts",
-          "openai",
-          "gpts-list",
-          "gptstore",
-          "gpt-store"
+          "mcp",
+          "mcp-client",
+          "mcp-server"
         ],
-        "stars": 2093,
-        "url": "https://github.com/devisasari/awesome-gpt-store",
-        "created_at": "2023-11-10T16:40:05+00:00",
-        "updated_at": "2026-01-29T07:39:56+00:00"
+        "stars": 172519,
+        "url": "https://github.com/n8n-io/n8n",
+        "created_at": "2019-06-22T09:24:21+00:00",
+        "updated_at": "2026-02-02T04:52:44+00:00"
+      },
+      {
+        "name": "toon",
+        "full_name": "toon-format/toon",
+        "description": "🎒 Token-Oriented Object Notation (TOON) – Compact, human-readable, schema-aware JSON for LLM prompts. Spec, benchmarks, TypeScript SDK.",
+        "language": "TypeScript",
+        "topics": [
+          "data-format",
+          "llm",
+          "serialization",
+          "tokenization"
+        ],
+        "stars": 22391,
+        "url": "https://github.com/toon-format/toon",
+        "created_at": "2025-10-22T18:17:32+00:00",
+        "updated_at": "2026-02-02T04:22:10+00:00"
+      },
+      {
+        "name": "agent-cli",
+        "full_name": "basnijholt/agent-cli",
+        "description": "A suite of local AI-powered command-line tools",
+        "language": "Python",
+        "topics": [],
+        "stars": 99,
+        "url": "https://github.com/basnijholt/agent-cli",
+        "created_at": "2025-06-25T16:35:10+00:00",
+        "updated_at": "2026-02-01T22:52:25+00:00"
       }
     ],
     "AI-Assisted Development & Spec-Driven Development": [
+      {
+        "name": "claude-code-action",
+        "full_name": "anthropics/claude-code-action",
+        "description": "Keine Beschreibung verfügbar",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 5440,
+        "url": "https://github.com/anthropics/claude-code-action",
+        "created_at": "2025-05-19T15:26:50+00:00",
+        "updated_at": "2026-02-02T02:50:12+00:00"
+      },
       {
         "name": "spec-workflow-mcp",
         "full_name": "Pimzino/spec-workflow-mcp",
         "description": "A Model Context Protocol (MCP) server that provides structured spec-driven development workflow tools for AI-assisted software development, featuring a real-time web dashboard and VSCode extension for monitoring and managing your project's progress directly in your development environment.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 3807,
+        "stars": 3811,
         "url": "https://github.com/Pimzino/spec-workflow-mcp",
         "created_at": "2025-08-07T13:18:06+00:00",
-        "updated_at": "2026-02-01T04:38:17+00:00"
+        "updated_at": "2026-02-02T03:46:23+00:00"
+      },
+      {
+        "name": "claude-code",
+        "full_name": "anthropics/claude-code",
+        "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+        "language": "Shell",
+        "topics": [],
+        "stars": 63086,
+        "url": "https://github.com/anthropics/claude-code",
+        "created_at": "2025-02-22T17:41:21+00:00",
+        "updated_at": "2026-02-02T04:59:48+00:00"
+      },
+      {
+        "name": "sketch2prompt",
+        "full_name": "jmassengille/sketch2prompt",
+        "description": "sketch2prompt is meant to promote better system design, security, and code quality in a way that does not hijack creativity from the builder",
+        "language": "TypeScript",
+        "topics": [
+          "ai-tools",
+          "developer-tools",
+          "vibecoding"
+        ],
+        "stars": 52,
+        "url": "https://github.com/jmassengille/sketch2prompt",
+        "created_at": "2025-12-16T16:56:27+00:00",
+        "updated_at": "2026-01-29T22:37:07+00:00"
+      },
+      {
+        "name": "Roo-Code",
+        "full_name": "RooCodeInc/Roo-Code",
+        "description": "Roo Code gives you a whole dev team of AI agents in your code editor.",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 22061,
+        "url": "https://github.com/RooCodeInc/Roo-Code",
+        "created_at": "2024-10-31T17:56:50+00:00",
+        "updated_at": "2026-02-02T04:14:00+00:00"
+      },
+      {
+        "name": "spec-kit",
+        "full_name": "github/spec-kit",
+        "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+        "language": "Python",
+        "topics": [
+          "ai",
+          "copilot",
+          "development",
+          "engineering",
+          "prd",
+          "spec",
+          "spec-driven"
+        ],
+        "stars": 66862,
+        "url": "https://github.com/github/spec-kit",
+        "created_at": "2025-08-21T22:54:31+00:00",
+        "updated_at": "2026-02-02T04:56:22+00:00"
       },
       {
         "name": "OpenSpec",
@@ -223,10 +312,10 @@
           "specification",
           "sdd"
         ],
-        "stars": 21333,
+        "stars": 21570,
         "url": "https://github.com/Fission-AI/OpenSpec",
         "created_at": "2025-08-05T10:37:45+00:00",
-        "updated_at": "2026-02-01T05:03:46+00:00"
+        "updated_at": "2026-02-02T04:58:19+00:00"
       },
       {
         "name": "design-os",
@@ -234,10 +323,10 @@
         "description": "The missing design process between your product idea and your codebase.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 1341,
+        "stars": 1354,
         "url": "https://github.com/buildermethods/design-os",
         "created_at": "2025-12-16T19:40:19+00:00",
-        "updated_at": "2026-02-01T02:16:27+00:00"
+        "updated_at": "2026-02-02T04:57:41+00:00"
       },
       {
         "name": "agent-os",
@@ -245,55 +334,10 @@
         "description": "Agent OS is a system for injecting your codebase standards and writing better specs for spec-driven development.",
         "language": "Shell",
         "topics": [],
-        "stars": 3639,
+        "stars": 3648,
         "url": "https://github.com/buildermethods/agent-os",
         "created_at": "2025-07-16T21:28:59+00:00",
-        "updated_at": "2026-02-01T05:03:08+00:00"
-      },
-      {
-        "name": "sketch2prompt",
-        "full_name": "jmassengille/sketch2prompt",
-        "description": "sketch2prompt is meant to promote better system design, security, and code quality in a way that does not hijack creativity from the builder",
-        "language": "TypeScript",
-        "topics": [
-          "ai-tools",
-          "developer-tools",
-          "vibecoding"
-        ],
-        "stars": 52,
-        "url": "https://github.com/jmassengille/sketch2prompt",
-        "created_at": "2025-12-16T16:56:27+00:00",
-        "updated_at": "2026-01-29T22:37:07+00:00"
-      },
-      {
-        "name": "spec-kit",
-        "full_name": "github/spec-kit",
-        "description": "💫 Toolkit to help you get started with Spec-Driven Development",
-        "language": "Python",
-        "topics": [
-          "ai",
-          "copilot",
-          "development",
-          "engineering",
-          "prd",
-          "spec",
-          "spec-driven"
-        ],
-        "stars": 66617,
-        "url": "https://github.com/github/spec-kit",
-        "created_at": "2025-08-21T22:54:31+00:00",
-        "updated_at": "2026-02-01T04:59:03+00:00"
-      },
-      {
-        "name": "speckit-companion",
-        "full_name": "alfredoperez/speckit-companion",
-        "description": "Keine Beschreibung verfügbar",
-        "language": "TypeScript",
-        "topics": [],
-        "stars": 13,
-        "url": "https://github.com/alfredoperez/speckit-companion",
-        "created_at": "2025-12-02T14:57:37+00:00",
-        "updated_at": "2026-01-28T09:05:59+00:00"
+        "updated_at": "2026-02-02T03:56:43+00:00"
       },
       {
         "name": "BMAD-METHOD",
@@ -301,10 +345,10 @@
         "description": "Breakthrough Method for Agile Ai Driven Development",
         "language": "JavaScript",
         "topics": [],
-        "stars": 33388,
+        "stars": 33586,
         "url": "https://github.com/bmad-code-org/BMAD-METHOD",
         "created_at": "2025-04-13T14:54:25+00:00",
-        "updated_at": "2026-02-01T04:58:05+00:00"
+        "updated_at": "2026-02-02T05:00:34+00:00"
       }
     ],
     "Model Context Protocol (MCP) Servers": [
@@ -314,10 +358,10 @@
         "description": "Model Context Protocol Servers",
         "language": "TypeScript",
         "topics": [],
-        "stars": 77685,
+        "stars": 77763,
         "url": "https://github.com/modelcontextprotocol/servers",
         "created_at": "2024-11-19T01:10:17+00:00",
-        "updated_at": "2026-02-01T05:04:00+00:00"
+        "updated_at": "2026-02-02T04:53:49+00:00"
       },
       {
         "name": "mcp-server-solidworks",
@@ -325,10 +369,10 @@
         "description": " This MCP server integrates with SolidWorks API and structuring it into Claude-compatible context streams.",
         "language": null,
         "topics": [],
-        "stars": 49,
+        "stars": 50,
         "url": "https://github.com/eyfel/mcp-server-solidworks",
         "created_at": "2025-04-11T10:46:46+00:00",
-        "updated_at": "2026-01-30T02:56:30+00:00"
+        "updated_at": "2026-02-02T02:29:53+00:00"
       },
       {
         "name": "Figma-Context-MCP",
@@ -342,10 +386,10 @@
           "mcp",
           "typescript"
         ],
-        "stars": 12917,
+        "stars": 12926,
         "url": "https://github.com/GLips/Figma-Context-MCP",
         "created_at": "2025-02-13T02:55:06+00:00",
-        "updated_at": "2026-02-01T03:31:16+00:00"
+        "updated_at": "2026-02-02T04:01:08+00:00"
       },
       {
         "name": "azure-devops-mcp",
@@ -353,13 +397,13 @@
         "description": "The MCP server for Azure DevOps, bringing the power of Azure DevOps directly to your agents.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 1209,
+        "stars": 1214,
         "url": "https://github.com/microsoft/azure-devops-mcp",
         "created_at": "2025-05-15T13:12:42+00:00",
-        "updated_at": "2026-02-01T03:43:12+00:00"
+        "updated_at": "2026-02-02T04:28:13+00:00"
       }
     ],
-    "Security & Compliance": [
+    "Windows Security & Hardening": [
       {
         "name": "Harden-Windows-Security",
         "full_name": "HotCakeX/Harden-Windows-Security",
@@ -390,7 +434,7 @@
         "stars": 4030,
         "url": "https://github.com/HotCakeX/Harden-Windows-Security",
         "created_at": "2022-11-22T11:26:53+00:00",
-        "updated_at": "2026-01-31T19:48:56+00:00"
+        "updated_at": "2026-02-02T01:09:32+00:00"
       },
       {
         "name": "Hardening-Audit-Tool-AuditTAP",
@@ -412,6 +456,59 @@
         "url": "https://github.com/fbprogmbh/Hardening-Audit-Tool-AuditTAP",
         "created_at": "2018-07-16T07:46:10+00:00",
         "updated_at": "2026-01-30T05:24:01+00:00"
+      },
+      {
+        "name": "MDE-Monitoring-App",
+        "full_name": "chlaplan/MDE-Monitoring-App",
+        "description": "Troubleshooting MDE Workstations",
+        "language": "C#",
+        "topics": [],
+        "stars": 42,
+        "url": "https://github.com/chlaplan/MDE-Monitoring-App",
+        "created_at": "2025-08-30T05:06:00+00:00",
+        "updated_at": "2026-01-22T00:38:53+00:00"
+      },
+      {
+        "name": "macos_security",
+        "full_name": "usnistgov/macos_security",
+        "description": "macOS Security Compliance Project",
+        "language": "YAML",
+        "topics": [
+          "apple",
+          "macos",
+          "compliance",
+          "zsh",
+          "bash",
+          "python3",
+          "mdm",
+          "mscp"
+        ],
+        "stars": 2233,
+        "url": "https://github.com/usnistgov/macos_security",
+        "created_at": "2020-06-05T19:28:12+00:00",
+        "updated_at": "2026-02-01T07:15:45+00:00"
+      },
+      {
+        "name": "secureboot_objects",
+        "full_name": "microsoft/secureboot_objects",
+        "description": "Secure boot objects recommended by Microsoft.",
+        "language": "Python",
+        "topics": [],
+        "stars": 159,
+        "url": "https://github.com/microsoft/secureboot_objects",
+        "created_at": "2023-08-15T19:17:10+00:00",
+        "updated_at": "2026-02-01T20:39:39+00:00"
+      },
+      {
+        "name": "HardeningAudit",
+        "full_name": "TheTechBeast8/HardeningAudit",
+        "description": "Deployment scripts and a simple reports for CIS benchmarks ",
+        "language": "PowerShell",
+        "topics": [],
+        "stars": 29,
+        "url": "https://github.com/TheTechBeast8/HardeningAudit",
+        "created_at": "2024-09-21T19:28:29+00:00",
+        "updated_at": "2025-12-22T18:05:41+00:00"
       },
       {
         "name": "kspec",
@@ -438,90 +535,6 @@
         "updated_at": "2026-01-26T05:38:26+00:00"
       },
       {
-        "name": "macos_security",
-        "full_name": "usnistgov/macos_security",
-        "description": "macOS Security Compliance Project",
-        "language": "YAML",
-        "topics": [
-          "apple",
-          "macos",
-          "compliance",
-          "zsh",
-          "bash",
-          "python3",
-          "mdm",
-          "mscp"
-        ],
-        "stars": 2232,
-        "url": "https://github.com/usnistgov/macos_security",
-        "created_at": "2020-06-05T19:28:12+00:00",
-        "updated_at": "2026-01-31T14:57:03+00:00"
-      },
-      {
-        "name": "secrets_find0r",
-        "full_name": "BenjaminIheukumere/secrets_find0r",
-        "description": "Secrets Find0r is a multithreaded SMB share crawler that hunts for exposed credentials and secrets across Windows networks. It enumerates shares, recursively scans files with regex/keyword rules, highlights matched tokens on screen, and exports clean ASCII tables. Supports DOCX/PDF/legacy Office and depth limits.",
-        "language": "Python",
-        "topics": [],
-        "stars": 67,
-        "url": "https://github.com/BenjaminIheukumere/secrets_find0r",
-        "created_at": "2025-09-18T10:34:15+00:00",
-        "updated_at": "2025-12-31T08:13:41+00:00"
-      },
-      {
-        "name": "ROADtools",
-        "full_name": "dirkjanm/ROADtools",
-        "description": "A collection of Azure AD/Entra tools for offensive and defensive security purposes",
-        "language": "Python",
-        "topics": [
-          "azure-active-directory",
-          "azuread",
-          "microsoft-graph",
-          "python"
-        ],
-        "stars": 2508,
-        "url": "https://github.com/dirkjanm/ROADtools",
-        "created_at": "2020-03-28T09:56:08+00:00",
-        "updated_at": "2026-01-31T19:05:15+00:00"
-      },
-      {
-        "name": "Entra-Tiering-Security-Model",
-        "full_name": "workoho/Entra-Tiering-Security-Model",
-        "description": "Implement a powerful Tiering Security Model in Microsoft Entra for your Cloud Administrator identities using Azure Automation.",
-        "language": "PowerShell",
-        "topics": [
-          "cloud-administration",
-          "cybersecurity",
-          "enterprise-architecture",
-          "enterprise-security",
-          "microsoft-365-fundamentals",
-          "microsoft-365-install",
-          "microsoft-365-security",
-          "microsoft-365-setup",
-          "microsoft-azure",
-          "microsoft-entra",
-          "microsoft-entra-id",
-          "microsoft-entra-roles-and-permissions",
-          "security-automation",
-          "security-automation-framework"
-        ],
-        "stars": 51,
-        "url": "https://github.com/workoho/Entra-Tiering-Security-Model",
-        "created_at": "2024-03-17T13:17:24+00:00",
-        "updated_at": "2025-11-13T20:28:02+00:00"
-      },
-      {
-        "name": "HardeningAudit",
-        "full_name": "TheTechBeast8/HardeningAudit",
-        "description": "Deployment scripts and a simple reports for CIS benchmarks ",
-        "language": "PowerShell",
-        "topics": [],
-        "stars": 29,
-        "url": "https://github.com/TheTechBeast8/HardeningAudit",
-        "created_at": "2024-09-21T19:28:29+00:00",
-        "updated_at": "2025-12-22T18:05:41+00:00"
-      },
-      {
         "name": "WHfBChecks",
         "full_name": "onpremcloudguy/WHfBChecks",
         "description": "A group of PowerShell scripts to check that your environment is ready for Windows Hello for Business - Hybrid Key Trust",
@@ -531,78 +544,9 @@
         "url": "https://github.com/onpremcloudguy/WHfBChecks",
         "created_at": "2020-12-23T03:20:50+00:00",
         "updated_at": "2024-11-28T09:46:13+00:00"
-      },
-      {
-        "name": "BTPS-SecPack",
-        "full_name": "OsbornePro/BTPS-SecPack",
-        "description": "This repository contains a collection of PowerShell tools that can be utilized to protect and defend an environment based on the recommendations of multiple cyber security researchers at Microsoft. These tools were created with a small to medium size enterprise environment in mind as smaller organizations do not always have the type of funding available to overly spend on security. The goal of this project is to help add value to an smaller organizations security by creating more visibility for the average IT Administrator. Organizations with 1,000’s of devices may find that this entire suite does not apply to them.",
-        "language": "PowerShell",
-        "topics": [
-          "wef",
-          "powershell",
-          "protections",
-          "cmdlets",
-          "blueteam",
-          "cybersecurity",
-          "windowseventforwarding",
-          "windowsevents",
-          "security",
-          "security-tools",
-          "alerts",
-          "alert",
-          "alerting",
-          "defense",
-          "defense-in-depth",
-          "ps1",
-          "smaller-organizations",
-          "winrm",
-          "microsoft",
-          "active-directory"
-        ],
-        "stars": 51,
-        "url": "https://github.com/OsbornePro/BTPS-SecPack",
-        "created_at": "2020-06-30T22:08:25+00:00",
-        "updated_at": "2025-12-04T16:22:34+00:00"
-      },
-      {
-        "name": "awesome-infosec",
-        "full_name": "onlurking/awesome-infosec",
-        "description": " A curated list of awesome infosec courses and training resources.",
-        "language": null,
-        "topics": [
-          "infosec",
-          "pentest",
-          "courses",
-          "penetration-testing",
-          "security-professionals",
-          "lab",
-          "awesome",
-          "security"
-        ],
-        "stars": 5577,
-        "url": "https://github.com/onlurking/awesome-infosec",
-        "created_at": "2015-05-13T22:20:47+00:00",
-        "updated_at": "2026-01-30T10:18:13+00:00"
-      },
-      {
-        "name": "awesome-honeypots",
-        "full_name": "paralax/awesome-honeypots",
-        "description": "an awesome list of honeypot resources",
-        "language": "Python",
-        "topics": [
-          "honeypot",
-          "awesome-list",
-          "awesome",
-          "list",
-          "honeyd"
-        ],
-        "stars": 10111,
-        "url": "https://github.com/paralax/awesome-honeypots",
-        "created_at": "2015-06-18T12:57:01+00:00",
-        "updated_at": "2026-02-01T00:20:51+00:00"
       }
     ],
-    "Cybersecurity & Threat Detection": [
+    "CrowdStrike Falcon Tools": [
       {
         "name": "falconpy",
         "full_name": "CrowdStrike/falconpy",
@@ -679,28 +623,6 @@
         "url": "https://github.com/CrowdStrike/psfalcon",
         "created_at": "2020-09-25T14:26:10+00:00",
         "updated_at": "2026-01-28T14:43:05+00:00"
-      },
-      {
-        "name": "MDE-Monitoring-App",
-        "full_name": "chlaplan/MDE-Monitoring-App",
-        "description": "Troubleshooting MDE Workstations",
-        "language": "C#",
-        "topics": [],
-        "stars": 42,
-        "url": "https://github.com/chlaplan/MDE-Monitoring-App",
-        "created_at": "2025-08-30T05:06:00+00:00",
-        "updated_at": "2026-01-22T00:38:53+00:00"
-      },
-      {
-        "name": "DCSecurityOperations",
-        "full_name": "DanielChronlund/DCSecurityOperations",
-        "description": "A collection of Microsoft Sentinel workbooks and analytics rules.",
-        "language": null,
-        "topics": [],
-        "stars": 111,
-        "url": "https://github.com/DanielChronlund/DCSecurityOperations",
-        "created_at": "2022-06-15T08:10:11+00:00",
-        "updated_at": "2026-01-24T14:55:31+00:00"
       }
     ],
     "Microsoft Intune & Device Management": [
@@ -716,6 +638,28 @@
         "updated_at": "2026-02-01T01:35:55+00:00"
       },
       {
+        "name": "Mostly-Compliant-Endpoint",
+        "full_name": "MostlyCompliantEndpoint/Mostly-Compliant-Endpoint",
+        "description": "Contains useful tools, powershell scripts and other projects that are released for admins.",
+        "language": "C#",
+        "topics": [],
+        "stars": 16,
+        "url": "https://github.com/MostlyCompliantEndpoint/Mostly-Compliant-Endpoint",
+        "created_at": "2025-12-08T15:51:06+00:00",
+        "updated_at": "2026-02-01T12:39:49+00:00"
+      },
+      {
+        "name": "About_my_device",
+        "full_name": "damienvanrobaeys/About_my_device",
+        "description": "About my device: A systray tool for that displays device information and run action like send logs or sync device",
+        "language": "PowerShell",
+        "topics": [],
+        "stars": 38,
+        "url": "https://github.com/damienvanrobaeys/About_my_device",
+        "created_at": "2021-03-30T11:29:01+00:00",
+        "updated_at": "2025-11-16T01:46:25+00:00"
+      },
+      {
         "name": "Intuneomator",
         "full_name": "gilburns/Intuneomator",
         "description": "Swift based automated application management for Intune.",
@@ -725,19 +669,6 @@
         "url": "https://github.com/gilburns/Intuneomator",
         "created_at": "2025-05-14T18:43:41+00:00",
         "updated_at": "2026-01-27T13:38:24+00:00"
-      },
-      {
-        "name": "powershell-intune-samples",
-        "full_name": "microsoftgraph/powershell-intune-samples",
-        "description": "This repository of PowerShell sample scripts show how to access Intune service resources. They demonstrate this by making HTTPS RESTful API requests to the Microsoft Graph API from PowerShell.",
-        "language": "PowerShell",
-        "topics": [
-          "devxsample"
-        ],
-        "stars": 1519,
-        "url": "https://github.com/microsoftgraph/powershell-intune-samples",
-        "created_at": "2017-04-04T16:41:27+00:00",
-        "updated_at": "2026-01-29T15:01:18+00:00"
       },
       {
         "name": "IntuneDeviceDetailsGUI",
@@ -751,15 +682,105 @@
         "updated_at": "2026-01-27T12:58:23+00:00"
       },
       {
-        "name": "About_my_device",
-        "full_name": "damienvanrobaeys/About_my_device",
-        "description": "About my device: A systray tool for that displays device information and run action like send logs or sync device",
+        "name": "powershell-intune-samples",
+        "full_name": "microsoftgraph/powershell-intune-samples",
+        "description": "This repository of PowerShell sample scripts show how to access Intune service resources. They demonstrate this by making HTTPS RESTful API requests to the Microsoft Graph API from PowerShell.",
+        "language": "PowerShell",
+        "topics": [
+          "devxsample"
+        ],
+        "stars": 1521,
+        "url": "https://github.com/microsoftgraph/powershell-intune-samples",
+        "created_at": "2017-04-04T16:41:27+00:00",
+        "updated_at": "2026-02-01T23:30:56+00:00"
+      }
+    ],
+    "Azure & Microsoft Cloud Security": [
+      {
+        "name": "ROADtools",
+        "full_name": "dirkjanm/ROADtools",
+        "description": "A collection of Azure AD/Entra tools for offensive and defensive security purposes",
+        "language": "Python",
+        "topics": [
+          "azure-active-directory",
+          "azuread",
+          "microsoft-graph",
+          "python"
+        ],
+        "stars": 2508,
+        "url": "https://github.com/dirkjanm/ROADtools",
+        "created_at": "2020-03-28T09:56:08+00:00",
+        "updated_at": "2026-01-31T19:05:15+00:00"
+      },
+      {
+        "name": "Entra-Tiering-Security-Model",
+        "full_name": "workoho/Entra-Tiering-Security-Model",
+        "description": "Implement a powerful Tiering Security Model in Microsoft Entra for your Cloud Administrator identities using Azure Automation.",
+        "language": "PowerShell",
+        "topics": [
+          "cloud-administration",
+          "cybersecurity",
+          "enterprise-architecture",
+          "enterprise-security",
+          "microsoft-365-fundamentals",
+          "microsoft-365-install",
+          "microsoft-365-security",
+          "microsoft-365-setup",
+          "microsoft-azure",
+          "microsoft-entra",
+          "microsoft-entra-id",
+          "microsoft-entra-roles-and-permissions",
+          "security-automation",
+          "security-automation-framework"
+        ],
+        "stars": 51,
+        "url": "https://github.com/workoho/Entra-Tiering-Security-Model",
+        "created_at": "2024-03-17T13:17:24+00:00",
+        "updated_at": "2025-11-13T20:28:02+00:00"
+      },
+      {
+        "name": "Deployment-Plans",
+        "full_name": "AzureAD/Deployment-Plans",
+        "description": "Step by step guidance to deploy Azure Active Directory capabilities such as Conditional Access, Multi Factor Authentication, Self Service Password, and more. ",
         "language": "PowerShell",
         "topics": [],
-        "stars": 38,
-        "url": "https://github.com/damienvanrobaeys/About_my_device",
-        "created_at": "2021-03-30T11:29:01+00:00",
-        "updated_at": "2025-11-16T01:46:25+00:00"
+        "stars": 180,
+        "url": "https://github.com/AzureAD/Deployment-Plans",
+        "created_at": "2018-10-15T16:16:23+00:00",
+        "updated_at": "2025-12-13T23:26:10+00:00"
+      },
+      {
+        "name": "DCSecurityOperations",
+        "full_name": "DanielChronlund/DCSecurityOperations",
+        "description": "A collection of Microsoft Sentinel workbooks and analytics rules.",
+        "language": null,
+        "topics": [],
+        "stars": 111,
+        "url": "https://github.com/DanielChronlund/DCSecurityOperations",
+        "created_at": "2022-06-15T08:10:11+00:00",
+        "updated_at": "2026-01-24T14:55:31+00:00"
+      },
+      {
+        "name": "azuread",
+        "full_name": "msandbu/azuread",
+        "description": "Keine Beschreibung verfügbar",
+        "language": null,
+        "topics": [],
+        "stars": 200,
+        "url": "https://github.com/msandbu/azuread",
+        "created_at": "2021-05-07T10:23:06+00:00",
+        "updated_at": "2025-11-15T07:17:35+00:00"
+      },
+      {
+        "name": "microsoft-365-certification-quick-evaluation",
+        "full_name": "Azure/microsoft-365-certification-quick-evaluation",
+        "description": "Keine Beschreibung verfügbar",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 13,
+        "url": "https://github.com/Azure/microsoft-365-certification-quick-evaluation",
+        "created_at": "2022-12-30T02:52:58+00:00",
+        "updated_at": "2025-11-24T17:38:53+00:00"
       }
     ],
     "macOS Tools & Utilities": [
@@ -780,10 +801,10 @@
           "status-bar",
           "menubar-app"
         ],
-        "stars": 25731,
+        "stars": 25744,
         "url": "https://github.com/jordanbaird/Ice",
         "created_at": "2023-08-04T22:51:56+00:00",
-        "updated_at": "2026-02-01T04:30:40+00:00"
+        "updated_at": "2026-02-02T04:08:43+00:00"
       },
       {
         "name": "SupportApp",
@@ -802,10 +823,10 @@
         "description": "macOS helper application designed to empower end-users",
         "language": "Swift",
         "topics": [],
-        "stars": 168,
+        "stars": 169,
         "url": "https://github.com/macadmins/SupportCompanion",
         "created_at": "2024-05-06T12:09:04+00:00",
-        "updated_at": "2026-01-30T21:38:16+00:00"
+        "updated_at": "2026-02-01T17:14:27+00:00"
       },
       {
         "name": "createicns",
@@ -830,48 +851,28 @@
         "updated_at": "2026-01-20T00:51:52+00:00"
       }
     ],
-    "Windows System Administration": [
+    "Windows UI & Desktop Development": [
       {
-        "name": "Mostly-Compliant-Endpoint",
-        "full_name": "MostlyCompliantEndpoint/Mostly-Compliant-Endpoint",
-        "description": "Contains useful tools, powershell scripts and other projects that are released for admins.",
-        "language": "C#",
-        "topics": [],
-        "stars": 15,
-        "url": "https://github.com/MostlyCompliantEndpoint/Mostly-Compliant-Endpoint",
-        "created_at": "2025-12-08T15:51:06+00:00",
-        "updated_at": "2026-01-31T20:56:41+00:00"
-      },
-      {
-        "name": "SimpleLapsGui",
-        "full_name": "htcfreek/SimpleLapsGui",
-        "description": "A simple and fast GUI for Microsoft LAPS (legacy) and Windows LAPS. With this tool you can query passwords and change the expiration timestamp.",
-        "language": "PowerShell",
+        "name": "microsoft-ui-xaml",
+        "full_name": "microsoft/microsoft-ui-xaml",
+        "description": "WinUI: a modern UI framework with a rich set of controls and styles to build dynamic and high-performing Windows applications.",
+        "language": "C++",
         "topics": [
-          "laps",
-          "microsoft",
+          "desktop",
           "windows",
-          "passwords",
-          "active-directory",
-          "fast",
-          "gui",
-          "simple"
+          "xaml",
+          "fluent-design",
+          "csharp",
+          "cpp",
+          "windows-10",
+          "uwp",
+          "winui",
+          "winui3"
         ],
-        "stars": 66,
-        "url": "https://github.com/htcfreek/SimpleLapsGui",
-        "created_at": "2023-04-23T15:00:08+00:00",
-        "updated_at": "2026-01-30T13:37:52+00:00"
-      },
-      {
-        "name": "windows-dev-box-setup-scripts",
-        "full_name": "microsoft/windows-dev-box-setup-scripts",
-        "description": "Scripts to simplify setting up a Windows developer box",
-        "language": "PowerShell",
-        "topics": [],
-        "stars": 1870,
-        "url": "https://github.com/microsoft/windows-dev-box-setup-scripts",
-        "created_at": "2018-04-03T19:44:23+00:00",
-        "updated_at": "2026-01-21T00:05:21+00:00"
+        "stars": 7262,
+        "url": "https://github.com/microsoft/microsoft-ui-xaml",
+        "created_at": "2018-07-26T18:45:29+00:00",
+        "updated_at": "2026-02-01T19:14:07+00:00"
       },
       {
         "name": "komorebi",
@@ -887,142 +888,13 @@
           "status-bar",
           "whkd"
         ],
-        "stars": 13946,
+        "stars": 13952,
         "url": "https://github.com/LGUG2Z/komorebi",
         "created_at": "2021-07-29T23:20:15+00:00",
-        "updated_at": "2026-02-01T00:18:26+00:00"
+        "updated_at": "2026-02-02T03:37:10+00:00"
       }
     ],
-    "Azure & Cloud Administration": [
-      {
-        "name": "azuread",
-        "full_name": "msandbu/azuread",
-        "description": "Keine Beschreibung verfügbar",
-        "language": null,
-        "topics": [],
-        "stars": 200,
-        "url": "https://github.com/msandbu/azuread",
-        "created_at": "2021-05-07T10:23:06+00:00",
-        "updated_at": "2025-11-15T07:17:35+00:00"
-      },
-      {
-        "name": "Deployment-Plans",
-        "full_name": "AzureAD/Deployment-Plans",
-        "description": "Step by step guidance to deploy Azure Active Directory capabilities such as Conditional Access, Multi Factor Authentication, Self Service Password, and more. ",
-        "language": "PowerShell",
-        "topics": [],
-        "stars": 180,
-        "url": "https://github.com/AzureAD/Deployment-Plans",
-        "created_at": "2018-10-15T16:16:23+00:00",
-        "updated_at": "2025-12-13T23:26:10+00:00"
-      },
-      {
-        "name": "microsoft-365-certification-quick-evaluation",
-        "full_name": "Azure/microsoft-365-certification-quick-evaluation",
-        "description": "Keine Beschreibung verfügbar",
-        "language": "TypeScript",
-        "topics": [],
-        "stars": 13,
-        "url": "https://github.com/Azure/microsoft-365-certification-quick-evaluation",
-        "created_at": "2022-12-30T02:52:58+00:00",
-        "updated_at": "2025-11-24T17:38:53+00:00"
-      }
-    ],
-    "Authentication & Identity Management": [
-      {
-        "name": "rovoswitch",
-        "full_name": "yue99520/rovoswitch",
-        "description": "A TypeScript CLI application for managing Rovo authentication profiles and executing authentication commands with encryption support.",
-        "language": "TypeScript",
-        "topics": [
-          "ai",
-          "attlasian",
-          "auth",
-          "authentication",
-          "cli",
-          "nodejs",
-          "rovo",
-          "rovo-dev",
-          "login",
-          "profile",
-          "token"
-        ],
-        "stars": 2,
-        "url": "https://github.com/yue99520/rovoswitch",
-        "created_at": "2025-08-05T05:03:22+00:00",
-        "updated_at": "2025-09-10T12:55:23+00:00"
-      },
-      {
-        "name": "PK-AADAppReg",
-        "full_name": "Semperis/PK-AADAppReg",
-        "description": "Keine Beschreibung verfügbar",
-        "language": "PowerShell",
-        "topics": [],
-        "stars": 39,
-        "url": "https://github.com/Semperis/PK-AADAppReg",
-        "created_at": "2022-07-03T15:14:17+00:00",
-        "updated_at": "2025-12-03T05:57:42+00:00"
-      }
-    ],
-    "Workflow Automation & Integration": [
-      {
-        "name": "n8n",
-        "full_name": "n8n-io/n8n",
-        "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-        "language": "TypeScript",
-        "topics": [
-          "automation",
-          "ipaas",
-          "n8n",
-          "workflow",
-          "typescript",
-          "self-hosted",
-          "integrations",
-          "workflow-automation",
-          "cli",
-          "development",
-          "low-code",
-          "data-flow",
-          "integration-framework",
-          "apis",
-          "low-code-platform",
-          "no-code",
-          "ai",
-          "mcp",
-          "mcp-client",
-          "mcp-server"
-        ],
-        "stars": 172383,
-        "url": "https://github.com/n8n-io/n8n",
-        "created_at": "2019-06-22T09:24:21+00:00",
-        "updated_at": "2026-02-01T05:04:24+00:00"
-      },
-      {
-        "name": "n8n-crypto-workflows",
-        "full_name": "bicced/n8n-crypto-workflows",
-        "description": "n8n crypto/web3 workflow templates: Solana, Ethereum, Binance Smart Chain, Base, EVM, DeFi, bots, alerts",
-        "language": null,
-        "topics": [
-          "automation",
-          "crypto",
-          "defi",
-          "ethereum",
-          "evm",
-          "n8n",
-          "solana",
-          "web3",
-          "workflows",
-          "base",
-          "binance",
-          "blockchain",
-          "cryptocurrency",
-          "templates"
-        ],
-        "stars": 33,
-        "url": "https://github.com/bicced/n8n-crypto-workflows",
-        "created_at": "2025-09-15T08:27:36+00:00",
-        "updated_at": "2026-01-08T19:52:26+00:00"
-      },
+    "DevOps & CI/CD": [
       {
         "name": "ansible",
         "full_name": "ansible/ansible",
@@ -1032,64 +904,10 @@
           "python",
           "ansible"
         ],
-        "stars": 67849,
+        "stars": 67858,
         "url": "https://github.com/ansible/ansible",
         "created_at": "2012-03-06T14:58:02+00:00",
-        "updated_at": "2026-02-01T05:02:41+00:00"
-      },
-      {
-        "name": "ansible-examples",
-        "full_name": "ansible/ansible-examples",
-        "description": "A few starter examples of ansible playbooks, to show features and how they work together.  See http://galaxy.ansible.com for example roles from the Ansible community for deploying many popular applications.",
-        "language": "Shell",
-        "topics": [],
-        "stars": 11992,
-        "url": "https://github.com/ansible/ansible-examples",
-        "created_at": "2013-03-18T14:15:50+00:00",
-        "updated_at": "2026-01-31T16:22:20+00:00"
-      }
-    ],
-    "Git & Development Workflow": [
-      {
-        "name": "worktree-cli",
-        "full_name": "johnlindquist/worktree-cli",
-        "description": "Keine Beschreibung verfügbar",
-        "language": "TypeScript",
-        "topics": [],
-        "stars": 110,
-        "url": "https://github.com/johnlindquist/worktree-cli",
-        "created_at": "2025-03-20T04:11:05+00:00",
-        "updated_at": "2026-01-29T23:29:45+00:00"
-      },
-      {
-        "name": "githubbuch.github.io",
-        "full_name": "githubbuch/githubbuch.github.io",
-        "description": "Das Repository zum Buch “GitHub - Eine praktische Einführung”",
-        "language": "HTML",
-        "topics": [
-          "github",
-          "github-pages",
-          "github-actions",
-          "book",
-          "buch"
-        ],
-        "stars": 15,
-        "url": "https://github.com/githubbuch/githubbuch.github.io",
-        "created_at": "2021-01-16T13:30:02+00:00",
-        "updated_at": "2025-10-26T17:58:37+00:00"
-      }
-    ],
-    "DevOps & CI/CD": [
-      {
-        "name": "DevOps_Pipelines",
-        "full_name": "ztrhgf/DevOps_Pipelines",
-        "description": "Keine Beschreibung verfügbar",
-        "language": null,
-        "topics": [],
-        "stars": 12,
-        "url": "https://github.com/ztrhgf/DevOps_Pipelines",
-        "created_at": "2023-10-16T07:15:21+00:00",
-        "updated_at": "2026-01-12T08:09:42+00:00"
+        "updated_at": "2026-02-02T04:00:43+00:00"
       },
       {
         "name": "Powershell_CICD_repository",
@@ -1118,20 +936,66 @@
         "updated_at": "2026-01-19T03:48:45+00:00"
       },
       {
-        "name": "PowerShell-Docker",
-        "full_name": "PowerShell/PowerShell-Docker",
-        "description": "Repository for building PowerShell Docker images",
-        "language": "Dockerfile",
-        "topics": [
-          "hacktoberfest"
-        ],
-        "stars": 443,
-        "url": "https://github.com/PowerShell/PowerShell-Docker",
-        "created_at": "2018-05-23T19:37:36+00:00",
-        "updated_at": "2026-01-19T03:48:17+00:00"
+        "name": "DevOps_Pipelines",
+        "full_name": "ztrhgf/DevOps_Pipelines",
+        "description": "Keine Beschreibung verfügbar",
+        "language": null,
+        "topics": [],
+        "stars": 12,
+        "url": "https://github.com/ztrhgf/DevOps_Pipelines",
+        "created_at": "2023-10-16T07:15:21+00:00",
+        "updated_at": "2026-01-12T08:09:42+00:00"
+      },
+      {
+        "name": "ansible-examples",
+        "full_name": "ansible/ansible-examples",
+        "description": "A few starter examples of ansible playbooks, to show features and how they work together.  See http://galaxy.ansible.com for example roles from the Ansible community for deploying many popular applications.",
+        "language": "Shell",
+        "topics": [],
+        "stars": 11993,
+        "url": "https://github.com/ansible/ansible-examples",
+        "created_at": "2013-03-18T14:15:50+00:00",
+        "updated_at": "2026-02-02T02:00:02+00:00"
+      },
+      {
+        "name": "windows-dev-box-setup-scripts",
+        "full_name": "microsoft/windows-dev-box-setup-scripts",
+        "description": "Scripts to simplify setting up a Windows developer box",
+        "language": "PowerShell",
+        "topics": [],
+        "stars": 1871,
+        "url": "https://github.com/microsoft/windows-dev-box-setup-scripts",
+        "created_at": "2018-04-03T19:44:23+00:00",
+        "updated_at": "2026-02-01T15:21:46+00:00"
       }
     ],
-    "Documentation & Diagramming": [
+    "Workflow Automation & Integration": [
+      {
+        "name": "n8n-crypto-workflows",
+        "full_name": "bicced/n8n-crypto-workflows",
+        "description": "n8n crypto/web3 workflow templates: Solana, Ethereum, Binance Smart Chain, Base, EVM, DeFi, bots, alerts",
+        "language": null,
+        "topics": [
+          "automation",
+          "crypto",
+          "defi",
+          "ethereum",
+          "evm",
+          "n8n",
+          "solana",
+          "web3",
+          "workflows",
+          "base",
+          "binance",
+          "blockchain",
+          "cryptocurrency",
+          "templates"
+        ],
+        "stars": 33,
+        "url": "https://github.com/bicced/n8n-crypto-workflows",
+        "created_at": "2025-09-15T08:27:36+00:00",
+        "updated_at": "2026-01-08T19:52:26+00:00"
+      },
       {
         "name": "docfx-companion-tools",
         "full_name": "Ellerbach/docfx-companion-tools",
@@ -1142,7 +1006,320 @@
         "url": "https://github.com/Ellerbach/docfx-companion-tools",
         "created_at": "2021-03-08T14:32:57+00:00",
         "updated_at": "2026-01-19T17:18:28+00:00"
+      }
+    ],
+    "Network Security & Pentesting": [
+      {
+        "name": "secrets_find0r",
+        "full_name": "BenjaminIheukumere/secrets_find0r",
+        "description": "Secrets Find0r is a multithreaded SMB share crawler that hunts for exposed credentials and secrets across Windows networks. It enumerates shares, recursively scans files with regex/keyword rules, highlights matched tokens on screen, and exports clean ASCII tables. Supports DOCX/PDF/legacy Office and depth limits.",
+        "language": "Python",
+        "topics": [],
+        "stars": 67,
+        "url": "https://github.com/BenjaminIheukumere/secrets_find0r",
+        "created_at": "2025-09-18T10:34:15+00:00",
+        "updated_at": "2025-12-31T08:13:41+00:00"
       },
+      {
+        "name": "awesome-honeypots",
+        "full_name": "paralax/awesome-honeypots",
+        "description": "an awesome list of honeypot resources",
+        "language": "Python",
+        "topics": [
+          "honeypot",
+          "awesome-list",
+          "awesome",
+          "list",
+          "honeyd"
+        ],
+        "stars": 10112,
+        "url": "https://github.com/paralax/awesome-honeypots",
+        "created_at": "2015-06-18T12:57:01+00:00",
+        "updated_at": "2026-02-02T00:23:07+00:00"
+      },
+      {
+        "name": "awesome-infosec",
+        "full_name": "onlurking/awesome-infosec",
+        "description": " A curated list of awesome infosec courses and training resources.",
+        "language": null,
+        "topics": [
+          "infosec",
+          "pentest",
+          "courses",
+          "penetration-testing",
+          "security-professionals",
+          "lab",
+          "awesome",
+          "security"
+        ],
+        "stars": 5578,
+        "url": "https://github.com/onlurking/awesome-infosec",
+        "created_at": "2015-05-13T22:20:47+00:00",
+        "updated_at": "2026-02-01T06:35:20+00:00"
+      }
+    ],
+    "Customer Feedback & Project Management": [
+      {
+        "name": "astuto",
+        "full_name": "astuto/astuto",
+        "description": "A free, open source, self-hosted customer feedback tool 🦊",
+        "language": "TypeScript",
+        "topics": [
+          "customer-feedback",
+          "self-hosted",
+          "ruby-on-rails",
+          "react",
+          "docker",
+          "feedback",
+          "roadmap",
+          "boards"
+        ],
+        "stars": 2350,
+        "url": "https://github.com/astuto/astuto",
+        "created_at": "2019-08-18T12:51:58+00:00",
+        "updated_at": "2026-02-01T22:09:46+00:00"
+      }
+    ],
+    "Remote Desktop & Connection Management": [
+      {
+        "name": "mRemoteNG",
+        "full_name": "mRemoteNG/mRemoteNG",
+        "description": "mRemoteNG is the next generation of mRemote, open source, tabbed, multi-protocol, remote connections manager.",
+        "language": "C#",
+        "topics": [
+          "mremoteng",
+          "rdp",
+          "ssh",
+          "remote-desktop",
+          "remote-access",
+          "multi-protocol",
+          "c-sharp",
+          "windows"
+        ],
+        "stars": 10532,
+        "url": "https://github.com/mRemoteNG/mRemoteNG",
+        "created_at": "2010-01-06T15:53:17+00:00",
+        "updated_at": "2026-02-02T02:13:21+00:00"
+      },
+      {
+        "name": "Citrix",
+        "full_name": "Deyda/Citrix",
+        "description": "Focused on automation, optimization, and troubleshooting for Citrix environments — including Virtual Apps and Desktops, NetScaler, WEM, and FSLogix. Contains scripts and tools used in enterprise-scale deployments and field-tested consulting projects.",
+        "language": "PowerShell",
+        "topics": [],
+        "stars": 9,
+        "url": "https://github.com/Deyda/Citrix",
+        "created_at": "2020-06-03T07:15:21+00:00",
+        "updated_at": "2025-11-05T21:03:29+00:00"
+      }
+    ],
+    "Logging & Monitoring": [
+      {
+        "name": "klogg",
+        "full_name": "variar/klogg",
+        "description": "Really fast log explorer based on glogg project",
+        "language": "C++",
+        "topics": [
+          "logs",
+          "windows",
+          "linux",
+          "macos",
+          "cross-platform",
+          "log-viewer",
+          "log-monitor",
+          "log-analyzer",
+          "qt",
+          "cpp",
+          "tail",
+          "hacktoberfest"
+        ],
+        "stars": 3189,
+        "url": "https://github.com/variar/klogg",
+        "created_at": "2016-03-09T18:55:34+00:00",
+        "updated_at": "2026-02-02T01:54:15+00:00"
+      }
+    ],
+    "Password & Secret Management": [
+      {
+        "name": "SimpleLapsGui",
+        "full_name": "htcfreek/SimpleLapsGui",
+        "description": "A simple and fast GUI for Microsoft LAPS (legacy) and Windows LAPS. With this tool you can query passwords and change the expiration timestamp.",
+        "language": "PowerShell",
+        "topics": [
+          "laps",
+          "microsoft",
+          "windows",
+          "passwords",
+          "active-directory",
+          "fast",
+          "gui",
+          "simple"
+        ],
+        "stars": 67,
+        "url": "https://github.com/htcfreek/SimpleLapsGui",
+        "created_at": "2023-04-23T15:00:08+00:00",
+        "updated_at": "2026-02-01T20:19:06+00:00"
+      },
+      {
+        "name": "PoShKeePass",
+        "full_name": "PSKeePass/PoShKeePass",
+        "description": "PowerShell module for KeePass",
+        "language": "PowerShell",
+        "topics": [
+          "keepass",
+          "powershell",
+          "changelog-poshkeepass",
+          "pskeepass",
+          "poshkeepass",
+          "posh-keepass",
+          "management",
+          "automation",
+          "impersonate",
+          "masterkey",
+          "credentials",
+          "credential"
+        ],
+        "stars": 255,
+        "url": "https://github.com/PSKeePass/PoShKeePass",
+        "created_at": "2015-10-05T10:53:49+00:00",
+        "updated_at": "2026-02-02T01:21:34+00:00"
+      }
+    ],
+    "Secure Communication & Privacy": [
+      {
+        "name": "cryptgeon",
+        "full_name": "cupcakearmy/cryptgeon",
+        "description": "cryptgeon is a secure, open source note / file sharing service inspired by PrivNote written in rust & svelte.",
+        "language": "Svelte",
+        "topics": [
+          "private-notes",
+          "privnote",
+          "secure-notes",
+          "note-sharing",
+          "file-sharing"
+        ],
+        "stars": 1328,
+        "url": "https://github.com/cupcakearmy/cryptgeon",
+        "created_at": "2021-05-01T10:39:06+00:00",
+        "updated_at": "2026-02-01T16:23:15+00:00"
+      },
+      {
+        "name": "free-privacy-notice",
+        "full_name": "juro-privacy/free-privacy-notice",
+        "description": "Open source privacy notice design patterns.",
+        "language": "HTML",
+        "topics": [
+          "privacy-notice",
+          "icons",
+          "legal-documents"
+        ],
+        "stars": 179,
+        "url": "https://github.com/juro-privacy/free-privacy-notice",
+        "created_at": "2021-02-09T10:59:48+00:00",
+        "updated_at": "2025-10-06T13:15:45+00:00"
+      }
+    ],
+    "Browser Extensions & Web Tools": [
+      {
+        "name": "OneClick",
+        "full_name": "arifszn/OneClick",
+        "description": "Navigate to your favorite actions on the websites you love with just one click.",
+        "language": "JavaScript",
+        "topics": [
+          "shortcuts",
+          "new",
+          "create-new-item",
+          "create-new",
+          "actions",
+          "awesome-shortcuts",
+          "chrome-extension",
+          "firefox-addon",
+          "awesome",
+          "awesome-list",
+          "lists",
+          "hacktoberfest",
+          "javascript"
+        ],
+        "stars": 95,
+        "url": "https://github.com/arifszn/OneClick",
+        "created_at": "2021-10-16T17:11:03+00:00",
+        "updated_at": "2026-01-22T09:50:00+00:00"
+      },
+      {
+        "name": "cmd",
+        "full_name": "merill/cmd",
+        "description": "Repository hosting site for cmd.ms",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 161,
+        "url": "https://github.com/merill/cmd",
+        "created_at": "2022-10-08T21:50:03+00:00",
+        "updated_at": "2026-01-23T07:10:13+00:00"
+      }
+    ],
+    "IoT & Hardware": [
+      {
+        "name": "awesome-iot",
+        "full_name": "HQarroum/awesome-iot",
+        "description": "🤖 A curated list of awesome Internet of Things projects and resources.",
+        "language": null,
+        "topics": [
+          "awesome-list",
+          "internet-of-things",
+          "iot",
+          "embedded-systems",
+          "hardware",
+          "awesome",
+          "hacktoberfest"
+        ],
+        "stars": 3830,
+        "url": "https://github.com/HQarroum/awesome-iot",
+        "created_at": "2015-09-26T00:37:23+00:00",
+        "updated_at": "2026-02-02T00:03:56+00:00"
+      },
+      {
+        "name": "LongHive",
+        "full_name": "evandiewald/LongHive",
+        "description": "A smart beehive monitoring system using edge computing and the Helium protocol. ",
+        "language": "C++",
+        "topics": [],
+        "stars": 11,
+        "url": "https://github.com/evandiewald/LongHive",
+        "created_at": "2020-05-23T21:15:49+00:00",
+        "updated_at": "2025-09-02T17:45:29+00:00"
+      }
+    ],
+    "Git & Version Control": [
+      {
+        "name": "worktree-cli",
+        "full_name": "johnlindquist/worktree-cli",
+        "description": "Keine Beschreibung verfügbar",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 111,
+        "url": "https://github.com/johnlindquist/worktree-cli",
+        "created_at": "2025-03-20T04:11:05+00:00",
+        "updated_at": "2026-02-01T09:26:28+00:00"
+      },
+      {
+        "name": "githubbuch.github.io",
+        "full_name": "githubbuch/githubbuch.github.io",
+        "description": "Das Repository zum Buch “GitHub - Eine praktische Einführung”",
+        "language": "HTML",
+        "topics": [
+          "github",
+          "github-pages",
+          "github-actions",
+          "book",
+          "buch"
+        ],
+        "stars": 15,
+        "url": "https://github.com/githubbuch/githubbuch.github.io",
+        "created_at": "2021-01-16T13:30:02+00:00",
+        "updated_at": "2025-10-26T17:58:37+00:00"
+      }
+    ],
+    "Documentation & Diagramming": [
       {
         "name": "Microsoft-Integration-and-Azure-Stencils-Pack-for-Visio",
         "full_name": "sandroasp/Microsoft-Integration-and-Azure-Stencils-Pack-for-Visio",
@@ -1182,322 +1359,7 @@
         "updated_at": "2025-11-05T23:19:01+00:00"
       }
     ],
-    "UI Components & Design Systems": [
-      {
-        "name": "tremor-npm",
-        "full_name": "tremorlabs/tremor-npm",
-        "description": "React components to build charts and dashboards",
-        "language": "TypeScript",
-        "topics": [
-          "reactjs",
-          "tailwindcss",
-          "ui-system",
-          "typescript",
-          "react-components"
-        ],
-        "stars": 16449,
-        "url": "https://github.com/tremorlabs/tremor-npm",
-        "created_at": "2022-04-19T20:54:32+00:00",
-        "updated_at": "2026-01-27T16:41:59+00:00"
-      },
-      {
-        "name": "microsoft-ui-xaml",
-        "full_name": "microsoft/microsoft-ui-xaml",
-        "description": "WinUI: a modern UI framework with a rich set of controls and styles to build dynamic and high-performing Windows applications.",
-        "language": "C++",
-        "topics": [
-          "desktop",
-          "windows",
-          "xaml",
-          "fluent-design",
-          "csharp",
-          "cpp",
-          "windows-10",
-          "uwp",
-          "winui",
-          "winui3"
-        ],
-        "stars": 7261,
-        "url": "https://github.com/microsoft/microsoft-ui-xaml",
-        "created_at": "2018-07-26T18:45:29+00:00",
-        "updated_at": "2026-01-31T23:49:41+00:00"
-      }
-    ],
-    "Customer Feedback & Project Management": [
-      {
-        "name": "astuto",
-        "full_name": "astuto/astuto",
-        "description": "A free, open source, self-hosted customer feedback tool 🦊",
-        "language": "TypeScript",
-        "topics": [
-          "customer-feedback",
-          "self-hosted",
-          "ruby-on-rails",
-          "react",
-          "docker",
-          "feedback",
-          "roadmap",
-          "boards"
-        ],
-        "stars": 2349,
-        "url": "https://github.com/astuto/astuto",
-        "created_at": "2019-08-18T12:51:58+00:00",
-        "updated_at": "2026-01-31T17:16:02+00:00"
-      }
-    ],
-    "Remote Access & System Management": [
-      {
-        "name": "mRemoteNG",
-        "full_name": "mRemoteNG/mRemoteNG",
-        "description": "mRemoteNG is the next generation of mRemote, open source, tabbed, multi-protocol, remote connections manager.",
-        "language": "C#",
-        "topics": [
-          "mremoteng",
-          "rdp",
-          "ssh",
-          "remote-desktop",
-          "remote-access",
-          "multi-protocol",
-          "c-sharp",
-          "windows"
-        ],
-        "stars": 10531,
-        "url": "https://github.com/mRemoteNG/mRemoteNG",
-        "created_at": "2010-01-06T15:53:17+00:00",
-        "updated_at": "2026-02-01T02:32:07+00:00"
-      },
-      {
-        "name": "Citrix",
-        "full_name": "Deyda/Citrix",
-        "description": "Focused on automation, optimization, and troubleshooting for Citrix environments — including Virtual Apps and Desktops, NetScaler, WEM, and FSLogix. Contains scripts and tools used in enterprise-scale deployments and field-tested consulting projects.",
-        "language": "PowerShell",
-        "topics": [],
-        "stars": 9,
-        "url": "https://github.com/Deyda/Citrix",
-        "created_at": "2020-06-03T07:15:21+00:00",
-        "updated_at": "2025-11-05T21:03:29+00:00"
-      }
-    ],
-    "Logging & Monitoring": [
-      {
-        "name": "klogg",
-        "full_name": "variar/klogg",
-        "description": "Really fast log explorer based on glogg project",
-        "language": "C++",
-        "topics": [
-          "logs",
-          "windows",
-          "linux",
-          "macos",
-          "cross-platform",
-          "log-viewer",
-          "log-monitor",
-          "log-analyzer",
-          "qt",
-          "cpp",
-          "tail",
-          "hacktoberfest"
-        ],
-        "stars": 3188,
-        "url": "https://github.com/variar/klogg",
-        "created_at": "2016-03-09T18:55:34+00:00",
-        "updated_at": "2026-02-01T03:53:40+00:00"
-      }
-    ],
-    "Security & Privacy Tools": [
-      {
-        "name": "cryptgeon",
-        "full_name": "cupcakearmy/cryptgeon",
-        "description": "cryptgeon is a secure, open source note / file sharing service inspired by PrivNote written in rust & svelte.",
-        "language": "Svelte",
-        "topics": [
-          "private-notes",
-          "privnote",
-          "secure-notes",
-          "note-sharing",
-          "file-sharing"
-        ],
-        "stars": 1327,
-        "url": "https://github.com/cupcakearmy/cryptgeon",
-        "created_at": "2021-05-01T10:39:06+00:00",
-        "updated_at": "2026-01-31T02:46:54+00:00"
-      },
-      {
-        "name": "free-privacy-notice",
-        "full_name": "juro-privacy/free-privacy-notice",
-        "description": "Open source privacy notice design patterns.",
-        "language": "HTML",
-        "topics": [
-          "privacy-notice",
-          "icons",
-          "legal-documents"
-        ],
-        "stars": 179,
-        "url": "https://github.com/juro-privacy/free-privacy-notice",
-        "created_at": "2021-02-09T10:59:48+00:00",
-        "updated_at": "2025-10-06T13:15:45+00:00"
-      }
-    ],
-    "Browser Extensions & Shortcuts": [
-      {
-        "name": "OneClick",
-        "full_name": "arifszn/OneClick",
-        "description": "Navigate to your favorite actions on the websites you love with just one click.",
-        "language": "JavaScript",
-        "topics": [
-          "shortcuts",
-          "new",
-          "create-new-item",
-          "create-new",
-          "actions",
-          "awesome-shortcuts",
-          "chrome-extension",
-          "firefox-addon",
-          "awesome",
-          "awesome-list",
-          "lists",
-          "hacktoberfest",
-          "javascript"
-        ],
-        "stars": 95,
-        "url": "https://github.com/arifszn/OneClick",
-        "created_at": "2021-10-16T17:11:03+00:00",
-        "updated_at": "2026-01-22T09:50:00+00:00"
-      }
-    ],
-    "IoT & Hardware": [
-      {
-        "name": "awesome-iot",
-        "full_name": "HQarroum/awesome-iot",
-        "description": "🤖 A curated list of awesome Internet of Things projects and resources.",
-        "language": null,
-        "topics": [
-          "awesome-list",
-          "internet-of-things",
-          "iot",
-          "embedded-systems",
-          "hardware",
-          "awesome",
-          "hacktoberfest"
-        ],
-        "stars": 3829,
-        "url": "https://github.com/HQarroum/awesome-iot",
-        "created_at": "2015-09-26T00:37:23+00:00",
-        "updated_at": "2026-01-31T08:04:59+00:00"
-      },
-      {
-        "name": "LongHive",
-        "full_name": "evandiewald/LongHive",
-        "description": "A smart beehive monitoring system using edge computing and the Helium protocol. ",
-        "language": "C++",
-        "topics": [],
-        "stars": 11,
-        "url": "https://github.com/evandiewald/LongHive",
-        "created_at": "2020-05-23T21:15:49+00:00",
-        "updated_at": "2025-09-02T17:45:29+00:00"
-      }
-    ],
-    "Office & Microsoft 365 Development": [
-      {
-        "name": "OfficeDev-Samples",
-        "full_name": "dream-365/OfficeDev-Samples",
-        "description": "Office addins development",
-        "language": null,
-        "topics": [],
-        "stars": 14,
-        "url": "https://github.com/dream-365/OfficeDev-Samples",
-        "created_at": "2015-06-02T05:06:45+00:00",
-        "updated_at": "2025-07-19T19:07:08+00:00"
-      },
-      {
-        "name": "Microsoft-Teams-Samples",
-        "full_name": "OfficeDev/Microsoft-Teams-Samples",
-        "description": "Welcome to the Microsoft Teams samples repository. Here you will find task-focused samples in C#, JavaScript and TypeScript to help you get started with the Microsoft Teams App!",
-        "language": "C#",
-        "topics": [],
-        "stars": 1333,
-        "url": "https://github.com/OfficeDev/Microsoft-Teams-Samples",
-        "created_at": "2020-12-16T16:44:29+00:00",
-        "updated_at": "2026-01-31T08:27:21+00:00"
-      }
-    ],
-    "Web Development & Websites": [
-      {
-        "name": "cmd",
-        "full_name": "merill/cmd",
-        "description": "Repository hosting site for cmd.ms",
-        "language": "JavaScript",
-        "topics": [],
-        "stars": 161,
-        "url": "https://github.com/merill/cmd",
-        "created_at": "2022-10-08T21:50:03+00:00",
-        "updated_at": "2026-01-23T07:10:13+00:00"
-      },
-      {
-        "name": "betterbahn",
-        "full_name": "BetterBahn/betterbahn",
-        "description": "BetterBahn is an open-source project that aims to improve the train travel experience in germany. The current focus is on split-ticketing. However, further functions are planned to follow in the future.",
-        "language": "TypeScript",
-        "topics": [
-          "deutsche-bahn",
-          "open-source",
-          "railway"
-        ],
-        "stars": 2459,
-        "url": "https://github.com/BetterBahn/betterbahn",
-        "created_at": "2025-08-15T07:09:54+00:00",
-        "updated_at": "2026-01-31T23:59:12+00:00"
-      }
-    ],
-    "ChurchTools & CRM": [
-      {
-        "name": "ChurchTools",
-        "full_name": "ftwegner/ChurchTools",
-        "description": "ChurchTools Python code",
-        "language": "JavaScript",
-        "topics": [],
-        "stars": 1,
-        "url": "https://github.com/ftwegner/ChurchTools",
-        "created_at": "2025-04-20T19:00:00+00:00",
-        "updated_at": "2025-12-08T21:59:21+00:00"
-      },
-      {
-        "name": "MrAnderson",
-        "full_name": "bazn/MrAnderson",
-        "description": "Rasa Chatbot with Matrix42 integration",
-        "language": "Python",
-        "topics": [],
-        "stars": 1,
-        "url": "https://github.com/bazn/MrAnderson",
-        "created_at": "2022-11-16T10:03:57+00:00",
-        "updated_at": "2022-12-01T23:03:09+00:00"
-      }
-    ],
-    "PowerShell Modules & Tools": [
-      {
-        "name": "PoShKeePass",
-        "full_name": "PSKeePass/PoShKeePass",
-        "description": "PowerShell module for KeePass",
-        "language": "PowerShell",
-        "topics": [
-          "keepass",
-          "powershell",
-          "changelog-poshkeepass",
-          "pskeepass",
-          "poshkeepass",
-          "posh-keepass",
-          "management",
-          "automation",
-          "impersonate",
-          "masterkey",
-          "credentials",
-          "credential"
-        ],
-        "stars": 256,
-        "url": "https://github.com/PSKeePass/PoShKeePass",
-        "created_at": "2015-10-05T10:53:49+00:00",
-        "updated_at": "2025-11-03T15:09:15+00:00"
-      },
+    "PowerShell Modules & Scripting": [
       {
         "name": "PSGist",
         "full_name": "dotps1/PSGist",
@@ -1510,46 +1372,31 @@
         "updated_at": "2026-01-18T15:36:06+00:00"
       },
       {
-        "name": "ModuleBuilder",
-        "full_name": "PoshCode/ModuleBuilder",
-        "description": "A PowerShell Module to help scripters write, version, sign, package, and publish.",
+        "name": "DriverAutomationTool",
+        "full_name": "maurice-daly/DriverAutomationTool",
+        "description": "Home of the Driver Automation Tool",
         "language": "PowerShell",
         "topics": [],
-        "stars": 493,
-        "url": "https://github.com/PoshCode/ModuleBuilder",
-        "created_at": "2014-04-03T17:37:54+00:00",
-        "updated_at": "2026-01-28T15:33:05+00:00"
+        "stars": 462,
+        "url": "https://github.com/maurice-daly/DriverAutomationTool",
+        "created_at": "2020-03-17T23:19:34+00:00",
+        "updated_at": "2026-01-26T11:12:42+00:00"
       },
       {
-        "name": "RunAsUser",
-        "full_name": "KelvinTegelaar/RunAsUser",
-        "description": "a PowerShell module that allows you to impersonate the currently logged on user, while running PowerShell.exe as system.",
+        "name": "CoinMarketCap",
+        "full_name": "lazywinadmin/CoinMarketCap",
+        "description": "CoinMarketCap is an MIT licensed PowerShell module providing an easy to use wrapper around the coinmarketcap API.",
         "language": "PowerShell",
-        "topics": [],
-        "stars": 415,
-        "url": "https://github.com/KelvinTegelaar/RunAsUser",
-        "created_at": "2020-07-13T20:33:56+00:00",
-        "updated_at": "2026-01-30T07:43:35+00:00"
-      },
-      {
-        "name": "PowerShell",
-        "full_name": "PowerShell/PowerShell",
-        "description": "PowerShell for every system!",
-        "language": "C#",
         "topics": [
-          "powershell",
-          "windows",
-          "macos",
-          "linux",
-          "command-line",
-          "shell",
-          "netcore",
-          "hacktoberfest"
+          "coinmarketcap",
+          "bitcoin",
+          "cryptocurrencies",
+          "powershell"
         ],
-        "stars": 51332,
-        "url": "https://github.com/PowerShell/PowerShell",
-        "created_at": "2016-01-13T23:41:35+00:00",
-        "updated_at": "2026-02-01T04:48:46+00:00"
+        "stars": 14,
+        "url": "https://github.com/lazywinadmin/CoinMarketCap",
+        "created_at": "2017-11-12T16:44:31+00:00",
+        "updated_at": "2024-09-01T22:55:57+00:00"
       },
       {
         "name": "LazyWinAdmin_GUI",
@@ -1571,57 +1418,6 @@
         "updated_at": "2026-01-10T14:32:42+00:00"
       },
       {
-        "name": "CoinMarketCap",
-        "full_name": "lazywinadmin/CoinMarketCap",
-        "description": "CoinMarketCap is an MIT licensed PowerShell module providing an easy to use wrapper around the coinmarketcap API.",
-        "language": "PowerShell",
-        "topics": [
-          "coinmarketcap",
-          "bitcoin",
-          "cryptocurrencies",
-          "powershell"
-        ],
-        "stars": 14,
-        "url": "https://github.com/lazywinadmin/CoinMarketCap",
-        "created_at": "2017-11-12T16:44:31+00:00",
-        "updated_at": "2024-09-01T22:55:57+00:00"
-      },
-      {
-        "name": "awesome-powershell",
-        "full_name": "janikvonrotz/awesome-powershell",
-        "description": "This repository has been moved to https://codeberg.org/janikvonrotz/awesome-powershell. Please visit the new location for the latest updates.",
-        "language": "PowerShell",
-        "topics": [
-          "powershell",
-          "windows-powershell",
-          "powershell-ise",
-          "powershell-cmdlets",
-          "awesome",
-          "guides",
-          "tutorial",
-          "linux-powershell",
-          "awesome-list",
-          "list"
-        ],
-        "stars": 5335,
-        "url": "https://github.com/janikvonrotz/awesome-powershell",
-        "created_at": "2015-05-28T12:10:06+00:00",
-        "updated_at": "2026-02-01T02:36:01+00:00"
-      },
-      {
-        "name": "PowerShellFAQ",
-        "full_name": "PoshCode/PowerShellFAQ",
-        "description": "A collection of frequently asked questions (and answers)",
-        "language": null,
-        "topics": [],
-        "stars": 17,
-        "url": "https://github.com/PoshCode/PowerShellFAQ",
-        "created_at": "2017-10-17T22:32:38+00:00",
-        "updated_at": "2025-10-06T09:22:43+00:00"
-      }
-    ],
-    "PowerShell Core & OpenSSH": [
-      {
         "name": "PowerShell",
         "full_name": "PowerShell/PowerShell",
         "description": "PowerShell for every system!",
@@ -1636,10 +1432,23 @@
           "netcore",
           "hacktoberfest"
         ],
-        "stars": 51332,
+        "stars": 51333,
         "url": "https://github.com/PowerShell/PowerShell",
         "created_at": "2016-01-13T23:41:35+00:00",
-        "updated_at": "2026-02-01T04:48:46+00:00"
+        "updated_at": "2026-02-02T01:43:19+00:00"
+      },
+      {
+        "name": "PowerShell-Docker",
+        "full_name": "PowerShell/PowerShell-Docker",
+        "description": "Repository for building PowerShell Docker images",
+        "language": "Dockerfile",
+        "topics": [
+          "hacktoberfest"
+        ],
+        "stars": 443,
+        "url": "https://github.com/PowerShell/PowerShell-Docker",
+        "created_at": "2018-05-23T19:37:36+00:00",
+        "updated_at": "2026-01-19T03:48:17+00:00"
       },
       {
         "name": "openssh-portable",
@@ -1652,37 +1461,44 @@
           "windows",
           "win32"
         ],
-        "stars": 1961,
+        "stars": 1960,
         "url": "https://github.com/PowerShell/openssh-portable",
         "created_at": "2016-11-02T04:18:48+00:00",
-        "updated_at": "2026-01-31T04:08:46+00:00"
-      }
-    ],
-    "System Imaging & Deployment": [
-      {
-        "name": "BIS-F",
-        "full_name": "EUCweb/BIS-F",
-        "description": "Base Image Script Framework (BIS-F)",
-        "language": "PowerShell",
-        "topics": [],
-        "stars": 100,
-        "url": "https://github.com/EUCweb/BIS-F",
-        "created_at": "2018-03-13T19:44:26+00:00",
-        "updated_at": "2025-12-03T13:11:55+00:00"
+        "updated_at": "2026-02-01T19:08:58+00:00"
       },
       {
-        "name": "DriverAutomationTool",
-        "full_name": "maurice-daly/DriverAutomationTool",
-        "description": "Home of the Driver Automation Tool",
+        "name": "RunAsUser",
+        "full_name": "KelvinTegelaar/RunAsUser",
+        "description": "a PowerShell module that allows you to impersonate the currently logged on user, while running PowerShell.exe as system.",
         "language": "PowerShell",
         "topics": [],
-        "stars": 462,
-        "url": "https://github.com/maurice-daly/DriverAutomationTool",
-        "created_at": "2020-03-17T23:19:34+00:00",
-        "updated_at": "2026-01-26T11:12:42+00:00"
-      }
-    ],
-    "Active Directory Administration": [
+        "stars": 415,
+        "url": "https://github.com/KelvinTegelaar/RunAsUser",
+        "created_at": "2020-07-13T20:33:56+00:00",
+        "updated_at": "2026-01-30T07:43:35+00:00"
+      },
+      {
+        "name": "ModuleBuilder",
+        "full_name": "PoshCode/ModuleBuilder",
+        "description": "A PowerShell Module to help scripters write, version, sign, package, and publish.",
+        "language": "PowerShell",
+        "topics": [],
+        "stars": 492,
+        "url": "https://github.com/PoshCode/ModuleBuilder",
+        "created_at": "2014-04-03T17:37:54+00:00",
+        "updated_at": "2026-02-02T01:21:29+00:00"
+      },
+      {
+        "name": "PowerShellFAQ",
+        "full_name": "PoshCode/PowerShellFAQ",
+        "description": "A collection of frequently asked questions (and answers)",
+        "language": null,
+        "topics": [],
+        "stars": 17,
+        "url": "https://github.com/PoshCode/PowerShellFAQ",
+        "created_at": "2017-10-17T22:32:38+00:00",
+        "updated_at": "2025-10-06T09:22:43+00:00"
+      },
       {
         "name": "Public-AD-Scripts",
         "full_name": "zjorz/Public-AD-Scripts",
@@ -1693,40 +1509,221 @@
         "url": "https://github.com/zjorz/Public-AD-Scripts",
         "created_at": "2020-04-01T07:56:40+00:00",
         "updated_at": "2026-01-29T01:33:45+00:00"
+      },
+      {
+        "name": "BTPS-SecPack",
+        "full_name": "OsbornePro/BTPS-SecPack",
+        "description": "This repository contains a collection of PowerShell tools that can be utilized to protect and defend an environment based on the recommendations of multiple cyber security researchers at Microsoft. These tools were created with a small to medium size enterprise environment in mind as smaller organizations do not always have the type of funding available to overly spend on security. The goal of this project is to help add value to an smaller organizations security by creating more visibility for the average IT Administrator. Organizations with 1,000’s of devices may find that this entire suite does not apply to them.",
+        "language": "PowerShell",
+        "topics": [
+          "wef",
+          "powershell",
+          "protections",
+          "cmdlets",
+          "blueteam",
+          "cybersecurity",
+          "windowseventforwarding",
+          "windowsevents",
+          "security",
+          "security-tools",
+          "alerts",
+          "alert",
+          "alerting",
+          "defense",
+          "defense-in-depth",
+          "ps1",
+          "smaller-organizations",
+          "winrm",
+          "microsoft",
+          "active-directory"
+        ],
+        "stars": 51,
+        "url": "https://github.com/OsbornePro/BTPS-SecPack",
+        "created_at": "2020-06-30T22:08:25+00:00",
+        "updated_at": "2025-12-04T16:22:34+00:00"
+      },
+      {
+        "name": "PK-AADAppReg",
+        "full_name": "Semperis/PK-AADAppReg",
+        "description": "Keine Beschreibung verfügbar",
+        "language": "PowerShell",
+        "topics": [],
+        "stars": 39,
+        "url": "https://github.com/Semperis/PK-AADAppReg",
+        "created_at": "2022-07-03T15:14:17+00:00",
+        "updated_at": "2025-12-03T05:57:42+00:00"
       }
     ],
-    "Data Format & Serialization": [
+    "Authentication & Identity Management": [
       {
-        "name": "toon",
-        "full_name": "toon-format/toon",
-        "description": "🎒 Token-Oriented Object Notation (TOON) – Compact, human-readable, schema-aware JSON for LLM prompts. Spec, benchmarks, TypeScript SDK.",
+        "name": "rovoswitch",
+        "full_name": "yue99520/rovoswitch",
+        "description": "A TypeScript CLI application for managing Rovo authentication profiles and executing authentication commands with encryption support.",
         "language": "TypeScript",
         "topics": [
-          "data-format",
-          "llm",
-          "serialization",
-          "tokenization"
+          "ai",
+          "attlasian",
+          "auth",
+          "authentication",
+          "cli",
+          "nodejs",
+          "rovo",
+          "rovo-dev",
+          "login",
+          "profile",
+          "token"
         ],
-        "stars": 22375,
-        "url": "https://github.com/toon-format/toon",
-        "created_at": "2025-10-22T18:17:32+00:00",
-        "updated_at": "2026-02-01T04:34:03+00:00"
+        "stars": 2,
+        "url": "https://github.com/yue99520/rovoswitch",
+        "created_at": "2025-08-05T05:03:22+00:00",
+        "updated_at": "2025-09-10T12:55:23+00:00"
       }
     ],
-    "Code Review & Actions": [
+    "Microsoft Teams & Office Development": [
       {
-        "name": "claude-code-action",
-        "full_name": "anthropics/claude-code-action",
-        "description": "Keine Beschreibung verfügbar",
-        "language": "TypeScript",
+        "name": "Microsoft-Teams-Samples",
+        "full_name": "OfficeDev/Microsoft-Teams-Samples",
+        "description": "Welcome to the Microsoft Teams samples repository. Here you will find task-focused samples in C#, JavaScript and TypeScript to help you get started with the Microsoft Teams App!",
+        "language": "C#",
         "topics": [],
-        "stars": 5426,
-        "url": "https://github.com/anthropics/claude-code-action",
-        "created_at": "2025-05-19T15:26:50+00:00",
-        "updated_at": "2026-02-01T03:54:30+00:00"
+        "stars": 1333,
+        "url": "https://github.com/OfficeDev/Microsoft-Teams-Samples",
+        "created_at": "2020-12-16T16:44:29+00:00",
+        "updated_at": "2026-01-31T08:27:21+00:00"
+      },
+      {
+        "name": "OfficeDev-Samples",
+        "full_name": "dream-365/OfficeDev-Samples",
+        "description": "Office addins development",
+        "language": null,
+        "topics": [],
+        "stars": 14,
+        "url": "https://github.com/dream-365/OfficeDev-Samples",
+        "created_at": "2015-06-02T05:06:45+00:00",
+        "updated_at": "2025-07-19T19:07:08+00:00"
+      },
+      {
+        "name": "ChurchTools",
+        "full_name": "ftwegner/ChurchTools",
+        "description": "ChurchTools Python code",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 1,
+        "url": "https://github.com/ftwegner/ChurchTools",
+        "created_at": "2025-04-20T19:00:00+00:00",
+        "updated_at": "2025-12-08T21:59:21+00:00"
+      }
+    ],
+    "UI Components & Design Systems": [
+      {
+        "name": "tremor-npm",
+        "full_name": "tremorlabs/tremor-npm",
+        "description": "React components to build charts and dashboards",
+        "language": "TypeScript",
+        "topics": [
+          "reactjs",
+          "tailwindcss",
+          "ui-system",
+          "typescript",
+          "react-components"
+        ],
+        "stars": 16450,
+        "url": "https://github.com/tremorlabs/tremor-npm",
+        "created_at": "2022-04-19T20:54:32+00:00",
+        "updated_at": "2026-02-02T01:22:49+00:00"
+      }
+    ],
+    "Travel & Transportation": [
+      {
+        "name": "betterbahn",
+        "full_name": "BetterBahn/betterbahn",
+        "description": "BetterBahn is an open-source project that aims to improve the train travel experience in germany. The current focus is on split-ticketing. However, further functions are planned to follow in the future.",
+        "language": "TypeScript",
+        "topics": [
+          "deutsche-bahn",
+          "open-source",
+          "railway"
+        ],
+        "stars": 2458,
+        "url": "https://github.com/BetterBahn/betterbahn",
+        "created_at": "2025-08-15T07:09:54+00:00",
+        "updated_at": "2026-02-01T16:40:18+00:00"
+      }
+    ],
+    "Chatbots & Conversational AI": [
+      {
+        "name": "MrAnderson",
+        "full_name": "bazn/MrAnderson",
+        "description": "Rasa Chatbot with Matrix42 integration",
+        "language": "Python",
+        "topics": [],
+        "stars": 1,
+        "url": "https://github.com/bazn/MrAnderson",
+        "created_at": "2022-11-16T10:03:57+00:00",
+        "updated_at": "2022-12-01T23:03:09+00:00"
+      }
+    ],
+    "System Administration": [
+      {
+        "name": "awesome-sysadmin",
+        "full_name": "kahun/awesome-sysadmin",
+        "description": "A curated list of amazingly awesome open source sysadmin resources inspired by Awesome PHP.",
+        "language": null,
+        "topics": [],
+        "stars": 24232,
+        "url": "https://github.com/kahun/awesome-sysadmin",
+        "created_at": "2014-02-09T22:39:20+00:00",
+        "updated_at": "2026-02-01T18:40:01+00:00"
+      },
+      {
+        "name": "BIS-F",
+        "full_name": "EUCweb/BIS-F",
+        "description": "Base Image Script Framework (BIS-F)",
+        "language": "PowerShell",
+        "topics": [],
+        "stars": 100,
+        "url": "https://github.com/EUCweb/BIS-F",
+        "created_at": "2018-03-13T19:44:26+00:00",
+        "updated_at": "2025-12-03T13:11:55+00:00"
+      }
+    ],
+    "Self-Hosted Applications": [
+      {
+        "name": "awesome-selfhosted",
+        "full_name": "binwiederhier/awesome-selfhosted",
+        "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+        "language": null,
+        "topics": [],
+        "stars": 12,
+        "url": "https://github.com/binwiederhier/awesome-selfhosted",
+        "created_at": "2022-03-24T00:51:42+00:00",
+        "updated_at": "2025-12-31T00:36:54+00:00"
       }
     ],
     "Awesome Lists & Resources": [
+      {
+        "name": "awesome-gpt-store",
+        "full_name": "devisasari/awesome-gpt-store",
+        "description": "A curated list of awesome GPTs in the GPT Store",
+        "language": null,
+        "topics": [
+          "ai",
+          "awesome",
+          "awesome-list",
+          "chatgpt",
+          "gpt",
+          "gpt-4",
+          "gpts",
+          "openai",
+          "gpts-list",
+          "gptstore",
+          "gpt-store"
+        ],
+        "stars": 2093,
+        "url": "https://github.com/devisasari/awesome-gpt-store",
+        "created_at": "2023-11-10T16:40:05+00:00",
+        "updated_at": "2026-01-29T07:39:56+00:00"
+      },
       {
         "name": "awesome-readme",
         "full_name": "matiassingers/awesome-readme",
@@ -1738,32 +1735,23 @@
           "list",
           "readme"
         ],
-        "stars": 20355,
+        "stars": 20363,
         "url": "https://github.com/matiassingers/awesome-readme",
         "created_at": "2015-01-19T06:15:03+00:00",
-        "updated_at": "2026-02-01T04:42:08+00:00"
-      },
+        "updated_at": "2026-02-02T01:31:41+00:00"
+      }
+    ],
+    "Configuration Management": [
       {
-        "name": "awesome-sysadmin",
-        "full_name": "kahun/awesome-sysadmin",
-        "description": "A curated list of amazingly awesome open source sysadmin resources inspired by Awesome PHP.",
-        "language": null,
+        "name": "speckit-companion",
+        "full_name": "alfredoperez/speckit-companion",
+        "description": "Keine Beschreibung verfügbar",
+        "language": "TypeScript",
         "topics": [],
-        "stars": 24232,
-        "url": "https://github.com/kahun/awesome-sysadmin",
-        "created_at": "2014-02-09T22:39:20+00:00",
-        "updated_at": "2026-01-31T08:56:30+00:00"
-      },
-      {
-        "name": "awesome-selfhosted",
-        "full_name": "binwiederhier/awesome-selfhosted",
-        "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
-        "language": null,
-        "topics": [],
-        "stars": 12,
-        "url": "https://github.com/binwiederhier/awesome-selfhosted",
-        "created_at": "2022-03-24T00:51:42+00:00",
-        "updated_at": "2025-12-31T00:36:54+00:00"
+        "stars": 13,
+        "url": "https://github.com/alfredoperez/speckit-companion",
+        "created_at": "2025-12-02T14:57:37+00:00",
+        "updated_at": "2026-01-28T09:05:59+00:00"
       }
     ]
   },
