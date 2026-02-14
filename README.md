@@ -2,15 +2,15 @@
 
 Automatisch kategorisierte GitHub starred Repositories mit **Atlassian CLI (ACLI) Rovo Dev**.
 
-📊 **116 Repositories** in **7 Kategorien**  
-🕐 **Letztes Update:** 2026-02-13 04:57:48  
+📊 **117 Repositories** in **7 Kategorien**  
+🕐 **Letztes Update:** 2026-02-14 04:45:22  
 🤖 **Generiert mit:** Atlassian CLI (ACLI) Rovo Dev
 
 ## 📂 Kategorien-Übersicht
 
 - [Web Development](#web-development-39-repositories) (39 Repositories)
 - [Other](#other-32-repositories) (32 Repositories)
-- [Data Science & ML](#data-science--ml-22-repositories) (22 Repositories)
+- [Data Science & ML](#data-science--ml-23-repositories) (23 Repositories)
 - [Utilities & Tools](#utilities--tools-7-repositories) (7 Repositories)
 - [Mobile Development](#mobile-development-6-repositories) (6 Repositories)
 - [Programming Languages](#programming-languages-6-repositories) (6 Repositories)
@@ -24,98 +24,98 @@ Automatisch kategorisierte GitHub starred Repositories mit **Atlassian CLI (ACLI
 ### [openclaw](https://github.com/openclaw/openclaw)
 Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 
 
-**Details:** ⭐ 189618 `TypeScript` `ai`, `assistant`, `own-your-data`
+**Details:** ⭐ 192440 `TypeScript` `ai`, `assistant`, `own-your-data`
 
 ---
 
 ### [n8n](https://github.com/n8n-io/n8n)
 Fair-code workflow automation platform with native AI capabilities. Combine visual building with cus...
 
-**Details:** ⭐ 174322 `TypeScript` `automation`, `ipaas`, `n8n`
+**Details:** ⭐ 174446 `TypeScript` `automation`, `ipaas`, `n8n`
 
 ---
 
 ### [servers](https://github.com/modelcontextprotocol/servers)
 Model Context Protocol Servers
 
-**Details:** ⭐ 78576 `TypeScript` 
+**Details:** ⭐ 78625 `TypeScript` 
 
 ---
 
 ### [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)
 Breakthrough Method for Agile Ai Driven Development
 
-**Details:** ⭐ 35438 `JavaScript` 
+**Details:** ⭐ 35543 `JavaScript` 
 
 ---
 
 ### [OpenSpec](https://github.com/Fission-AI/OpenSpec)
 Spec-driven development (SDD) for AI coding assistants.
 
-**Details:** ⭐ 23841 `TypeScript` `spec`, `ai`, `context-engineering`
+**Details:** ⭐ 23992 `TypeScript` `spec`, `ai`, `context-engineering`
 
 ---
 
 ### [toon](https://github.com/toon-format/toon)
 🎒 Token-Oriented Object Notation (TOON) – Compact, human-readable, schema-aware JSON for LLM prompts...
 
-**Details:** ⭐ 22612 `TypeScript` `data-format`, `llm`, `serialization`
+**Details:** ⭐ 22620 `TypeScript` `data-format`, `llm`, `serialization`
 
 ---
 
 ### [Roo-Code](https://github.com/RooCodeInc/Roo-Code)
 Roo Code gives you a whole dev team of AI agents in your code editor.
 
-**Details:** ⭐ 22214 `TypeScript` 
+**Details:** ⭐ 22213 `TypeScript` 
 
 ---
 
 ### [opcode](https://github.com/winfunc/opcode)
 A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Cod...
 
-**Details:** ⭐ 20545 `TypeScript` `anthropic`, `anthropic-claude`, `claude`
+**Details:** ⭐ 20529 `TypeScript` `anthropic`, `anthropic-claude`, `claude`
 
 ---
 
 ### [agent-skills](https://github.com/vercel-labs/agent-skills)
 Vercel's official collection of agent skills
 
-**Details:** ⭐ 20087 `JavaScript` 
+**Details:** ⭐ 20236 `JavaScript` 
 
 ---
 
 ### [tremor-npm](https://github.com/tremorlabs/tremor-npm)
 React components to build charts and dashboards
 
-**Details:** ⭐ 16466 `TypeScript` `reactjs`, `tailwindcss`, `ui-system`
+**Details:** ⭐ 16461 `TypeScript` `reactjs`, `tailwindcss`, `ui-system`
 
 ---
 
 ### [vercel](https://github.com/vercel/vercel)
 Develop. Preview. Ship.
 
-**Details:** ⭐ 14820 `TypeScript` `cli`, `command`, `vercel`
+**Details:** ⭐ 14823 `TypeScript` `cli`, `command`, `vercel`
 
 ---
 
 ### [Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP)
 MCP server to provide Figma layout information to AI coding agents like Cursor
 
-**Details:** ⭐ 13113 `TypeScript` `ai`, `cursor`, `figma`
+**Details:** ⭐ 13126 `TypeScript` `ai`, `cursor`, `figma`
 
 ---
 
 ### [claude-code-action](https://github.com/anthropics/claude-code-action)
 Keine Beschreibung verfügbar
 
-**Details:** ⭐ 5649 `TypeScript` 
+**Details:** ⭐ 5662 `TypeScript` 
 
 ---
 
 ### [spec-workflow-mcp](https://github.com/Pimzino/spec-workflow-mcp)
 A Model Context Protocol (MCP) server that provides structured spec-driven development workflow tool...
 
-**Details:** ⭐ 3884 `TypeScript` 
+**Details:** ⭐ 3885 `TypeScript` 
 
 ---
 
@@ -136,7 +136,7 @@ A free, open source, self-hosted customer feedback tool 🦊
 ### [design-os](https://github.com/buildermethods/design-os)
 The missing design process between your product idea and your codebase.
 
-**Details:** ⭐ 1398 `TypeScript` 
+**Details:** ⭐ 1400 `TypeScript` 
 
 ---
 
@@ -150,14 +150,14 @@ Welcome to the Microsoft Teams samples repository. Here you will find task-focus
 ### [azure-devops-mcp](https://github.com/microsoft/azure-devops-mcp)
 The MCP server for Azure DevOps, bringing the power of Azure DevOps directly to your agents.
 
-**Details:** ⭐ 1262 `TypeScript` 
+**Details:** ⭐ 1267 `TypeScript` 
 
 ---
 
 ### [mcp-mermaid](https://github.com/hustcc/mcp-mermaid)
 ❤️ Generate mermaid diagram and chart with AI MCP dynamically.
 
-**Details:** ⭐ 424 `TypeScript` `mcp`, `mcp-server`, `mermaid`
+**Details:** ⭐ 428 `TypeScript` `mcp`, `mcp-server`, `mermaid`
 
 ---
 
@@ -299,21 +299,21 @@ ChurchTools Python code
 ### [PowerShell](https://github.com/PowerShell/PowerShell)
 PowerShell for every system!
 
-**Details:** ⭐ 51421 `C#` `powershell`, `windows`, `macos`
+**Details:** ⭐ 51420 `C#` `powershell`, `windows`, `macos`
 
 ---
 
 ### [awesome-sysadmin](https://github.com/kahun/awesome-sysadmin)
 A curated list of amazingly awesome open source sysadmin resources inspired by Awesome PHP.
 
-**Details:** ⭐ 24234  
+**Details:** ⭐ 24228  
 
 ---
 
 ### [awesome-readme](https://github.com/matiassingers/awesome-readme)
 A curated list of awesome READMEs
 
-**Details:** ⭐ 20424  `awesome-list`, `awesome`, `list`
+**Details:** ⭐ 20428  `awesome-list`, `awesome`, `list`
 
 ---
 
@@ -327,35 +327,35 @@ mRemoteNG is the next generation of mRemote, open source, tabbed, multi-protocol
 ### [awesome-powershell](https://github.com/janikvonrotz/awesome-powershell)
 This repository has been moved to https://codeberg.org/janikvonrotz/awesome-powershell. Please visit...
 
-**Details:** ⭐ 5338 `PowerShell` `powershell`, `windows-powershell`, `powershell-ise`
+**Details:** ⭐ 5335 `PowerShell` `powershell`, `windows-powershell`, `powershell-ise`
 
 ---
 
 ### [awesome-iot](https://github.com/HQarroum/awesome-iot)
 🤖 A curated list of awesome Internet of Things projects and resources.
 
-**Details:** ⭐ 3839  `awesome-list`, `internet-of-things`, `iot`
+**Details:** ⭐ 3838  `awesome-list`, `internet-of-things`, `iot`
 
 ---
 
 ### [agent-os](https://github.com/buildermethods/agent-os)
 Agent OS is a system for injecting your codebase standards and writing better specs for spec-driven ...
 
-**Details:** ⭐ 3776 `Shell` 
+**Details:** ⭐ 3784 `Shell` 
 
 ---
 
 ### [PowerShell](https://github.com/lazywinadmin/PowerShell)
 PowerShell functions and scripts (Azure, Active Directory, SCCM, SCSM, Exchange, O365, ...)
 
-**Details:** ⭐ 2827 `PowerShell` `powershell`, `scripting`, `sccm`
+**Details:** ⭐ 2826 `PowerShell` `powershell`, `scripting`, `sccm`
 
 ---
 
 ### [windows-dev-box-setup-scripts](https://github.com/microsoft/windows-dev-box-setup-scripts)
 Scripts to simplify setting up a Windows developer box
 
-**Details:** ⭐ 1870 `PowerShell` 
+**Details:** ⭐ 1871 `PowerShell` 
 
 ---
 
@@ -369,7 +369,7 @@ This repository of PowerShell sample scripts show how to access Intune service r
 ### [cryptgeon](https://github.com/cupcakearmy/cryptgeon)
 cryptgeon is a secure, open source note / file sharing service inspired by PrivNote written in rust ...
 
-**Details:** ⭐ 1336 `Svelte` `private-notes`, `privnote`, `secure-notes`
+**Details:** ⭐ 1334 `Svelte` `private-notes`, `privnote`, `secure-notes`
 
 ---
 
@@ -397,14 +397,14 @@ PowerShell for CrowdStrike's OAuth2 APIs
 ### [Public-AD-Scripts](https://github.com/zjorz/Public-AD-Scripts)
 AD Scripts
 
-**Details:** ⭐ 423 `PowerShell` 
+**Details:** ⭐ 424 `PowerShell` 
 
 ---
 
 ### [RunAsUser](https://github.com/KelvinTegelaar/RunAsUser)
 a PowerShell module that allows you to impersonate the currently logged on user, while running Power...
 
-**Details:** ⭐ 418 `PowerShell` 
+**Details:** ⭐ 417 `PowerShell` 
 
 ---
 
@@ -520,33 +520,33 @@ Keine Beschreibung verfügbar
 
 ---
 
-## Data Science & ML (22 Repositories)
+## Data Science & ML (23 Repositories)
 
 ### [spec-kit](https://github.com/github/spec-kit)
 💫 Toolkit to help you get started with Spec-Driven Development
 
-**Details:** ⭐ 69398 `Python` `ai`, `copilot`, `development`
+**Details:** ⭐ 69575 `Python` `ai`, `copilot`, `development`
 
 ---
 
 ### [ansible](https://github.com/ansible/ansible)
 Ansible is a radically simple IT automation platform that makes your applications and systems easier...
 
-**Details:** ⭐ 67979 `Python` `python`, `ansible`
+**Details:** ⭐ 67983 `Python` `python`, `ansible`
 
 ---
 
 ### [claude-code](https://github.com/anthropics/claude-code)
 Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and he...
 
-**Details:** ⭐ 66503 `Shell` 
+**Details:** ⭐ 66670 `Shell` 
 
 ---
 
 ### [flux](https://github.com/black-forest-labs/flux)
 Official inference repo for FLUX.1 models
 
-**Details:** ⭐ 25214 `Python` 
+**Details:** ⭐ 25208 `Python` 
 
 ---
 
@@ -560,35 +560,42 @@ an awesome list of honeypot resources
 ### [awesome-infosec](https://github.com/onlurking/awesome-infosec)
  A curated list of awesome infosec courses and training resources.
 
-**Details:** ⭐ 5581  `infosec`, `pentest`, `courses`
+**Details:** ⭐ 5582  `infosec`, `pentest`, `courses`
+
+---
+
+### [yasb](https://github.com/amnweb/yasb)
+A highly configurable Windows status bar written in Python. 
+
+**Details:** ⭐ 4152 `Python` `python`, `ricing`, `status-bar`
 
 ---
 
 ### [Harden-Windows-Security](https://github.com/HotCakeX/Harden-Windows-Security)
 Harden Windows Safely, Securely using Official Supported Microsoft methods and proper explanation | ...
 
-**Details:** ⭐ 4118 `C#` `defender`, `firewall-configuration`, `harden`
+**Details:** ⭐ 4122 `C#` `defender`, `firewall-configuration`, `harden`
 
 ---
 
 ### [ROADtools](https://github.com/dirkjanm/ROADtools)
 A collection of Azure AD/Entra tools for offensive and defensive security purposes
 
-**Details:** ⭐ 2517 `Python` `azure-active-directory`, `azuread`, `microsoft-graph`
+**Details:** ⭐ 2516 `Python` `azure-active-directory`, `azuread`, `microsoft-graph`
 
 ---
 
 ### [macos_security](https://github.com/usnistgov/macos_security)
 macOS Security Compliance Project
 
-**Details:** ⭐ 2243 `YAML` `apple`, `macos`, `compliance`
+**Details:** ⭐ 2244 `YAML` `apple`, `macos`, `compliance`
 
 ---
 
 ### [awesome-gpt-store](https://github.com/devisasari/awesome-gpt-store)
 A curated list of awesome GPTs in the GPT Store
 
-**Details:** ⭐ 2096  `ai`, `awesome`, `awesome-list`
+**Details:** ⭐ 2095  `ai`, `awesome`, `awesome-list`
 
 ---
 
@@ -609,7 +616,7 @@ The CrowdStrike Falcon SDK for Python
 ### [secureboot_objects](https://github.com/microsoft/secureboot_objects)
 Secure boot objects recommended by Microsoft.
 
-**Details:** ⭐ 163 `Python` 
+**Details:** ⭐ 164 `Python` 
 
 ---
 
@@ -688,7 +695,7 @@ Home of the Driver Automation Tool
 ### [Powershell_CICD_repository](https://github.com/ztrhgf/Powershell_CICD_repository)
 This tool greatly simplifies Windows administrator life by automating the whole scripting content li...
 
-**Details:** ⭐ 171 `PowerShell` `powershell`, `git-hooks`, `cicd`
+**Details:** ⭐ 172 `PowerShell` `powershell`, `git-hooks`, `cicd`
 
 ---
 
@@ -732,7 +739,7 @@ A collection of PowerShell-based documentation tools and templates for IT enviro
 ### [Ice](https://github.com/jordanbaird/Ice)
 Powerful menu bar manager for macOS
 
-**Details:** ⭐ 25938 `Swift` `macos`, `menubar`, `statusbar`
+**Details:** ⭐ 25956 `Swift` `macos`, `menubar`, `statusbar`
 
 ---
 
@@ -776,14 +783,14 @@ Create 'icns' and 'iconset' files from standard images
 ### [komorebi](https://github.com/LGUG2Z/komorebi)
 A tiling window manager for Windows 🍉
 
-**Details:** ⭐ 14050 `Rust` `tiling-window-manager`, `windows`, `rust`
+**Details:** ⭐ 14051 `Rust` `tiling-window-manager`, `windows`, `rust`
 
 ---
 
 ### [microsoft-ui-xaml](https://github.com/microsoft/microsoft-ui-xaml)
 WinUI: a modern UI framework with a rich set of controls and styles to build dynamic and high-perfor...
 
-**Details:** ⭐ 7275 `C++` `desktop`, `windows`, `xaml`
+**Details:** ⭐ 7276 `C++` `desktop`, `windows`, `xaml`
 
 ---
 
@@ -804,7 +811,7 @@ Portable OpenSSH, all Win32-OpenSSH releases and wiki are managed at https://git
 ### [yakety](https://github.com/badlogic/yakety)
 Voice recording and transcription app
 
-**Details:** ⭐ 64 `C` 
+**Details:** ⭐ 65 `C` 
 
 ---
 
@@ -820,7 +827,7 @@ A smart beehive monitoring system using edge computing and the Helium protocol.
 ### [ansible-examples](https://github.com/ansible/ansible-examples)
 A few starter examples of ansible playbooks, to show features and how they work together.  See http:...
 
-**Details:** ⭐ 12004 `Shell` 
+**Details:** ⭐ 12005 `Shell` 
 
 ---
 
@@ -852,13 +859,13 @@ A modern, extensible framework for defining and enforcing security policies acro
 |-----------|--------|
 | Web Development | 39 |
 | Other | 32 |
-| Data Science & ML | 22 |
+| Data Science & ML | 23 |
 | Utilities & Tools | 7 |
 | Mobile Development | 6 |
 | Programming Languages | 6 |
 | DevOps & Infrastructure | 4 |
 
-**Gesamt:** 116 Repositories
+**Gesamt:** 117 Repositories
 
 ---
 
