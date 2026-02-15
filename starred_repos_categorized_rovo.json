@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-14T04:45:22.020003",
+  "last_updated": "2026-02-15T04:58:38.772013",
   "total_repositories": 117,
   "categories": {
     "Web Development": [
@@ -9,10 +9,10 @@
         "description": "Vercel's official collection of agent skills",
         "language": "JavaScript",
         "topics": [],
-        "stars": 20236,
+        "stars": 20374,
         "url": "https://github.com/vercel-labs/agent-skills",
         "created_at": "2025-12-08T19:10:06+00:00",
-        "updated_at": "2026-02-14T04:39:30+00:00"
+        "updated_at": "2026-02-15T04:34:44+00:00"
       },
       {
         "name": "vercel",
@@ -28,10 +28,10 @@
           "jamstack",
           "ship"
         ],
-        "stars": 14823,
+        "stars": 14826,
         "url": "https://github.com/vercel/vercel",
         "created_at": "2016-09-09T01:12:08+00:00",
-        "updated_at": "2026-02-14T00:57:39+00:00"
+        "updated_at": "2026-02-14T21:20:11+00:00"
       },
       {
         "name": "Lynkr",
@@ -53,10 +53,10 @@
           "llmops",
           "llms"
         ],
-        "stars": 300,
+        "stars": 302,
         "url": "https://github.com/Fast-Editor/Lynkr",
         "created_at": "2025-12-03T22:50:02+00:00",
-        "updated_at": "2026-02-12T23:10:40+00:00"
+        "updated_at": "2026-02-14T15:32:43+00:00"
       },
       {
         "name": "openclaw",
@@ -72,10 +72,10 @@
           "molty",
           "openclaw"
         ],
-        "stars": 192440,
+        "stars": 194836,
         "url": "https://github.com/openclaw/openclaw",
         "created_at": "2025-11-24T10:16:47+00:00",
-        "updated_at": "2026-02-14T04:43:57+00:00"
+        "updated_at": "2026-02-15T04:57:28+00:00"
       },
       {
         "name": "claude-code-action",
@@ -83,10 +83,10 @@
         "description": "Keine Beschreibung verfügbar",
         "language": "TypeScript",
         "topics": [],
-        "stars": 5662,
+        "stars": 5679,
         "url": "https://github.com/anthropics/claude-code-action",
         "created_at": "2025-05-19T15:26:50+00:00",
-        "updated_at": "2026-02-14T02:10:47+00:00"
+        "updated_at": "2026-02-15T04:26:03+00:00"
       },
       {
         "name": "IntuneGet",
@@ -94,10 +94,10 @@
         "description": "Skip the manual packaging workflow and deploy Winget apps to Intune in seconds.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 56,
+        "stars": 57,
         "url": "https://github.com/ugurkocde/IntuneGet",
         "created_at": "2025-05-22T13:13:18+00:00",
-        "updated_at": "2026-02-13T15:01:09+00:00"
+        "updated_at": "2026-02-15T00:27:34+00:00"
       },
       {
         "name": "mcp-cli",
@@ -127,10 +127,10 @@
         "description": "A Model Context Protocol (MCP) server that provides structured spec-driven development workflow tools for AI-assisted software development, featuring a real-time web dashboard and VSCode extension for monitoring and managing your project's progress directly in your development environment.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 3885,
+        "stars": 3886,
         "url": "https://github.com/Pimzino/spec-workflow-mcp",
         "created_at": "2025-08-07T13:18:06+00:00",
-        "updated_at": "2026-02-14T03:06:26+00:00"
+        "updated_at": "2026-02-15T04:00:04+00:00"
       },
       {
         "name": "worktree-cli",
@@ -197,10 +197,10 @@
           "rust",
           "tauri"
         ],
-        "stars": 20529,
+        "stars": 20543,
         "url": "https://github.com/winfunc/opcode",
         "created_at": "2025-06-19T13:53:26+00:00",
-        "updated_at": "2026-02-14T02:24:19+00:00"
+        "updated_at": "2026-02-15T04:53:15+00:00"
       },
       {
         "name": "OpenSpec",
@@ -219,10 +219,10 @@
           "specification",
           "sdd"
         ],
-        "stars": 23992,
+        "stars": 24106,
         "url": "https://github.com/Fission-AI/OpenSpec",
         "created_at": "2025-08-05T10:37:45+00:00",
-        "updated_at": "2026-02-14T04:09:52+00:00"
+        "updated_at": "2026-02-15T04:39:14+00:00"
       },
       {
         "name": "design-os",
@@ -230,10 +230,10 @@
         "description": "The missing design process between your product idea and your codebase.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 1400,
+        "stars": 1403,
         "url": "https://github.com/buildermethods/design-os",
         "created_at": "2025-12-16T19:40:19+00:00",
-        "updated_at": "2026-02-13T23:31:12+00:00"
+        "updated_at": "2026-02-14T22:55:41+00:00"
       },
       {
         "name": "astuto",
@@ -265,10 +265,10 @@
           "developer-tools",
           "vibecoding"
         ],
-        "stars": 52,
+        "stars": 51,
         "url": "https://github.com/jmassengille/sketch2prompt",
         "created_at": "2025-12-16T16:56:27+00:00",
-        "updated_at": "2026-01-29T22:37:07+00:00"
+        "updated_at": "2026-02-14T19:12:43+00:00"
       },
       {
         "name": "Roo-Code",
@@ -276,10 +276,10 @@
         "description": "Roo Code gives you a whole dev team of AI agents in your code editor.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 22213,
+        "stars": 22225,
         "url": "https://github.com/RooCodeInc/Roo-Code",
         "created_at": "2024-10-31T17:56:50+00:00",
-        "updated_at": "2026-02-14T02:12:19+00:00"
+        "updated_at": "2026-02-15T03:20:32+00:00"
       },
       {
         "name": "mcp-mermaid",
@@ -292,10 +292,10 @@
           "mermaid",
           "mermaidjs"
         ],
-        "stars": 428,
+        "stars": 429,
         "url": "https://github.com/hustcc/mcp-mermaid",
         "created_at": "2025-05-20T11:43:48+00:00",
-        "updated_at": "2026-02-13T21:47:23+00:00"
+        "updated_at": "2026-02-14T06:54:17+00:00"
       },
       {
         "name": "foundry-sample-mitre",
@@ -329,10 +329,10 @@
         "description": "Breakthrough Method for Agile Ai Driven Development",
         "language": "JavaScript",
         "topics": [],
-        "stars": 35543,
+        "stars": 35636,
         "url": "https://github.com/bmad-code-org/BMAD-METHOD",
         "created_at": "2025-04-13T14:54:25+00:00",
-        "updated_at": "2026-02-14T04:42:48+00:00"
+        "updated_at": "2026-02-15T04:50:29+00:00"
       },
       {
         "name": "tremor-npm",
@@ -346,10 +346,10 @@
           "typescript",
           "react-components"
         ],
-        "stars": 16461,
+        "stars": 16460,
         "url": "https://github.com/tremorlabs/tremor-npm",
         "created_at": "2022-04-19T20:54:32+00:00",
-        "updated_at": "2026-02-13T23:20:47+00:00"
+        "updated_at": "2026-02-14T20:09:07+00:00"
       },
       {
         "name": "servers",
@@ -357,10 +357,10 @@
         "description": "Model Context Protocol Servers",
         "language": "TypeScript",
         "topics": [],
-        "stars": 78625,
+        "stars": 78687,
         "url": "https://github.com/modelcontextprotocol/servers",
         "created_at": "2024-11-19T01:10:17+00:00",
-        "updated_at": "2026-02-14T04:34:20+00:00"
+        "updated_at": "2026-02-15T04:23:30+00:00"
       },
       {
         "name": "toon",
@@ -373,10 +373,10 @@
           "serialization",
           "tokenization"
         ],
-        "stars": 22620,
+        "stars": 22632,
         "url": "https://github.com/toon-format/toon",
         "created_at": "2025-10-22T18:17:32+00:00",
-        "updated_at": "2026-02-14T04:24:46+00:00"
+        "updated_at": "2026-02-14T23:32:59+00:00"
       },
       {
         "name": "Figma-Context-MCP",
@@ -390,10 +390,10 @@
           "mcp",
           "typescript"
         ],
-        "stars": 13126,
+        "stars": 13136,
         "url": "https://github.com/GLips/Figma-Context-MCP",
         "created_at": "2025-02-13T02:55:06+00:00",
-        "updated_at": "2026-02-14T02:49:40+00:00"
+        "updated_at": "2026-02-15T03:00:44+00:00"
       },
       {
         "name": "n8n",
@@ -422,10 +422,10 @@
           "mcp-client",
           "mcp-server"
         ],
-        "stars": 174446,
+        "stars": 174560,
         "url": "https://github.com/n8n-io/n8n",
         "created_at": "2019-06-22T09:24:21+00:00",
-        "updated_at": "2026-02-14T04:36:23+00:00"
+        "updated_at": "2026-02-15T04:54:28+00:00"
       },
       {
         "name": "n8n-crypto-workflows",
@@ -448,10 +448,10 @@
           "cryptocurrency",
           "templates"
         ],
-        "stars": 33,
+        "stars": 34,
         "url": "https://github.com/bicced/n8n-crypto-workflows",
         "created_at": "2025-09-15T08:27:36+00:00",
-        "updated_at": "2026-01-08T19:52:26+00:00"
+        "updated_at": "2026-02-14T22:09:52+00:00"
       },
       {
         "name": "betterbahn",
@@ -463,10 +463,10 @@
           "open-source",
           "railway"
         ],
-        "stars": 2465,
+        "stars": 2470,
         "url": "https://github.com/BetterBahn/betterbahn",
         "created_at": "2025-08-15T07:09:54+00:00",
-        "updated_at": "2026-02-12T12:51:44+00:00"
+        "updated_at": "2026-02-14T18:00:46+00:00"
       },
       {
         "name": "rovoswitch",
@@ -497,10 +497,10 @@
         "description": "The MCP server for Azure DevOps, bringing the power of Azure DevOps directly to your agents.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 1267,
+        "stars": 1269,
         "url": "https://github.com/microsoft/azure-devops-mcp",
         "created_at": "2025-05-15T13:12:42+00:00",
-        "updated_at": "2026-02-14T01:22:03+00:00"
+        "updated_at": "2026-02-14T17:19:56+00:00"
       },
       {
         "name": "ChurchTools",
@@ -655,10 +655,10 @@
           "status-bar",
           "menubar-app"
         ],
-        "stars": 25956,
+        "stars": 25973,
         "url": "https://github.com/jordanbaird/Ice",
         "created_at": "2023-08-04T22:51:56+00:00",
-        "updated_at": "2026-02-14T04:24:45+00:00"
+        "updated_at": "2026-02-15T00:53:55+00:00"
       },
       {
         "name": "createicns",
@@ -752,10 +752,10 @@
           "windows-11",
           "wm"
         ],
-        "stars": 4152,
+        "stars": 4158,
         "url": "https://github.com/amnweb/yasb",
         "created_at": "2024-07-03T16:54:14+00:00",
-        "updated_at": "2026-02-14T02:57:11+00:00"
+        "updated_at": "2026-02-15T02:44:03+00:00"
       },
       {
         "name": "flock",
@@ -808,10 +808,10 @@
         "description": "Official inference repo for FLUX.2 models",
         "language": "Python",
         "topics": [],
-        "stars": 1778,
+        "stars": 1780,
         "url": "https://github.com/black-forest-labs/flux2",
         "created_at": "2025-11-24T23:28:49+00:00",
-        "updated_at": "2026-02-14T02:38:44+00:00"
+        "updated_at": "2026-02-15T02:40:58+00:00"
       },
       {
         "name": "flux",
@@ -819,10 +819,10 @@
         "description": "Official inference repo for FLUX.1 models",
         "language": "Python",
         "topics": [],
-        "stars": 25208,
+        "stars": 25212,
         "url": "https://github.com/black-forest-labs/flux",
         "created_at": "2024-08-01T09:04:19+00:00",
-        "updated_at": "2026-02-13T22:17:06+00:00"
+        "updated_at": "2026-02-15T00:43:23+00:00"
       },
       {
         "name": "claude-code",
@@ -830,10 +830,10 @@
         "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
         "language": "Shell",
         "topics": [],
-        "stars": 66670,
+        "stars": 66874,
         "url": "https://github.com/anthropics/claude-code",
         "created_at": "2025-02-22T17:41:21+00:00",
-        "updated_at": "2026-02-14T04:41:13+00:00"
+        "updated_at": "2026-02-15T04:56:55+00:00"
       },
       {
         "name": "spec-kit",
@@ -849,10 +849,10 @@
           "spec",
           "spec-driven"
         ],
-        "stars": 69575,
+        "stars": 69739,
         "url": "https://github.com/github/spec-kit",
         "created_at": "2025-08-21T22:54:31+00:00",
-        "updated_at": "2026-02-14T04:41:13+00:00"
+        "updated_at": "2026-02-15T04:49:30+00:00"
       },
       {
         "name": "Harden-Windows-Security",
@@ -881,10 +881,10 @@
           "compliance",
           "intune"
         ],
-        "stars": 4122,
+        "stars": 4124,
         "url": "https://github.com/HotCakeX/Harden-Windows-Security",
         "created_at": "2022-11-22T11:26:53+00:00",
-        "updated_at": "2026-02-14T03:21:37+00:00"
+        "updated_at": "2026-02-14T17:41:39+00:00"
       },
       {
         "name": "z-Explorer",
@@ -916,10 +916,10 @@
         "description": "A suite of local AI-powered command-line tools",
         "language": "Python",
         "topics": [],
-        "stars": 112,
+        "stars": 113,
         "url": "https://github.com/basnijholt/agent-cli",
         "created_at": "2025-06-25T16:35:10+00:00",
-        "updated_at": "2026-02-13T07:12:59+00:00"
+        "updated_at": "2026-02-14T22:48:08+00:00"
       },
       {
         "name": "falconpy",
@@ -959,10 +959,10 @@
         "description": "Secure boot objects recommended by Microsoft.",
         "language": "Python",
         "topics": [],
-        "stars": 164,
+        "stars": 165,
         "url": "https://github.com/microsoft/secureboot_objects",
         "created_at": "2023-08-15T19:17:10+00:00",
-        "updated_at": "2026-02-13T20:09:40+00:00"
+        "updated_at": "2026-02-14T11:32:55+00:00"
       },
       {
         "name": "ansible",
@@ -973,10 +973,10 @@
           "python",
           "ansible"
         ],
-        "stars": 67983,
+        "stars": 67989,
         "url": "https://github.com/ansible/ansible",
         "created_at": "2012-03-06T14:58:02+00:00",
-        "updated_at": "2026-02-13T22:39:19+00:00"
+        "updated_at": "2026-02-15T04:41:40+00:00"
       },
       {
         "name": "macos_security",
@@ -993,10 +993,10 @@
           "mdm",
           "mscp"
         ],
-        "stars": 2244,
+        "stars": 2245,
         "url": "https://github.com/usnistgov/macos_security",
         "created_at": "2020-06-05T19:28:12+00:00",
-        "updated_at": "2026-02-13T21:32:27+00:00"
+        "updated_at": "2026-02-14T16:42:31+00:00"
       },
       {
         "name": "secrets_find0r",
@@ -1071,10 +1071,10 @@
           "list",
           "honeyd"
         ],
-        "stars": 10146,
+        "stars": 10147,
         "url": "https://github.com/paralax/awesome-honeypots",
         "created_at": "2015-06-18T12:57:01+00:00",
-        "updated_at": "2026-02-14T04:19:34+00:00"
+        "updated_at": "2026-02-14T19:56:55+00:00"
       },
       {
         "name": "awesome-infosec",
@@ -1091,10 +1091,10 @@
           "awesome",
           "security"
         ],
-        "stars": 5582,
+        "stars": 5583,
         "url": "https://github.com/onlurking/awesome-infosec",
         "created_at": "2015-05-13T22:20:47+00:00",
-        "updated_at": "2026-02-13T11:57:41+00:00"
+        "updated_at": "2026-02-14T20:15:30+00:00"
       },
       {
         "name": "MrAnderson",
@@ -1200,10 +1200,10 @@
         "description": "A few starter examples of ansible playbooks, to show features and how they work together.  See http://galaxy.ansible.com for example roles from the Ansible community for deploying many popular applications.",
         "language": "Shell",
         "topics": [],
-        "stars": 12005,
+        "stars": 12004,
         "url": "https://github.com/ansible/ansible-examples",
         "created_at": "2013-03-18T14:15:50+00:00",
-        "updated_at": "2026-02-13T18:36:04+00:00"
+        "updated_at": "2026-02-14T12:53:13+00:00"
       },
       {
         "name": "PowerShell-Docker",
@@ -1248,10 +1248,10 @@
           "winui",
           "winui3"
         ],
-        "stars": 7276,
+        "stars": 7277,
         "url": "https://github.com/microsoft/microsoft-ui-xaml",
         "created_at": "2018-07-26T18:45:29+00:00",
-        "updated_at": "2026-02-13T21:12:08+00:00"
+        "updated_at": "2026-02-15T04:13:20+00:00"
       },
       {
         "name": "komorebi",
@@ -1267,10 +1267,10 @@
           "status-bar",
           "whkd"
         ],
-        "stars": 14051,
+        "stars": 14057,
         "url": "https://github.com/LGUG2Z/komorebi",
         "created_at": "2021-07-29T23:20:15+00:00",
-        "updated_at": "2026-02-14T02:15:34+00:00"
+        "updated_at": "2026-02-15T02:56:12+00:00"
       },
       {
         "name": "klogg",
@@ -1291,10 +1291,10 @@
           "tail",
           "hacktoberfest"
         ],
-        "stars": 3208,
+        "stars": 3209,
         "url": "https://github.com/variar/klogg",
         "created_at": "2016-03-09T18:55:34+00:00",
-        "updated_at": "2026-02-14T04:10:12+00:00"
+        "updated_at": "2026-02-14T13:47:58+00:00"
       },
       {
         "name": "LongHive",
@@ -1318,10 +1318,10 @@
           "windows",
           "win32"
         ],
-        "stars": 1968,
+        "stars": 1970,
         "url": "https://github.com/PowerShell/openssh-portable",
         "created_at": "2016-11-02T04:18:48+00:00",
-        "updated_at": "2026-02-12T02:14:08+00:00"
+        "updated_at": "2026-02-14T18:23:31+00:00"
       }
     ],
     "Utilities & Tools": [
@@ -1334,7 +1334,7 @@
         "stars": 81,
         "url": "https://github.com/Ellerbach/docfx-companion-tools",
         "created_at": "2021-03-08T14:32:57+00:00",
-        "updated_at": "2026-02-10T12:16:07+00:00"
+        "updated_at": "2026-02-14T12:18:53+00:00"
       },
       {
         "name": "About_my_device",
@@ -1421,10 +1421,10 @@
         "description": "Home of the Driver Automation Tool",
         "language": "PowerShell",
         "topics": [],
-        "stars": 464,
+        "stars": 465,
         "url": "https://github.com/maurice-daly/DriverAutomationTool",
         "created_at": "2020-03-17T23:19:34+00:00",
-        "updated_at": "2026-02-11T10:49:31+00:00"
+        "updated_at": "2026-02-14T09:27:10+00:00"
       }
     ],
     "Other": [
@@ -1447,10 +1447,10 @@
         "description": "Agent OS is a system for injecting your codebase standards and writing better specs for spec-driven development.",
         "language": "Shell",
         "topics": [],
-        "stars": 3784,
+        "stars": 3793,
         "url": "https://github.com/buildermethods/agent-os",
         "created_at": "2025-07-16T21:28:59+00:00",
-        "updated_at": "2026-02-14T01:54:07+00:00"
+        "updated_at": "2026-02-15T01:59:27+00:00"
       },
       {
         "name": "psfalcon",
@@ -1477,10 +1477,10 @@
         "description": " This MCP server integrates with SolidWorks API and structuring it into Claude-compatible context streams.",
         "language": null,
         "topics": [],
-        "stars": 52,
+        "stars": 53,
         "url": "https://github.com/eyfel/mcp-server-solidworks",
         "created_at": "2025-04-11T10:46:46+00:00",
-        "updated_at": "2026-02-10T17:55:43+00:00"
+        "updated_at": "2026-02-15T02:27:12+00:00"
       },
       {
         "name": "MDE-Monitoring-App",
@@ -1589,10 +1589,10 @@
           "c-sharp",
           "windows"
         ],
-        "stars": 10573,
+        "stars": 10576,
         "url": "https://github.com/mRemoteNG/mRemoteNG",
         "created_at": "2010-01-06T15:53:17+00:00",
-        "updated_at": "2026-02-14T03:08:12+00:00"
+        "updated_at": "2026-02-15T01:14:15+00:00"
       },
       {
         "name": "cryptgeon",
@@ -1625,10 +1625,10 @@
           "awesome",
           "hacktoberfest"
         ],
-        "stars": 3838,
+        "stars": 3839,
         "url": "https://github.com/HQarroum/awesome-iot",
         "created_at": "2015-09-26T00:37:23+00:00",
-        "updated_at": "2026-02-13T12:10:38+00:00"
+        "updated_at": "2026-02-14T23:19:56+00:00"
       },
       {
         "name": "OfficeDev-Samples",
@@ -1658,10 +1658,10 @@
         "description": "Scripts to simplify setting up a Windows developer box",
         "language": "PowerShell",
         "topics": [],
-        "stars": 1871,
+        "stars": 1872,
         "url": "https://github.com/microsoft/windows-dev-box-setup-scripts",
         "created_at": "2018-04-03T19:44:23+00:00",
-        "updated_at": "2026-02-13T15:24:53+00:00"
+        "updated_at": "2026-02-14T20:29:19+00:00"
       },
       {
         "name": "azuread",
@@ -1698,10 +1698,10 @@
           "list",
           "readme"
         ],
-        "stars": 20428,
+        "stars": 20430,
         "url": "https://github.com/matiassingers/awesome-readme",
         "created_at": "2015-01-19T06:15:03+00:00",
-        "updated_at": "2026-02-13T23:26:19+00:00"
+        "updated_at": "2026-02-15T00:22:52+00:00"
       },
       {
         "name": "Public-AD-Scripts",
@@ -1723,7 +1723,7 @@
         "stars": 24228,
         "url": "https://github.com/kahun/awesome-sysadmin",
         "created_at": "2014-02-09T22:39:20+00:00",
-        "updated_at": "2026-02-13T16:02:27+00:00"
+        "updated_at": "2026-02-14T14:48:31+00:00"
       },
       {
         "name": "PSGist",
@@ -1855,10 +1855,10 @@
           "netcore",
           "hacktoberfest"
         ],
-        "stars": 51420,
+        "stars": 51430,
         "url": "https://github.com/PowerShell/PowerShell",
         "created_at": "2016-01-13T23:41:35+00:00",
-        "updated_at": "2026-02-14T03:45:32+00:00"
+        "updated_at": "2026-02-15T01:00:33+00:00"
       },
       {
         "name": "PowerShellFAQ",
