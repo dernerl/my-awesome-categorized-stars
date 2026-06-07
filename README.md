@@ -3,7 +3,7 @@
 Automatisch kategorisierte GitHub starred Repositories mit **Atlassian CLI (ACLI) Rovo Dev**.
 
 📊 **195 Repositories** in **7 Kategorien**  
-🕐 **Letztes Update:** 2026-06-06 06:34:25  
+🕐 **Letztes Update:** 2026-06-07 07:09:47  
 🤖 **Generiert mit:** Atlassian CLI (ACLI) Rovo Dev
 
 ## 📂 Kategorien-Übersicht
@@ -24,126 +24,126 @@ Automatisch kategorisierte GitHub starred Repositories mit **Atlassian CLI (ACLI
 ### [openclaw](https://github.com/openclaw/openclaw)
 Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 
 
-**Details:** ⭐ 377159 `TypeScript` `ai`, `assistant`, `own-your-data`
+**Details:** ⭐ 377327 `TypeScript` `ai`, `assistant`, `own-your-data`
 
 ---
 
 ### [n8n](https://github.com/n8n-io/n8n)
 Fair-code workflow automation platform with native AI capabilities. Combine visual building with cus...
 
-**Details:** ⭐ 191287 `TypeScript` `automation`, `ipaas`, `n8n`
+**Details:** ⭐ 191397 `TypeScript` `automation`, `ipaas`, `n8n`
 
 ---
 
 ### [excalidraw](https://github.com/excalidraw/excalidraw)
 Virtual whiteboard for sketching hand-drawn like diagrams
 
-**Details:** ⭐ 124724 `TypeScript` `productivity`, `collaboration`, `diagrams`
+**Details:** ⭐ 124785 `TypeScript` `productivity`, `collaboration`, `diagrams`
 
 ---
 
 ### [agency-agents](https://github.com/msitarzewski/agency-agents)
 A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whi...
 
-**Details:** ⭐ 107795 `Shell` 
+**Details:** ⭐ 107995 `Shell` 
 
 ---
 
 ### [servers](https://github.com/modelcontextprotocol/servers)
 Model Context Protocol Servers
 
-**Details:** ⭐ 86797 `TypeScript` 
+**Details:** ⭐ 86849 `TypeScript` 
 
 ---
 
 ### [caveman](https://github.com/JuliusBrussee/caveman)
 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking ...
 
-**Details:** ⭐ 69337 `JavaScript` `ai`, `anthropic`, `caveman`
+**Details:** ⭐ 69592 `JavaScript` `ai`, `anthropic`, `caveman`
 
 ---
 
 ### [paperclip](https://github.com/paperclipai/paperclip)
 The open-source app everyone uses to manage agents at work
 
-**Details:** ⭐ 69295 `TypeScript` 
+**Details:** ⭐ 69413 `TypeScript` 
 
 ---
 
 ### [open-design](https://github.com/nexu-io/open-design)
 🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ ...
 
-**Details:** ⭐ 59578 `TypeScript` `ai-agents`, `ai-design`, `byok`
+**Details:** ⭐ 60414 `TypeScript` `ai-agents`, `ai-design`, `byok`
 
 ---
 
 ### [OpenSpec](https://github.com/Fission-AI/OpenSpec)
 Spec-driven development (SDD) for AI coding assistants.
 
-**Details:** ⭐ 53147 `TypeScript` `spec`, `ai`, `context-engineering`
+**Details:** ⭐ 53246 `TypeScript` `spec`, `ai`, `context-engineering`
 
 ---
 
 ### [remotion](https://github.com/remotion-dev/remotion)
 🎥      Make videos programmatically with React
 
-**Details:** ⭐ 49085 `TypeScript` `react`, `video`, `javascript`
+**Details:** ⭐ 49197 `TypeScript` `react`, `video`, `javascript`
 
 ---
 
 ### [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)
 Breakthrough Method for Agile Ai Driven Development
 
-**Details:** ⭐ 48656 `JavaScript` 
+**Details:** ⭐ 48695 `JavaScript` 
 
 ---
 
 ### [marketingskills](https://github.com/coreyhaines31/marketingskills)
 Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth enginee...
 
-**Details:** ⭐ 32093 `JavaScript` `claude`, `codex`, `marketing`
+**Details:** ⭐ 32217 `JavaScript` `claude`, `codex`, `marketing`
 
 ---
 
 ### [agent-skills](https://github.com/vercel-labs/agent-skills)
 Vercel's official collection of agent skills
 
-**Details:** ⭐ 27626 `JavaScript` 
+**Details:** ⭐ 27667 `JavaScript` 
 
 ---
 
 ### [toon](https://github.com/toon-format/toon)
 🎒 Token-Oriented Object Notation (TOON) – Compact, human-readable, schema-aware JSON for LLM prompts...
 
-**Details:** ⭐ 24485 `TypeScript` `data-format`, `llm`, `serialization`
+**Details:** ⭐ 24490 `TypeScript` `data-format`, `llm`, `serialization`
 
 ---
 
 ### [Roo-Code](https://github.com/RooCodeInc/Roo-Code)
 Roo Code gives you a whole dev team of AI agents in your code editor.
 
-**Details:** ⭐ 24209 `TypeScript` 
+**Details:** ⭐ 24213 `TypeScript` 
 
 ---
 
 ### [opcode](https://github.com/winfunc/opcode)
 A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Cod...
 
-**Details:** ⭐ 22001 `TypeScript` `anthropic`, `anthropic-claude`, `claude`
+**Details:** ⭐ 22003 `TypeScript` `anthropic`, `anthropic-claude`, `claude`
 
 ---
 
 ### [happy](https://github.com/slopus/happy)
 Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured
 
-**Details:** ⭐ 21639 `TypeScript` `claude-code`, `claude-desktop`, `codex`
+**Details:** ⭐ 21661 `TypeScript` `claude-code`, `claude-desktop`, `codex`
 
 ---
 
 ### [kilocode](https://github.com/Kilo-Org/kilocode)
 Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most p...
 
-**Details:** ⭐ 19862 `TypeScript` `ai-coding`, `vscode`, `vscode-extension`
+**Details:** ⭐ 19894 `TypeScript` `ai-coding`, `vscode`, `vscode-extension`
 
 ---
 
@@ -157,14 +157,14 @@ React components to build charts and dashboards
 ### [vercel](https://github.com/vercel/vercel)
 Develop. Preview. Ship.
 
-**Details:** ⭐ 15615 `TypeScript` `cli`, `command`, `vercel`
+**Details:** ⭐ 15620 `TypeScript` `cli`, `command`, `vercel`
 
 ---
 
 ### [Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP)
 MCP server to provide Figma layout information to AI coding agents like Cursor
 
-**Details:** ⭐ 15005 `TypeScript` `ai`, `cursor`, `figma`
+**Details:** ⭐ 15011 `TypeScript` `ai`, `cursor`, `figma`
 
 ---
 
@@ -178,49 +178,49 @@ Autonomous multi-session AI coding
 ### [visual-explainer](https://github.com/nicobailon/visual-explainer)
 Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, d...
 
-**Details:** ⭐ 8703 `HTML` 
+**Details:** ⭐ 8716 `HTML` 
 
 ---
 
 ### [markdoc](https://github.com/markdoc/markdoc)
 A powerful, flexible, Markdown-based authoring framework.
 
-**Details:** ⭐ 8037 `TypeScript` `authoring`, `documentation`, `markdoc`
+**Details:** ⭐ 8038 `TypeScript` `authoring`, `documentation`, `markdoc`
 
 ---
 
 ### [claude-code-action](https://github.com/anthropics/claude-code-action)
 Keine Beschreibung verfügbar
 
-**Details:** ⭐ 7891 `TypeScript` 
+**Details:** ⭐ 7902 `TypeScript` 
 
 ---
 
 ### [open-codesign](https://github.com/OpenCoworkAI/open-codesign)
 Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → p...
 
-**Details:** ⭐ 6686 `TypeScript` `ai-design`, `anthropic`, `byok`
+**Details:** ⭐ 6694 `TypeScript` `ai-design`, `anthropic`, `byok`
 
 ---
 
 ### [cabot](https://github.com/arachnys/cabot)
 Self-hosted, easily-deployable monitoring and alerts service - like a lightweight PagerDuty
 
-**Details:** ⭐ 5667 `JavaScript` `django`, `python`, `graphite`
+**Details:** ⭐ 5666 `JavaScript` `django`, `python`, `graphite`
 
 ---
 
 ### [oh-my-opencode-slim](https://github.com/alvinunreal/oh-my-opencode-slim)
 Slimmed, cleaned and fine-tuned oh-my-opencode fork, consumes much less tokens
 
-**Details:** ⭐ 5120 `TypeScript` `agentic-ai`, `antigravity`, `cerebras`
+**Details:** ⭐ 5147 `TypeScript` `agentic-ai`, `antigravity`, `cerebras`
 
 ---
 
 ### [awesome-agentic-patterns](https://github.com/nibzard/awesome-agentic-patterns)
 A curated catalogue of awesome agentic AI patterns
 
-**Details:** ⭐ 4636 `HTML` 
+**Details:** ⭐ 4638 `HTML` 
 
 ---
 
@@ -234,7 +234,7 @@ A Model Context Protocol (MCP) server that provides structured spec-driven devel
 ### [skills](https://github.com/remotion-dev/skills)
 Agent Skills
 
-**Details:** ⭐ 3467 `TypeScript` 
+**Details:** ⭐ 3486 `TypeScript` 
 
 ---
 
@@ -255,14 +255,14 @@ A free, open source, self-hosted customer feedback tool 🦊
 ### [rendergit](https://github.com/karpathy/rendergit)
 Render any git repo into a single static HTML page for humans or LLMs
 
-**Details:** ⭐ 2341 `Python` 
+**Details:** ⭐ 2342 `Python` 
 
 ---
 
 ### [azure-devops-mcp](https://github.com/microsoft/azure-devops-mcp)
 The MCP server for Azure DevOps, bringing the power of Azure DevOps directly to your agents.
 
-**Details:** ⭐ 1765 `TypeScript` 
+**Details:** ⭐ 1766 `TypeScript` 
 
 ---
 
@@ -283,21 +283,21 @@ Welcome to the Microsoft Teams samples repository. Here you will find task-focus
 ### [Rackula](https://github.com/RackulaLives/Rackula)
 rack layout designer
 
-**Details:** ⭐ 1344 `TypeScript` `drag-and-drop`, `homelab`, `rack`
+**Details:** ⭐ 1355 `TypeScript` `drag-and-drop`, `homelab`, `rack`
 
 ---
 
 ### [mcpc](https://github.com/apify/mcpc)
 A universal CLI client for MCP. mcpc supports persistent sessions, stdio/HTTP, OAuth 2.1, tasks, JSO...
 
-**Details:** ⭐ 677 `TypeScript` `cli`, `mcp`, `mcp-client`
+**Details:** ⭐ 679 `TypeScript` `cli`, `mcp`, `mcp-client`
 
 ---
 
 ### [mcp-mermaid](https://github.com/hustcc/mcp-mermaid)
 ❤️ Generate mermaid diagram and chart with AI MCP dynamically.
 
-**Details:** ⭐ 576 `TypeScript` `mcp`, `mcp-server`, `mermaid`
+**Details:** ⭐ 577 `TypeScript` `mcp`, `mcp-server`, `mermaid`
 
 ---
 
@@ -311,14 +311,14 @@ From Claude Artifact to deployable React app — in seconds!
 ### [Lynkr](https://github.com/Fast-Editor/Lynkr)
 Streamline your workflow with Lynkr, a CLI tool that acts as an HTTP proxy for efficient code intera...
 
-**Details:** ⭐ 449 `JavaScript` `claude`, `claudecode`, `databricks`
+**Details:** ⭐ 451 `JavaScript` `claude`, `claudecode`, `databricks`
 
 ---
 
 ### [cli](https://github.com/firecrawl/cli)
 CLI and Agent Skill for Firecrawl - Add scrape, search, and browsing capabilities to your AI agents
 
-**Details:** ⭐ 437 `TypeScript` 
+**Details:** ⭐ 439 `TypeScript` 
 
 ---
 
@@ -332,14 +332,14 @@ Intune Device Details GUI HTML v4.2 (New Updated!)
 ### [poltergeist](https://github.com/steipete/poltergeist)
 The ghost that keeps your builds fresh - Universal hot reload, file watcher and build automation for...
 
-**Details:** ⭐ 406 `TypeScript` `automation`, `build`, `filewatcher`
+**Details:** ⭐ 407 `TypeScript` `automation`, `build`, `filewatcher`
 
 ---
 
 ### [Semantic-Anchors](https://github.com/LLM-Coding/Semantic-Anchors)
 Keine Beschreibung verfügbar
 
-**Details:** ⭐ 399 `HTML` 
+**Details:** ⭐ 398 `HTML` 
 
 ---
 
@@ -388,14 +388,14 @@ Deploy containers to your own server with one command. Automatic TLS, zero-downt
 ### [IntuneGet](https://github.com/ugurkocde/IntuneGet)
 Skip the manual packaging workflow and deploy Winget apps to Intune in seconds.
 
-**Details:** ⭐ 91 `TypeScript` 
+**Details:** ⭐ 92 `TypeScript` 
 
 ---
 
 ### [speckit-companion](https://github.com/alfredoperez/speckit-companion)
 VS Code extension for spec-driven development — manage specs, workflows, and steering docs for AI CL...
 
-**Details:** ⭐ 60 `TypeScript` `ai-tools`, `claude-code`, `developer-tools`
+**Details:** ⭐ 61 `TypeScript` `ai-tools`, `claude-code`, `developer-tools`
 
 ---
 
@@ -509,84 +509,84 @@ ChurchTools Python code
 ### [hermes-agent](https://github.com/NousResearch/hermes-agent)
 The agent that grows with you
 
-**Details:** ⭐ 183640 `Python` `ai`, `ai-agent`, `ai-agents`
+**Details:** ⭐ 185037 `Python` `ai`, `ai-agent`, `ai-agents`
 
 ---
 
 ### [skills](https://github.com/anthropics/skills)
 Public repository for Agent Skills
 
-**Details:** ⭐ 147028 `Python` `agent-skills`
+**Details:** ⭐ 147344 `Python` `agent-skills`
 
 ---
 
 ### [claude-code](https://github.com/anthropics/claude-code)
 Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and he...
 
-**Details:** ⭐ 130492 `Python` 
+**Details:** ⭐ 130731 `Python` 
 
 ---
 
 ### [spec-kit](https://github.com/github/spec-kit)
 💫 Toolkit to help you get started with Spec-Driven Development
 
-**Details:** ⭐ 109264 `Python` `ai`, `copilot`, `development`
+**Details:** ⭐ 109671 `Python` `ai`, `copilot`, `development`
 
 ---
 
 ### [ansible](https://github.com/ansible/ansible)
 Ansible is a radically simple IT automation platform that makes your applications and systems easier...
 
-**Details:** ⭐ 68776 `Python` `python`, `ansible`
+**Details:** ⭐ 68787 `Python` `python`, `ansible`
 
 ---
 
 ### [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)
 A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
 
-**Details:** ⭐ 63399 `Python` `claude`, `claude-code`, `agent-skills`
+**Details:** ⭐ 63527 `Python` `claude`, `claude-code`, `agent-skills`
 
 ---
 
 ### [nanochat](https://github.com/karpathy/nanochat)
 The best ChatGPT that $100 can buy.
 
-**Details:** ⭐ 54646 `Python` 
+**Details:** ⭐ 54684 `Python` 
 
 ---
 
 ### [mempalace](https://github.com/MemPalace/mempalace)
 The best-benchmarked open-source AI memory system. And it's free.
 
-**Details:** ⭐ 53975 `Python` `ai`, `chromadb`, `llm`
+**Details:** ⭐ 54421 `Python` `ai`, `chromadb`, `llm`
 
 ---
 
 ### [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques)
 This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) syste...
 
-**Details:** ⭐ 27734 `Jupyter Notebook` `rag`, `tutorials`, `langchain`
+**Details:** ⭐ 27750 `Jupyter Notebook` `rag`, `tutorials`, `langchain`
 
 ---
 
 ### [cli](https://github.com/googleworkspace/cli)
 Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, ...
 
-**Details:** ⭐ 26881 `Rust` `google-workspace`, `agent-skills`, `ai-agent`
+**Details:** ⭐ 26894 `Rust` `google-workspace`, `agent-skills`, `ai-agent`
 
 ---
 
 ### [Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai)
 Python scraper based on AI
 
-**Details:** ⭐ 26760 `Python` `scraping`, `scraping-python`, `llm`
+**Details:** ⭐ 26806 `Python` `scraping`, `scraping-python`, `llm`
 
 ---
 
 ### [strix](https://github.com/usestrix/strix)
 Open-source AI hackers to find and fix your app’s vulnerabilities.
 
-**Details:** ⭐ 25840 `Python` `agents`, `artificial-intelligence`, `cybersecurity`
+**Details:** ⭐ 25854 `Python` `agents`, `artificial-intelligence`, `cybersecurity`
 
 ---
 
@@ -600,49 +600,49 @@ Official inference repo for FLUX.1 models
 ### [awesome-honeypots](https://github.com/paralax/awesome-honeypots)
 an awesome list of honeypot resources
 
-**Details:** ⭐ 10328 `Python` `honeypot`, `awesome-list`, `awesome`
+**Details:** ⭐ 10332 `Python` `honeypot`, `awesome-list`, `awesome`
 
 ---
 
 ### [awesome-infosec](https://github.com/onlurking/awesome-infosec)
  A curated list of awesome infosec courses and training resources.
 
-**Details:** ⭐ 5683  `infosec`, `pentest`, `courses`
+**Details:** ⭐ 5684  `infosec`, `pentest`, `courses`
 
 ---
 
 ### [yasb](https://github.com/amnweb/yasb)
 A highly configurable Windows status bar written in Python. 
 
-**Details:** ⭐ 5016 `Python` `python`, `ricing`, `status-bar`
+**Details:** ⭐ 5018 `Python` `python`, `ricing`, `status-bar`
 
 ---
 
 ### [Harden-Windows-Security](https://github.com/HotCakeX/Harden-Windows-Security)
 Harden Windows Safely, Securely using Official Supported Microsoft methods and proper explanation | ...
 
-**Details:** ⭐ 4306 `C#` `defender`, `firewall-configuration`, `harden`
+**Details:** ⭐ 4308 `C#` `defender`, `firewall-configuration`, `harden`
 
 ---
 
 ### [ROADtools](https://github.com/dirkjanm/ROADtools)
 A collection of Azure AD/Entra tools for offensive and defensive security purposes
 
-**Details:** ⭐ 2631 `Python` `azure-active-directory`, `azuread`, `microsoft-graph`
+**Details:** ⭐ 2633 `Python` `azure-active-directory`, `azuread`, `microsoft-graph`
 
 ---
 
 ### [flux2](https://github.com/black-forest-labs/flux2)
 Official inference repo for FLUX.2 models
 
-**Details:** ⭐ 2377 `Python` 
+**Details:** ⭐ 2380 `Python` 
 
 ---
 
 ### [macos_security](https://github.com/usnistgov/macos_security)
 macOS Security Compliance Project
 
-**Details:** ⭐ 2372 `YAML` `apple`, `macos`, `compliance`
+**Details:** ⭐ 2373 `YAML` `apple`, `macos`, `compliance`
 
 ---
 
@@ -656,21 +656,21 @@ A curated list of awesome GPTs in the GPT Store
 ### [agent-toolkit](https://github.com/softaworks/agent-toolkit)
 A curated collection of skills for AI coding agents. Skills are packaged instructions and scripts th...
 
-**Details:** ⭐ 1966 `Python` `agent-skills`, `ai`, `automation`
+**Details:** ⭐ 1971 `Python` `agent-skills`, `ai`, `automation`
 
 ---
 
 ### [weft](https://github.com/WeaveMindAI/weft)
 A programming language for AI orchestrations
 
-**Details:** ⭐ 1434 `Rust` 
+**Details:** ⭐ 1442 `Rust` 
 
 ---
 
 ### [opc-skills](https://github.com/ReScienceLab/opc-skills)
 Agent Skills for Solopreneurs
 
-**Details:** ⭐ 915 `Python` `agent-skills`, `opc`, `ai-tools`
+**Details:** ⭐ 918 `Python` `agent-skills`, `opc`, `ai-tools`
 
 ---
 
@@ -691,21 +691,21 @@ vLLM TurboQuant
 ### [falconpy](https://github.com/CrowdStrike/falconpy)
 The CrowdStrike Falcon SDK for Python
 
-**Details:** ⭐ 496 `Python` `crowdstrike`, `oauth2`, `falconpy`
+**Details:** ⭐ 497 `Python` `crowdstrike`, `oauth2`, `falconpy`
 
 ---
 
 ### [secureboot_objects](https://github.com/microsoft/secureboot_objects)
 Secure boot objects recommended by Microsoft.
 
-**Details:** ⭐ 245 `Python` 
+**Details:** ⭐ 246 `Python` 
 
 ---
 
 ### [agent-cli](https://github.com/basnijholt/agent-cli)
 A suite of local AI-powered command-line tools
 
-**Details:** ⭐ 209 `Python` 
+**Details:** ⭐ 210 `Python` 
 
 ---
 
@@ -838,7 +838,7 @@ neofusion theme for opencode blending lava red and ice blue colors 🤖🔥
 ### [hijack-agentic-ai](https://github.com/nmeisenzahl/hijack-agentic-ai)
 Showcasing how to hijack agentic AI using real‑world vulnerabilities
 
-**Details:** ⭐ 2  
+**Details:** ⭐ 2 `Python` 
 
 ---
 
@@ -854,35 +854,35 @@ Rasa Chatbot with Matrix42 integration
 ### [andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)
 A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations...
 
-**Details:** ⭐ 168896  
+**Details:** ⭐ 169670  
 
 ---
 
 ### [PowerShell](https://github.com/PowerShell/PowerShell)
 PowerShell for every system!
 
-**Details:** ⭐ 53802 `C#` `powershell`, `windows`, `macos`
+**Details:** ⭐ 53820 `C#` `powershell`, `windows`, `macos`
 
 ---
 
 ### [awesome-sysadmin](https://github.com/kahun/awesome-sysadmin)
 A curated list of amazingly awesome open source sysadmin resources inspired by Awesome PHP.
 
-**Details:** ⭐ 24301  
+**Details:** ⭐ 24303  
 
 ---
 
 ### [awesome-readme](https://github.com/matiassingers/awesome-readme)
 A curated list of awesome READMEs
 
-**Details:** ⭐ 21003  `awesome-list`, `awesome`, `list`
+**Details:** ⭐ 21005  `awesome-list`, `awesome`, `list`
 
 ---
 
 ### [mRemoteNG](https://github.com/mRemoteNG/mRemoteNG)
 mRemoteNG is the next generation of mRemote, open source, tabbed, multi-protocol, remote connections...
 
-**Details:** ⭐ 10858 `C#` `mremoteng`, `rdp`, `ssh`
+**Details:** ⭐ 10859 `C#` `mremoteng`, `rdp`, `ssh`
 
 ---
 
@@ -896,7 +896,7 @@ This repository has been moved to https://codeberg.org/janikvonrotz/awesome-powe
 ### [agent-os](https://github.com/buildermethods/agent-os)
 Agent OS is a system for injecting your codebase standards and writing better specs for spec-driven ...
 
-**Details:** ⭐ 4769 `Shell` 
+**Details:** ⭐ 4782 `Shell` 
 
 ---
 
@@ -910,14 +910,14 @@ Agent OS is a system for injecting your codebase standards and writing better sp
 ### [awesome-iot](https://github.com/HQarroum/awesome-iot)
 🤖 A curated list of awesome Internet of Things projects and resources.
 
-**Details:** ⭐ 3951  `awesome-list`, `internet-of-things`, `iot`
+**Details:** ⭐ 3952  `awesome-list`, `internet-of-things`, `iot`
 
 ---
 
 ### [PowerShell](https://github.com/lazywinadmin/PowerShell)
 PowerShell functions and scripts (Azure, Active Directory, SCCM, SCSM, Exchange, O365, ...)
 
-**Details:** ⭐ 2858 `PowerShell` `powershell`, `scripting`, `sccm`
+**Details:** ⭐ 2859 `PowerShell` `powershell`, `scripting`, `sccm`
 
 ---
 
@@ -938,7 +938,7 @@ This repository of PowerShell sample scripts show how to access Intune service r
 ### [cryptgeon](https://github.com/cupcakearmy/cryptgeon)
 cryptgeon is a secure, open source note / file sharing service inspired by PrivNote written in rust ...
 
-**Details:** ⭐ 1430 `Svelte` `private-notes`, `privnote`, `secure-notes`
+**Details:** ⭐ 1431 `Svelte` `private-notes`, `privnote`, `secure-notes`
 
 ---
 
@@ -1078,7 +1078,7 @@ A group of PowerShell scripts to check that your environment is ready for Window
 ### [vibeguard](https://github.com/majiayu000/vibeguard)
 Native rules, hooks, and guards that prevent Claude Code and Codex from hallucinating code, duplicat...
 
-**Details:** ⭐ 23 `Shell` `claude-code`, `code-quality`, `codex`
+**Details:** ⭐ 24 `Shell` `claude-code`, `code-quality`, `codex`
 
 ---
 
@@ -1136,21 +1136,21 @@ Keine Beschreibung verfügbar
 ### [Ice](https://github.com/jordanbaird/Ice)
 Powerful menu bar manager for macOS
 
-**Details:** ⭐ 28301 `Swift` `macos`, `menubar`, `statusbar`
+**Details:** ⭐ 28314 `Swift` `macos`, `menubar`, `statusbar`
 
 ---
 
 ### [xbmc](https://github.com/xbmc/xbmc)
 Kodi is an award-winning free and open source home theater/media center software and entertainment h...
 
-**Details:** ⭐ 20806 `C++` `kodi`, `home-theater`, `media-center`
+**Details:** ⭐ 20807 `C++` `kodi`, `home-theater`, `media-center`
 
 ---
 
 ### [OpenEmu](https://github.com/OpenEmu/OpenEmu)
 🕹 Retro video game emulation for macOS
 
-**Details:** ⭐ 17587 `Swift` `openemu`, `objective-c`, `macos`
+**Details:** ⭐ 17593 `Swift` `openemu`, `objective-c`, `macos`
 
 ---
 
@@ -1164,7 +1164,7 @@ Managed software installation for macOS —
 ### [Claude-Usage-Tracker](https://github.com/hamed-elfayome/Claude-Usage-Tracker)
 Native macOS menu bar app for tracking Claude AI usage limits in real-time. Built with Swift/SwiftUI...
 
-**Details:** ⭐ 2630 `Swift` `claude`, `claude-ai`, `claude-code`
+**Details:** ⭐ 2639 `Swift` `claude`, `claude-ai`, `claude-code`
 
 ---
 
@@ -1178,7 +1178,7 @@ Microsoft Integration, Azure, Power Platform, Office 365 and much more Stencils 
 ### [azure-skills](https://github.com/microsoft/azure-skills)
 Official agent plugin providing skills and MCP server configurations for Azure scenarios.
 
-**Details:** ⭐ 1160 `Python` `agent-skills`
+**Details:** ⭐ 1166 `Python` `agent-skills`
 
 ---
 
@@ -1229,42 +1229,42 @@ Create 'icns' and 'iconset' files from standard images
 ### [claw-code](https://github.com/ultraworkers/claw-code)
 The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars ⭐. ...
 
-**Details:** ⭐ 193363 `Rust` 
+**Details:** ⭐ 193406 `Rust` 
 
 ---
 
 ### [Handy](https://github.com/cjpais/Handy)
 A free, open source, and extensible speech-to-text application that works completely offline.
 
-**Details:** ⭐ 23216 `Rust` `speech-to-text`, `tauri-v2`, `accessibility`
+**Details:** ⭐ 23251 `Rust` `speech-to-text`, `tauri-v2`, `accessibility`
 
 ---
 
 ### [komorebi](https://github.com/LGUG2Z/komorebi)
 A tiling window manager for Windows 🍉
 
-**Details:** ⭐ 14689 `Rust` `tiling-window-manager`, `windows`, `rust`
+**Details:** ⭐ 14693 `Rust` `tiling-window-manager`, `windows`, `rust`
 
 ---
 
 ### [microsoft-ui-xaml](https://github.com/microsoft/microsoft-ui-xaml)
 WinUI: a modern UI framework with a rich set of controls and styles to build dynamic and high-perfor...
 
-**Details:** ⭐ 7656 `C++` `desktop`, `windows`, `xaml`
+**Details:** ⭐ 7659 `C++` `desktop`, `windows`, `xaml`
 
 ---
 
 ### [kanidm](https://github.com/kanidm/kanidm)
 Kanidm: A simple, secure, and fast identity management platform
 
-**Details:** ⭐ 5026 `Rust` `identity`, `identity-management`, `idm`
+**Details:** ⭐ 5032 `Rust` `identity`, `identity-management`, `idm`
 
 ---
 
 ### [klogg](https://github.com/variar/klogg)
 Really fast log explorer based on glogg project
 
-**Details:** ⭐ 3368 `C++` `logs`, `windows`, `linux`
+**Details:** ⭐ 3369 `C++` `logs`, `windows`, `linux`
 
 ---
 
@@ -1278,7 +1278,7 @@ Portable OpenSSH, all Win32-OpenSSH releases and wiki are managed at https://git
 ### [cmtraceopen](https://github.com/adamgell/cmtraceopen)
 An open-source log viewer inspired by Microsoft's CMTrace.exe.
 
-**Details:** ⭐ 201 `Rust` `cmtrace`, `intune`
+**Details:** ⭐ 203 `Rust` `cmtrace`, `intune`
 
 ---
 
@@ -1292,7 +1292,7 @@ Voice recording and transcription app
 ### [marketplace](https://github.com/AI-Unified-Process/marketplace)
 Keine Beschreibung verfügbar
 
-**Details:** ⭐ 75 `Java` 
+**Details:** ⭐ 76 `Java` 
 
 ---
 
@@ -1308,7 +1308,7 @@ A smart beehive monitoring system using edge computing and the Helium protocol.
 ### [obsidian-skills](https://github.com/kepano/obsidian-skills)
 Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.
 
-**Details:** ⭐ 34489  `claude`, `codex`, `obsidian`
+**Details:** ⭐ 34746  `claude`, `codex`, `obsidian`
 
 ---
 
@@ -1366,7 +1366,7 @@ A collection of PowerShell-based documentation tools and templates for IT enviro
 ### [coolify](https://github.com/coollabsio/coolify)
 An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily depl...
 
-**Details:** ⭐ 56527 `PHP` `nodejs`, `mysql`, `php`
+**Details:** ⭐ 56582 `PHP` `nodejs`, `mysql`, `php`
 
 ---
 
@@ -1380,7 +1380,7 @@ A few starter examples of ansible playbooks, to show features and how they work 
 ### [rundeck](https://github.com/rundeck/rundeck)
 Enable Self-Service Operations: Give specific users access to your existing tools, services, and scr...
 
-**Details:** ⭐ 6134 `Groovy` `rundeck`, `devops`, `deployment`
+**Details:** ⭐ 6135 `Groovy` `rundeck`, `devops`, `deployment`
 
 ---
 
