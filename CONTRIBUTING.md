@@ -7,7 +7,7 @@ This project automatically categorizes GitHub starred repositories using an LLM 
 A GitHub Actions workflow runs daily (05:00 UTC) or on manual trigger. It:
 
 1. Fetches all your starred repositories via the GitHub API
-2. Sends them to **Google Gemini** (`gemini-2.0-flash`) for categorization
+2. Sends them to **Llama 3.3 70B** via [Groq](https://groq.com) for categorization
 3. Commits a generated `README.md` and a JSON data file back to the repository
 
 ## Fork & Run Your Own
@@ -16,14 +16,14 @@ A GitHub Actions workflow runs daily (05:00 UTC) or on manual trigger. It:
 
 Click **Fork** on the top right of this page.
 
-### 2. Get a Free Gemini API Key
+### 2. Get a Free Groq API Key
 
-1. Go to [aistudio.google.com](https://aistudio.google.com)
-2. Sign in with your Google account
-3. Click **Get API key** → **Create API key**
-4. Copy the key — it starts with `AIza…`
+1. Go to [console.groq.com](https://console.groq.com)
+2. Sign up — no credit card required
+3. Go to **API Keys → Create API Key**
+4. Copy the key — it starts with `gsk_…`
 
-The free tier gives you **1,500 requests/day** and **1M tokens/minute**, which is more than enough for a daily run.
+The free tier gives you **14,400 requests/day** and is more than enough for a daily run.
 
 ### 3. Add the Secret to Your Fork
 
@@ -31,12 +31,12 @@ In your forked repository, go to **Settings → Secrets and variables → Action
 
 | Name | Value |
 |------|-------|
-| `GEMINI_API_KEY` | your key from step 2 |
+| `GROQ_API_KEY` | your key from step 2 |
 
 Or via CLI:
 
 ```bash
-gh secret set GEMINI_API_KEY --repo <your-username>/my-awesome-categorized-stars
+gh secret set GROQ_API_KEY --repo <your-username>/my-awesome-categorized-stars
 # Paste your key when prompted
 ```
 
@@ -46,7 +46,7 @@ GitHub disables workflows in forks by default. Go to the **Actions** tab and cli
 
 ### 5. Run It
 
-Trigger a first run manually: **Actions → Categorize Starred Repositories (Gemini) → Run workflow**.
+Trigger a first run manually: **Actions → Categorize Starred Repositories (Groq / Llama) → Run workflow**.
 
 The workflow will update `README.md` and commit `starred_repos_categorized_gemini.json` with your categorized stars.
 
