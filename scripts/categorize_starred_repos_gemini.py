@@ -115,9 +115,22 @@ Antworte NUR mit einem JSON-Objekt (ohne Markdown-Codeblöcke) in folgendem Form
                     config=genai_types.GenerateContentConfig(
                         temperature=0.3,
                         max_output_tokens=8192,
+                        thinking_config=genai_types.ThinkingConfig(thinking_budget=0),
                     )
                 )
-                ai_response = response.text
+
+                # Explicitly collect text from all non-thinking parts
+                ai_response = ""
+                if response.candidates:
+                    for part in response.candidates[0].content.parts:
+                        if hasattr(part, 'text') and part.text and not getattr(part, 'thought', False):
+                            ai_response += part.text
+
+                if not ai_response.strip():
+                    # Fallback: try response.text directly
+                    ai_response = response.text or ""
+
+                print(f"📝 Antwort-Vorschau: {ai_response[:200]!r}")
 
                 if not ai_response or not ai_response.strip():
                     raise Exception("Leere Antwort vom Modell erhalten")
