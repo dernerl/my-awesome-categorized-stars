@@ -106,6 +106,7 @@ Antworte NUR mit einem JSON-Objekt (ohne Markdown-Codeblöcke) in folgendem Form
 }}"""
 
         max_retries = 5
+        last_error = None
         for attempt in range(max_retries):
             try:
                 response = self.gemini.models.generate_content(
@@ -117,6 +118,9 @@ Antworte NUR mit einem JSON-Objekt (ohne Markdown-Codeblöcke) in folgendem Form
                     )
                 )
                 ai_response = response.text
+
+                if not ai_response or not ai_response.strip():
+                    raise Exception("Leere Antwort vom Modell erhalten")
 
                 categories = self._extract_json(ai_response)
 
@@ -135,19 +139,18 @@ Antworte NUR mit einem JSON-Objekt (ohne Markdown-Codeblöcke) in folgendem Form
                 print(f"✅ Repositories in {len(categorized_repos)} Kategorien eingeteilt")
                 return categorized_repos
 
-            except json.JSONDecodeError as e:
-                print(f"❌ Fehler beim Parsen der KI-Antwort: {e}")
-                raise Exception(f"KI-Kategorisierung fehlgeschlagen: Ungültiges JSON-Format")
             except Exception as e:
+                last_error = e
                 err = str(e)
-                is_transient = any(code in err for code in ["503", "429", "UNAVAILABLE", "RESOURCE_EXHAUSTED"])
+                is_transient = any(code in err for code in ["503", "429", "UNAVAILABLE", "RESOURCE_EXHAUSTED", "Leere Antwort"])
                 if is_transient and attempt < max_retries - 1:
                     wait = 30 * (2 ** attempt)
-                    print(f"⚠️ Transienter Fehler (Versuch {attempt + 1}/{max_retries}), warte {wait}s: {err[:100]}")
+                    print(f"⚠️ Transienter Fehler (Versuch {attempt + 1}/{max_retries}), warte {wait}s: {err[:120]}")
                     time.sleep(wait)
                 else:
                     print(f"❌ Fehler bei KI-Kategorisierung: {e}")
                     raise Exception(f"KI-Kategorisierung fehlgeschlagen: {e}")
+        raise Exception(f"KI-Kategorisierung nach {max_retries} Versuchen fehlgeschlagen: {last_error}")
 
     def _extract_json(self, text: str) -> dict:
         """Extrahiert JSON aus der Antwort mit mehreren Strategien"""
