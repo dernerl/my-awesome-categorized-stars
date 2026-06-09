@@ -1,4 +1,4 @@
-name: Categorize Starred Repositories (Groq / Llama)
+name: Categorize Starred Repositories (Gemini)
 
 on:
   schedule:
@@ -23,12 +23,12 @@ jobs:
 
     - name: Install Dependencies
       run: |
-        pip install requests PyGithub groq python-dotenv
+        pip install requests PyGithub google-genai python-dotenv
 
     - name: Fetch and Categorize Starred Repos with Gemini
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         GITHUB_USERNAME: ${{ github.repository_owner }}
       run: python scripts/categorize_starred_repos_gemini.py
 

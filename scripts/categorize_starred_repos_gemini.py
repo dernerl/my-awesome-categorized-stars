@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 GitHub Starred Repositories Categorizer
-Verwendet Groq API (Llama 3.3 70B) um starred Repositories automatisch zu kategorisieren
+Verwendet Google Gemini API um starred Repositories automatisch zu kategorisieren
 """
 
 import os
@@ -10,29 +10,30 @@ import re
 from datetime import datetime
 from typing import List, Dict, Any
 from github import Github
-from groq import Groq
+from google import genai
+from google.genai import types as genai_types
 
 
-class StarredRepoCategorizerGroq:
+class StarredRepoCategorizerGemini:
     def __init__(self):
         self.github_token = os.getenv('GITHUB_TOKEN')
-        self.groq_api_key = os.getenv('GROQ_API_KEY')
+        self.gemini_api_key = os.getenv('GEMINI_API_KEY')
         self.github_username = os.getenv('GITHUB_USERNAME')
 
         print(f"GITHUB_TOKEN: {'✅' if self.github_token else '❌'}")
-        print(f"GROQ_API_KEY: {'✅' if self.groq_api_key else '❌'}")
+        print(f"GEMINI_API_KEY: {'✅' if self.gemini_api_key else '❌'}")
         print(f"GITHUB_USERNAME: {self.github_username}")
 
         if not self.github_token:
             raise ValueError("Fehlende Umgebungsvariable: GITHUB_TOKEN")
-        if not self.groq_api_key:
-            raise ValueError("Fehlende Umgebungsvariable: GROQ_API_KEY")
+        if not self.gemini_api_key:
+            raise ValueError("Fehlende Umgebungsvariable: GEMINI_API_KEY")
         if not self.github_username:
             raise ValueError("Fehlende Umgebungsvariable: GITHUB_USERNAME")
 
         self.github = Github(self.github_token)
-        self.groq = Groq(api_key=self.groq_api_key)
-        self.model_name = "llama-3.3-70b-versatile"
+        self.gemini = genai.Client(api_key=self.gemini_api_key)
+        self.model_name = "gemini-2.5-flash"
 
     def fetch_starred_repos(self) -> List[Dict[str, Any]]:
         """Holt alle starred Repositories des Users"""
@@ -60,8 +61,8 @@ class StarredRepoCategorizerGroq:
         return starred_repos
 
     def categorize_with_ai(self, repos: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
-        """Kategorisiert Repositories mit Groq (Llama 3.3 70B)"""
-        print("🤖 Starte KI-Kategorisierung mit Groq (llama-3.3-70b-versatile)...")
+        """Kategorisiert Repositories mit Gemini"""
+        print(f"🤖 Starte KI-Kategorisierung mit {self.model_name}...")
 
         repo_summaries = []
         for repo in repos:
@@ -104,23 +105,16 @@ Antworte NUR mit einem JSON-Objekt (ohne Markdown-Codeblöcke) in folgendem Form
 }}"""
 
         try:
-            response = self.groq.chat.completions.create(
+            response = self.gemini.models.generate_content(
                 model=self.model_name,
-                messages=[
-                    {
-                        "role": "system",
-                        "content": "Du bist ein Experte für Software-Entwicklung und GitHub Repository-Organisation. Antworte immer mit validem JSON ohne Markdown-Codeblöcke."
-                    },
-                    {
-                        "role": "user",
-                        "content": prompt
-                    }
-                ],
-                temperature=0.3,
-                max_tokens=8000,
+                contents=prompt,
+                config=genai_types.GenerateContentConfig(
+                    temperature=0.3,
+                    max_output_tokens=8192,
+                )
             )
+            ai_response = response.text
 
-            ai_response = response.choices[0].message.content
             categories = self._extract_json(ai_response)
 
             categorized_repos = {}
@@ -147,7 +141,6 @@ Antworte NUR mit einem JSON-Objekt (ohne Markdown-Codeblöcke) in folgendem Form
 
     def _extract_json(self, text: str) -> dict:
         """Extrahiert JSON aus der Antwort mit mehreren Strategien"""
-        # Strategie 1: Code-Block entfernen
         try:
             code_block_match = re.search(r'```(?:json)?\s*([\s\S]*?)```', text)
             if code_block_match:
@@ -155,7 +148,6 @@ Antworte NUR mit einem JSON-Objekt (ohne Markdown-Codeblöcke) in folgendem Form
         except (json.JSONDecodeError, AttributeError):
             pass
 
-        # Strategie 2: Brace Counting
         try:
             start = text.find('{')
             if start != -1:
@@ -173,7 +165,6 @@ Antworte NUR mit einem JSON-Objekt (ohne Markdown-Codeblöcke) in folgendem Form
         except json.JSONDecodeError:
             pass
 
-        # Strategie 3: Einfache Extraktion
         try:
             json_start = text.find('{')
             json_end = text.rfind('}') + 1
@@ -194,7 +185,7 @@ Antworte NUR mit einem JSON-Objekt (ohne Markdown-Codeblöcke) in folgendem Form
 
 🕐 *Letzte Aktualisierung: {datetime.now().strftime('%d.%m.%Y um %H:%M Uhr')}*
 
-🤖 *Generiert mit [Llama 3.3 70B](https://groq.com) via Groq*
+🤖 *Generiert mit [Gemini 2.5 Flash](https://deepmind.google/technologies/gemini/) von Google*
 
 ---
 
@@ -245,7 +236,7 @@ Antworte NUR mit einem JSON-Objekt (ohne Markdown-Codeblöcke) in folgendem Form
             "last_updated": datetime.now().isoformat(),
             "total_repositories": sum(len(repos) for repos in categorized_repos.values()),
             "categories": categorized_repos,
-            "generated_by": "Llama 3.3 70B via Groq"
+            "generated_by": "Gemini 2.5 Flash (Google)"
         }
 
         with open('starred_repos_categorized_gemini.json', 'w', encoding='utf-8') as f:
@@ -262,8 +253,8 @@ Antworte NUR mit einem JSON-Objekt (ohne Markdown-Codeblöcke) in folgendem Form
 
 def main():
     try:
-        print("🚀 Starte Repository-Kategorisierung mit Groq (Llama 3.3 70B)...")
-        categorizer = StarredRepoCategorizerGroq()
+        print("🚀 Starte Repository-Kategorisierung mit Gemini 2.5 Flash...")
+        categorizer = StarredRepoCategorizerGemini()
 
         print("\n📥 Lade starred Repositories...")
         starred_repos = categorizer.fetch_starred_repos()
@@ -272,7 +263,7 @@ def main():
             print("⚠️ Keine starred Repositories gefunden - Beende Ausführung")
             exit(0)
 
-        print(f"\n🤖 Starte Groq-Kategorisierung für {len(starred_repos)} Repositories...")
+        print(f"\n🤖 Starte Gemini-Kategorisierung für {len(starred_repos)} Repositories...")
         categorized_repos = categorizer.categorize_with_ai(starred_repos)
 
         print("\n💾 Speichere Ergebnisse...")
@@ -282,7 +273,7 @@ def main():
 
     except ValueError as e:
         print(f"\n❌ Konfigurationsfehler: {e}")
-        print("💡 Überprüfe die Umgebungsvariablen (GITHUB_TOKEN, GROQ_API_KEY, GITHUB_USERNAME)")
+        print("💡 Überprüfe die Umgebungsvariablen (GITHUB_TOKEN, GEMINI_API_KEY, GITHUB_USERNAME)")
         exit(1)
     except Exception as e:
         print(f"\n❌ Kritischer Fehler: {e}")
