@@ -33,7 +33,7 @@ class StarredRepoCategorizerGemini:
         self.github = Github(self.github_token)
         genai.configure(api_key=self.gemini_api_key)
         self.model = genai.GenerativeModel(
-            model_name="gemini-2.0-flash",
+            model_name="gemini-1.5-flash",
             generation_config=genai.types.GenerationConfig(
                 temperature=0.3,
                 max_output_tokens=8192,
@@ -186,7 +186,7 @@ Antworte NUR mit einem JSON-Objekt (ohne Markdown-Codeblöcke) in folgendem Form
 
 🕐 *Letzte Aktualisierung: {datetime.now().strftime('%d.%m.%Y um %H:%M Uhr')}*
 
-🤖 *Generiert mit [Gemini](https://deepmind.google/technologies/gemini/) von Google*
+🤖 *Generiert mit [Gemini 1.5 Flash](https://deepmind.google/technologies/gemini/) von Google*
 
 ---
 
