@@ -1,0 +1,45 @@
+name: Categorize Starred Repositories (Gemini)
+
+on:
+  schedule:
+    # Läuft jeden Tag um 05:00 UTC
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+
+jobs:
+  categorize-repos:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install Dependencies
+      run: |
+        pip install requests PyGithub google-generativeai python-dotenv
+
+    - name: Fetch and Categorize Starred Repos with Gemini
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        GITHUB_USERNAME: ${{ github.repository_owner }}
+      run: python scripts/categorize_starred_repos_gemini.py
+
+    - name: Commit and Push Changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "🤖 Auto-categorize starred repositories with Gemini $(date +%Y-%m-%d)"
+          git push
+        fi
