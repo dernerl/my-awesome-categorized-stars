@@ -141,14 +141,12 @@ Antworte NUR mit einem JSON-Objekt (ohne Markdown-Codeblöcke) in folgendem Form
 
             except Exception as e:
                 last_error = e
-                err = str(e)
-                is_transient = any(code in err for code in ["503", "429", "UNAVAILABLE", "RESOURCE_EXHAUSTED", "Leere Antwort"])
-                if is_transient and attempt < max_retries - 1:
+                if attempt < max_retries - 1:
                     wait = 30 * (2 ** attempt)
-                    print(f"⚠️ Transienter Fehler (Versuch {attempt + 1}/{max_retries}), warte {wait}s: {err[:120]}")
+                    print(f"⚠️ Fehler (Versuch {attempt + 1}/{max_retries}), warte {wait}s: {str(e)[:120]}")
                     time.sleep(wait)
                 else:
-                    print(f"❌ Fehler bei KI-Kategorisierung: {e}")
+                    print(f"❌ Alle {max_retries} Versuche fehlgeschlagen: {e}")
                     raise Exception(f"KI-Kategorisierung fehlgeschlagen: {e}")
         raise Exception(f"KI-Kategorisierung nach {max_retries} Versuchen fehlgeschlagen: {last_error}")
 
