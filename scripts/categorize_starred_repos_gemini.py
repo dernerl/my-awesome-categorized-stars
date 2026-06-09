@@ -10,7 +10,8 @@ import re
 from datetime import datetime
 from typing import List, Dict, Any
 from github import Github
-import google.generativeai as genai
+from google import genai
+from google.genai import types as genai_types
 
 
 class StarredRepoCategorizerGemini:
@@ -31,14 +32,8 @@ class StarredRepoCategorizerGemini:
             raise ValueError("Fehlende Umgebungsvariable: GITHUB_USERNAME")
 
         self.github = Github(self.github_token)
-        genai.configure(api_key=self.gemini_api_key)
-        self.model = genai.GenerativeModel(
-            model_name="gemini-1.5-flash",
-            generation_config=genai.types.GenerationConfig(
-                temperature=0.3,
-                max_output_tokens=8192,
-            )
-        )
+        self.gemini = genai.Client(api_key=self.gemini_api_key)
+        self.model_name = "gemini-2.0-flash-lite"
 
     def fetch_starred_repos(self) -> List[Dict[str, Any]]:
         """Holt alle starred Repositories des Users"""
@@ -110,7 +105,14 @@ Antworte NUR mit einem JSON-Objekt (ohne Markdown-Codeblöcke) in folgendem Form
 }}"""
 
         try:
-            response = self.model.generate_content(prompt)
+            response = self.gemini.models.generate_content(
+                model=self.model_name,
+                contents=prompt,
+                config=genai_types.GenerateContentConfig(
+                    temperature=0.3,
+                    max_output_tokens=8192,
+                )
+            )
             ai_response = response.text
 
             categories = self._extract_json(ai_response)
@@ -186,7 +188,7 @@ Antworte NUR mit einem JSON-Objekt (ohne Markdown-Codeblöcke) in folgendem Form
 
 🕐 *Letzte Aktualisierung: {datetime.now().strftime('%d.%m.%Y um %H:%M Uhr')}*
 
-🤖 *Generiert mit [Gemini 1.5 Flash](https://deepmind.google/technologies/gemini/) von Google*
+🤖 *Generiert mit [Gemini 2.0 Flash Lite](https://deepmind.google/technologies/gemini/) von Google*
 
 ---
 

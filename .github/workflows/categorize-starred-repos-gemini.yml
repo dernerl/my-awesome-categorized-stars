@@ -23,7 +23,7 @@ jobs:
 
     - name: Install Dependencies
       run: |
-        pip install requests PyGithub google-generativeai python-dotenv
+        pip install requests PyGithub google-genai python-dotenv
 
     - name: Fetch and Categorize Starred Repos with Gemini
       env:
