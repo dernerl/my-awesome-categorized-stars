@@ -7,6 +7,7 @@ Verwendet Google Gemini API um starred Repositories automatisch zu kategorisiere
 import os
 import json
 import re
+import time
 from datetime import datetime
 from typing import List, Dict, Any
 from github import Github
@@ -104,40 +105,49 @@ Antworte NUR mit einem JSON-Objekt (ohne Markdown-Codeblöcke) in folgendem Form
   "Kategorie 2": [...]
 }}"""
 
-        try:
-            response = self.gemini.models.generate_content(
-                model=self.model_name,
-                contents=prompt,
-                config=genai_types.GenerateContentConfig(
-                    temperature=0.3,
-                    max_output_tokens=8192,
+        max_retries = 5
+        for attempt in range(max_retries):
+            try:
+                response = self.gemini.models.generate_content(
+                    model=self.model_name,
+                    contents=prompt,
+                    config=genai_types.GenerateContentConfig(
+                        temperature=0.3,
+                        max_output_tokens=8192,
+                    )
                 )
-            )
-            ai_response = response.text
+                ai_response = response.text
 
-            categories = self._extract_json(ai_response)
+                categories = self._extract_json(ai_response)
 
-            categorized_repos = {}
-            repo_lookup = {repo['name']: repo for repo in repos}
+                categorized_repos = {}
+                repo_lookup = {repo['name']: repo for repo in repos}
 
-            for category, repo_list in categories.items():
-                categorized_repos[category] = []
-                for item in repo_list:
-                    repo_name = item['name']
-                    if repo_name in repo_lookup:
-                        repo_data = repo_lookup[repo_name].copy()
-                        repo_data['categorization_reason'] = item.get('reason', '')
-                        categorized_repos[category].append(repo_data)
+                for category, repo_list in categories.items():
+                    categorized_repos[category] = []
+                    for item in repo_list:
+                        repo_name = item['name']
+                        if repo_name in repo_lookup:
+                            repo_data = repo_lookup[repo_name].copy()
+                            repo_data['categorization_reason'] = item.get('reason', '')
+                            categorized_repos[category].append(repo_data)
 
-            print(f"✅ Repositories in {len(categorized_repos)} Kategorien eingeteilt")
-            return categorized_repos
+                print(f"✅ Repositories in {len(categorized_repos)} Kategorien eingeteilt")
+                return categorized_repos
 
-        except json.JSONDecodeError as e:
-            print(f"❌ Fehler beim Parsen der KI-Antwort: {e}")
-            raise Exception(f"KI-Kategorisierung fehlgeschlagen: Ungültiges JSON-Format")
-        except Exception as e:
-            print(f"❌ Fehler bei KI-Kategorisierung: {e}")
-            raise Exception(f"KI-Kategorisierung fehlgeschlagen: {e}")
+            except json.JSONDecodeError as e:
+                print(f"❌ Fehler beim Parsen der KI-Antwort: {e}")
+                raise Exception(f"KI-Kategorisierung fehlgeschlagen: Ungültiges JSON-Format")
+            except Exception as e:
+                err = str(e)
+                is_transient = any(code in err for code in ["503", "429", "UNAVAILABLE", "RESOURCE_EXHAUSTED"])
+                if is_transient and attempt < max_retries - 1:
+                    wait = 30 * (2 ** attempt)
+                    print(f"⚠️ Transienter Fehler (Versuch {attempt + 1}/{max_retries}), warte {wait}s: {err[:100]}")
+                    time.sleep(wait)
+                else:
+                    print(f"❌ Fehler bei KI-Kategorisierung: {e}")
+                    raise Exception(f"KI-Kategorisierung fehlgeschlagen: {e}")
 
     def _extract_json(self, text: str) -> dict:
         """Extrahiert JSON aus der Antwort mit mehreren Strategien"""
