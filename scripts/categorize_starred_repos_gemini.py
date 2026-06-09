@@ -34,7 +34,7 @@ class StarredRepoCategorizerGemini:
 
         self.github = Github(self.github_token)
         self.gemini = genai.Client(api_key=self.gemini_api_key)
-        self.model_name = "gemini-2.5-flash"
+        self.model_name = "gemini-2.5-flash-lite"
 
     def fetch_starred_repos(self) -> List[Dict[str, Any]]:
         """Holt alle starred Repositories des Users"""
@@ -196,7 +196,7 @@ Antworte NUR mit einem JSON-Objekt (ohne Markdown-Codeblöcke) in folgendem Form
 
 🕐 *Letzte Aktualisierung: {datetime.now().strftime('%d.%m.%Y um %H:%M Uhr')}*
 
-🤖 *Generiert mit [Gemini 2.5 Flash](https://deepmind.google/technologies/gemini/) von Google*
+🤖 *Generiert mit [Gemini 2.5 Flash Lite](https://deepmind.google/technologies/gemini/) von Google*
 
 ---
 
@@ -264,7 +264,7 @@ Antworte NUR mit einem JSON-Objekt (ohne Markdown-Codeblöcke) in folgendem Form
 
 def main():
     try:
-        print("🚀 Starte Repository-Kategorisierung mit Gemini 2.5 Flash...")
+        print("🚀 Starte Repository-Kategorisierung mit Gemini 2.5 Flash Lite...")
         categorizer = StarredRepoCategorizerGemini()
 
         print("\n📥 Lade starred Repositories...")
