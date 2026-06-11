@@ -34,7 +34,7 @@ class StarredRepoCategorizerGemini:
 
         self.github = Github(self.github_token)
         self.gemini = genai.Client(api_key=self.gemini_api_key)
-        self.model_name = "gemini-2.5-flash-lite"
+        self.model_name = "gemini-3.5-flash"
 
     def fetch_starred_repos(self) -> List[Dict[str, Any]]:
         """Holt alle starred Repositories des Users"""
@@ -88,11 +88,14 @@ AUFGABE:
 
 KATEGORISIERUNGS-PRINZIPIEN:
 - Gruppiere nach praktischem Nutzen und Anwendungsbereich
-- Erkenne Workflow-Zusammenhänge (z.B. "CI/CD & Deployment")
-- Berücksichtige Zielgruppen (z.B. "System Admins", "Security Specialists")
-- Erstelle 5-15 Kategorien (nicht zu viele, nicht zu wenige)
+- Erstelle 12-18 Kategorien — nicht weniger, nicht mehr
+- Keine Kategorie darf mehr als 25 Repositories enthalten — wenn eine natürliche Gruppe größer ist, teile sie auf (z.B. "n8n & Workflow-Automatisierung" + "PowerShell & Windows-Administration")
 - Verwende präzise, aussagekräftige deutsche Namen
 - Jedes Repository gehört in genau eine Kategorie
+- Bevorzuge spezifische Kategorienamen gegenüber generischen (z.B. "Intune & Endpoint Management" statt "Systemadministration")
+- Jeder Kategoriename darf nur einmal vorkommen — keine Suffixe wie "(Erweiterung)" oder "(Teil 2)"
+- Vermeide generische Catch-all-Kategorien wie "Diverses", "Allgemeines" oder "Sonstige Ressourcen"
+- Benenne Kategorien nach ihrer FUNKTION, nicht nach der Technologie dahinter — statt "KI-gestützte Code-Generierung" lieber "Code-Generierung & Coding-Assistenten"; "KI-gestützt" darf maximal in 2 Kategorienamen vorkommen
 
 Antworte NUR mit einem JSON-Objekt (ohne Markdown-Codeblöcke) in folgendem Format:
 {{
@@ -114,7 +117,7 @@ Antworte NUR mit einem JSON-Objekt (ohne Markdown-Codeblöcke) in folgendem Form
                     contents=prompt,
                     config=genai_types.GenerateContentConfig(
                         temperature=0.3,
-                        max_output_tokens=8192,
+                        max_output_tokens=32768,
                         thinking_config=genai_types.ThinkingConfig(thinking_budget=0),
                     )
                 )
@@ -209,7 +212,7 @@ Antworte NUR mit einem JSON-Objekt (ohne Markdown-Codeblöcke) in folgendem Form
 
 🕐 *Letzte Aktualisierung: {datetime.now().strftime('%d.%m.%Y um %H:%M Uhr')}*
 
-🤖 *Generiert mit [Gemini 2.5 Flash Lite](https://deepmind.google/technologies/gemini/) von Google*
+🤖 *Generiert mit [Gemini 3.5 Flash](https://deepmind.google/technologies/gemini/) von Google*
 
 ---
 
@@ -260,7 +263,7 @@ Antworte NUR mit einem JSON-Objekt (ohne Markdown-Codeblöcke) in folgendem Form
             "last_updated": datetime.now().isoformat(),
             "total_repositories": sum(len(repos) for repos in categorized_repos.values()),
             "categories": categorized_repos,
-            "generated_by": "Gemini 2.5 Flash (Google)"
+            "generated_by": "Gemini 3.5 Flash (Google)"
         }
 
         with open('starred_repos_categorized_gemini.json', 'w', encoding='utf-8') as f:
@@ -277,7 +280,7 @@ Antworte NUR mit einem JSON-Objekt (ohne Markdown-Codeblöcke) in folgendem Form
 
 def main():
     try:
-        print("🚀 Starte Repository-Kategorisierung mit Gemini 2.5 Flash Lite...")
+        print("🚀 Starte Repository-Kategorisierung mit Gemini 3.5 Flash...")
         categorizer = StarredRepoCategorizerGemini()
 
         print("\n📥 Lade starred Repositories...")
