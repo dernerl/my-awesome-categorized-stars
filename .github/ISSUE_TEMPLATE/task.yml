@@ -1,0 +1,42 @@
+name: Task / Chore
+description: Technical task, refactoring, or maintenance work
+title: "[Task]: "
+labels: ["task"]
+body:
+  - type: markdown
+    attributes:
+      value: Technical tasks that don't add direct user value but improve the codebase.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What needs to be done and why?
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: When is this task considered done?
+      placeholder: |
+        - [ ] Criterion 1
+        - [ ] Criterion 2
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - Refactoring
+        - Dependency Update
+        - Performance
+        - Security
+        - CI/CD
+        - Testing
+        - Other
+    validations:
+      required: true

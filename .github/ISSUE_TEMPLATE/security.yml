@@ -1,0 +1,67 @@
+name: Security Finding
+description: Report a security vulnerability, misconfiguration, or attack surface
+title: "fix: "
+labels: ["security", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Sicherheitsbefund melden. Keine öffentlich ausnutzbaren Credentials oder Exploit-Details in Issues eintragen — dafür GitHub Security Advisories nutzen.
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - "critical"
+        - "high"
+        - "medium"
+        - "low"
+    validations:
+      required: true
+
+  - type: input
+    id: attack_vector
+    attributes:
+      label: Attack Vector
+      description: Wer kann das ausnutzen, und wie?
+      placeholder: "z.B. Authentifizierter User, manipulierter JWT-Payload"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Beschreibung
+      description: Was ist die Schwachstelle? Datei und Zeilennummer wenn möglich.
+      placeholder: |
+        `api/src/utils/cors.ts` Zeile 9: CORS ist auf `*` gesetzt.
+        Jede Origin kann Requests mit Bearer-Token stellen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Was kann ein Angreifer damit erreichen?
+      placeholder: "z.B. Cross-Origin-Zugriff auf API-Endpunkte als authentifizierter User"
+    validations:
+      required: true
+
+  - type: textarea
+    id: fix
+    attributes:
+      label: Fix-Vorschlag
+      description: Wie wird das behoben?
+      placeholder: |
+        CORS auf bekannte Origins einschränken:
+        `process.env.ALLOWED_ORIGINS?.split(',') || ['https://teams.microsoft.com']`
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Referenzen
+      description: Links zu OWASP, CVEs, oder ähnlichen Findings (optional).

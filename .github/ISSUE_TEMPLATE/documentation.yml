@@ -1,0 +1,39 @@
+name: Documentation
+description: Report missing or outdated documentation
+title: "[Docs]: "
+labels: ["documentation"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of Issue
+      options:
+        - Documentation is missing entirely
+        - Documentation is outdated
+        - Documentation is unclear or incorrect
+        - Examples are missing
+    validations:
+      required: true
+
+  - type: textarea
+    id: location
+    attributes:
+      label: Affected Location
+      description: Which file, function, or page is affected?
+      placeholder: "e.g. README.md, section 'Installation'"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What is Missing or Wrong?
+      description: Describe the problem with the current documentation.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested Improvement
+      description: How should the documentation look?
