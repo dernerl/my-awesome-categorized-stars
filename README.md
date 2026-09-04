@@ -1,8 +1,8 @@
 # 🌟 Meine kategorisierten GitHub Stars
 
-📊 **165 Repositories** in **22 Kategorien**
+📊 **180 Repositories** in **23 Kategorien**
 
-🕐 *Letzte Aktualisierung: 03.09.2026 um 09:38 Uhr*
+🕐 *Letzte Aktualisierung: 04.09.2026 um 09:30 Uhr*
 
 🤖 *Generiert mit [Gemini 3.5 Flash](https://deepmind.google/technologies/gemini/) von Google*
 
@@ -10,204 +10,569 @@
 
 ## 📑 Inhaltsverzeichnis
 
-- [Agenten-Fähigkeiten & Prompt-Optimierung](#agenten-fähigkeiten--prompt-optimierung) (11)
-- [KI-Agenten-Orchestrierung & Frameworks](#ki-agenten-orchestrierung--frameworks) (9)
-- [Intune & Endpoint Management](#intune--endpoint-management) (9)
-- [Spezifikationsgetriebene Entwicklung & Software-Design](#spezifikationsgetriebene-entwicklung--software-design) (8)
-- [Model Context Protocol & Agenten-Erweiterungen](#model-context-protocol--agenten-erweiterungen) (8)
-- [KI-Benutzeroberflächen & Lokale Anwendungen](#ki-benutzeroberflächen--lokale-anwendungen) (8)
-- [KI-gestützte Datenextraktion & Medienverarbeitung](#ki-gestützte-datenextraktion--medienverarbeitung) (8)
-- [Active Directory & Cloud-Identitätsverwaltung](#active-directory--cloud-identitätsverwaltung) (8)
+- [Coding-Assistenten & Terminal-Agenten](#coding-assistenten--terminal-agenten) (8)
+- [Agenten-Orchestrierung & Multi-Agenten-Systeme](#agenten-orchestrierung--multi-agenten-systeme) (8)
+- [Agenten-Erweiterungen & Skill-Bibliotheken](#agenten-erweiterungen--skill-bibliotheken) (8)
+- [Spezifische Agenten-Werkzeuge & Integrationen](#spezifische-agenten-werkzeuge--integrationen) (8)
+- [Schnittstellen, MCP-Server & Daten-Kopplung](#schnittstellen,-mcp-server--daten-kopplung) (8)
+- [Agenten-GUIs, Dashboards & Management](#agenten-guis,-dashboards--management) (8)
+- [Dokumentation & Technische Visualisierung](#dokumentation--technische-visualisierung) (8)
+- [Informationsgewinnung, RAG & Sprachverarbeitung](#informationsgewinnung,-rag--sprachverarbeitung) (8)
+- [Lokale KI-Modelle & Sprach-Anwendungen](#lokale-ki-modelle--sprach-anwendungen) (8)
+- [Intune & Endpoint Management](#intune--endpoint-management) (8)
+- [Active Directory & Entra ID Security](#active-directory--entra-id-security) (8)
 - [Windows-Administration & Deployment](#windows-administration--deployment) (8)
-- [Infrastruktur-Visualisierung & Dokumentation](#infrastruktur-visualisierung--dokumentation) (8)
-- [Entwickler-Werkzeuge & Shell-Erweiterungen](#entwickler-werkzeuge--shell-erweiterungen) (8)
-- [Wissensdatenbanken & Kuratierte Listen](#wissensdatenbanken--kuratierte-listen) (8)
-- [KI-Coding-Assistenten & Code-Generierung](#ki-coding-assistenten--code-generierung) (7)
-- [RAG-Systeme & Vektordatenbanken](#rag-systeme--vektordatenbanken) (7)
-- [Compliance, Governance & IT-Auditing](#compliance,-governance--it-auditing) (7)
-- [Desktop-Anpassung & Betriebssystem-Utilities](#desktop-anpassung--betriebssystem-utilities) (7)
-- [Kollaboration, Medien & Freizeit](#kollaboration,-medien--freizeit) (7)
-- [IT-Sicherheit & Penetration Testing](#it-sicherheit--penetration-testing) (6)
-- [System-Monitoring & Log-Analyse](#system-monitoring--log-analyse) (6)
-- [Anwendungs-Deployment & Cloud-Hosting](#anwendungs-deployment--cloud-hosting) (6)
-- [Workflow-Automatisierung & Integrationen](#workflow-automatisierung--integrationen) (6)
-- [Sprachverarbeitung & Audio-Transkription](#sprachverarbeitung--audio-transkription) (5)
+- [IT-Infrastruktur, Monitoring & DevOps](#it-infrastruktur,-monitoring--devops) (8)
+- [Sicherheits-Audits, Härtung & Forensik](#sicherheits-audits,-härtung--forensik) (8)
+- [Enterprise-Security, Identitätsmanagement & Log-Analyse](#enterprise-security,-identitätsmanagement--log-analyse) (8)
+- [macOS-Systemverwaltung & Client-Support](#macos-systemverwaltung--client-support) (8)
+- [Systemnahe Werkzeuge & Shell-Entwicklung](#systemnahe-werkzeuge--shell-entwicklung) (8)
+- [Kuratierte Wissenssammlungen & Leitfäden](#kuratierte-wissenssammlungen--leitfäden) (8)
+- [Spezifische Anwendungen, Medien & Spiele](#spezifische-anwendungen,-medien--spiele) (8)
+- [Spezifikationsgesteuerte Entwicklung & Planung](#spezifikationsgesteuerte-entwicklung--planung) (7)
+- [KI-Design, Prototyping & Medien-Generierung](#ki-design,-prototyping--medien-generierung) (7)
+- [Workflow-Automatisierung & Integrationsplattformen](#workflow-automatisierung--integrationsplattformen) (7)
+- [Hardware, Elektronik & IoT-Entwicklung](#hardware,-elektronik--iot-entwicklung) (7)
 
 ---
 
-## 📂 Agenten-Fähigkeiten & Prompt-Optimierung
+## 📂 Coding-Assistenten & Terminal-Agenten
 
-### [andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)
-A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
+### [openclaw](https://github.com/openclaw/openclaw)
+The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 
 
-**Details:** ⭐ 209,782
+**Details:** ⭐ 388,807 `TypeScript` `ai`, `assistant`, `own-your-data`, `personal`, `crustacean`
 
-> 🤖 *Eine optimierte CLAUDE.md-Konfigurationsdatei zur Vermeidung typischer LLM-Coding-Fehler.*
+> 🤖 *Ein plattformübergreifender, autonom agierender KI-Assistent zur Ausführung komplexer Aufgaben.*
 
-### [ponytail](https://github.com/DietrichGebert/ponytail)
-Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
+### [claw-code](https://github.com/ultraworkers/claw-code)
+An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.
 
-**Details:** ⭐ 122,551 `JavaScript` `agent-skills`, `ai-agents`, `claude`, `claude-code`, `claude-code-plugin`
+**Details:** ⭐ 195,159 `Rust`
 
-> 🤖 *Ein Plugin, das KI-Agenten auf pragmatische, minimalistische Code-Erstellung trimmt.*
+> 🤖 *Ein vollständig autonom von KI-Agenten verwaltetes und gepflegtes Softwareprojekt.*
 
-### [caveman](https://github.com/JuliusBrussee/caveman)
-🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman
+### [claude-code](https://github.com/anthropics/claude-code)
+Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
 
-**Details:** ⭐ 102,841 `Go` `ai`, `anthropic`, `caveman`, `claude`, `claude-code`
+**Details:** ⭐ 143,998 `Python`
 
-> 🤖 *Ein humorvolles, aber token-sparendes Plugin, das die Ausgaben von Claude Code drastisch verkürzt.*
-
-### [obsidian-skills](https://github.com/kepano/obsidian-skills)
-Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.
-
-**Details:** ⭐ 47,777 `claude`, `codex`, `obsidian`, `skills`, `clawdbot`
-
-> 🤖 *Erweitert KI-Agenten um Fähigkeiten zur Interaktion mit Obsidian und Markdown-Dateien.*
-
-### [marketingskills](https://github.com/coreyhaines31/marketingskills)
-Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.
-
-**Details:** ⭐ 46,697 `JavaScript` `claude`, `codex`, `marketing`
-
-> 🤖 *Erweitert KI-Agenten um Fähigkeiten in den Bereichen SEO, Copywriting und Conversion-Optimierung.*
-
-### [agent-skills](https://github.com/vercel-labs/agent-skills)
-Vercel's official collection of agent skills
-
-**Details:** ⭐ 30,777 `JavaScript`
-
-> 🤖 *Die offizielle Sammlung von Agenten-Fähigkeiten von Vercel.*
-
-### [skills](https://github.com/remotion-dev/skills)
-Agent Skills
-
-**Details:** ⭐ 4,478 `TypeScript`
-
-> 🤖 *Spezifische Fähigkeiten für KI-Coding-Agenten im .NET- und C#-Umfeld.*
-
-### [agent-toolkit](https://github.com/softaworks/agent-toolkit)
-A curated collection of skills for AI coding agents. Skills are packaged instructions and scripts that extend agent capabilities across development, documentation, planning, and professional workflows.
-
-**Details:** ⭐ 2,419 `Python` `agent-skills`, `ai`, `automation`, `claude`, `claude-code`
-
-> 🤖 *Eine kuratierte Sammlung von Skripten und Anweisungen zur Erweiterung von KI-Agenten.*
-
-### [opc-skills](https://github.com/ReScienceLab/opc-skills)
-Agent Skills for Solopreneurs
-
-**Details:** ⭐ 1,752 `Python` `agent-skills`, `opc`, `ai-tools`, `claude-code`, `geo`
-
-> 🤖 *Spezialisierte Agenten-Fähigkeiten für Solopreneure, SEO und geografische Analysen.*
-
-### [titan-agent-cli](https://github.com/Raxyl00/titan-agent-cli)
-Keine Beschreibung verfügbar
-
-**Details:** ⭐ 14 `JavaScript`
-
-> 🤖 *CLI-Tool zur Verwaltung und Ausführung von Agenten-Fähigkeiten.*
-
-### [briefing](https://github.com/Getty/briefing)
-Claude Code plugin: pre-load declared skills into a subagent's context at spawn time. Programmatic briefing beats prompt stuffing.
-
-**Details:** ⭐ 5 `Python`
-
-> 🤖 *Ein Plugin zum Vorab-Laden deklarierter Fähigkeiten in den Kontext von Subagenten.*
-
-## 📂 KI-Agenten-Orchestrierung & Frameworks
-
-### [hermes-agent](https://github.com/NousResearch/hermes-agent)
-The agent that grows with you
-
-**Details:** ⭐ 240,426 `Python` `ai`, `ai-agent`, `ai-agents`, `llm`, `anthropic`
-
-> 🤖 *Ein flexibler, mitwachsender KI-Agent für allgemeine Aufgaben und Interaktionen.*
-
-### [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)
-DeepSeek Harness: Everything is a Plugin.
-
-**Details:** ⭐ 210,388 `TypeScript` `cordis`, `dsh`, `dsh-plugin`, `ai-agents`
-
-> 🤖 *Ein pluginbasiertes Framework zur Orchestrierung und Ausführung von DeepSeek-KI-Agenten.*
-
-### [agency-agents](https://github.com/msitarzewski/agency-agents)
-A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
-
-**Details:** ⭐ 149,814 `Shell`
-
-> 🤖 *Eine Sammlung spezialisierter KI-Agenten mit definierten Prozessen und Persönlichkeiten.*
+> 🤖 *Ein agentenbasiertes Programmierwerkzeug für das Terminal, das Code versteht und Git-Workflows steuert.*
 
 ### [pi](https://github.com/earendil-works/pi)
 AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI
 
-**Details:** ⭐ 101,258 `TypeScript`
+**Details:** ⭐ 101,646 `TypeScript`
 
-> 🤖 *Ein Toolkit für KI-Agenten mit einheitlicher LLM-API, Agenten-Schleife und TUI.*
+> 🤖 *Ein KI-Agenten-Toolkit mit CLI und TUI für die interaktive Softwareentwicklung.*
+
+### [goose](https://github.com/aaif-goose/goose)
+an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
+
+**Details:** ⭐ 53,897 `Rust` `mcp`, `acp`, `ai`, `ai-agents`
+
+> 🤖 *Ein erweiterbarer Open-Source-KI-Agent für die Ausführung und Bearbeitung von Code direkt im Terminal.*
+
+### [kilocode](https://github.com/Kilo-Org/kilocode)
+Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.
+
+**Details:** ⭐ 27,170 `TypeScript` `ai-coding`, `vscode`, `vscode-extension`, `ai-developer-tools`, `chatgpt`
+
+> 🤖 *Eine All-in-One-Plattform für agentenbasiertes Software-Engineering mit CLI- und IDE-Anbindung.*
+
+### [Roo-Code](https://github.com/RooCodeInc/Roo-Code)
+Roo Code gives you a whole dev team of AI agents in your code editor.
+
+**Details:** ⭐ 24,312 `TypeScript`
+
+> 🤖 *Integriert ein ganzes Team von KI-Entwicklungsagenten direkt in den Code-Editor.*
+
+### [Aperant](https://github.com/AndyMik90/Aperant)
+Autonomous multi-session AI coding
+
+**Details:** ⭐ 14,552 `TypeScript`
+
+> 🤖 *Ermöglicht autonomes, sitzungsübergreifendes Programmieren mit KI-Unterstützung.*
+
+## 📂 Agenten-Orchestrierung & Multi-Agenten-Systeme
+
+### [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)
+DeepSeek Harness: Everything is a Plugin.
+
+**Details:** ⭐ 211,675 `TypeScript` `cordis`, `dsh`, `dsh-plugin`, `ai-agents`
+
+> 🤖 *Ein modulares Framework zur Orchestrierung und Plugin-Verwaltung von KI-Agenten.*
+
+### [agency-agents](https://github.com/msitarzewski/agency-agents)
+A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
+
+**Details:** ⭐ 149,981 `Shell`
+
+> 🤖 *Ein System spezialisierter KI-Agenten mit unterschiedlichen Persönlichkeiten und Prozessen.*
 
 ### [claude-code-router](https://github.com/musistudio/claude-code-router)
 One local control plane for every AI agent: route across models, fuse new capabilities, orchestrate tools, and stay fully in control.
 
-**Details:** ⭐ 37,045 `TypeScript`
+**Details:** ⭐ 37,063 `TypeScript`
 
-> 🤖 *Lokale Steuerungsebene zur Orchestrierung, Tool-Nutzung und Modell-Routing für KI-Agenten.*
+> 🤖 *Eine lokale Steuerungsebene zur Weiterleitung, Werkzeug-Orchestrierung und Absicherung von KI-Agenten.*
 
 ### [oh-my-opencode-slim](https://github.com/alvinunreal/oh-my-opencode-slim)
 Lean, fine tuned Opencode multi agent suite · Mix any models · Auto delegate tasks
 
-**Details:** ⭐ 8,596 `TypeScript` `agentic-ai`, `antigravity`, `cerebras`, `oh-my-opencode`, `opencode`
+**Details:** ⭐ 8,612 `TypeScript` `agentic-ai`, `antigravity`, `cerebras`, `oh-my-opencode`, `opencode`
 
-> 🤖 *Eine schlanke Multi-Agenten-Suite zur Aufgaben-Delegierung und Modell-Mischung.*
+> 🤖 *Eine schlanke Multi-Agenten-Suite zur flexiblen Aufgabenverteilung zwischen verschiedenen Modellen.*
+
+### [awesome-agentic-patterns](https://github.com/nibzard/awesome-agentic-patterns)
+A curated catalogue of awesome agentic AI patterns
+
+**Details:** ⭐ 4,940 `HTML`
+
+> 🤖 *Eine kuratierte Sammlung von Entwurfsmustern für die Entwicklung von KI-Agenten-Systemen.*
 
 ### [weft](https://github.com/WeaveMindAI/weft)
 A programming language for AI orchestrations (POC)
 
-**Details:** ⭐ 1,942 `Rust`
+**Details:** ⭐ 1,945 `Rust`
 
-> 🤖 *Eine experimentelle Programmiersprache zur Orchestrierung komplexer KI-Abläufe.*
+> 🤖 *Eine spezialisierte Programmiersprache zur Definition und Steuerung von KI-Orchestrierungen.*
 
 ### [flock](https://github.com/whiteducksoftware/flock)
 🐤🐧 A declarative and highly modular Blackboard Multi Agent System  🐓 🦆
 
 **Details:** ⭐ 118 `Python` `agent`, `agents`, `ai`, `artificial-intelligence`, `llm`
 
-> 🤖 *Ein deklaratives Blackboard-System für die Koordination mehrerer KI-Agenten.*
+> 🤖 *Ein deklaratives Blackboard-System zur Koordination mehrerer autonomer Agenten.*
 
 ### [arc42agentic](https://github.com/matthiasnissen/arc42agentic)
 Repository zu agentischen Workflows von arc42 Architekturdokumentation, insbesondere Review
 
 **Details:** ⭐ 48 `agent-orchestration`, `agents`, `arc42`, `architecture`, `review`
 
-> 🤖 *Agentische Workflows für die Überprüfung und Erstellung von Architekturdokumenten nach arc42.*
+> 🤖 *Fokus auf agentische Workflows zur automatisierten Überprüfung von Architekturdokumenten.*
+
+## 📂 Agenten-Erweiterungen & Skill-Bibliotheken
+
+### [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)
+A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
+
+**Details:** ⭐ 74,436 `Python` `claude`, `claude-code`, `agent-skills`, `ai-agents`, `antigravity`
+
+> 🤖 *Eine kuratierte Liste von Ressourcen, Werkzeugen und Fähigkeiten zur Anpassung von Claude-Workflows.*
+
+### [marketingskills](https://github.com/coreyhaines31/marketingskills)
+Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.
+
+**Details:** ⭐ 46,824 `JavaScript` `claude`, `codex`, `marketing`
+
+> 🤖 *Fähigkeiten für Claude Code in den Bereichen Copywriting, SEO und Wachstumsanalyse.*
+
+### [agent-skills](https://github.com/vercel-labs/agent-skills)
+Vercel's official collection of agent skills
+
+**Details:** ⭐ 30,820 `JavaScript`
+
+> 🤖 *Die offizielle Sammlung von Agenten-Fähigkeiten von Vercel.*
+
+### [skills](https://github.com/remotion-dev/skills)
+Agent Skills
+
+**Details:** ⭐ 4,484 `TypeScript`
+
+> 🤖 *Unterstützende Fähigkeiten für KI-Coding-Agenten im .NET- und C#-Umfeld.*
+
+### [skills](https://github.com/remotion-dev/skills)
+Agent Skills
+
+**Details:** ⭐ 4,484 `TypeScript`
+
+> 🤖 *Eine Sammlung von Python-basierten Fähigkeiten zur Erweiterung von KI-Agenten.*
+
+### [skills](https://github.com/remotion-dev/skills)
+Agent Skills
+
+**Details:** ⭐ 4,484 `TypeScript`
+
+> 🤖 *TypeScript-basierte Agenten-Fähigkeiten zur Ausführung spezifischer Aufgaben.*
+
+### [agent-toolkit](https://github.com/softaworks/agent-toolkit)
+A curated collection of skills for AI coding agents. Skills are packaged instructions and scripts that extend agent capabilities across development, documentation, planning, and professional workflows.
+
+**Details:** ⭐ 2,424 `Python` `agent-skills`, `ai`, `automation`, `claude`, `claude-code`
+
+> 🤖 *Eine Sammlung vorgefertigter Skripte und Anweisungen zur Erweiterung von Coding-Agenten.*
+
+### [opc-skills](https://github.com/ReScienceLab/opc-skills)
+Agent Skills for Solopreneurs
+
+**Details:** ⭐ 1,754 `Python` `agent-skills`, `opc`, `ai-tools`, `claude-code`, `geo`
+
+> 🤖 *Spezifische Agenten-Fähigkeiten für Solopreneure, optimiert für SEO und Geodaten.*
+
+## 📂 Spezifische Agenten-Werkzeuge & Integrationen
+
+### [andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)
+A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
+
+**Details:** ⭐ 210,018
+
+> 🤖 *Optimierungsrichtlinien für Claude Code, basierend auf bewährten Programmierpraktiken.*
+
+### [ponytail](https://github.com/DietrichGebert/ponytail)
+Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
+
+**Details:** ⭐ 124,117 `JavaScript` `agent-skills`, `ai-agents`, `claude`, `claude-code`, `claude-code-plugin`
+
+> 🤖 *Ein Plugin, das KI-Agenten dazu bringt, pragmatischen und minimalen Code nach dem YAGNI-Prinzip zu schreiben.*
+
+### [caveman](https://github.com/JuliusBrussee/caveman)
+🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman
+
+**Details:** ⭐ 103,298 `Go` `ai`, `anthropic`, `caveman`, `claude`, `claude-code`
+
+> 🤖 *Ein humorvolles, aber nützliches Werkzeug zur drastischen Reduzierung von Token-Kosten bei Claude Code.*
+
+### [obsidian-skills](https://github.com/kepano/obsidian-skills)
+Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.
+
+**Details:** ⭐ 47,831 `claude`, `codex`, `obsidian`, `skills`, `clawdbot`
+
+> 🤖 *Ermöglicht KI-Agenten die Interaktion mit Obsidian-Datenbanken und Markdown-Dateien.*
+
+### [Lynkr](https://github.com/Fast-Editor/Lynkr)
+Streamline your workflow with Lynkr, a CLI tool that acts as an HTTP proxy for efficient code interactions using Claude Code CLI.
+
+**Details:** ⭐ 547 `JavaScript` `claude`, `claudecode`, `databricks`, `agents`, `ai`
+
+> 🤖 *Ein HTTP-Proxy zur Optimierung und Beschleunigung der Interaktion mit der Claude Code CLI.*
+
+### [vibeguard](https://github.com/majiayu000/vibeguard)
+Native rules, hooks, and guards that prevent Claude Code and Codex from hallucinating code, duplicating files, or shipping unverified changes.
+
+**Details:** ⭐ 41 `Shell` `claude-code`, `code-quality`, `codex`, `developer-tools`, `guardrails`
+
+> 🤖 *Schutzregeln und Hooks, die verhindern, dass Coding-Agenten fehlerhaften Code generieren oder Dateien duplizieren.*
+
+### [shortcut-agent-skill](https://github.com/owgit/shortcut-agent-skill)
+Generate Apple Shortcuts from natural language using Claude Code. Describe any automation and get a signed .shortcut file for iPhone, iPad & Mac. 427+ supported actions.
+
+**Details:** ⭐ 12 `Python` `ai-automation`, `apple-shortcuts`, `claude-code`, `claude-code-skill`, `ios-automation`
+
+> 🤖 *Erzeugt aus natürlicher Sprache heraus ausführbare Apple Shortcuts über Claude Code.*
+
+### [briefing](https://github.com/Getty/briefing)
+Claude Code plugin: pre-load declared skills into a subagent's context at spawn time. Programmatic briefing beats prompt stuffing.
+
+**Details:** ⭐ 5 `Python`
+
+> 🤖 *Ein Plugin für Claude Code, um Subagenten vor dem Start gezielt mit Kontext und Fähigkeiten auszustatten.*
+
+## 📂 Schnittstellen, MCP-Server & Daten-Kopplung
+
+### [servers](https://github.com/modelcontextprotocol/servers)
+Model Context Protocol Servers
+
+**Details:** ⭐ 90,072 `TypeScript`
+
+> 🤖 *Die offizielle Sammlung von Model Context Protocol Servern für verschiedene Datenquellen.*
+
+### [Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP)
+MCP server to provide Figma layout information to AI coding agents like Cursor
+
+**Details:** ⭐ 15,773 `TypeScript` `ai`, `cursor`, `figma`, `mcp`, `typescript`
+
+> 🤖 *Stellt KI-Coding-Agenten Layout-Informationen aus Figma über das MCP-Protokoll bereit.*
+
+### [azure-devops-mcp](https://github.com/microsoft/azure-devops-mcp)
+The MCP server for Azure DevOps, bringing the power of Azure DevOps directly to your agents.
+
+**Details:** ⭐ 1,997 `TypeScript`
+
+> 🤖 *Ein MCP-Server, der Azure DevOps-Funktionen für KI-Agenten zugänglich macht.*
+
+### [azure-skills](https://github.com/microsoft/azure-skills)
+Official agent plugin providing skills and MCP server configurations for Azure scenarios.
+
+**Details:** ⭐ 1,451 `Shell` `agent-skills`
+
+> 🤖 *Stellt MCP-Konfigurationen und Fähigkeiten für Azure-Szenarien bereit.*
+
+### [mcp-mermaid](https://github.com/hustcc/mcp-mermaid)
+❤️ Generate mermaid diagram and chart with AI MCP dynamically.
+
+**Details:** ⭐ 628 `TypeScript` `mcp`, `mcp-server`, `mermaid`, `mermaidjs`
+
+> 🤖 *Ein MCP-Server zur dynamischen Generierung von Mermaid-Diagrammen mittels KI.*
+
+### [mcp-server-solidworks](https://github.com/eyfel/mcp-server-solidworks)
+ This MCP server integrates with SolidWorks API and structuring it into Claude-compatible context streams.
+
+**Details:** ⭐ 269 `C#`
+
+> 🤖 *Ein MCP-Server, der CAD-Daten aus SolidWorks für KI-Modelle lesbar macht.*
+
+### [kicktipp-mcp](https://github.com/Cloudy261/kicktipp-mcp)
+MCP Server so your trusted LLM can access your Kicktipp and submit tips.
+
+**Details:** ⭐ 3 `Python`
+
+> 🤖 *Ein Model Context Protocol Server, der LLMs den Zugriff auf Kicktipp-Daten ermöglicht.*
+
+### [churchtools-mcp](https://github.com/integrenns-ae/churchtools-mcp)
+MCP server for the ChurchTools API — runs locally via npx (stdio) or as a Streamable HTTP service. Fork of samuelspagl/ct-mcp adding stdio/npx.
+
+**Details:** ⭐ 1 `TypeScript` `church-management`, `churchtools`, `claude`, `mcp`, `model-context-protocol`
+
+> 🤖 *Ein MCP-Server zur Anbindung der ChurchTools-API an lokale KI-Modelle.*
+
+## 📂 Agenten-GUIs, Dashboards & Management
+
+### [paperclip](https://github.com/paperclipai/paperclip)
+The open-source app everyone uses to manage agents at work
+
+**Details:** ⭐ 79,985 `TypeScript`
+
+> 🤖 *Eine Anwendung zur zentralen Verwaltung und Steuerung von KI-Agenten im Arbeitsalltag.*
+
+### [happy](https://github.com/slopus/happy)
+Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured
+
+**Details:** ⭐ 23,632 `TypeScript` `claude-code`, `claude-desktop`, `codex`, `codex-cli`, `hacktoberfest`
+
+> 🤖 *Ein mobiler und webbasierter Client für Claude Code und Codex mit Sprachsteuerung.*
+
+### [opcode](https://github.com/winfunc/opcode)
+A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.
+
+**Details:** ⭐ 22,394 `TypeScript` `anthropic`, `anthropic-claude`, `claude`, `claude-4`, `claude-4-sonnet`
+
+> 🤖 *Eine grafische Benutzeroberfläche und ein Toolkit zur Verwaltung interaktiver Claude-Code-Sitzungen.*
+
+### [Claude-Usage-Tracker](https://github.com/hamed-elfayome/Claude-Usage-Tracker)
+Native macOS menu bar app for tracking Claude AI usage limits in real-time. Built with Swift/SwiftUI.
+
+**Details:** ⭐ 3,417 `Swift` `claude`, `claude-ai`, `claude-code`, `claudecode`, `macos`
+
+> 🤖 *Eine macOS-Menüleisten-App zur Echtzeit-Überwachung der API-Nutzungslimits von Claude.*
+
+### [mcpc](https://github.com/apify/mcpc)
+A universal CLI client for MCP. mcpc supports persistent sessions, stdio/HTTP, OAuth 2.1, tasks, JSON output for code mode, proxy for AI sandboxes, x402, and more.
+
+**Details:** ⭐ 766 `TypeScript` `cli`, `mcp`, `mcp-client`, `shell`, `ai-agents`
+
+> 🤖 *Ein universeller CLI-Client zur Verwaltung persistenter MCP-Verbindungen und -Sitzungen.*
+
+### [titan-agent-cli](https://github.com/Raxyl00/titan-agent-cli)
+Keine Beschreibung verfügbar
+
+**Details:** ⭐ 14 `JavaScript`
+
+> 🤖 *Ein CLI-Werkzeug zur Interaktion mit KI-Agenten.*
+
+### [neofusion.opencode](https://github.com/diegoulloao/neofusion.opencode)
+neofusion theme for opencode blending lava red and ice blue colors 🤖🔥
+
+**Details:** ⭐ 3 `colors`, `neofusion`, `opencode`, `scheme`, `terminal`
+
+> 🤖 *Ein visuelles Farbschema für das Terminal zur Nutzung mit OpenCode.*
+
+### [claude-dashboard](https://github.com/PeterHueer/claude-dashboard)
+A local web dashboard for Claude Code to manage skills, MCP servers, plugins, agents and custom slash commands — all in one place. Start with /dashboard inside Claude Code.
+
+**Details:** ⭐ 2 `JavaScript`
+
+> 🤖 *Ein lokales Web-Dashboard zur Verwaltung von Skills, MCP-Servern und Plugins für Claude Code.*
+
+## 📂 Dokumentation & Technische Visualisierung
+
+### [visual-explainer](https://github.com/nicobailon/visual-explainer)
+Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps
+
+**Details:** ⭐ 9,646 `HTML`
+
+> 🤖 *Ein Agenten-Skill zur Erstellung anschaulicher HTML-Seiten für Code-Reviews und Diagramme.*
+
+### [markdoc](https://github.com/markdoc/markdoc)
+A powerful, flexible, Markdown-based authoring framework.
+
+**Details:** ⭐ 8,444 `TypeScript` `authoring`, `documentation`, `markdoc`, `markdown`, `react`
+
+> 🤖 *Ein flexibles, Markdown-basiertes Framework zur Erstellung von Dokumentationen.*
+
+### [docToolchain](https://github.com/docToolchain/docToolchain)
+a AsciiDoc Toolchain for technical Software Documentation, focused on Software Architecture Documentation
+
+**Details:** ⭐ 860 `Groovy` `docs-as-code`, `asciidoc`, `asciidoctor`, `asciidoctor-diagram`, `asciidoctor-pdf`
+
+> 🤖 *Ein AsciiDoc-basiertes Werkzeugset zur Pflege von Softwarearchitektur-Dokumentationen.*
+
+### [azure-diagrams-skill](https://github.com/cmb211087/azure-diagrams-skill)
+Generate professional technical diagrams with AI - Azure architecture (800+ icons), ERDs, business flowcharts, timelines, wireframes. For proposals, documentation & architecture reviews.
+
+**Details:** ⭐ 145 `Python` `ai`, `architecture`, `azure`, `claude`, `cloud-architecture`
+
+> 🤖 *Generiert mithilfe von KI professionelle Azure-Architekturdiagramme und Flussdiagramme.*
+
+### [docfx-companion-tools](https://github.com/Ellerbach/docfx-companion-tools)
+A suite of tools, pipelines templates to take the very best of DocFX
+
+**Details:** ⭐ 79 `C#` `api-documentation`, `ci-cd`, `csharp`, `developer-tools`, `docfx`
+
+> 🤖 *Erweiterungen und Vorlagen zur Optimierung von Dokumentations-Pipelines mit DocFX.*
+
+### [wardley-maps-mermaid](https://github.com/tractorjuice/wardley-maps-mermaid)
+Mirror of swardley/WARDLEY-MAP-REPOSITORY with each map rendered as Mermaid wardley-beta alongside the OWM source. 100% component/link retention, |Δε|=0.
+
+**Details:** ⭐ 71 `Mermaid`
+
+> 🤖 *Visualisiert strategische Wardley Maps mithilfe der Mermaid-Diagrammsprache.*
+
+### [architectures](https://github.com/jsoconno/architectures)
+Build architecture diagrams as code using Python.
+
+**Details:** ⭐ 57 `Python` `architecture`, `code`, `diagrams`, `azure`, `gcp`
+
+> 🤖 *Ermöglicht das Erstellen von IT-Architekturdiagrammen als Code mittels Python.*
+
+### [IntuneDocumentation](https://github.com/ugurkocde/IntuneDocumentation)
+Generate professional, audit-ready documentation of your Microsoft Intune tenant in minutes. Sign in, pick what to document, export as PDF or Word. Runs entirely in your browser with read-only Graph permissions. Use the free hosted app or self-host with Docker.
+
+**Details:** ⭐ 54 `TypeScript` `docker`, `documentation`, `entra`, `intune`, `microsoft-graph`
+
+> 🤖 *Automatische Generierung professioneller Dokumentationen für Microsoft-Intune-Umgebungen.*
+
+## 📂 Informationsgewinnung, RAG & Sprachverarbeitung
+
+### [mempalace](https://github.com/MemPalace/mempalace)
+The best-benchmarked open-source AI memory system. And it's free.
+
+**Details:** ⭐ 58,835 `Python` `ai`, `chromadb`, `llm`, `mcp`, `memory`
+
+> 🤖 *Ein hochperformantes, quelloffenes Speichersystem für KI-Kontexte.*
+
+### [cli](https://github.com/googleworkspace/cli)
+Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.
+
+**Details:** ⭐ 30,731 `Rust` `google-workspace`, `agent-skills`, `ai-agent`, `automation`, `cli`
+
+> 🤖 *CLI und Agenten-Skill für Firecrawl zur Websuche und strukturierten Datenextraktion.*
+
+### [Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai)
+Python scraper based on AI
+
+**Details:** ⭐ 30,505 `Python` `scraping`, `scraping-python`, `llm`, `web-crawler`, `web-scraping`
+
+> 🤖 *Ein KI-gestützter Web-Scraper zur strukturierten Datenextraktion aus Webseiten.*
+
+### [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques)
+This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. Each technique has a detailed notebook tutorial.
+
+**Details:** ⭐ 29,362 `Jupyter Notebook` `rag`, `tutorials`, `langchain`, `llama-index`, `llms`
+
+> 🤖 *Eine Sammlung fortgeschrittener Techniken und Tutorials für Retrieval-Augmented Generation.*
+
+### [toon](https://github.com/toon-format/toon)
+🎒 Token-Oriented Object Notation (TOON) – compact, human-readable serialization of JSON data for LLM prompts. TypeScript SDK, CLI, benchmarks.
+
+**Details:** ⭐ 25,324 `TypeScript` `data-format`, `llm`, `serialization`, `tokenization`
+
+> 🤖 *Ein kompaktes Serialisierungsformat für JSON-Daten zur Optimierung von LLM-Prompts.*
+
+### [agent-cli](https://github.com/basnijholt/agent-cli)
+Local transcription, agentic coding worktree management, RAG and memory proxies, TTS and STT servers with smart memory management, MacOS App (OSS Wisprflow), and more!
+
+**Details:** ⭐ 230 `Python`
+
+> 🤖 *Bietet lokale Transkription, RAG-Proxies und intelligentes Speichermanagement.*
+
+### [rag-template](https://github.com/stackitcloud/rag-template)
+Template for AI chatbots & document management using Retrieval-Augmented Generation with vector search and FastAPI.
+
+**Details:** ⭐ 86 `Python` `ai`, `fastapi`, `llm`, `ollama`, `python`
+
+> 🤖 *Eine Vorlage für KI-Chatbots mit dokumentenbasierter Vektorsuche (RAG).*
+
+### [toktoken](https://github.com/mauriziofonte/toktoken)
+TokToken is a fast, single-binary C codebase indexer for AI coding agents. Powered by universal-ctags and SQLite FTS5, it provides precise symbol search, dependency tracking, and an MCP server. TokToken reduces LLM context token usage by 88-99% by retrieving exact code symbols instead of reading entire files. Zero runtime dependencies.
+
+**Details:** ⭐ 58 `C`
+
+> 🤖 *Ein schneller Code-Indexer zur drastischen Reduzierung von Token-Kosten bei KI-Agenten.*
+
+## 📂 Lokale KI-Modelle & Sprach-Anwendungen
+
+### [Handy](https://github.com/cjpais/Handy)
+A free, open source, and extensible speech-to-text application that works completely offline.
+
+**Details:** ⭐ 30,982 `Rust` `speech-to-text`, `tauri-v2`, `accessibility`, `cross-platform`
+
+> 🤖 *Eine vollständig offline lauffähige Anwendung zur Übersetzung von Sprache in Text.*
+
+### [colibri](https://github.com/JustVugg/colibri)
+Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦
+
+**Details:** ⭐ 26,784 `C`
+
+> 🤖 *Eine minimalistische C-Engine zur Ausführung großer MoE-Modelle auf lokaler Hardware.*
+
+### [flux](https://github.com/black-forest-labs/flux)
+Official inference repo for FLUX.1 models
+
+**Details:** ⭐ 25,938 `Python`
+
+> 🤖 *Offizielles Repository zur lokalen Ausführung von FLUX.1-Bildgenerierungsmodellen.*
+
+### [flux2](https://github.com/black-forest-labs/flux2)
+Official inference repo for FLUX.2 models
+
+**Details:** ⭐ 2,659 `Python`
+
+> 🤖 *Offizielles Repository zur lokalen Ausführung von FLUX.2-Modellen.*
+
+### [vllm-turboquant](https://github.com/mitkox/vllm-turboquant)
+vLLM TurboQuant
+
+**Details:** ⭐ 618 `Python`
+
+> 🤖 *Optimierung und Quantisierung für die schnelle Ausführung von LLMs.*
+
+### [german-ocr](https://github.com/Keyvanhardani/german-ocr)
+German-OCR is specifically trained to extract text from German documents including invoices, receipts, forms, and other business documents.
+
+**Details:** ⭐ 114 `Python` `fine-tuning`, `llm`, `lora`, `ocr`, `german-ocr`
+
+> 🤖 *Ein spezialisiertes Modell zur Textextraktion aus deutschsprachigen Dokumenten.*
+
+### [ai-translator](https://github.com/claudio-silva/ai-translator)
+A web application that translates text of any length, using multiple AI models.
+
+**Details:** ⭐ 6 `TypeScript` `ai`, `translation`
+
+> 🤖 *Eine Webanwendung zur Übersetzung von Texten mithilfe verschiedener KI-Modelle.*
+
+### [callnotes](https://github.com/michaelczesun/callnotes)
+Calls become notes. Automatically. On-device transcription, speaker separation & AI summaries for macOS — from the menu bar.
+
+**Details:** ⭐ 5 `Swift` `ai`, `call-recording`, `macos`, `menubar-app`, `speaker-diarization`
+
+> 🤖 *Lokale Transkription, Sprechertrennung und KI-Zusammenfassungen für macOS.*
 
 ## 📂 Intune & Endpoint Management
 
-### [munki](https://github.com/munki/munki)
-Managed software installation for macOS —
+### [powershell-intune-samples](https://github.com/microsoftgraph/powershell-intune-samples)
+This repository of PowerShell sample scripts show how to access Intune service resources. They demonstrate this by making HTTPS RESTful API requests to the Microsoft Graph API from PowerShell.
 
-**Details:** ⭐ 3,463 `Swift`
+**Details:** ⭐ 1,576 `PowerShell` `devxsample`
 
-> 🤖 *Ein etabliertes Software-Verteilungssystem für macOS-Clients im Enterprise-Bereich.*
-
-### [SupportApp](https://github.com/root3nl/SupportApp)
-The Support App is developed by Root3, specialized in managing Apple devices. Root3 offers consultancy and support for organizations to get the most out of their Apple devices and is based in The Netherlands (Halfweg).
-
-**Details:** ⭐ 793 `Swift`
-
-> 🤖 *Eine macOS-Anwendung zur Unterstützung von Endbenutzern in verwalteten Apple-Umgebungen.*
+> 🤖 *PowerShell-Beispielskripte für den Zugriff auf Intune-Ressourcen über die Graph-API.*
 
 ### [IntuneDeviceDetailsGUI](https://github.com/petripaavola/IntuneDeviceDetailsGUI)
 Intune Device Details GUI HTML v4.2 (New Updated!)
 
 **Details:** ⭐ 417 `PowerShell`
 
-> 🤖 *Ein grafisches HTML-Tool zur detaillierten Auswertung von Intune-Geräteinformationen.*
-
-### [SupportCompanion](https://github.com/macadmins/SupportCompanion)
-macOS helper application designed to empower end-users
-
-**Details:** ⭐ 187 `Swift`
-
-> 🤖 *Ein macOS-Hilfswerkzeug, das Endbenutzern in Enterprise-Umgebungen Self-Service-Optionen bietet.*
+> 🤖 *Eine grafische HTML-Benutzeroberfläche zur Anzeige von Intune-Gerätedetails.*
 
 ### [IntuneGet](https://github.com/ugurkocde/IntuneGet)
 Skip the manual packaging workflow and deploy Winget apps to Intune in seconds.
@@ -221,311 +586,86 @@ Swift based automated application management for Intune.
 
 **Details:** ⭐ 76 `Swift`
 
-> 🤖 *Eine Swift-basierte Anwendung zur automatisierten Verwaltung von Applikationen in Intune.*
+> 🤖 *Eine Swift-basierte Anwendung zur automatisierten App-Verteilung in Intune.*
 
-### [IntuneDocumentation](https://github.com/ugurkocde/IntuneDocumentation)
-Generate professional, audit-ready documentation of your Microsoft Intune tenant in minutes. Sign in, pick what to document, export as PDF or Word. Runs entirely in your browser with read-only Graph permissions. Use the free hosted app or self-host with Docker.
+### [MDE-Monitoring-App](https://github.com/chlaplan/MDE-Monitoring-App)
+Troubleshooting MDE Workstations
 
-**Details:** ⭐ 53 `TypeScript` `docker`, `documentation`, `entra`, `intune`, `microsoft-graph`
+**Details:** ⭐ 50 `C#`
 
-> 🤖 *Generiert automatisierte, auditierungsbereite Dokumentationen von Microsoft Intune Tenants.*
+> 🤖 *Ein Werkzeug zur Fehlerbehebung und Überwachung von Defender for Endpoint auf Clients.*
+
+### [About_my_device](https://github.com/damienvanrobaeys/About_my_device)
+About my device: A systray tool for that displays device information and run action like send logs or sync device
+
+**Details:** ⭐ 39 `PowerShell`
+
+> 🤖 *Ein Infobereich-Werkzeug für Endgeräte zur Anzeige von Systeminfos und zum Log-Versand.*
 
 ### [IntuneQL](https://github.com/ugurkocde/IntuneQL)
 Keyboard-driven terminal workspace for Intune administration. Query the Microsoft Graph API visually, browse 100+ built-in queries across 102 Intune resources, export as CSV/JSON/PowerShell/cURL, run remediation actions, and generate queries from natural language using local AI. Install from PowerShell Gallery with Install-Module IntuneQL.
 
 **Details:** ⭐ 34 `Go`
 
-> 🤖 *Ein terminalbasiertes Werkzeug zur Abfrage der Microsoft Graph API für die Intune-Verwaltung.*
+> 🤖 *Eine interaktive Terminal-Oberfläche zur Abfrage der Microsoft Graph API für Intune.*
 
 ### [Mostly-Compliant-Endpoint](https://github.com/MostlyCompliantEndpoint/Mostly-Compliant-Endpoint)
 Contains useful tools, powershell scripts and other projects that are released for admins.
 
 **Details:** ⭐ 27 `C#`
 
-> 🤖 *Eine Sammlung nützlicher Administrations-Tools und PowerShell-Skripte für Endpunkte.*
+> 🤖 *Nützliche Administrations-Werkzeuge und PowerShell-Skripte für Endgeräte.*
 
-## 📂 Spezifikationsgetriebene Entwicklung & Software-Design
+## 📂 Active Directory & Entra ID Security
 
-### [spec-kit](https://github.com/github/spec-kit)
-💫 Toolkit to help you get started with Spec-Driven Development
+### [ROADtools](https://github.com/dirkjanm/ROADtools)
+A collection of Azure AD/Entra tools for offensive and defensive security purposes
 
-**Details:** ⭐ 133,204 `Python` `ai`, `copilot`, `development`, `engineering`, `prd`
+**Details:** ⭐ 2,710 `Python` `azure-active-directory`, `azuread`, `microsoft-graph`, `python`
 
-> 🤖 *Ein Toolkit für den Einstieg in die spezifikationsgetriebene Entwicklung mit KI-Unterstützung.*
-
-### [OpenSpec](https://github.com/Fission-AI/OpenSpec)
-Spec-driven development (SDD) for AI coding assistants.
-
-**Details:** ⭐ 67,119 `TypeScript` `spec`, `ai`, `context-engineering`, `engineering`, `planning`
-
-> 🤖 *Ein Framework für Spec-Driven Development (SDD) zur präzisen Steuerung von KI-Coding-Assistenten.*
-
-### [agent-os](https://github.com/buildermethods/agent-os)
-Agent OS is a system for injecting your codebase standards and writing better specs for spec-driven development.
-
-**Details:** ⭐ 5,365 `Shell`
-
-> 🤖 *Injektiert Codebase-Standards und hilft beim Schreiben präziser Spezifikationen für KI-Agenten.*
-
-### [spec-workflow-mcp](https://github.com/Pimzino/spec-workflow-mcp)
-A Model Context Protocol (MCP) server that provides structured spec-driven development workflow tools for AI-assisted software development, featuring a real-time web dashboard and VSCode extension for monitoring and managing your project's progress directly in your development environment.
-
-**Details:** ⭐ 4,293 `TypeScript`
-
-> 🤖 *Ein MCP-Server für strukturierte, spezifikationsgetriebene Entwicklungsworkflows mit Echtzeit-Dashboard.*
-
-### [design-os](https://github.com/buildermethods/design-os)
-The missing design process between your product idea and your codebase.
-
-**Details:** ⭐ 1,847 `TypeScript`
-
-> 🤖 *Schließt die Lücke zwischen Produktidee (Design) und Codebasis im Entwicklungsprozess.*
-
-### [speckit-companion](https://github.com/alfredoperez/speckit-companion)
-VS Code extension for spec-driven development — manage specs, workflows, and steering docs for AI CLI tools (Claude Code, Gemini CLI, Copilot CLI)
-
-**Details:** ⭐ 87 `HTML` `ai-tools`, `claude-code`, `developer-tools`, `spec-driven-development`, `typescript`
-
-> 🤖 *VS Code-Erweiterung zur Verwaltung von Spezifikationen und Steering-Dokumenten für KI-CLI-Tools.*
-
-### [sketch2prompt](https://github.com/jmassengille/sketch2prompt)
-sketch2prompt is meant to promote better system design, security, and code quality in a way that does not hijack creativity from the builder
-
-**Details:** ⭐ 53 `TypeScript` `ai-tools`, `developer-tools`, `vibecoding`
-
-> 🤖 *Fördert besseres Systemdesign und Codequalität durch die Übersetzung von Skizzen in strukturierte Prompts.*
-
-### [Spec-Driven](https://github.com/LLM-Coding/Spec-Driven)
-Keine Beschreibung verfügbar
-
-**Details:** ⭐ 8
-
-> 🤖 *Ressourcen und Vorlagen für die spezifikationsgetriebene Softwareentwicklung.*
-
-## 📂 Model Context Protocol & Agenten-Erweiterungen
-
-### [servers](https://github.com/modelcontextprotocol/servers)
-Model Context Protocol Servers
-
-**Details:** ⭐ 90,043 `TypeScript`
-
-> 🤖 *Eine offizielle Sammlung verschiedener Model Context Protocol (MCP) Server.*
-
-### [Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP)
-MCP server to provide Figma layout information to AI coding agents like Cursor
-
-**Details:** ⭐ 15,763 `TypeScript` `ai`, `cursor`, `figma`, `mcp`, `typescript`
-
-> 🤖 *Stellt KI-Coding-Agenten Layout-Informationen aus Figma über das MCP-Protokoll bereit.*
-
-### [azure-devops-mcp](https://github.com/microsoft/azure-devops-mcp)
-The MCP server for Azure DevOps, bringing the power of Azure DevOps directly to your agents.
-
-**Details:** ⭐ 1,992 `TypeScript`
-
-> 🤖 *Ein MCP-Server, der Azure-DevOps-Funktionen für KI-Agenten nutzbar macht.*
-
-### [azure-skills](https://github.com/microsoft/azure-skills)
-Official agent plugin providing skills and MCP server configurations for Azure scenarios.
-
-**Details:** ⭐ 1,445 `Shell` `agent-skills`
-
-> 🤖 *Stellt Agenten-Skills und MCP-Server-Konfigurationen für Azure-Szenarien bereit.*
-
-### [mcpc](https://github.com/apify/mcpc)
-A universal CLI client for MCP. mcpc supports persistent sessions, stdio/HTTP, OAuth 2.1, tasks, JSON output for code mode, proxy for AI sandboxes, x402, and more.
-
-**Details:** ⭐ 764 `TypeScript` `cli`, `mcp`, `mcp-client`, `shell`, `ai-agents`
-
-> 🤖 *Ein universeller CLI-Client für das Model Context Protocol mit Session-Verwaltung.*
-
-### [mcp-server-solidworks](https://github.com/eyfel/mcp-server-solidworks)
- This MCP server integrates with SolidWorks API and structuring it into Claude-compatible context streams.
-
-**Details:** ⭐ 260 `C#`
-
-> 🤖 *Ein MCP-Server zur Integration der SolidWorks-API in Claude-kompatible Kontexte.*
-
-### [kicktipp-mcp](https://github.com/Cloudy261/kicktipp-mcp)
-MCP Server so your trusted LLM can access your Kicktipp and submit tips.
-
-**Details:** ⭐ 3 `Python`
-
-> 🤖 *Ein MCP-Server, der LLMs den Zugriff auf Kicktipp-Daten und Tippabgaben ermöglicht.*
-
-### [churchtools-mcp](https://github.com/integrenns-ae/churchtools-mcp)
-MCP server for the ChurchTools API — runs locally via npx (stdio) or as a Streamable HTTP service. Fork of samuelspagl/ct-mcp adding stdio/npx.
-
-**Details:** ⭐ 1 `TypeScript` `church-management`, `churchtools`, `claude`, `mcp`, `model-context-protocol`
-
-> 🤖 *Ein MCP-Server zur Anbindung der ChurchTools-API an lokale LLM-Sitzungen.*
-
-## 📂 KI-Benutzeroberflächen & Lokale Anwendungen
-
-### [openclaw](https://github.com/openclaw/openclaw)
-Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 
-
-**Details:** ⭐ 388,693 `TypeScript` `ai`, `assistant`, `own-your-data`, `personal`, `crustacean`
-
-> 🤖 *Ein plattformunabhängiger, persönlicher KI-Assistent mit Fokus auf Datensouveränität.*
-
-### [open-design](https://github.com/nexu-io/open-design)
-🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.
-
-**Details:** ⭐ 93,746 `TypeScript` `ai-design`, `byok`, `coding-agents`, `design-systems`, `local-first`
-
-> 🤖 *Eine lokale Desktop-Anwendung zur KI-gestützten Generierung von Prototypen, Slides und UI-Designs.*
-
-### [paperclip](https://github.com/paperclipai/paperclip)
-The open-source app everyone uses to manage agents at work
-
-**Details:** ⭐ 79,915 `TypeScript`
-
-> 🤖 *Eine Web-Anwendung zur kollaborativen Verwaltung und Steuerung von KI-Agenten im Team.*
-
-### [nanochat](https://github.com/karpathy/nanochat)
-The best ChatGPT that $100 can buy.
-
-**Details:** ⭐ 57,750 `Python`
-
-> 🤖 *Ein minimalistisches, effizientes Web-Interface für die Interaktion mit ChatGPT.*
-
-### [happy](https://github.com/slopus/happy)
-Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured
-
-**Details:** ⭐ 23,613 `TypeScript` `claude-code`, `claude-desktop`, `codex`, `codex-cli`, `hacktoberfest`
-
-> 🤖 *Ein mobiler und Web-Client für Claude Code und Codex mit Sprachsteuerung und Verschlüsselung.*
-
-### [open-codesign](https://github.com/OpenCoworkAI/open-codesign)
-Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → prototype / slides / PDF. Multi-model (Claude, GPT, Gemini, Kimi, GLM, Ollama). BYOK, local-first, MIT.
-
-**Details:** ⭐ 7,871 `TypeScript` `ai-design`, `anthropic`, `byok`, `claude-design`, `desktop-app`
-
-> 🤖 *Eine quelloffene, lokale Alternative zu Claude Design für die Generierung von UI aus Prompts.*
-
-### [Claude-Usage-Tracker](https://github.com/hamed-elfayome/Claude-Usage-Tracker)
-Native macOS menu bar app for tracking Claude AI usage limits in real-time. Built with Swift/SwiftUI.
-
-**Details:** ⭐ 3,411 `Swift` `claude`, `claude-ai`, `claude-code`, `claudecode`, `macos`
-
-> 🤖 *Eine macOS-Menüleisten-App zur Echtzeit-Überwachung der Claude-API-Nutzungslimits.*
-
-### [claude-dashboard](https://github.com/PeterHueer/claude-dashboard)
-A local web dashboard for Claude Code to manage skills, MCP servers, plugins, agents and custom slash commands — all in one place. Start with /dashboard inside Claude Code.
-
-**Details:** ⭐ 2 `JavaScript`
-
-> 🤖 *Ein lokales Web-Dashboard zur Verwaltung von Claude-Code-Sitzungen, Skills und MCP-Servern.*
-
-## 📂 KI-gestützte Datenextraktion & Medienverarbeitung
-
-### [hyperframes](https://github.com/heygen-com/hyperframes)
-Write HTML. Render video. Built for agents.
-
-**Details:** ⭐ 43,773 `TypeScript` `ai`, `animation`, `ffmpeg`, `framework`, `gsap`
-
-> 🤖 *Ein Framework zur programmatischen Generierung von Videos aus HTML für KI-Agenten.*
-
-### [cli](https://github.com/googleworkspace/cli)
-Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.
-
-**Details:** ⭐ 30,711 `Rust` `google-workspace`, `agent-skills`, `ai-agent`, `automation`, `cli`
-
-> 🤖 *CLI-Tool für Firecrawl, das KI-Agenten Web-Scraping- und Browsing-Fähigkeiten verleiht.*
-
-### [Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai)
-Python scraper based on AI
-
-**Details:** ⭐ 30,450 `Python` `scraping`, `scraping-python`, `llm`, `web-crawler`, `web-scraping`
-
-> 🤖 *Ein KI-gestützter Web-Scraper, der strukturierte Daten aus Webseiten extrahiert.*
-
-### [toon](https://github.com/toon-format/toon)
-🎒 Token-Oriented Object Notation (TOON) – compact, human-readable serialization of JSON data for LLM prompts. TypeScript SDK, CLI, benchmarks.
-
-**Details:** ⭐ 25,311 `TypeScript` `data-format`, `llm`, `serialization`, `tokenization`
-
-> 🤖 *Ein kompaktes Serialisierungsformat zur token-effizienten Übergabe von JSON-Daten an LLMs.*
-
-### [visual-explainer](https://github.com/nicobailon/visual-explainer)
-Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps
-
-**Details:** ⭐ 9,629 `HTML`
-
-> 🤖 *Generiert visuelle HTML-Seiten und Präsentationen aus Daten, Diagrammen und Code-Reviews.*
-
-### [mcp-mermaid](https://github.com/hustcc/mcp-mermaid)
-❤️ Generate mermaid diagram and chart with AI MCP dynamically.
-
-**Details:** ⭐ 627 `TypeScript` `mcp`, `mcp-server`, `mermaid`, `mermaidjs`
-
-> 🤖 *Ein MCP-Server zur dynamischen Generierung von Mermaid-Diagrammen mittels KI.*
-
-### [german-ocr](https://github.com/Keyvanhardani/german-ocr)
-German-OCR is specifically trained to extract text from German documents including invoices, receipts, forms, and other business documents.
-
-**Details:** ⭐ 114 `Python` `fine-tuning`, `llm`, `lora`, `ocr`, `german-ocr`
-
-> 🤖 *Ein spezialisiertes OCR-Modell zur Textextraktion aus deutschsprachigen Dokumenten.*
-
-### [z-Explorer](https://github.com/pyros-projects/z-Explorer)
-Type a prompt. Get art 🖼️ No cloud required. No spaghetti needed.
-
-**Details:** ⭐ 4 `Python` `ai-image-generation`, `cli`, `cuda`, `fastapi`, `generative-ai`
-
-> 🤖 *Ein lokales, CLI-basiertes Tool zur Generierung von Bildern mittels Stable Diffusion.*
-
-## 📂 Active Directory & Cloud-Identitätsverwaltung
-
-### [kanidm](https://github.com/kanidm/kanidm)
-Kanidm: A simple, secure, and fast identity management platform
-
-**Details:** ⭐ 5,327 `Rust` `identity`, `identity-management`, `idm`, `rust`, `security`
-
-> 🤖 *Ein moderner, schneller Identity-Provider mit nativer Unterstützung für WebAuthn und OIDC.*
-
-### [Public-AD-Scripts](https://github.com/zjorz/Public-AD-Scripts)
-AD Scripts
-
-**Details:** ⭐ 473 `PowerShell`
-
-> 🤖 *Eine Sammlung nützlicher PowerShell-Skripte für die tägliche Active-Directory-Verwaltung.*
+> 🤖 *Ein Framework zur Analyse und zum Testen der Sicherheit von Azure AD und Entra ID.*
 
 ### [ActiveDirectoryTierModel](https://github.com/microsoft/ActiveDirectoryTierModel)
 Deployment of an Active Directory Tier Model structure to support Tier 0, Tier 1, and Tier 2 objects.
 
-**Details:** ⭐ 389 `PowerShell`
+**Details:** ⭐ 390 `PowerShell`
 
-> 🤖 *Implementiert ein dreistufiges Administrations- und Sicherheitsmodell im Active Directory.*
+> 🤖 *Implementierung eines administrativen Tier-Modells im Active Directory zur Erhöhung der Sicherheit.*
 
 ### [azuread](https://github.com/msandbu/azuread)
 Keine Beschreibung verfügbar
 
 **Details:** ⭐ 200
 
-> 🤖 *Skripte und Konfigurationen zur Verwaltung von Azure Active Directory Ressourcen.*
+> 🤖 *Ressourcen und Konfigurationen zur Verwaltung von Azure Active Directory.*
 
-### [SimpleLapsGui](https://github.com/htcfreek/SimpleLapsGui)
-A simple and fast GUI for Microsoft LAPS (legacy) and Windows LAPS. With this tool you can query passwords and change the expiration timestamp.
+### [Deployment-Plans](https://github.com/AzureAD/Deployment-Plans)
+Step by step guidance to deploy Azure Active Directory capabilities such as Conditional Access, Multi Factor Authentication, Self Service Password, and more. 
 
-**Details:** ⭐ 80 `PowerShell` `laps`, `microsoft`, `windows`, `passwords`, `active-directory`
+**Details:** ⭐ 179 `PowerShell`
 
-> 🤖 *Eine grafische Oberfläche zur Abfrage und Verwaltung von Passwörtern aus Windows LAPS.*
+> 🤖 *Schritt-für-Schritt-Anleitungen zur sicheren Bereitstellung von Azure AD-Funktionen.*
+
+### [entra-ca-insight](https://github.com/emiliensocchi/entra-ca-insight)
+Discover gaps in Entra Conditional Access policies before attackers do
+
+**Details:** ⭐ 136 `Python`
+
+> 🤖 *Analysiert Lücken und Schwachstellen in Entra Conditional Access Richtlinien.*
 
 ### [Entra-Tiering-Security-Model](https://github.com/workoho/Entra-Tiering-Security-Model)
 Implement a powerful Tiering Security Model in Microsoft Entra for your Cloud Administrator identities using Azure Automation.
 
 **Details:** ⭐ 58 `PowerShell` `cloud-administration`, `cybersecurity`, `enterprise-architecture`, `enterprise-security`, `microsoft-365-fundamentals`
 
-> 🤖 *Überträgt das Tiering-Sicherheitsmodell auf Microsoft Entra ID zur Absicherung von Cloud-Admins.*
+> 🤖 *Implementiert ein Sicherheits-Tiering-Modell für administrative Identitäten in Entra ID.*
 
 ### [PK-AADAppReg](https://github.com/Semperis/PK-AADAppReg)
 Keine Beschreibung verfügbar
 
 **Details:** ⭐ 48 `PowerShell`
 
-> 🤖 *PowerShell-Skripte zur Automatisierung von App-Registrierungen in Azure AD / Entra ID.*
+> 🤖 *Skripte zur Verwaltung und Absicherung von App-Registrierungen in Azure AD.*
 
 ### [WHfBChecks](https://github.com/onpremcloudguy/WHfBChecks)
 A group of PowerShell scripts to check that your environment is ready for Windows Hello for Business - Hybrid Key Trust
@@ -536,19 +676,26 @@ A group of PowerShell scripts to check that your environment is ready for Window
 
 ## 📂 Windows-Administration & Deployment
 
+### [PowerShell](https://github.com/PowerShell/PowerShell)
+PowerShell for every system!
+
+**Details:** ⭐ 55,246 `C#` `powershell`, `windows`, `macos`, `linux`, `command-line`
+
+> 🤖 *Umfangreiche Sammlung von PowerShell-Skripten für Azure, Exchange, AD und SCCM.*
+
 ### [powershell-scripts](https://github.com/admindroid-community/powershell-scripts)
 Office 365 Reporting PowerShell Scripts
 
-**Details:** ⭐ 2,015 `PowerShell`
+**Details:** ⭐ 2,016 `PowerShell`
 
-> 🤖 *PowerShell-Skripte zur automatisierten Berichterstellung in Office 365 Umgebungen.*
+> 🤖 *PowerShell-Skripte zur Berichterstellung und Analyse von Office 365-Umgebungen.*
 
 ### [windows-dev-box-setup-scripts](https://github.com/microsoft/windows-dev-box-setup-scripts)
 Scripts to simplify setting up a Windows developer box
 
 **Details:** ⭐ 1,872 `PowerShell`
 
-> 🤖 *Automatisiert die Einrichtung und Software-Installation auf neuen Windows-Entwickler-PCs.*
+> 🤖 *Automatisiert die Einrichtung und Konfiguration von Windows-Entwickler-PCs.*
 
 ### [DriverAutomationTool](https://github.com/maurice-daly/DriverAutomationTool)
 Home of the Driver Automation Tool
@@ -557,135 +704,295 @@ Home of the Driver Automation Tool
 
 > 🤖 *Automatisiert den Download und die Paketierung von Hardware-Treibern für SCCM und MDT.*
 
+### [LazyWinAdmin_GUI](https://github.com/lazywinadmin/LazyWinAdmin_GUI)
+PowerShell Script that generates a GUI/WinForms loaded with tons of functions
+
+**Details:** ⭐ 510 `PowerShell` `winforms`, `powershell`, `gui`, `ps1`, `lazywinadmin`
+
+> 🤖 *Eine grafische Oberfläche, die zahlreiche administrative PowerShell-Funktionen bündelt.*
+
+### [Public-AD-Scripts](https://github.com/zjorz/Public-AD-Scripts)
+AD Scripts
+
+**Details:** ⭐ 473 `PowerShell`
+
+> 🤖 *Eine Sammlung von PowerShell-Skripten für administrative Aufgaben im Active Directory.*
+
 ### [FFU](https://github.com/rbalsleyMSFT/FFU)
 Using Full Flash Update files to speed up Windows Deployment
 
 **Details:** ⭐ 460 `PowerShell`
 
-> 🤖 *Nutzt Full Flash Update Dateien zur drastischen Beschleunigung von Windows-Installationen.*
+> 🤖 *Nutzt Full Flash Update-Dateien zur Beschleunigung von Windows-Installationsprozessen.*
 
 ### [RunAsUser](https://github.com/KelvinTegelaar/RunAsUser)
 a PowerShell module that allows you to impersonate the currently logged on user, while running PowerShell.exe as system.
 
 **Details:** ⭐ 440 `PowerShell`
 
-> 🤖 *Ermöglicht das Ausführen von PowerShell-Skripten im Benutzerkontext aus dem Systemkontext heraus.*
+> 🤖 *Ermöglicht das Ausführen von PowerShell-Befehlen im Benutzerkontext aus einer SYSTEM-Sitzung heraus.*
 
-### [Powershell_CICD_repository](https://github.com/ztrhgf/Powershell_CICD_repository)
-This tool greatly simplifies Windows administrator life by automating the whole scripting content lifecycle. So the boring stuff like backuping, syntax checking, code formatting, content distribution or deletion will be automated and only thing left will be the code writing :)
+## 📂 IT-Infrastruktur, Monitoring & DevOps
 
-**Details:** ⭐ 178 `PowerShell` `powershell`, `git-hooks`, `cicd`, `automation`, `active-directory`
+### [ansible](https://github.com/ansible/ansible)
+Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.
 
-> 🤖 *Automatisiert den Lebenszyklus von administrativen PowerShell-Skripten inklusive Validierung.*
+**Details:** ⭐ 70,581 `Python` `python`, `ansible`
 
-### [BIS-F](https://github.com/EUCweb/BIS-F)
-Base Image Script Framework (BIS-F)
+> 🤖 *Ein extrem einfaches Werkzeug zur IT-Automatisierung, Konfigurationsverwaltung und App-Bereitstellung.*
 
-**Details:** ⭐ 105 `PowerShell`
+### [coolify](https://github.com/coollabsio/coolify)
+An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers.
 
-> 🤖 *Ein Framework zur Vorbereitung und Optimierung von Windows-Basis-Images.*
+**Details:** ⭐ 61,384 `PHP` `nodejs`, `mysql`, `php`, `docker`, `self-hosting`
 
-### [Citrix](https://github.com/Deyda/Citrix)
-Focused on automation, optimization, and troubleshooting for Citrix environments — including Virtual Apps and Desktops, NetScaler, WEM, and FSLogix. Contains scripts and tools used in enterprise-scale deployments and field-tested consulting projects.
+> 🤖 *Eine selbsthostbare PaaS-Alternative zur einfachen Bereitstellung von Apps und Datenbanken.*
 
-**Details:** ⭐ 9 `PowerShell`
+### [vercel](https://github.com/vercel/vercel)
+Develop. Preview. Ship.
 
-> 🤖 *Skripte zur Optimierung, Automatisierung und Fehlerbehebung in Citrix-Virtualisierungs-Umgebungen.*
+**Details:** ⭐ 16,201 `TypeScript` `cli`, `command`, `vercel`, `cloud`, `hosting`
 
-## 📂 Infrastruktur-Visualisierung & Dokumentation
+> 🤖 *Das CLI-Werkzeug zur Bereitstellung und Verwaltung von Web-Projekten auf der Vercel-Plattform.*
+
+### [rundeck](https://github.com/rundeck/rundeck)
+Enable Self-Service Operations: Give specific users access to your existing tools, services, and scripts
+
+**Details:** ⭐ 6,286 `Groovy` `rundeck`, `devops`, `deployment`, `scheduler`, `automation`
+
+> 🤖 *Eine Plattform zur Job-Planung, Runbook-Automatisierung und Bereitstellung von Self-Service-Aktionen.*
+
+### [cabot](https://github.com/arachnys/cabot)
+Self-hosted, easily-deployable monitoring and alerts service - like a lightweight PagerDuty
+
+**Details:** ⭐ 5,677 `JavaScript` `django`, `python`, `graphite`, `monitoring`, `devops`
+
+> 🤖 *Ein selbsthostbarer, leichtgewichtiger Dienst für Infrastruktur-Monitoring und Alarmierung.*
 
 ### [Rackula](https://github.com/RackulaLives/Rackula)
 rack layout designer
 
-**Details:** ⭐ 1,692 `TypeScript` `drag-and-drop`, `homelab`, `rack`, `self-host`, `server-rack`
+**Details:** ⭐ 1,693 `TypeScript` `drag-and-drop`, `homelab`, `rack`, `self-host`, `server-rack`
 
-> 🤖 *Ein interaktiver, webbasierter Designer für Server-Racks und Netzwerk-Infrastruktur.*
+> 🤖 *Ein interaktiver Designer zur Planung und Visualisierung von Server-Rack-Layouts.*
 
-### [Microsoft-Integration-and-Azure-Stencils-Pack-for-Visio](https://github.com/sandroasp/Microsoft-Integration-and-Azure-Stencils-Pack-for-Visio)
-Microsoft Integration, Azure, Power Platform, Office 365 and much more Stencils Pack it’s a Visio package that contains fully resizable Visio shapes (symbols/icons) that will help you to visually represent On-premise, Cloud or Hybrid Integration and Enterprise architectures scenarios (BizTalk Server, API Management, Logic Apps, Service Bus, Event Hub…), solutions diagrams and features or systems that use Microsoft Azure and related cloud and on-premises technologies in Visio 2016/2013
+### [Kubernetes-Workshop](https://github.com/PlatformRelay/Kubernetes-Workshop)
+Free, vendor-neutral, hands-on Kubernetes workshop with 28 modules, a three-day curriculum, standalone labs, Slidev decks and PDF releases.
 
-**Details:** ⭐ 1,528 `PowerShell` `stencils`, `stencils-pack`, `mis-azure`, `support-stencils`, `systems-logo-stencils`
+**Details:** ⭐ 195 `JavaScript` `gitops`, `kubernetes`, `slidev`, `workshop`, `cloud-native`
 
-> 🤖 *Eine umfangreiche Sammlung von Visio-Shapes für Azure- und Integrations-Architekturen.*
+> 🤖 *Ein herstellerneutraler, praxisorientierter Leitfaden für Kubernetes und Cloud-Native-Technologien.*
 
-### [docToolchain](https://github.com/docToolchain/docToolchain)
-a AsciiDoc Toolchain for technical Software Documentation, focused on Software Architecture Documentation
+### [zero](https://github.com/shipzero/zero)
+Deploy containers to your own server with one command. Automatic TLS, zero-downtime, no config.
 
-**Details:** ⭐ 860 `Groovy` `docs-as-code`, `asciidoc`, `asciidoctor`, `asciidoctor-diagram`, `asciidoctor-pdf`
+**Details:** ⭐ 96 `TypeScript` `deploy`, `deployment`, `docker`, `flyio`, `heroku`
 
-> 🤖 *Ein Docs-as-Code-Toolchain zur Generierung von Software-Architektur-Dokumentationen.*
+> 🤖 *Ermöglicht das schnelle Deployment von Containern auf eigenen Servern ohne Konfigurationsaufwand.*
 
-### [azure-diagrams-skill](https://github.com/cmb211087/azure-diagrams-skill)
-Generate professional technical diagrams with AI - Azure architecture (800+ icons), ERDs, business flowcharts, timelines, wireframes. For proposals, documentation & architecture reviews.
+## 📂 Sicherheits-Audits, Härtung & Forensik
 
-**Details:** ⭐ 145 `Python` `ai`, `architecture`, `azure`, `claude`, `cloud-architecture`
+### [strix](https://github.com/usestrix/strix)
+Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.
 
-> 🤖 *Generiert technische Azure-Architekturdiagramme und Flussdiagramme aus Code.*
+**Details:** ⭐ 60,460 `Python` `agents`, `artificial-intelligence`, `cybersecurity`, `penetration-testing`, `ai-penetration-testing`
 
-### [docfx-companion-tools](https://github.com/Ellerbach/docfx-companion-tools)
-A suite of tools, pipelines templates to take the very best of DocFX
+> 🤖 *Ein KI-gestütztes Penetration-Testing-Werkzeug zur automatisierten Erkennung von Schwachstellen.*
 
-**Details:** ⭐ 79 `C#` `api-documentation`, `ci-cd`, `csharp`, `developer-tools`, `docfx`
+### [Harden-Windows-Security](https://github.com/HotCakeX/Harden-Windows-Security)
+Harden Windows Safely, Securely using Official Supported Microsoft methods and proper explanation | Always up-to-date and works with the latest build of Windows | Provides tools and Guides for Personal, Enterprise, Government and Military security levels | SLSA Level 3 Compliant for Secure Development and Build Process | Apps Available on MS Store✨
 
-> 🤖 *Erweiterungen und CI/CD-Pipelines für das Dokumentations-Framework DocFX.*
+**Details:** ⭐ 4,698 `C#` `defender`, `firewall-configuration`, `harden`, `security`, `security-hardening`
 
-### [wardley-maps-mermaid](https://github.com/tractorjuice/wardley-maps-mermaid)
-Mirror of swardley/WARDLEY-MAP-REPOSITORY with each map rendered as Mermaid wardley-beta alongside the OWM source. 100% component/link retention, |Δε|=0.
+> 🤖 *Bietet Werkzeuge und Anleitungen zur sicheren Systemhärtung von Windows-Betriebssystemen.*
 
-**Details:** ⭐ 71 `Mermaid`
+### [secureboot_objects](https://github.com/microsoft/secureboot_objects)
+Secure boot objects recommended by Microsoft.
 
-> 🤖 *Rendert Wardley-Strategiekarten direkt in das Mermaid-Diagrammformat.*
+**Details:** ⭐ 286 `Python`
 
-### [architectures](https://github.com/jsoconno/architectures)
-Build architecture diagrams as code using Python.
+> 🤖 *Von Microsoft empfohlene Konfigurationsobjekte zur Absicherung des Secure Boots.*
 
-**Details:** ⭐ 57 `Python` `architecture`, `code`, `diagrams`, `azure`, `gcp`
+### [mergen](https://github.com/sametsazak/mergen)
+Mergen is an open-source, native macOS application for auditing and checking the security of your MacOS.
 
-> 🤖 *Ermöglicht das Erstellen von IT-Architekturdiagrammen als Code mittels Python.*
+**Details:** ⭐ 248 `Swift` `audit`, `macos`, `macos-security`, `mactool`, `osx`
 
-### [Documentation](https://github.com/Deyda/Documentation)
-A collection of PowerShell-based documentation tools and templates for IT environments. Includes scripts to automatically generate, export, or format technical documentation in Word, Excel, or PDF formats.
+> 🤖 *Eine native macOS-Anwendung zur Überprüfung und Auditierung der Systemsicherheit.*
 
-**Details:** ⭐ 8 `PowerShell`
+### [Hardening-Audit-Tool-AuditTAP](https://github.com/fbprogmbh/Hardening-Audit-Tool-AuditTAP)
+FBPro Audit Test Automation Package allows you to create compliance reports for your systems. The resulting HTML-reports provide a transparent overview of your devices' security configuration compared to international security standards and hardening guides.
 
-> 🤖 *PowerShell-Skripte zur automatisierten Generierung von IT-Infrastruktur-Dokumenten.*
+**Details:** ⭐ 174 `PowerShell` `audit`, `compliance`, `cis`, `benchmark`, `iis`
 
-## 📂 Entwickler-Werkzeuge & Shell-Erweiterungen
+> 🤖 *Erstellt detaillierte Konformitätsberichte basierend auf etablierten Härtungs-Standards.*
 
-### [PowerShell](https://github.com/PowerShell/PowerShell)
-PowerShell for every system!
+### [secrets_find0r](https://github.com/BenjaminIheukumere/secrets_find0r)
+Secrets Find0r is a multithreaded SMB share crawler that hunts for exposed credentials and secrets across Windows networks. It enumerates shares, recursively scans files with regex/keyword rules, highlights matched tokens on screen, and exports clean ASCII tables. Supports DOCX/PDF/legacy Office and depth limits.
 
-**Details:** ⭐ 55,235 `C#` `powershell`, `windows`, `macos`, `linux`, `command-line`
+**Details:** ⭐ 71 `Python` `active-directory`, `authorized-testing`, `blue-team`, `credential-discovery`, `credential-exposure`
 
-> 🤖 *Das offizielle Repository der plattformunabhängigen PowerShell Core Shell.*
+> 🤖 *Durchsucht SMB-Freigaben in Windows-Netzwerken nach unverschlüsselten Passwörtern und Geheimnissen.*
 
-### [CyberChef](https://github.com/gchq/CyberChef)
-The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
+### [kspec](https://github.com/kopexa-grc/kspec)
+A modern, extensible framework for defining and enforcing security policies across your digital infrastructure.
 
-**Details:** ⭐ 35,720 `JavaScript` `data-analysis`, `data-manipulation`, `encryption`, `encoding`, `compression`
+**Details:** ⭐ 53 `Go` `automation`, `compliance`, `grc`, `grc-engineering`, `policy-as-code`
 
-> 🤖 *Das 'Schweizer Taschenmesser' für Web-Entwickler zur Datenkonvertierung und Verschlüsselung.*
+> 🤖 *Ein Framework zur Definition und Durchsetzung von Sicherheitsrichtlinien als Code.*
+
+### [HardeningAudit](https://github.com/TheTechBeast8/HardeningAudit)
+Deployment scripts and a simple reports for CIS benchmarks 
+
+**Details:** ⭐ 33 `PowerShell`
+
+> 🤖 *Skripte und Berichte zur Überprüfung von Systemen gegen CIS-Sicherheitsbenchmarks.*
+
+## 📂 Enterprise-Security, Identitätsmanagement & Log-Analyse
 
 ### [mRemoteNG](https://github.com/mRemoteNG/mRemoteNG)
 mRemoteNG is the next generation of mRemote, open source, tabbed, multi-protocol, remote connections manager.
 
-**Details:** ⭐ 11,084 `C#` `mremoteng`, `rdp`, `ssh`, `remote-desktop`, `remote-access`
+**Details:** ⭐ 11,085 `C#` `mremoteng`, `rdp`, `ssh`, `remote-desktop`, `remote-access`
 
-> 🤖 *Ein tabbasierter Verbindungsmanager für RDP, SSH und andere Remote-Protokolle unter Windows.*
+> 🤖 *Ein zentraler Manager für verschiedene Remote-Verbindungsprotokolle wie RDP und SSH.*
+
+### [kanidm](https://github.com/kanidm/kanidm)
+Kanidm: A simple, secure, and fast identity management platform
+
+**Details:** ⭐ 5,333 `Rust` `identity`, `identity-management`, `idm`, `rust`, `security`
+
+> 🤖 *Eine schnelle, sichere und moderne Plattform für Identitäts- und Zugriffsmanagement (IAM).*
+
+### [klogg](https://github.com/variar/klogg)
+Really fast log explorer based on glogg project
+
+**Details:** ⭐ 3,497 `C++` `logs`, `windows`, `linux`, `macos`, `cross-platform`
+
+> 🤖 *Ein extrem schneller und ressourcenschonender Log-Explorer für große Logdateien.*
+
+### [falconpy](https://github.com/CrowdStrike/falconpy)
+The CrowdStrike Falcon SDK for Python
+
+**Details:** ⭐ 514 `Python` `crowdstrike`, `oauth2`, `falconpy`, `python3`, `python38`
+
+> 🤖 *Das offizielle Python-SDK zur Interaktion mit den Sicherheits-APIs von CrowdStrike Falcon.*
+
+### [psfalcon](https://github.com/CrowdStrike/psfalcon)
+PowerShell for CrowdStrike's OAuth2 APIs
+
+**Details:** ⭐ 479 `PowerShell` `crowdstrike`, `falcon`, `oauth2-client`, `powershell`, `powershell-module`
+
+> 🤖 *Ein PowerShell-Modul zur Verwaltung und Abfrage der CrowdStrike Falcon APIs.*
+
+### [cmtraceopen](https://github.com/adamgell/cmtraceopen)
+Free, open-source CMTrace replacement for Windows log files: ConfigMgr/SCCM, Intune IME, and Autopilot ESP diagnostics, DSRegCmd triage, .evtx viewing, real-time tailing, and Windows error-code lookup. Windows, macOS, Linux.
+
+**Details:** ⭐ 283 `Rust` `cmtrace`, `intune`, `configmgr`, `dsregcmd`, `endpoint-management`
+
+> 🤖 *Ein moderner Log-Viewer für Windows-Administratoren zur Analyse von Installations- und System-Logs.*
+
+### [DCSecurityOperations](https://github.com/DanielChronlund/DCSecurityOperations)
+A collection of Microsoft Sentinel workbooks and analytics rules.
+
+**Details:** ⭐ 111
+
+> 🤖 *Eine Sammlung von Analyse-Regeln und Dashboards für Microsoft Sentinel.*
+
+### [BTPS-SecPack](https://github.com/OsbornePro/BTPS-SecPack)
+This repository contains a collection of PowerShell tools that can be utilized to protect and defend an environment based on the recommendations of multiple cyber security researchers at Microsoft. These tools were created with a small to medium size enterprise environment in mind as smaller organizations do not always have the type of funding available to overly spend on security. The goal of this project is to help add value to an smaller organizations security by creating more visibility for the average IT Administrator. Organizations with 1,000’s of devices may find that this entire suite does not apply to them.
+
+**Details:** ⭐ 52 `PowerShell` `wef`, `powershell`, `protections`, `cmdlets`, `blueteam`
+
+> 🤖 *PowerShell-Werkzeuge zur Erkennung von Bedrohungen und Weiterleitung von Sicherheitsereignissen.*
+
+## 📂 macOS-Systemverwaltung & Client-Support
+
+### [Ice](https://github.com/jordanbaird/Ice)
+Powerful menu bar manager for macOS
+
+**Details:** ⭐ 29,506 `Swift` `macos`, `menubar`, `statusbar`, `swift`, `swiftui`
+
+> 🤖 *Ein mächtiges Werkzeug zur Verwaltung und Organisation der macOS-Menüleiste.*
+
+### [munki](https://github.com/munki/munki)
+Managed software installation for macOS —
+
+**Details:** ⭐ 3,464 `Swift`
+
+> 🤖 *Ein etabliertes System zur Verwaltung und Verteilung von Software auf macOS-Clients.*
+
+### [macos_security](https://github.com/usnistgov/macos_security)
+macOS Security Compliance Project
+
+**Details:** ⭐ 2,460 `YAML` `apple`, `macos`, `compliance`, `zsh`, `bash`
+
+> 🤖 *Das offizielle macOS Security Compliance Projekt zur Absicherung von Apple-Betriebssystemen.*
+
+### [SupportApp](https://github.com/root3nl/SupportApp)
+The Support App is developed by Root3, specialized in managing Apple devices. Root3 offers consultancy and support for organizations to get the most out of their Apple devices and is based in The Netherlands (Halfweg).
+
+**Details:** ⭐ 793 `Swift`
+
+> 🤖 *Eine macOS-Anwendung, die Endbenutzern schnellen Zugriff auf Support-Ressourcen bietet.*
+
+### [SupportCompanion](https://github.com/macadmins/SupportCompanion)
+macOS helper application designed to empower end-users
+
+**Details:** ⭐ 187 `Swift`
+
+> 🤖 *Ein macOS-Hilfswerkzeug zur Unterstützung von Endanwendern in verwalteten Umgebungen.*
+
+### [LocalPorts](https://github.com/onderk-motion/LocalPorts)
+Keine Beschreibung verfügbar
+
+**Details:** ⭐ 96 `Swift`
+
+> 🤖 *Ein Hilfswerkzeug zur Verwaltung lokaler Netzwerkports unter macOS.*
+
+### [List-of-modern-Quick-Look-extensions](https://github.com/Oil3/List-of-modern-Quick-Look-extensions)
+List of modern .appex-based Quick Look Previewer extensions compatible with macOS 15 Sequoia and beyond. No deprecated quicklook qlgenerators.
+
+**Details:** ⭐ 71
+
+> 🤖 *Eine Übersicht moderner Quick-Look-Erweiterungen für macOS zur Dateivorschau.*
+
+### [createicns](https://github.com/jordanbaird/createicns)
+Create 'icns' and 'iconset' files from standard images
+
+**Details:** ⭐ 55 `Swift` `icns`, `icon`, `command-line`, `command-line-tool`, `swift`
+
+> 🤖 *Ein Kommandozeilenwerkzeug zur Erstellung von macOS-Symbolen aus Standardbildern.*
+
+## 📂 Systemnahe Werkzeuge & Shell-Entwicklung
+
+### [PowerShell](https://github.com/PowerShell/PowerShell)
+PowerShell for every system!
+
+**Details:** ⭐ 55,246 `C#` `powershell`, `windows`, `macos`, `linux`, `command-line`
+
+> 🤖 *Das offizielle Repository der plattformübergreifenden PowerShell Core Shell.*
 
 ### [openssh-portable](https://github.com/PowerShell/openssh-portable)
 Portable OpenSSH, all Win32-OpenSSH releases and wiki are managed at https://github.com/powershell/Win32-OpenSSH
 
-**Details:** ⭐ 2,049 `C` `openssh`, `openssh-server`, `windows`, `win32`
+**Details:** ⭐ 2,048 `C` `openssh`, `openssh-server`, `windows`, `win32`
 
-> 🤖 *Die Windows-Portierung von OpenSSH für sichere Remote-Verbindungen über die Shell.*
+> 🤖 *Die Windows-Portierung von OpenSSH für sichere Remote-Verbindungen.*
 
 ### [ModuleBuilder](https://github.com/PoshCode/ModuleBuilder)
 A PowerShell Module to help scripters write, version, sign, package, and publish.
 
 **Details:** ⭐ 521 `PowerShell`
 
-> 🤖 *Hilft PowerShell-Entwicklern beim Schreiben, Testen und Veröffentlichen von Modulen.*
+> 🤖 *Unterstützt Entwickler beim Schreiben, Testen und Veröffentlichen von PowerShell-Modulen.*
+
+### [PowerShell-Docker](https://github.com/PowerShell/PowerShell-Docker)
+Repository for building PowerShell Docker images
+
+**Details:** ⭐ 449 `Dockerfile` `hacktoberfest`
+
+> 🤖 *Ressourcen zur Erstellung und Bereitstellung von PowerShell-Umgebungen in Docker-Containern.*
 
 ### [PoShKeePass](https://github.com/PSKeePass/PoShKeePass)
 PowerShell module for KeePass
@@ -694,545 +1001,346 @@ PowerShell module for KeePass
 
 > 🤖 *Ein PowerShell-Modul zur automatisierten Verwaltung von KeePass-Passwortdatenbanken.*
 
-### [toktoken](https://github.com/mauriziofonte/toktoken)
-TokToken is a fast, single-binary C codebase indexer for AI coding agents. Powered by universal-ctags and SQLite FTS5, it provides precise symbol search, dependency tracking, and an MCP server. TokToken reduces LLM context token usage by 88-99% by retrieving exact code symbols instead of reading entire files. Zero runtime dependencies.
+### [worktree-cli](https://github.com/johnlindquist/worktree-cli)
+Keine Beschreibung verfügbar
 
-**Details:** ⭐ 58 `C`
+**Details:** ⭐ 158 `TypeScript`
 
-> 🤖 *Ein C-basiertes Tool zur schnellen Indizierung von Codebasen für KI-Schnittstellen.*
+> 🤖 *Ein CLI-Werkzeug zur vereinfachten Verwaltung von Git Worktrees.*
 
 ### [PSGist](https://github.com/dotps1/PSGist)
 A PowerShell module to work with GitHub Gists.
 
 **Details:** ⭐ 46 `PowerShell`
 
-> 🤖 *Ein PowerShell-Modul zur einfachen Interaktion mit GitHub Gists über die CLI.*
+> 🤖 *Ein PowerShell-Modul zur einfachen Interaktion mit GitHub Gists.*
 
-## 📂 Wissensdatenbanken & Kuratierte Listen
+### [productivity](https://github.com/friedrith/productivity)
+Scripts and commands to improve productivity
+
+**Details:** ⭐ 21 `Shell` `hacktoberfest`
+
+> 🤖 *Skripte und Shell-Befehle zur Steigerung der täglichen Arbeitsproduktivität.*
+
+## 📂 Kuratierte Wissenssammlungen & Leitfäden
 
 ### [awesome-sysadmin](https://github.com/kahun/awesome-sysadmin)
 A curated list of amazingly awesome open source sysadmin resources inspired by Awesome PHP.
 
 **Details:** ⭐ 24,344
 
-> 🤖 *Eine kuratierte Liste nützlicher Open-Source-Ressourcen für Systemadministratoren.*
+> 🤖 *Eine umfangreiche Liste von Open-Source-Ressourcen für Systemadministratoren.*
 
 ### [awesome-readme](https://github.com/matiassingers/awesome-readme)
 A curated list of awesome READMEs
 
-**Details:** ⭐ 21,406 `awesome-list`, `awesome`, `list`, `readme`
+**Details:** ⭐ 21,409 `awesome-list`, `awesome`, `list`, `readme`
 
-> 🤖 *Eine Sammlung von Beispielen für besonders gelungene README-Dateien auf GitHub.*
-
-### [awesome-honeypots](https://github.com/paralax/awesome-honeypots)
-an awesome list of honeypot resources
-
-**Details:** ⭐ 10,544 `Python` `honeypot`, `awesome-list`, `awesome`, `list`, `honeyd`
-
-> 🤖 *Eine strukturierte Liste von Honeypot-Software und Sicherheitswerkzeugen.*
+> 🤖 *Eine Sammlung hervorragend gestalteter README-Dateien als Vorlage für eigene Projekte.*
 
 ### [awesome-infosec](https://github.com/onlurking/awesome-infosec)
  A curated list of awesome infosec courses and training resources.
 
-**Details:** ⭐ 5,736 `infosec`, `pentest`, `courses`, `penetration-testing`, `security-professionals`
+**Details:** ⭐ 5,739 `infosec`, `pentest`, `courses`, `penetration-testing`, `security-professionals`
 
-> 🤖 *Eine kuratierte Liste von Trainings- und Lernressourcen im Bereich Informationssicherheit.*
+> 🤖 *Eine Übersicht über Kurse, Trainings und Labore im Bereich der Informationssicherheit.*
 
-### [awesome-powershell](https://github.com/janikvonrotz/awesome-powershell)
-This repository has been moved to https://codeberg.org/janikvonrotz/awesome-powershell. Please visit the new location for the latest updates.
+### [eol-dr](https://github.com/potatoqualitee/eol-dr)
+🕊️ A crowd-sourced guide to help techs help their non-tech spouses / partners / parents / kids when we are at the end-of-life
 
-**Details:** ⭐ 5,410 `PowerShell` `powershell`, `windows-powershell`, `powershell-ise`, `powershell-cmdlets`, `awesome`
+**Details:** ⭐ 4,512 `disaster-response`, `disaster-management`
 
-> 🤖 *Eine Sammlung von PowerShell-Modulen, Skripten und Lernressourcen.*
+> 🤖 *Ein Leitfaden zur digitalen Nachlassverwaltung und Unterstützung von Angehörigen im Todesfall.*
+
+### [awesome-gpt-store](https://github.com/devisasari/awesome-gpt-store)
+A curated list of awesome GPTs in the GPT Store
+
+**Details:** ⭐ 2,117 `ai`, `awesome`, `awesome-list`, `chatgpt`, `gpt`
+
+> 🤖 *Eine kuratierte Liste der besten benutzerdefinierten GPTs im OpenAI Store.*
 
 ### [awesome-book-collection](https://github.com/devxhub/awesome-book-collection)
 A curated list of the best books for software engineers, with links to legal and free sources. Covers programming, system design, DevOps, ML and career growth.
 
-**Details:** ⭐ 368 `TypeScript` `developer-roadmaps`, `free-books`, `interview-preparation`, `awesome`, `awesome-list`
+**Details:** ⭐ 369 `TypeScript` `developer-roadmaps`, `free-books`, `interview-preparation`, `awesome`, `awesome-list`
 
-> 🤖 *Eine kuratierte Liste der besten kostenlosen Bücher für Software-Entwickler.*
+> 🤖 *Eine Sammlung freier Fachbücher für Softwareentwickler und Systemarchitekten.*
 
-### [githubbuch.github.io](https://github.com/githubbuch/githubbuch.github.io)
-Das Repository zum Buch “GitHub - Eine praktische Einführung”
+### [PowerShellFAQ](https://github.com/PoshCode/PowerShellFAQ)
+A collection of frequently asked questions (and answers)
 
-**Details:** ⭐ 16 `HTML` `github`, `github-pages`, `github-actions`, `book`, `buch`
+**Details:** ⭐ 17
 
-> 🤖 *Begleit-Repository und Website zum Fachbuch über GitHub.*
+> 🤖 *Eine strukturierte Sammlung häufig gestellter Fragen und Antworten zu PowerShell.*
 
 ### [awesome-selfhosted](https://github.com/binwiederhier/awesome-selfhosted)
 A list of Free Software network services and web applications which can be hosted on your own servers
 
 **Details:** ⭐ 12
 
-> 🤖 *Eine Liste von Software, die auf eigenen Servern betrieben werden kann.*
+> 🤖 *Eine Liste von Webanwendungen, die auf eigenen Servern betrieben werden können.*
 
-## 📂 KI-Coding-Assistenten & Code-Generierung
-
-### [claude-code](https://github.com/anthropics/claude-code)
-Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
-
-**Details:** ⭐ 143,865 `Python`
-
-> 🤖 *Ein terminalbasiertes KI-Coding-Tool von Anthropic für Codebase-Interaktionen und Git-Workflows.*
-
-### [goose](https://github.com/aaif-goose/goose)
-an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
-
-**Details:** ⭐ 53,870 `Rust` `mcp`, `acp`, `ai`, `ai-agents`
-
-> 🤖 *Ein erweiterbarer Open-Source-KI-Agent, der direkt Code schreibt, ausführt und testet.*
-
-### [kilocode](https://github.com/Kilo-Org/kilocode)
-Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.
-
-**Details:** ⭐ 27,155 `TypeScript` `ai-coding`, `vscode`, `vscode-extension`, `ai-developer-tools`, `chatgpt`
-
-> 🤖 *Eine all-in-one Plattform für agentisches Software-Engineering mit Open-Source-Coding-Agenten.*
-
-### [Roo-Code](https://github.com/RooCodeInc/Roo-Code)
-Roo Code gives you a whole dev team of AI agents in your code editor.
-
-**Details:** ⭐ 24,312 `TypeScript`
-
-> 🤖 *Eine IDE-Erweiterung, die KI-Agenten-Teams direkt in den Code-Editor integriert.*
-
-### [opcode](https://github.com/winfunc/opcode)
-A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.
-
-**Details:** ⭐ 22,395 `TypeScript` `anthropic`, `anthropic-claude`, `claude`, `claude-4`, `claude-4-sonnet`
-
-> 🤖 *Eine GUI-Anwendung und ein Toolkit zur Verwaltung und Steuerung von interaktiven Claude-Code-Sitzungen.*
-
-### [Aperant](https://github.com/AndyMik90/Aperant)
-Autonomous multi-session AI coding
-
-**Details:** ⭐ 14,550 `TypeScript`
-
-> 🤖 *Ermöglicht autonome, mehrteilige KI-Coding-Sitzungen zur Softwareentwicklung.*
-
-### [Lynkr](https://github.com/Fast-Editor/Lynkr)
-Streamline your workflow with Lynkr, a CLI tool that acts as an HTTP proxy for efficient code interactions using Claude Code CLI.
-
-**Details:** ⭐ 547 `JavaScript` `claude`, `claudecode`, `databricks`, `agents`, `ai`
-
-> 🤖 *Ein CLI-Proxy-Tool zur Optimierung von Code-Interaktionen mit dem Claude Code CLI.*
-
-## 📂 RAG-Systeme & Vektordatenbanken
-
-### [mempalace](https://github.com/MemPalace/mempalace)
-The best-benchmarked open-source AI memory system. And it's free.
-
-**Details:** ⭐ 58,819 `Python` `ai`, `chromadb`, `llm`, `mcp`, `memory`
-
-> 🤖 *Ein hochperformantes, quelloffenes KI-Gedächtnissystem basierend auf ChromaDB.*
-
-### [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques)
-This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. Each technique has a detailed notebook tutorial.
-
-**Details:** ⭐ 29,349 `Jupyter Notebook` `rag`, `tutorials`, `langchain`, `llama-index`, `llms`
-
-> 🤖 *Eine umfassende Sammlung fortgeschrittener Techniken und Tutorials für RAG-Systeme.*
-
-### [colibri](https://github.com/JustVugg/colibri)
-Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦
-
-**Details:** ⭐ 26,714 `C`
-
-> 🤖 *Eine extrem schlanke C-Engine zur Ausführung von Mixture-of-Experts-Modellen auf Consumer-Hardware.*
-
-### [flux](https://github.com/black-forest-labs/flux)
-Official inference repo for FLUX.1 models
-
-**Details:** ⭐ 25,937 `Python`
-
-> 🤖 *Offizielles Inferenz-Repository für die FLUX.1-Bildgenerierungsmodelle.*
-
-### [flux2](https://github.com/black-forest-labs/flux2)
-Official inference repo for FLUX.2 models
-
-**Details:** ⭐ 2,658 `Python`
-
-> 🤖 *Offizielles Inferenz-Repository für die FLUX.2-Bildgenerierungsmodelle.*
-
-### [vllm-turboquant](https://github.com/mitkox/vllm-turboquant)
-vLLM TurboQuant
-
-**Details:** ⭐ 618 `Python`
-
-> 🤖 *Optimiertes vLLM-Inferenz-Repository zur schnellen Bereitstellung quantisierter Modelle.*
-
-### [rag-template](https://github.com/stackitcloud/rag-template)
-Template for AI chatbots & document management using Retrieval-Augmented Generation with vector search and FastAPI.
-
-**Details:** ⭐ 86 `Python` `ai`, `fastapi`, `llm`, `ollama`, `python`
-
-> 🤖 *Eine Vorlage für KI-Chatbots mit Dokumentenverwaltung und Retrieval-Augmented Generation.*
-
-## 📂 Compliance, Governance & IT-Auditing
-
-### [Harden-Windows-Security](https://github.com/HotCakeX/Harden-Windows-Security)
-Harden Windows Safely, Securely using Official Supported Microsoft methods and proper explanation | Always up-to-date and works with the latest build of Windows | Provides tools and Guides for Personal, Enterprise, Government and Military security levels | SLSA Level 3 Compliant for Secure Development and Build Process | Apps Available on MS Store✨
-
-**Details:** ⭐ 4,694 `C#` `defender`, `firewall-configuration`, `harden`, `security`, `security-hardening`
-
-> 🤖 *Umfangreiches Tool zur Härtung von Windows-Systemen nach offiziellen Microsoft-Sicherheitsstandards.*
-
-### [skills](https://github.com/remotion-dev/skills)
-Agent Skills
-
-**Details:** ⭐ 4,478 `TypeScript`
-
-> 🤖 *Überprüft und erzwingt EU-Compliance-Richtlinien (NIS2, DSGVO, ISO 27001) bei KI-Agenten-Aktionen.*
-
-### [macos_security](https://github.com/usnistgov/macos_security)
-macOS Security Compliance Project
-
-**Details:** ⭐ 2,459 `YAML` `apple`, `macos`, `compliance`, `zsh`, `bash`
-
-> 🤖 *Das offizielle macOS Security Compliance Project zur Erstellung von Sicherheits-Baselines.*
-
-### [secureboot_objects](https://github.com/microsoft/secureboot_objects)
-Secure boot objects recommended by Microsoft.
-
-**Details:** ⭐ 286 `Python`
-
-> 🤖 *Eine Sammlung von Secure-Boot-Konfigurationsobjekten, die von Microsoft empfohlen werden.*
-
-### [Hardening-Audit-Tool-AuditTAP](https://github.com/fbprogmbh/Hardening-Audit-Tool-AuditTAP)
-FBPro Audit Test Automation Package allows you to create compliance reports for your systems. The resulting HTML-reports provide a transparent overview of your devices' security configuration compared to international security standards and hardening guides.
-
-**Details:** ⭐ 174 `PowerShell` `audit`, `compliance`, `cis`, `benchmark`, `iis`
-
-> 🤖 *Erstellt automatisierte Compliance-Berichte basierend auf Systemhärtungs-Richtlinien.*
-
-### [kspec](https://github.com/kopexa-grc/kspec)
-A modern, extensible framework for defining and enforcing security policies across your digital infrastructure.
-
-**Details:** ⭐ 53 `Go` `automation`, `compliance`, `grc`, `grc-engineering`, `policy-as-code`
-
-> 🤖 *Ein Framework zur Definition und Durchsetzung von Security- und Compliance-Policies als Code.*
-
-### [HardeningAudit](https://github.com/TheTechBeast8/HardeningAudit)
-Deployment scripts and a simple reports for CIS benchmarks 
-
-**Details:** ⭐ 33 `PowerShell`
-
-> 🤖 *PowerShell-Skripte zur Überprüfung und Auditierung von Systemen nach CIS-Benchmarks.*
-
-## 📂 Desktop-Anpassung & Betriebssystem-Utilities
-
-### [Ice](https://github.com/jordanbaird/Ice)
-Powerful menu bar manager for macOS
-
-**Details:** ⭐ 29,487 `Swift` `macos`, `menubar`, `statusbar`, `swift`, `swiftui`
-
-> 🤖 *Ein mächtiger Manager zur Organisation der macOS-Menüleiste.*
-
-### [komorebi](https://github.com/LGUG2Z/komorebi)
-A tiling window manager for Windows 🍉
-
-**Details:** ⭐ 15,115 `Rust` `tiling-window-manager`, `windows`, `rust`, `autohotkey`, `palestine`
-
-> 🤖 *Ein hochentwickelter Tiling-Window-Manager für Microsoft Windows.*
-
-### [yasb](https://github.com/amnweb/yasb)
-A highly configurable Windows status bar written in Python. 
-
-**Details:** ⭐ 5,422 `Python` `python`, `ricing`, `status-bar`, `statusbar`, `task-bar`
-
-> 🤖 *Eine hochgradig konfigurierbare Statusleiste für den Windows-Desktop.*
-
-### [frames-cli](https://github.com/viticci/frames-cli)
-Frame screenshots and screen recordings taken on Apple devices with official product bezels.
-
-**Details:** ⭐ 279 `Python`
-
-> 🤖 *Ein CLI-Tool, das Screenshots automatisch mit offiziellen Apple-Geräterahmen versieht.*
-
-### [List-of-modern-Quick-Look-extensions](https://github.com/Oil3/List-of-modern-Quick-Look-extensions)
-List of modern .appex-based Quick Look Previewer extensions compatible with macOS 15 Sequoia and beyond. No deprecated quicklook qlgenerators.
-
-**Details:** ⭐ 71
-
-> 🤖 *Eine Liste moderner Quick-Look-Erweiterungen für macOS Sequoia.*
-
-### [createicns](https://github.com/jordanbaird/createicns)
-Create 'icns' and 'iconset' files from standard images
-
-**Details:** ⭐ 55 `Swift` `icns`, `icon`, `command-line`, `command-line-tool`, `swift`
-
-> 🤖 *Ein CLI-Tool zur Erstellung von macOS-Icon-Dateien aus Standardbildern.*
-
-### [shortcut-agent-skill](https://github.com/owgit/shortcut-agent-skill)
-Generate Apple Shortcuts from natural language using Claude Code. Describe any automation and get a signed .shortcut file for iPhone, iPad & Mac. 427+ supported actions.
-
-**Details:** ⭐ 12 `Python` `ai-automation`, `apple-shortcuts`, `claude-code`, `claude-code-skill`, `ios-automation`
-
-> 🤖 *Generiert Apple Shortcuts (.shortcut-Dateien) aus natürlicher Sprache.*
-
-## 📂 Kollaboration, Medien & Freizeit
-
-### [excalidraw](https://github.com/excalidraw/excalidraw)
-Virtual whiteboard for sketching hand-drawn like diagrams
-
-**Details:** ⭐ 131,052 `TypeScript` `productivity`, `collaboration`, `diagrams`, `drawing`, `whiteboard`
-
-> 🤖 *Ein virtuelles Whiteboard zur kollaborativen Erstellung von handgezeichneten Diagrammen.*
-
-### [remotion](https://github.com/remotion-dev/remotion)
-🎥      Make videos programmatically with React
-
-**Details:** ⭐ 58,165 `TypeScript` `react`, `video`, `javascript`
-
-> 🤖 *Ermöglicht die programmatische Erstellung von Videos unter Verwendung von React.*
+## 📂 Spezifische Anwendungen, Medien & Spiele
 
 ### [xbmc](https://github.com/xbmc/xbmc)
 Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media. With its beautiful interface and powerful skinning engine, it's available for Android, BSD, Linux, macOS, iOS, tvOS and Windows.
 
-**Details:** ⭐ 21,172 `C++` `kodi`, `home-theater`, `media-center`, `multimedia`, `c-plus-plus`
+**Details:** ⭐ 21,176 `C++` `kodi`, `home-theater`, `media-center`, `multimedia`, `c-plus-plus`
 
-> 🤖 *Kodi Media Center - Eine Open-Source-Software für Heimkino und Medienverwaltung.*
+> 🤖 *Kodi, das bekannte Open-Source-Mediencenter für die Verwaltung und Wiedergabe von Medien.*
 
 ### [OpenEmu](https://github.com/OpenEmu/OpenEmu)
 🕹 Retro video game emulation for macOS
 
-**Details:** ⭐ 17,746 `Swift` `openemu`, `objective-c`, `macos`, `emulation`, `emulator`
+**Details:** ⭐ 17,751 `Swift` `openemu`, `objective-c`, `macos`, `emulation`, `emulator`
 
-> 🤖 *Ein moderner, benutzerfreundlicher Retro-Spiele-Emulator für macOS.*
+> 🤖 *Ein bekannter und benutzerfreundlicher Emulator für Retro-Spielekonsolen unter macOS.*
 
 ### [openage](https://github.com/SFTtech/openage)
 Clone of the Age of Empires II engine 🚀 
 
 **Details:** ⭐ 14,415 `Python` `game`, `engine`, `python`, `c-plus-plus`, `qt`
 
-> 🤖 *Ein freier, moderner Klon der Age of Empires II Engine.*
+> 🤖 *Ein moderner, quelloffener Nachbau der Spiel-Engine von Age of Empires II.*
 
 ### [gen1recomp](https://github.com/bryanthaboi/gen1recomp)
 Gen1Recomp - A native Lua / LÖVE2D recreation of Gen 1 and 2 Poke
 
-**Details:** ⭐ 3,514 `C`
+**Details:** ⭐ 3,526 `C`
 
-> 🤖 *Eine native Rekonstruktion der ersten Pokémon-Generationen in Lua/LÖVE2D.*
+> 🤖 *Eine native Rekonstruktion der ersten beiden Pokémon-Generationen in Lua.*
+
+### [betterbahn](https://github.com/BetterBahn/betterbahn)
+BetterBahn is an open-source project that aims to improve the train travel experience in germany. The current focus is on split-ticketing. However, further functions are planned to follow in the future.
+
+**Details:** ⭐ 2,533 `TypeScript` `deutsche-bahn`, `open-source`, `railway`
+
+> 🤖 *Ein Open-Source-Projekt zur Optimierung der Ticketbuchung bei der Deutschen Bahn.*
+
+### [cryptgeon](https://github.com/cupcakearmy/cryptgeon)
+cryptgeon is a secure, open source note / file sharing service inspired by PrivNote written in rust & svelte.
+
+**Details:** ⭐ 1,515 `Svelte` `private-notes`, `privnote`, `secure-notes`, `note-sharing`, `file-sharing`
+
+> 🤖 *Ein sicherer, selbsthostbarer Dienst zum Teilen von verschlüsselten Notizen und Dateien.*
 
 ### [ra-port](https://github.com/dk8827/ra-port)
 Unofficial working port of Command & Conquer: Red Alert running natively on iOS, Android, Linux and macOS. SDL2 video/audio/input. No game assets included.
 
-**Details:** ⭐ 207 `C++` `apple-silicon`, `classic-games`, `command-and-conquer`, `game-port`, `macos`
+**Details:** ⭐ 221 `C++` `apple-silicon`, `classic-games`, `command-and-conquer`, `game-port`, `macos`
 
-> 🤖 *Ein nativer Port von Command & Conquer: Red Alert für moderne Betriebssysteme.*
+> 🤖 *Ein inoffizieller nativer Port von Command & Conquer: Red Alert für moderne Plattformen.*
 
-## 📂 IT-Sicherheit & Penetration Testing
+### [yakety](https://github.com/badlogic/yakety)
+Voice recording and transcription app
 
-### [strix](https://github.com/usestrix/strix)
-Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.
+**Details:** ⭐ 119 `C`
 
-**Details:** ⭐ 60,265 `Python` `agents`, `artificial-intelligence`, `cybersecurity`, `penetration-testing`, `ai-penetration-testing`
+> 🤖 *Eine Anwendung zur Aufnahme und lokalen Transkription von Sprachnotizen.*
 
-> 🤖 *Ein KI-gestütztes Penetration-Testing-Tool zur automatisierten Erkennung von Sicherheitslücken.*
+## 📂 Spezifikationsgesteuerte Entwicklung & Planung
 
-### [ROADtools](https://github.com/dirkjanm/ROADtools)
-A collection of Azure AD/Entra tools for offensive and defensive security purposes
+### [spec-kit](https://github.com/github/spec-kit)
+💫 Toolkit to help you get started with Spec-Driven Development
 
-**Details:** ⭐ 2,710 `Python` `azure-active-directory`, `azuread`, `microsoft-graph`, `python`
+**Details:** ⭐ 133,399 `Python` `ai`, `copilot`, `development`, `engineering`, `prd`
 
-> 🤖 *Ein Framework für Sicherheitsanalysen und Penetration Testing in Microsoft Entra ID / Azure AD.*
+> 🤖 *Ein Toolkit für den Einstieg in die spezifikationsgesteuerte Entwicklung mit KI.*
 
-### [mergen](https://github.com/sametsazak/mergen)
-Mergen is an open-source, native macOS application for auditing and checking the security of your MacOS.
+### [OpenSpec](https://github.com/Fission-AI/OpenSpec)
+Spec-driven development (SDD) for AI coding assistants.
 
-**Details:** ⭐ 248 `Swift` `audit`, `macos`, `macos-security`, `mactool`, `osx`
+**Details:** ⭐ 67,261 `TypeScript` `spec`, `ai`, `context-engineering`, `engineering`, `planning`
 
-> 🤖 *Eine native macOS-Anwendung zur Sicherheitsüberprüfung und Auditierung des Betriebssystems.*
+> 🤖 *Ein Standard für spezifikationsgesteuerte Entwicklung (SDD) mit KI-Programmierassistenten.*
 
-### [entra-ca-insight](https://github.com/emiliensocchi/entra-ca-insight)
-Discover gaps in Entra Conditional Access policies before attackers do
+### [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)
+Breakthrough Method for Agile Ai Driven Development
 
-**Details:** ⭐ 136 `Python`
+**Details:** ⭐ 52,667 `JavaScript`
 
-> 🤖 *Analysiert Lücken und Schwachstellen in den Conditional Access Policies von Microsoft Entra.*
+> 🤖 *Eine agile Entwicklungsmethode, die speziell für die KI-gestützte Programmierung optimiert ist.*
 
-### [secrets_find0r](https://github.com/BenjaminIheukumere/secrets_find0r)
-Secrets Find0r is a multithreaded SMB share crawler that hunts for exposed credentials and secrets across Windows networks. It enumerates shares, recursively scans files with regex/keyword rules, highlights matched tokens on screen, and exports clean ASCII tables. Supports DOCX/PDF/legacy Office and depth limits.
+### [agent-os](https://github.com/buildermethods/agent-os)
+Agent OS is a system for injecting your codebase standards and writing better specs for spec-driven development.
 
-**Details:** ⭐ 71 `Python` `active-directory`, `authorized-testing`, `blue-team`, `credential-discovery`, `credential-exposure`
+**Details:** ⭐ 5,372 `Shell`
 
-> 🤖 *Ein SMB-Share-Crawler zum Aufspüren von offenliegenden Passwörtern und Geheimnissen im Netzwerk.*
+> 🤖 *Ein System zur Durchsetzung von Code-Standards und zur Erstellung präziser Spezifikationen.*
 
-### [hijack-agentic-ai](https://github.com/nmeisenzahl/hijack-agentic-ai)
-Showcasing how to hijack agentic AI using real‑world vulnerabilities
+### [spec-workflow-mcp](https://github.com/Pimzino/spec-workflow-mcp)
+A Model Context Protocol (MCP) server that provides structured spec-driven development workflow tools for AI-assisted software development, featuring a real-time web dashboard and VSCode extension for monitoring and managing your project's progress directly in your development environment.
 
-**Details:** ⭐ 8 `Python`
+**Details:** ⭐ 4,291 `TypeScript`
 
-> 🤖 *Demonstriert Sicherheitsrisiken und Hijacking-Szenarien bei agentischen KI-Systemen.*
+> 🤖 *Ein MCP-Server mit Dashboard zur Überwachung spezifikationsgesteuerter Entwicklungsprozesse.*
 
-## 📂 System-Monitoring & Log-Analyse
+### [speckit-companion](https://github.com/alfredoperez/speckit-companion)
+VS Code extension for spec-driven development — manage specs, workflows, and steering docs for AI CLI tools (Claude Code, Gemini CLI, Copilot CLI)
 
-### [cabot](https://github.com/arachnys/cabot)
-Self-hosted, easily-deployable monitoring and alerts service - like a lightweight PagerDuty
+**Details:** ⭐ 87 `HTML` `ai-tools`, `claude-code`, `developer-tools`, `spec-driven-development`, `typescript`
 
-**Details:** ⭐ 5,677 `JavaScript` `django`, `python`, `graphite`, `monitoring`, `devops`
+> 🤖 *Eine VS-Code-Erweiterung zur Verwaltung von Spezifikationen und Steuerungsdokumenten für KI-CLIs.*
 
-> 🤖 *Eine selbsthostbare, leichtgewichtige Monitoring- und Alarmierungs-Plattform.*
-
-### [klogg](https://github.com/variar/klogg)
-Really fast log explorer based on glogg project
-
-**Details:** ⭐ 3,494 `C++` `logs`, `windows`, `linux`, `macos`, `cross-platform`
-
-> 🤖 *Ein extrem schneller, grafischer Log-Viewer für sehr große Logdateien.*
-
-### [cmtraceopen](https://github.com/adamgell/cmtraceopen)
-Free, open-source CMTrace replacement for Windows log files: ConfigMgr/SCCM, Intune IME, and Autopilot ESP diagnostics, DSRegCmd triage, .evtx viewing, real-time tailing, and Windows error-code lookup. Windows, macOS, Linux.
-
-**Details:** ⭐ 283 `Rust` `cmtrace`, `intune`, `configmgr`, `dsregcmd`, `endpoint-management`
-
-> 🤖 *Ein moderner, plattformunabhängiger Ersatz für das CMTrace-Log-Analyse-Tool.*
-
-### [DCSecurityOperations](https://github.com/DanielChronlund/DCSecurityOperations)
-A collection of Microsoft Sentinel workbooks and analytics rules.
-
-**Details:** ⭐ 111
-
-> 🤖 *Eine Sammlung von Microsoft Sentinel Workbooks und Erkennungsregeln für Security Operations.*
-
-### [MDE-Monitoring-App](https://github.com/chlaplan/MDE-Monitoring-App)
-Troubleshooting MDE Workstations
-
-**Details:** ⭐ 49 `C#`
-
-> 🤖 *Ein Werkzeug zur Überwachung und Fehlerbehebung von Microsoft Defender for Endpoint Clients.*
-
-### [About_my_device](https://github.com/damienvanrobaeys/About_my_device)
-About my device: A systray tool for that displays device information and run action like send logs or sync device
-
-**Details:** ⭐ 39 `PowerShell`
-
-> 🤖 *Ein Systray-Tool zur schnellen Anzeige von Systeminfos und zum Senden von Diagnose-Logs.*
-
-## 📂 Anwendungs-Deployment & Cloud-Hosting
-
-### [coolify](https://github.com/coollabsio/coolify)
-An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers.
-
-**Details:** ⭐ 61,335 `PHP` `nodejs`, `mysql`, `php`, `docker`, `self-hosting`
-
-> 🤖 *Eine selbsthostbare PaaS-Alternative zu Heroku und Vercel für einfaches App- und DB-Deployment.*
-
-### [vercel](https://github.com/vercel/vercel)
-Develop. Preview. Ship.
-
-**Details:** ⭐ 16,192 `TypeScript` `cli`, `command`, `vercel`, `cloud`, `hosting`
-
-> 🤖 *Das offizielle CLI-Tool zur Bereitstellung und Verwaltung von Projekten auf der Vercel-Plattform.*
-
-### [rundeck](https://github.com/rundeck/rundeck)
-Enable Self-Service Operations: Give specific users access to your existing tools, services, and scripts
-
-**Details:** ⭐ 6,286 `Groovy` `rundeck`, `devops`, `deployment`, `scheduler`, `automation`
-
-> 🤖 *Eine Plattform für Runbook-Automatisierung und Self-Service-Operations im IT-Betrieb.*
-
-### [PowerShell-Docker](https://github.com/PowerShell/PowerShell-Docker)
-Repository for building PowerShell Docker images
-
-**Details:** ⭐ 449 `Dockerfile` `hacktoberfest`
-
-> 🤖 *Ressourcen zur Erstellung und Bereitstellung von PowerShell-Docker-Images.*
-
-### [zero](https://github.com/shipzero/zero)
-Deploy containers to your own server with one command. Automatic TLS, zero-downtime, no config.
-
-**Details:** ⭐ 96 `TypeScript` `deploy`, `deployment`, `docker`, `flyio`, `heroku`
-
-> 🤖 *Ermöglicht das Deployment von Containern auf eigenen Servern ohne Konfigurationsaufwand.*
-
-### [DevOps_Pipelines](https://github.com/ztrhgf/DevOps_Pipelines)
+### [Spec-Driven](https://github.com/LLM-Coding/Spec-Driven)
 Keine Beschreibung verfügbar
 
-**Details:** ⭐ 13
+**Details:** ⭐ 8
 
-> 🤖 *Vorlagen und Skripte für CI/CD-Pipelines im DevOps-Umfeld.*
+> 🤖 *Ressourcen und Konzepte für die spezifikationsgesteuerte Softwareentwicklung.*
 
-## 📂 Workflow-Automatisierung & Integrationen
+## 📂 KI-Design, Prototyping & Medien-Generierung
+
+### [open-design](https://github.com/nexu-io/open-design)
+🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.
+
+**Details:** ⭐ 93,961 `TypeScript` `ai-design`, `byok`, `coding-agents`, `design-systems`, `local-first`
+
+> 🤖 *Ein lokaler Design-Generator, der Prompts in HTML, PDFs, Präsentationen und Videos übersetzt.*
+
+### [remotion](https://github.com/remotion-dev/remotion)
+🎥      Make videos programmatically with React
+
+**Details:** ⭐ 58,269 `TypeScript` `react`, `video`, `javascript`
+
+> 🤖 *Ermöglicht die programmatische Erstellung und das Rendering von Videos mit React.*
+
+### [hyperframes](https://github.com/heygen-com/hyperframes)
+Write HTML. Render video. Built for agents.
+
+**Details:** ⭐ 43,901 `TypeScript` `ai`, `animation`, `ffmpeg`, `framework`, `gsap`
+
+> 🤖 *Ein Framework, das HTML in Videos übersetzt, optimiert für die Generierung durch KI-Agenten.*
+
+### [open-codesign](https://github.com/OpenCoworkAI/open-codesign)
+Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → prototype / slides / PDF. Multi-model (Claude, GPT, Gemini, Kimi, GLM, Ollama). BYOK, local-first, MIT.
+
+**Details:** ⭐ 7,875 `TypeScript` `ai-design`, `anthropic`, `byok`, `claude-design`, `desktop-app`
+
+> 🤖 *Eine quelloffene Alternative zu Claude Design für die lokale Generierung von UI-Prototypen.*
+
+### [design-os](https://github.com/buildermethods/design-os)
+The missing design process between your product idea and your codebase.
+
+**Details:** ⭐ 1,847 `TypeScript`
+
+> 🤖 *Ein Werkzeug zur Überbrückung der Lücke zwischen Produktidee, Design und Codebasis.*
+
+### [sketch2prompt](https://github.com/jmassengille/sketch2prompt)
+sketch2prompt is meant to promote better system design, security, and code quality in a way that does not hijack creativity from the builder
+
+**Details:** ⭐ 53 `TypeScript` `ai-tools`, `developer-tools`, `vibecoding`
+
+> 🤖 *Übersetzt Skizzen in strukturierte Prompts zur Verbesserung von Systemdesign und Codequalität.*
+
+### [z-Explorer](https://github.com/pyros-projects/z-Explorer)
+Type a prompt. Get art 🖼️ No cloud required. No spaghetti needed.
+
+**Details:** ⭐ 4 `Python` `ai-image-generation`, `cli`, `cuda`, `fastapi`, `generative-ai`
+
+> 🤖 *Ein lokaler, cloudfreier Bildgenerator auf Basis von Stable Diffusion mit Webschnittstelle.*
+
+## 📂 Workflow-Automatisierung & Integrationsplattformen
 
 ### [n8n](https://github.com/n8n-io/n8n)
 Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
 
-**Details:** ⭐ 203,203 `TypeScript` `automation`, `ipaas`, `n8n`, `workflow`, `typescript`
+**Details:** ⭐ 203,287 `TypeScript` `automation`, `ipaas`, `n8n`, `workflow`, `typescript`
 
-> 🤖 *Eine mächtige Workflow-Automatisierungsplattform mit nativer KI- und MCP-Integration.*
+> 🤖 *Eine erweiterbare Plattform zur visuellen Workflow-Automatisierung mit KI-Integration.*
 
-### [ansible](https://github.com/ansible/ansible)
-Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.
+### [cli](https://github.com/googleworkspace/cli)
+Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.
 
-**Details:** ⭐ 70,568 `Python` `python`, `ansible`
+**Details:** ⭐ 30,731 `Rust` `google-workspace`, `agent-skills`, `ai-agent`, `automation`, `cli`
 
-> 🤖 *Ein agentenloses IT-Automatisierungs- und Konfigurationsmanagement-Werkzeug.*
-
-### [ansible-examples](https://github.com/ansible/ansible-examples)
-A few starter examples of ansible playbooks, to show features and how they work together.  See http://galaxy.ansible.com for example roles from the Ansible community for deploying many popular applications.
-
-**Details:** ⭐ 12,075 `Shell`
-
-> 🤖 *Eine Sammlung von Beispiel-Playbooks für den Einstieg in die Ansible-Automatisierung.*
+> 🤖 *Ein CLI-Werkzeug zur Automatisierung und Interaktion mit Google Workspace-Diensten.*
 
 ### [poltergeist](https://github.com/steipete/poltergeist)
 The ghost that keeps your builds fresh - Universal hot reload, file watcher and build automation for any language.
 
 **Details:** ⭐ 440 `TypeScript` `automation`, `build`, `filewatcher`
 
-> 🤖 *Ein universelles Tool für Hot-Reloading und Build-Automatisierung über verschiedene Sprachen hinweg.*
+> 🤖 *Ein universeller Dateiüberwacher und Automatisierer für Build-Prozesse.*
+
+### [OneClick](https://github.com/arifszn/OneClick)
+Navigate to your favorite actions on the websites you love with just one click.
+
+**Details:** ⭐ 97 `JavaScript` `shortcuts`, `new`, `create-new-item`, `create-new`, `actions`
+
+> 🤖 *Eine Browser-Erweiterung zur schnellen Ausführung wiederkehrender Web-Aktionen.*
 
 ### [n8n-crypto-workflows](https://github.com/bicced/n8n-crypto-workflows)
 n8n crypto/web3 workflow templates: Solana, Ethereum, Binance Smart Chain, Base, EVM, DeFi, bots, alerts
 
 **Details:** ⭐ 39 `automation`, `crypto`, `defi`, `ethereum`, `evm`
 
-> 🤖 *Spezifische n8n-Workflow-Vorlagen für Web3-, Blockchain- und Krypto-Anwendungen.*
+> 🤖 *Automatisierungsvorlagen für Web3- und Krypto-Aktionen innerhalb von n8n.*
 
-### [DriftMaester](https://github.com/jflieben/DriftMaester)
-Plug and play Azure implementation of Maester including drift detection and regression alerting
+### [linkedin-mcp-server](https://github.com/Jing-yilin/linkedin-mcp-server)
+Keine Beschreibung verfügbar
 
-**Details:** ⭐ 35 `PowerShell`
+**Details:** ⭐ 2 `TypeScript`
 
-> 🤖 *Automatisiert die Erkennung von Konfigurationsabweichungen (Drift) in Azure-Umgebungen.*
+> 🤖 *Ermöglicht die automatisierte Interaktion mit LinkedIn-Schnittstellen.*
 
-## 📂 Sprachverarbeitung & Audio-Transkription
+### [ChurchTools](https://github.com/ftwegner/ChurchTools)
+ChurchTools Python code
 
-### [Handy](https://github.com/cjpais/Handy)
-A free, open source, and extensible speech-to-text application that works completely offline.
+**Details:** ⭐ 1 `JavaScript`
 
-**Details:** ⭐ 30,932 `Rust` `speech-to-text`, `tauri-v2`, `accessibility`, `cross-platform`
+> 🤖 *Python-Bibliothek zur Automatisierung und Interaktion mit der ChurchTools-Plattform.*
 
-> 🤖 *Eine offline-fähige, datenschutzfreundliche Desktop-App zur Sprache-zu-Text-Transkription.*
+## 📂 Hardware, Elektronik & IoT-Entwicklung
 
-### [agent-cli](https://github.com/basnijholt/agent-cli)
-Local transcription, agentic coding worktree management, RAG and memory proxies, TTS and STT servers with smart memory management, MacOS App (OSS Wisprflow), and more!
+### [awesome-electronics](https://github.com/kitspace/awesome-electronics)
+A curated list of awesome resources for Electronic Engineers and hobbyists
 
-**Details:** ⭐ 230 `Python`
+**Details:** ⭐ 8,092 `awesome`, `electronics`, `hardware`, `pcb`, `kicad`
 
-> 🤖 *Bietet lokale Transkription, TTS/STT-Server und Worktree-Management für Entwickler.*
+> 🤖 *Eine Sammlung von Ressourcen, Schaltplänen und Werkzeugen für Elektronikentwickler.*
 
-### [yakety](https://github.com/badlogic/yakety)
-Voice recording and transcription app
+### [awesome-iot](https://github.com/HQarroum/awesome-iot)
+🤖 A curated list of awesome Internet of Things projects and resources.
 
-**Details:** ⭐ 118 `C`
+**Details:** ⭐ 4,496 `awesome-list`, `internet-of-things`, `iot`, `embedded-systems`, `hardware`
 
-> 🤖 *Eine minimalistische Anwendung zur Audioaufnahme und anschließenden Transkription.*
+> 🤖 *Eine kuratierte Liste von Projekten und Ressourcen rund um das Internet der Dinge.*
 
-### [ai-translator](https://github.com/claudio-silva/ai-translator)
-A web application that translates text of any length, using multiple AI models.
+### [KiKit](https://github.com/yaqwsx/KiKit)
+Automation tools for KiCAD
 
-**Details:** ⭐ 6 `TypeScript` `ai`, `translation`
+**Details:** ⭐ 2,016 `Python` `kicad`, `pcb`, `automation`, `panelization`
 
-> 🤖 *Eine Web-Anwendung zur Übersetzung von Texten mithilfe verschiedener KI-Modelle.*
+> 🤖 *Automatisierungswerkzeuge für die Panelisierung und Fertigungsvorbereitung in KiCad.*
 
-### [callnotes](https://github.com/michaelczesun/callnotes)
-Calls become notes. Automatically. On-device transcription, speaker separation & AI summaries for macOS — from the menu bar.
+### [awesome-kicad](https://github.com/joanbono/awesome-kicad)
+A curated list of awesome KiCad plugins and resources
 
-**Details:** ⭐ 5 `Swift` `ai`, `call-recording`, `macos`, `menubar-app`, `speaker-diarization`
+**Details:** ⭐ 602 `Python` `kicad`, `awesome`, `awesome-list`
 
-> 🤖 *Eine macOS-App zur lokalen Transkription, Sprechertrennung und KI-Zusammenfassung von Telefonaten.*
+> 🤖 *Eine kuratierte Liste nützlicher Plugins und Ressourcen für das PCB-Design-Tool KiCad.*
+
+### [PondEyes](https://github.com/davidkarnowski/PondEyes)
+PondEyes is a Python app for Mac/Linux that visualizes mm-wave human motion sensor data in real time. It uses PyGame and SVG room maps to track up to 3 targets via UART or MQTT. Features include CSV logging, playback, motion smoothing, speed-color mapping, and distance-based audio alerts.
+
+**Details:** ⭐ 305 `Python`
+
+> 🤖 *Visualisiert mm-Wave-Sensordaten zur Bewegungserkennung in Echtzeit.*
+
+### [awesome-pcb-workflow](https://github.com/piyushbag/awesome-pcb-workflow)
+Open-source tools for the complete PCB design workflow: AI-assisted EDA, schematic capture, SPICE simulation, signal integrity, layout automation, DFM & fabrication CI/CD, hardware testing agents. OrCAD & KiCad compatible.
+
+**Details:** ⭐ 14 `Python` `awesome`, `eda`, `electronics`, `hardware`, `kicad`
+
+> 🤖 *Werkzeuge für den gesamten PCB-Designprozess von der Simulation bis zur Fertigung.*
+
+### [LongHive](https://github.com/evandiewald/LongHive)
+A smart beehive monitoring system using edge computing and the Helium protocol. 
+
+**Details:** ⭐ 12 `C++`
+
+> 🤖 *Ein intelligentes System zur Bienenstock-Überwachung mittels Edge-Computing und Helium-Netzwerk.*
 
 ---
 
@@ -1240,26 +1348,27 @@ Calls become notes. Automatically. On-device transcription, speaker separation &
 
 | Kategorie | Anzahl |
 |-----------|--------|
-| Agenten-Fähigkeiten & Prompt-Optimierung | 11 |
-| KI-Agenten-Orchestrierung & Frameworks | 9 |
-| Intune & Endpoint Management | 9 |
-| Spezifikationsgetriebene Entwicklung & Software-Design | 8 |
-| Model Context Protocol & Agenten-Erweiterungen | 8 |
-| KI-Benutzeroberflächen & Lokale Anwendungen | 8 |
-| KI-gestützte Datenextraktion & Medienverarbeitung | 8 |
-| Active Directory & Cloud-Identitätsverwaltung | 8 |
+| Coding-Assistenten & Terminal-Agenten | 8 |
+| Agenten-Orchestrierung & Multi-Agenten-Systeme | 8 |
+| Agenten-Erweiterungen & Skill-Bibliotheken | 8 |
+| Spezifische Agenten-Werkzeuge & Integrationen | 8 |
+| Schnittstellen, MCP-Server & Daten-Kopplung | 8 |
+| Agenten-GUIs, Dashboards & Management | 8 |
+| Dokumentation & Technische Visualisierung | 8 |
+| Informationsgewinnung, RAG & Sprachverarbeitung | 8 |
+| Lokale KI-Modelle & Sprach-Anwendungen | 8 |
+| Intune & Endpoint Management | 8 |
+| Active Directory & Entra ID Security | 8 |
 | Windows-Administration & Deployment | 8 |
-| Infrastruktur-Visualisierung & Dokumentation | 8 |
-| Entwickler-Werkzeuge & Shell-Erweiterungen | 8 |
-| Wissensdatenbanken & Kuratierte Listen | 8 |
-| KI-Coding-Assistenten & Code-Generierung | 7 |
-| RAG-Systeme & Vektordatenbanken | 7 |
-| Compliance, Governance & IT-Auditing | 7 |
-| Desktop-Anpassung & Betriebssystem-Utilities | 7 |
-| Kollaboration, Medien & Freizeit | 7 |
-| IT-Sicherheit & Penetration Testing | 6 |
-| System-Monitoring & Log-Analyse | 6 |
-| Anwendungs-Deployment & Cloud-Hosting | 6 |
-| Workflow-Automatisierung & Integrationen | 6 |
-| Sprachverarbeitung & Audio-Transkription | 5 |
-| **Gesamt** | **165** |
+| IT-Infrastruktur, Monitoring & DevOps | 8 |
+| Sicherheits-Audits, Härtung & Forensik | 8 |
+| Enterprise-Security, Identitätsmanagement & Log-Analyse | 8 |
+| macOS-Systemverwaltung & Client-Support | 8 |
+| Systemnahe Werkzeuge & Shell-Entwicklung | 8 |
+| Kuratierte Wissenssammlungen & Leitfäden | 8 |
+| Spezifische Anwendungen, Medien & Spiele | 8 |
+| Spezifikationsgesteuerte Entwicklung & Planung | 7 |
+| KI-Design, Prototyping & Medien-Generierung | 7 |
+| Workflow-Automatisierung & Integrationsplattformen | 7 |
+| Hardware, Elektronik & IoT-Entwicklung | 7 |
+| **Gesamt** | **180** |
