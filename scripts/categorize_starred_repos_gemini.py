@@ -11,6 +11,8 @@ import time
 from datetime import datetime
 from typing import List, Dict, Any
 from github import Github
+
+from markdown_utils import github_anchor
 from google import genai
 from google.genai import types as genai_types
 
@@ -222,7 +224,7 @@ Antworte NUR mit einem JSON-Objekt (ohne Markdown-Codeblöcke) in folgendem Form
         sorted_categories = sorted(categorized_repos.items(), key=lambda x: len(x[1]), reverse=True)
 
         for category, repos in sorted_categories:
-            anchor = category.lower().replace(' ', '-').replace('&', '').replace('/', '-')
+            anchor = github_anchor(f"📂 {category}")
             report += f"- [{category}](#{anchor}) ({len(repos)})\n"
 
         report += "\n---\n\n"
