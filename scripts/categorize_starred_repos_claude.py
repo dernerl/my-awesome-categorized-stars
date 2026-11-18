@@ -10,6 +10,8 @@ import requests
 from datetime import datetime
 from typing import List, Dict, Any
 from github import Github
+
+from markdown_utils import github_anchor
 import anthropic
 
 
@@ -228,7 +230,7 @@ Erstelle die Kategorien basierend auf den tatsächlichen Repositories, nicht bas
 
         # Inhaltsverzeichnis
         for category, repos in sorted_categories:
-            anchor = category.lower().replace(' ', '-').replace('&', '').replace('/', '-')
+            anchor = github_anchor(f"📂 {category}")
             report += f"- [{category}](#{anchor}) ({len(repos)})\n"
 
         report += "\n---\n\n"

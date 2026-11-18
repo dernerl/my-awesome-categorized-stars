@@ -26,6 +26,8 @@ import subprocess
 import tempfile
 from typing import List, Dict, Any
 from github import Github
+
+from markdown_utils import github_anchor
 from dotenv import load_dotenv
 
 # Lade Umgebungsvariablen
@@ -486,8 +488,8 @@ Automatisch kategorisierte GitHub starred Repositories mit **Atlassian CLI (ACLI
         # Füge Kategorien-Links hinzu
         for category, repos in sorted_categories:
             # Erstelle GitHub-kompatiblen Anker-Link
-            anchor = category.lower().replace(' ', '-').replace('&', '').replace('/', '').replace('(', '').replace(')', '').replace('.', '').replace(',', '')
-            content += f"- [{category}](#{anchor}-{len(repos)}-repositories) ({len(repos)} Repositories)\n"
+            anchor = github_anchor(f"{category} ({len(repos)} Repositories)")
+            content += f"- [{category}](#{anchor}) ({len(repos)} Repositories)\n"
         
         content += f"""
 
