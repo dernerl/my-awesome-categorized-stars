@@ -16,7 +16,7 @@
 - [AI-Agenten & Autonome Systeme](#-ai-agenten--autonome-systeme) (15)
 - [DevOps, IT-Automatisierung & Hosting](#-devops-it-automatisierung--hosting) (14)
 - [Business & Spezialisierte Anwendungen](#-business--spezialisierte-anwendungen) (14)
-- [Model Context Protocol (MCP) & Schnittstellen](#model-context-protocol-(mcp)--schnittstellen) (12)
+- [Model Context Protocol (MCP) & Schnittstellen](#-model-context-protocol-mcp--schnittstellen) (12)
 - [Entwickler-Werkzeuge & Productivity-Tools](#-entwickler-werkzeuge--productivity-tools) (12)
 - [Plattformen, Dashboards & Datenverwaltung](#-plattformen-dashboards--datenverwaltung) (12)
 - [Cybersecurity & Red Teaming](#-cybersecurity--red-teaming) (11)
